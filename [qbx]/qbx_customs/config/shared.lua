@@ -22,8 +22,8 @@ return {
         --         }
         --     },
         -- Default GTA 5 Customs and Benny's Locations
-        {
-            hideBlip = false,
+       --[[ {
+            hideBlip = true,
             blip = {
                 sprite = 72,
                 color = 3,
@@ -38,7 +38,7 @@ return {
             }
         },
         {
-            hideBlip = false,
+            hideBlip = true,
             blip = {
                 sprite = 72,
                 color = 3,
@@ -54,7 +54,7 @@ return {
             }
         },
         {
-            hideBlip = false,
+            hideBlip = true,
             blip = {
                 sprite = 72,
                 color = 3,
@@ -69,7 +69,7 @@ return {
             }
         },
         {
-            hideBlip = false,
+            hideBlip = true,
             blip = {
                 sprite = 72,
                 color = 3,
@@ -84,7 +84,7 @@ return {
             }
         },
         {
-            hideBlip = false,
+            hideBlip = true,
             blip = {
                 sprite = 72,
                 color = 3,
@@ -97,9 +97,9 @@ return {
                 vec3(97.39, 6620.02, 31.75),
                 vec3(102.72, 6613.48, 31.75),
             }
-        },
+        },]]
         {
-            hideBlip = false,
+            hideBlip = true,
             blip = {
                 sprite = 72,
                 color = 3,
@@ -119,12 +119,12 @@ return {
     },
 
     prices = {
-        ['cosmetic'] = 500,
-        ['colors'] = 1000,
-        [11] = { 0, 10000, 20000, 30000, 40000 },     -- Engine
-        [12] = { 0, 2500, 5000, 7500 },               -- Brakes
-        [13] = { 0, 5000, 10000, 15000, 20000 },      -- Transmission
-        [15] = { 0, 3000, 6000, 9000, 12000, 15000 }, -- Suspension
-        [18] = 10000                                  -- Turbo
+        ['cosmetic'] = 70,
+        ['colors'] = 70,
+        [11] = { 0, 100000, 200000, 300000, 400000 },     -- Engine
+        [12] = { 0, 25000, 50000, 75000 },               -- Brakes
+        [13] = { 0, 50000, 100000, 150000, 200000 },      -- Transmission
+        [15] = { 0, 30000, 60000, 90000, 120000, 150000 }, -- Suspension
+        [18] = 100000                                  -- Turbo
     }
 }

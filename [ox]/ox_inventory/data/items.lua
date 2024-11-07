@@ -147,22 +147,11 @@ return {
         }
     },
 
-    ['mustard'] = {
-        label = 'Mustard',
-        weight = 500,
-        client = {
-            status = { hunger = 25000, thirst = 25000 },
-            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-            prop = { model = `prop_food_mustard`, pos = vec3(0.01, 0.0, -0.07), rot = vec3(1.0, 1.0, -1.5) },
-            usetime = 2500,
-            notification = 'You... drank mustard'
-        }
-    },
-
     ['water'] = {
         label = 'Water',
         weight = 500,
         client = {
+            image = "water.png",
             status = { thirst = 200000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
@@ -173,12 +162,24 @@ return {
     },
 
     ['armour'] = {
-        label = 'Bulletproof Vest',
+        label = 'Standard Armor Vest',
         weight = 3000,
         stack = false,
         client = {
+            image = "armour.png",
             anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
             usetime = 3500
+        }
+    },
+
+    ['heavyarmour'] = {
+        label = 'Heavy Armor Vest',
+        weight = 3000,
+        stack = false,
+        client = {
+            image = "armour.png",
+            anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+            usetime = 4500
         }
     },
 
@@ -429,41 +430,65 @@ return {
     ['steel'] = {
         label = 'Steel',
         weight = 100,
+        client = {
+            image = "steel.png",
+        }
     },
 
     ['rubber'] = {
         label = 'Rubber',
         weight = 100,
+        client = {
+            image = "rubber.png",
+        }
     },
 
     ['metalscrap'] = {
         label = 'Metal Scrap',
         weight = 100,
+        client = {
+            image = "metalscrap.png",
+        }
     },
 
     ['iron'] = {
         label = 'Iron',
         weight = 100,
+        client = {
+            image = "iron.png",
+        }
     },
 
     ['copper'] = {
         label = 'Copper',
         weight = 100,
+        client = {
+            image = "copper.png",
+        }
     },
 
     ['aluminium'] = {
         label = 'Aluminium',
         weight = 100,
+        client = {
+            image = "aluminium.png",
+        }
     },
 
     ['plastic'] = {
         label = 'Plastic',
         weight = 100,
+        client = {
+            image = "plastic.png",
+        }
     },
 
     ['glass'] = {
         label = 'Glass',
         weight = 100,
+        client = {
+            image = "glass.png",
+        }
     },
 
     ['gatecrack'] = {
@@ -474,11 +499,17 @@ return {
     ['cryptostick'] = {
         label = 'Crypto Stick',
         weight = 100,
+        client = {
+            image = "cryptostick.png",
+        }
     },
 
     ['trojan_usb'] = {
         label = 'Trojan USB',
         weight = 100,
+        client = {
+            image = "hacking_device.png",
+        }
     },
 
     ['toaster'] = {
@@ -720,17 +751,6 @@ return {
         }
     },
 
-    ["armor"] = {
-        label = "Armor",
-        weight = 5000,
-        stack = true,
-        close = true,
-        description = "Some protection won't hurt... right?",
-        client = {
-            image = "armor.png",
-        }
-    },
-
     ["kurkakola"] = {
         label = "Cola",
         weight = 500,
@@ -738,7 +758,7 @@ return {
         close = true,
         description = "For all the thirsty out there",
         client = {
-            image = "kurkakola.png",
+            image = "cola.png",
         }
     },
 
@@ -874,17 +894,6 @@ return {
         }
     },
 
-    ["heavyarmor"] = {
-        label = "Heavy Armor",
-        weight = 5000,
-        stack = true,
-        close = true,
-        description = "Some protection won't hurt... right?",
-        client = {
-            image = "armor.png",
-        }
-    },
-
     ["tablet"] = {
         label = "Tablet",
         weight = 2000,
@@ -904,17 +913,6 @@ return {
         description = "A nice tool to break into doors",
         client = {
             image = "police_stormram.png",
-        }
-    },
-
-    ["water_bottle"] = {
-        label = "Bottle of Water",
-        weight = 500,
-        stack = true,
-        close = true,
-        description = "For all the thirsty out there",
-        client = {
-            image = "water_bottle.png",
         }
     },
 
@@ -949,7 +947,7 @@ return {
     }
 },
 ['rolled_cash'] = {
-    label = 'rolled_cash',
+    label = 'Rolled Cash',
     client = {
         image = "rolled_cash.png",
     }

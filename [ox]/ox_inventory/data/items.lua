@@ -978,7 +978,7 @@ return {
 },
 ['artkeys'] = {
     label = 'Art Keys',
-    description = "Faded words of : La Fuerta Blanca on the back.",
+    description = "Faded words of : La Fuente Blanca on the back.",
     client = {
         image = "key2.png",
     }

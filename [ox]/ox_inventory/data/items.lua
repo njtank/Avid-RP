@@ -609,6 +609,9 @@ return {
     ['whiskey'] = {
         label = 'Whiskey',
         weight = 200,
+        client = {
+            image = "whiskey_richards.png",
+        }
     },
 
     ['beer'] = {
@@ -973,5 +976,13 @@ return {
         image = "rolled_cash.png",
     }
 },
+['artkeys'] = {
+    label = 'Art Keys',
+    description = "Faded words of : La Fuerta Blanca on the back.",
+    client = {
+        image = "key2.png",
+    }
+},
+
 
 }

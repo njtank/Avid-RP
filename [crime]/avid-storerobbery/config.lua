@@ -12,24 +12,24 @@ Config.RegisterSearchTime = 25000
 Config.HackItem = "trojan_usb"
 
 Config.Prize = {
-    min = 1000,
-    max = 12000,
-    item = 'black_money', -- if this one is not present, it will give cash instead
+    min = 3,
+    max = 7,
+    item = 'rolled_cash', -- if this one is not present, it will give cash instead
     safe = {
-        ['black_money'] = {
-            min = 5000,
-            max = 10000,
+        ['rolled_cash'] = {
+            min = 5,
+            max = 12,
             chance = 100
         },
-        ['goldbar'] = {
-            min = 1,
-            max = 5,
-            chance = 20
-        },
-        ['moneybag'] = {
-            min = 1,
-            max = 2,
+        ['folded_cash'] = {
+            min = 100,
+            max = 120,
             chance = 10
+        },
+        ['artkeys'] = {
+            min = 1,
+            max = 1,
+            chance = 5
         }
     }
 }

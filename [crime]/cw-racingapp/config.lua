@@ -13,7 +13,7 @@ Config.DoOffsetGps = true               -- Set to true if you want the gps to sl
 
 Config.Inventory = 'ox'                 -- set to 'ox' if you want ox inventory support. Only 'ox' or 'qb' works.
 Config.UseRenewedCrypto = false         -- set to true if you use Renewed crypto
-Config.UseRenewedBanking = false        -- set this to true if you use Renewed Banking
+Config.UseRenewedBanking = true        -- set this to true if you use Renewed Banking
 Config.UseNameValidation = true         -- set to true if you use the name validation - HAVING THIS ON MEANS UNIQUE RACERNAMES
 Config.MaxRacerNames = 2                -- Maximum allowed amount of unique names per character
 Config.MaxCheckpoints = 60              -- This is just for the warning to show up. You can still go above it, but the script WILL crash clients if there's to many checkpoints. Test higher values at own risk.
@@ -261,9 +261,6 @@ Config.Laptop = {
     cryptoType = 'cdc',                                                           -- name of your crypto
     racingUserCosts = {                                                           -- cost of creating an account
         racer = 1000,
-        creator = 5000,
-        master = 10000,
-        god = 1000000
     },
 }
 

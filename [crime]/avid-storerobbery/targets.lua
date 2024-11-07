@@ -338,7 +338,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                     if hasPick >= 1 then
                         return true
                     else
@@ -365,7 +365,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                 
                     if hasPick >= 1 then
                         return true
@@ -390,7 +390,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                 
                     if hasPick >= 1 then
                         return true
@@ -416,7 +416,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                 
                     if hasPick >= 1 then
                         return true
@@ -442,7 +442,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                 
                     if hasPick >= 1 then
                         return true
@@ -467,7 +467,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                 
                     if hasPick >= 1 then
                         return true
@@ -492,7 +492,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                 
                     if hasPick >= 1 then
                         return true
@@ -517,7 +517,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                 
                     if hasPick >= 1 then
                         return true
@@ -542,7 +542,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                     if hasPick >= 1 then
                         return true
                     else
@@ -566,7 +566,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                 
                     if hasPick >= 1 then
                         return true
@@ -591,7 +591,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                 
                     if hasPick >= 1 then
                         return true
@@ -616,7 +616,7 @@ if Config.storeMap == 'vanilla' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                 
                     if hasPick >= 1 then
                         return true
@@ -854,7 +854,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                     print(haspick)
                     if hasPick >= 1 then
                         return true
@@ -882,7 +882,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                   
                     if hasPick >= 1 then
                         return true
@@ -907,7 +907,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                   
                     if hasPick >= 1 then
                         return true
@@ -933,7 +933,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                   
                     if hasPick >= 1 then
                         return true
@@ -959,7 +959,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                   
                     if hasPick >= 1 then
                         return true
@@ -984,7 +984,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                   
                     if hasPick >= 1 then
                         return true
@@ -1009,7 +1009,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                   
                     if hasPick >= 1 then
                         return true
@@ -1034,7 +1034,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                   
                     if hasPick >= 1 then
                         return true
@@ -1059,7 +1059,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                     if hasPick >= 1 then
                         return true
                     else
@@ -1083,7 +1083,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                   
                     if hasPick >= 1 then
                         return true
@@ -1108,7 +1108,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                   
                     if hasPick >= 1 then
                         return true
@@ -1133,7 +1133,7 @@ elseif Config.storeMap == 'gabz' then
                 icon = 'fa-solid fa-lock',
                 label = "Crack Safe",
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'safecracker')
+                    local hasPick = exports.ox_inventory:Search('count', 'electronickit')
                   
                     if hasPick >= 1 then
                         return true

@@ -8,7 +8,7 @@ AddEventHandler('FinishRobbery', function()
 	exports.ox_inventory:RemoveItem(source, 'lockpick', 1)
 	exports.ox_inventory:AddItem(source, 'money', cashMoney)
 	if chance >= 4 then
-		exports.ox_inventory:AddItem(source, 'safecracker', 1)
+		exports.ox_inventory:AddItem(source, 'electronickit', 1)
 	end
 	TimerThread()
 end)

@@ -985,4 +985,37 @@ return {
 },
 
 
+
+    ["heavyarmor"] = {
+        label = "Heavy Armor",
+        weight = 5000,
+        stack = true,
+        close = true,
+        description = "Some protection won't hurt... right?",
+        client = {
+            image = "armor.png",
+        }
+    },
+
+    ["water_bottle"] = {
+        label = "Bottle of Water",
+        weight = 500,
+        stack = true,
+        close = true,
+        description = "For all the thirsty out there",
+        client = {
+            image = "bottle.png",
+        }
+    },
+
+    ["armor"] = {
+        label = "Armor",
+        weight = 5000,
+        stack = true,
+        close = true,
+        description = "Some protection won't hurt... right?",
+        client = {
+            image = "armor.png",
+        }
+    },
 }

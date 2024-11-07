@@ -1021,4 +1021,14 @@ return {
             image = "armor.png",
         }
     },
+["racing_gps"] = {
+        label = "Racing GPS",
+        weight = 500,
+        stack = false,
+        close = true,
+        description = "",
+        client = {
+            image = "racing_gps.png",
+        }
+    },
 }

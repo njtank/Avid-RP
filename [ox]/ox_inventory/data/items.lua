@@ -936,4 +936,9 @@ return {
             image = "10kgoldchain.png",
         }
     },
+
+-- Avid-RP
+
+
+
 }

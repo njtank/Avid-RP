@@ -240,16 +240,25 @@ return {
     ['cleaningkit'] = {
         label = 'Cleaning Kit',
         weight = 500,
+        client = {
+            image = "cleaningkit.png",
+        }
     },
 
     ['repairkit'] = {
         label = 'Repair Kit',
         weight = 2500,
+        client = {
+            image = "repairkit.png",
+        }
     },
 
     ['advancedrepairkit'] = {
         label = 'Advanced Repair Kit',
         weight = 4000,
+        client = {
+            image = "advancedkit.png",
+        }
     },
 
     ['diamond_ring'] = {
@@ -603,13 +612,19 @@ return {
     },
 
     ['beer'] = {
-        label = 'beer',
+        label = 'Beer',
         weight = 200,
+        client = {
+            image = "beer.png",
+        }
     },
 
     ['sandwich'] = {
-        label = 'beer',
+        label = 'Ham Sandwich',
         weight = 200,
+        client = {
+            image = "sandwich_ham.png",
+        }
     },
 
     ['walking_stick'] = {
@@ -620,11 +635,17 @@ return {
     ['lighter'] = {
         label = 'Lighter',
         weight = 200,
+        client = {
+            image = "lighter2.png",
+        }
     },
 
     ['binoculars'] = {
         label = 'Binoculars',
         weight = 800,
+        client = {
+            image = "binoculars.png",
+        }
     },
 
     ['stickynote'] = {
@@ -813,7 +834,7 @@ return {
         close = true,
         description = "Nice to eat",
         client = {
-            image = "tosti.png",
+            image = "sandwich_grilledcheese.png",
         }
     },
 

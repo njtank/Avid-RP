@@ -100,6 +100,17 @@ Item('bandage', function(data, slot)
 end)
 
 Item('armour', function(data, slot)
+	if GetPedArmour(cache.ped) < 50 then
+		ox_inventory:useItem(data, function(data)
+			if data then
+				SetPlayerMaxArmour(PlayerData.id, 50)
+				SetPedArmour(cache.ped, 50)
+			end
+		end)
+	end
+end)
+
+Item('heavyarmour', function(data, slot)
 	if GetPedArmour(cache.ped) < 100 then
 		ox_inventory:useItem(data, function(data)
 			if data then

@@ -201,6 +201,9 @@ return {
 
     ['driver_license'] = {
         label = 'Drivers License',
+        client = {
+            image = "card_id.png",
+        }
     },
 
     ['weaponlicense'] = {
@@ -939,6 +942,17 @@ return {
 
 -- Avid-RP
 
-
+['folded_cash'] = {
+    label = 'Folded Cash',
+    client = {
+        image = "folded_cash.png",
+    }
+},
+['rolled_cash'] = {
+    label = 'rolled_cash',
+    client = {
+        image = "rolled_cash.png",
+    }
+},
 
 }

@@ -235,6 +235,9 @@ return {
     ['electronickit'] = {
         label = 'Electronic Kit',
         weight = 500,
+        client = {
+            image = "electronickit.png",
+        }
     },
 
     ['cleaningkit'] = {

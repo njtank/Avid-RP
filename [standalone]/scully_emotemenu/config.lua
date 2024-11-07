@@ -34,7 +34,7 @@ Config = {
     -- Commands to open the menu.
     MenuOpenCommands = {'em', 'emotemenu'},
     -- Set this to '' to disable the key.
-    MenuKeybind = 'f5', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    MenuKeybind = 'f6', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can change the menu position here.
     MenuPosition = 'top-right', -- (top-left, top-right, bottom-left, bottom-right)
     -- You can change the notification position here

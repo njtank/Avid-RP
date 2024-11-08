@@ -70,3 +70,5 @@ exports('outfitbag', function(data, slot)
         end
     end)
 end)
+
+exports.krs_outfitbag:outfitbag(data, slot)

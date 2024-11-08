@@ -1031,4 +1031,14 @@ return {
             image = "racing_gps.png",
         }
     },
+['outfitbag'] = {
+		label = 'Outfitbag',
+		consume = 0,
+		weight = 100,
+        description = "Outfits on the go!",
+		client = {
+            image = "polbag.png",
+			export = 'krs_outfitbag.outfitbag',
+		}
+	},
 }

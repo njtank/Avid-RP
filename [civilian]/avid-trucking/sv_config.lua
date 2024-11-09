@@ -1,5 +1,5 @@
 return {
-    QueueTimer = 10, -- every 10 minutes, it will generate a route for all the players in queue who have less than 5 routes stored.
+    QueueTimer = 3, -- every 10 minutes, it will generate a route for all the players in queue who have less than 5 routes stored.
     Payment = {
         min = 45,
         max = 50,
@@ -53,5 +53,5 @@ return {
         vec4(-54.54, -1836.6, 26.56, 320.29),
     },
     Trailers = {'trailers', 'trailers2', 'trailers3'},
-    Trucks = {'hauler', 'packer', 'phantom', 'phantom3'}
+    Trucks = {'hauler'}
 }

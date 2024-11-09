@@ -99,12 +99,12 @@ return {
             }
         },]]
         {
-            hideBlip = true,
+            hideBlip = false,
             blip = {
                 sprite = 72,
                 color = 3,
-                scale = 0.8,
-                label = "Benny's Motorworks",
+                scale = 0.5,
+                label = "Benny's Customs",
             },
             blipColor = 5,
             points = {
@@ -121,10 +121,10 @@ return {
     prices = {
         ['cosmetic'] = 70,
         ['colors'] = 70,
-        [11] = { 0, 100000, 200000, 300000, 400000 },     -- Engine
-        [12] = { 0, 25000, 50000, 75000 },               -- Brakes
-        [13] = { 0, 50000, 100000, 150000, 200000 },      -- Transmission
-        [15] = { 0, 30000, 60000, 90000, 120000, 150000 }, -- Suspension
-        [18] = 100000                                  -- Turbo
+        --[11] = { 0, 100000, 200000, 300000, 400000 },     -- Engine
+        --[12] = { 0, 25000, 50000, 75000 },               -- Brakes
+        --[13] = { 0, 50000, 100000, 150000, 200000 },      -- Transmission
+        --[15] = { 0, 30000, 60000, 90000, 120000, 150000 }, -- Suspension
+        --[18] = 100000                                  -- Turbo
     }
 }

@@ -49689,7 +49689,7 @@ var config_default_default = {
     useResourceIntegration: false,
     toggleKey: "f1",
     toggleCommand: "phone",
-    defaultLanguage: "en",
+    defaultLanguage: "pl",
     showId: false
   },
   contacts: {

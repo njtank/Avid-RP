@@ -19,7 +19,7 @@ function Handler:constructor()
     self:setActive(false)
     self:setLimited(false)
     self:setControl(true)
-    self.private.oxfuel = GetResourceState('ox_fuel') == 'started' and true or false
+    self.private.oxfuel = GetResourceState('cdn-fuel') == 'started' and true or false
     self.private.units = Settings.units == 'mph' and 2.23694 or 3.6
     self.private.electric = false
 end

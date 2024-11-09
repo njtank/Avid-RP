@@ -2,7 +2,7 @@ Config = {}
 
 Config.useMPH = true
 Config.minimapWalking = false
-Config.fuel = 'oxfuel'
+Config.fuel = 'cdn-fuel'
 
 Config.hudAlwaysOn = true -- IF SET TO FALSE YOU WILL NEED TO TOGGLE THE HUD STATE VIA EXPORT TO MAKE THE HUD APPEAR!
 
@@ -16,8 +16,8 @@ Config.useStress = {
 }
 Config.screenShake = 50 -- Minimum stress level for screen shaking
 Config.shootingStressChance = 0.05 -- Percentage stress chance when shooting (0-1) (default = 10%)
-Config.unbuckledSpeed = 50 -- Going over this Speed will cause stress
-Config.minimumSpeed = 120 -- Going over this Speed will cause stress
+Config.unbuckledSpeed = 80 -- Going over this Speed will cause stress
+Config.minimumSpeed = 170 -- Going over this Speed will cause stress
 Config.stressWLJobs = {
     --police = true,
     --ambulance = true,

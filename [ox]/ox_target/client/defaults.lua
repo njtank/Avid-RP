@@ -127,7 +127,7 @@ api.addGlobalVehicle({
             onSelectDoor(data, 4)
         end
     },
-    {
+    --[[{
         name = 'ox_target:trunk',
         icon = 'fa-solid fa-car-rear',
         label = locale('toggle_trunk'),
@@ -139,5 +139,5 @@ api.addGlobalVehicle({
         onSelect = function(data)
             onSelectDoor(data, 5)
         end
-    }
+    }]]
 })

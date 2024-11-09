@@ -38,3 +38,17 @@ lib.addKeybind({
     defaultKey = config.shuffleSeatKey,
     onPressed = shuffleSeat
 })
+
+local function checkCombatRoll()
+    CreateThread(function()
+        while cache.weapon do    
+            SetPedResetFlag(cache.ped, 446, true)     
+            Wait(0)
+        end
+    end)
+end
+
+lib.onCache('weapon', function(val)
+    if not val then return end
+    checkCombatRoll()
+end)  --- Adding stop to combat shuffle

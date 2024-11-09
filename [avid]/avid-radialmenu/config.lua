@@ -511,10 +511,10 @@ newSubMenus = { -- NOTE basicly, what will be happen after clicking these button
         icon = "#dollar-new",
         functionName = "police:client:SeizeCash"
     },
-    ['police:bill'] = {
-        title = "Bill",
+    ['police:Unlock'] = {
+        title = "Unlock Vehicle",
         icon = "#general-cuff",
-        functionName = "police:client:BillPlayer"
+        functionName = "vehiclekeys:policeUnlock"
     },  
     ['police:mdt'] = {
         title = "MDT",

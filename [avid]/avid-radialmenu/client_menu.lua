@@ -471,7 +471,6 @@ GasStations = {
 	vector3(1784.324, 3330.55, 41.253)
 }
 
-
 ---- EMOTES
 RegisterNetEvent('elixir:exp1', function ()
     ExecuteCommand('e angry')

@@ -284,3 +284,44 @@ AddStateBagChangeHandler('isLoggedIn', ('player:%s'):format(cache.serverId), fun
     if not value then return end
     playerEnterVehLoop()
 end)
+
+-- Police Unlock All Vehicles --
+RegisterNetEvent('vehiclekeys:policeUnlock', function()
+    local source = source
+    local playerPed = cache.ped
+    local pedCoord = GetEntityCoords(playerPed)
+    local vehicle = GetClosestVehicle()
+    local vehiclePos = GetEntityCoords(vehicle)
+    local playerData = QBX.PlayerData
+    if #(pedCoord - vehiclePos) < 1.5 then
+        if (GetVehicleDoorLockStatus(vehicle) == 1) then 
+            exports.qbx_core:Notify('Vehicle Already Open', 'primary') 
+            return 
+        end
+        if not playerData.job.type == 'leo' and playerData.job.onduty then return end
+            -- start unlocking
+            exports.scully_emotemenu:playEmoteByCommand('picklock')
+            if lib.progressCircle({
+                duration = 4500,
+                position = 'bottom',
+                label = 'Unlocking vehicle',
+                useWhileDead = false,
+                canCancel = true,
+                disable = {
+                    move = true,
+                    combat = true,
+                    mouse = false,
+                    combat = true,
+                },
+            }) then -- done
+                exports.qbx_core:Notify('Vehicle unlocked', 'success')
+                SetVehicleDoorsLocked(vehicle, 1)
+              --  TriggerEvent('vehiclekeys:client:SetOwner', GetVehicleNumberPlateText(vehicle))
+                exports.scully_emotemenu:cancelEmote()
+            else -- cancel
+                exports.scully_emotemenu:cancelEmote()
+            end 
+    else 
+        exports.qbx_core:Notify('No vehicle found', 'error')
+    end
+end)

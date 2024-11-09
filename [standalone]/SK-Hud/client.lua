@@ -81,7 +81,7 @@ local function getFuelLevel(vehicle)
     local updateTick = GetGameTimer()
     if (updateTick - lastFuelUpdate) > 2000 then
         lastFuelUpdate = updateTick
-        lastFuelCheck = math.floor(exports[Config.fuel]:GetFuel(vehicle))
+        lastFuelCheck = math.floor(exports['cdn-fuel']:GetFuel(vehicle))
     end
     return lastFuelCheck
 end

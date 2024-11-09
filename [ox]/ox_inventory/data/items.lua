@@ -664,9 +664,49 @@ return {
         weight = 200,
     },
 
-    ['filled_evidence_bag'] = {
-        label = 'Filled Evidence Bag',
+    ["filled_evidence_bag"] = {
+        label = "Evidence Bag",
         weight = 200,
+        stack = false,
+        close = false,
+        description = "A filled evidence bag to see who committed the crime >:(",
+        client = {
+            image = "evidence.png",
+        },
+        buttons = {
+            {
+                label = "Copy Info",
+                action = function(slot)
+                    local PlayerData = exports.qbx_core:GetPlayerData()
+                    local item = PlayerData.items[slot]
+                    if not item or not item.metadata or not item.metadata.description then
+                        return
+                    end
+
+                    local info = item.metadata.description
+                    local patterns = {
+                        { keyword = "Serial", pattern = "Serial #: (%w+)" },
+                        { keyword = "Fingerprint", pattern = "Fingerprint ID: (%w+)" },
+                        { keyword = "DNA", pattern = "DNA ID: (%w+)" }
+                    }
+
+                    local result = nil
+                    for _, entry in ipairs(patterns) do
+                        if string.find(info, entry.keyword) then
+                            result = string.match(info, entry.pattern)
+                            break
+                        end
+                    end
+
+                    if result then
+                        lib.notify({ title = 'Information Copied!', type = 'success', description = 'Information copied to clipboard' })
+                        lib.setClipboard(result)
+                    else
+                        lib.notify({ title = 'No data found!', type = 'error', description = 'There is no data to copy' })
+                    end
+                end
+            }
+        }
     },
 
     ['harness'] = {

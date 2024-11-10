@@ -1583,3 +1583,20 @@
 {"level":"silly","message":{"data":{"bio":"","createdAt":"2024-11-07T15:57:16.000Z","id":1,"identifier":"K96RC2R5","image":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg","job":"","lastActive":1730995036,"lastActiveFormatted":"Thu, 07 Nov 2024 15:57:16 GMT","location":"","name":"Test Test","tagList":[],"tags":"","updatedAt":"2024-11-07T15:57:16.000Z","viewed":false,"voiceMessage":null},"status":"ok"},"module":"events","timestamp":"2024-11-10T17:21:32.222Z"}
 {"level":"silly","message":"Response Promise Event npwd-contact-getAll:78bf7817-c6b4-441e-a2ee-114ea9e04416 (19.584612ms), Data >>","module":"events","timestamp":"2024-11-10T17:21:32.223Z"}
 {"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2024-11-10T17:21:32.223Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2024-11-10T18:53:28.375Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2024-11-10T18:53:28.378Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2024-11-10T18:53:28.378Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2024-11-10T18:53:28.378Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2024-11-10T18:53:28.379Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2024-11-10T18:53:28.379Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2024-11-10T18:53:28.380Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2024-11-10T18:53:28.380Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2024-11-10T18:53:28.381Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2024-11-10T18:53:28.392Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2024-11-10T18:53:28.393Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2024-11-10T18:53:28.394Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2024-11-10T18:53:31.642Z"}
+{"level":"info","message":"Successfully started","timestamp":"2024-11-10T18:53:31.659Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"QboxProject_2CE016\",\"players\"]) in 137.031104ms'","module":"DBInterface","timestamp":"2024-11-10T18:53:31.779Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 12.107684ms'","module":"DBInterface","timestamp":"2024-11-10T18:53:31.792Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2024-11-10T18:53:31.792Z"}

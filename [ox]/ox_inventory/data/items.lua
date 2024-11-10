@@ -552,6 +552,9 @@ return {
     ['thermite'] = {
         label = 'Thermite',
         weight = 1000,
+        client = {
+            image = "thermite.png",
+        }
     },
 
     ['diving_gear'] = {

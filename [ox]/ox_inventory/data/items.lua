@@ -1084,4 +1084,14 @@ return {
 			export = 'krs_outfitbag.outfitbag',
 		}
 	},
+['backpack'] = {
+		label = 'Backpack',
+		weight = 220,
+		stack = false,
+		consume = 0,
+		client = {
+            image = "backpack.png",
+			export = 'avid-backpack.openBackpack'
+		}
+	},
 }

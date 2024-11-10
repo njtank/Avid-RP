@@ -42,8 +42,8 @@ Config = {
     WalkingStylesEnabled = true, -- You can disable the Walking Styles menu here.
     PersistentWalk = true, -- Saves walk styles to client and applies them on joining
     SharedEmotesEnabled = true, -- You can disable the Shared Emotes here.
-    AdultEmotesDisabled = false, -- You can disable the Adult Emotes here.
-    AnimalEmotesEnabled = true, -- You can disable the Animal Emotes here.
+    AdultEmotesDisabled = true, -- You can disable the Adult Emotes here.
+    AnimalEmotesEnabled = false, -- You can disable the Animal Emotes here.
 
     -- Hands Up Options
     HandsupEnabled = false, -- You can disable the handsup here / change the keybind. It is currently set to Y
@@ -77,7 +77,7 @@ Config = {
     AllowVisionsToggling = false, -- If set to true, you'll be able to toggle between different vision modes in the binoculars
 
     -- News Camera Options
-    NewscamEnabled = true, -- If set to true, the /newscam command will be enabled.
+    NewscamEnabled = false, -- If set to true, the /newscam command will be enabled.
 
     -- Preview Ped Options
     PreviewPed = true, -- Shows a preview of the emote on the player's ped next to the emote menu. Note that resmon will increase when this when emotes are being previewed.

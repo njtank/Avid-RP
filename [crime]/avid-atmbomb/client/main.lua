@@ -49,7 +49,7 @@ RegisterNetEvent('bbv-robatm:rob',function()
             SetEntityDrawOutlineColor(255, 1, 1, 255)
             SetEntityDrawOutlineShader(0)
             TriggerEvent('bbv-atmrob:alarm')
-            QBCore.Functions.Progressbar("rob_atm", "Planting the Explosive", 30000, false, true, {
+            QBCore.Functions.Progressbar("rob_atm", "Planting the Explosive", 60000, false, true, {
                 disableMovement = true,
                 disableCarMovement = true,
                 disableMouse = true,

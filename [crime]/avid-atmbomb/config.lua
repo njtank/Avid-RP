@@ -1,5 +1,5 @@
 Config = {}
-Config.Debug = true
+Config.Debug = false
 
 QBCore = exports['qb-core']:GetCoreObject() 
 

@@ -319,76 +319,6 @@ return {
         weight = 100,
     },
 
-    ['weed_ak47'] = {
-        label = 'AK47 2g',
-        weight = 200,
-    },
-
-    ['weed_ak47_seed'] = {
-        label = 'AK47 Seed',
-        weight = 1,
-    },
-
-    ['weed_skunk'] = {
-        label = 'Skunk 2g',
-        weight = 200,
-    },
-
-    ['weed_skunk_seed'] = {
-        label = 'Skunk Seed',
-        weight = 1,
-    },
-
-    ['weed_amnesia'] = {
-        label = 'Amnesia 2g',
-        weight = 200,
-    },
-
-    ['weed_amnesia_seed'] = {
-        label = 'Amnesia Seed',
-        weight = 1,
-    },
-
-    ['weed_og-kush'] = {
-        label = 'OGKush 2g',
-        weight = 200,
-    },
-
-    ['weed_og-kush_seed'] = {
-        label = 'OGKush Seed',
-        weight = 1,
-    },
-
-    ['weed_white-widow'] = {
-        label = 'OGKush 2g',
-        weight = 200,
-    },
-
-    ['weed_white-widow_seed'] = {
-        label = 'White Widow Seed',
-        weight = 1,
-    },
-
-    ['weed_purple-haze'] = {
-        label = 'Purple Haze 2g',
-        weight = 200,
-    },
-
-    ['weed_purple-haze_seed'] = {
-        label = 'Purple Haze Seed',
-        weight = 1,
-    },
-
-    ['weed_brick'] = {
-        label = 'Weed Brick',
-        weight = 2000,
-    },
-
-    ['weed_nutrition'] = {
-        label = 'Plant Fertilizer',
-        weight = 2000,
-    },
-
     ['joint'] = {
         label = 'Joint',
         weight = 200,
@@ -1142,6 +1072,156 @@ return {
             end
         },
     },
-    
+
+    -- Avid Weed add ons
+['weed_lemonhaze_seed'] = {
+    label = 'Lemonhaze Weed Seed',
+    weight = 5,
+    stack = true,
+    close = true,
+    client = {
+        image = 'weed_seed.png',
+        },
+    },
+
+['weed_bluedream_seed'] = {
+        label = 'Blue Dream Weed Seed',
+        weight = 5,
+        stack = true,
+        close = true,
+        client = {
+            image = 'weed_seed.png',
+            },
+        },
+
+['weed_sourdiesel_seed'] = {
+        label = 'Sour Diesel Weed Seed',
+        weight = 5,
+        stack = true,
+        close = true,
+        client = {
+                image = 'weed_seed.png',
+                },
+        },
+
+['weed_pinappleexpress_seed'] = {
+        label = 'Pineapple Express Weed Seed',
+        weight = 5,
+        stack = true,
+        close = true,
+        client = {
+                    image = 'weed_seed.png',
+            },
+        },     
+        
+['weed_whitewidow_seed'] = {
+        label = 'White Widow Weed Seed',
+        weight = 5,
+        stack = true,
+        close = true,
+        client = {
+        image = 'weed_seed.png',
+            },
+        }, 
+
+['weed_lemonhaze'] = {
+    label = 'Lemonhaze Bud',
+    weight = 5,
+    stack = true,
+    close = true,
+    client = {
+        image = 'weed_bud.png',
+    },
+},
+
+['weed_bluedream'] = {
+    label = 'Blue Dream Bud',
+    weight = 5,
+    stack = true, 
+    close = true, 
+    client = {
+        image = 'weed_bud.png',
+    },
+},
+
+['weed_sourdiesel'] = {
+    label = 'Sour Diesel Bud',
+    weight = 5,
+    stack = true, 
+    close = true,
+    client = {
+        image = 'weed_bud.png',
+    },
+},
+
+['weed_pinappleexpress'] = {
+    label = 'Pineapple Express Bud',
+    weight = 5,
+    stack = true, 
+    close = true, 
+    client = {
+        image = 'weed_bud.png',
+    },
+},
+
+['weed_whitewidow'] = {
+    label = 'White Widow Bud',
+    weight = 5, 
+    stack = true,
+    close = true, 
+    client = {
+        image = 'weed_bud.png',
+    },
+},
+
+['lemonhaze_joint'] = {
+    label = 'Lemon Haze Joint',
+    weight = 5, 
+    stack = true, 
+    close = true, 
+    client = {
+        image = 'lemonhaze.png',
+    },
+},
+
+['bluedream_joint'] = {
+    label = 'Blue Dream Joint',
+    weight = 5, 
+    stack = true, 
+    close = true, 
+    client = {
+        image = 'bluedream.png',
+    },
+},
+
+['sourdiesel_joint'] = {
+    label = 'Sour Diesel Joint',
+    weight = 5,
+    stack = true, 
+    close = true,
+    client = {
+        image = 'sourdiesel.png',
+    },
+},
+
+['pineappleexpress_joint'] = {
+    label = 'Pineapple Express Joint',
+    weight = 5, 
+    stack = true, 
+    close = true, 
+    client = {
+        image = 'pineappleexpres.png',
+    },
+},
+
+['whitewidow_joint'] = {
+    label = 'White Widow Joint',
+    weight = 5,
+    stack = true, 
+    close = true, 
+    client = {
+        image = 'whitewidow.png',
+    },
+},
 
 }

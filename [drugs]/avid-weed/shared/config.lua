@@ -421,7 +421,7 @@ Config.ProcessingTables = { -- Create processing table
 Config.EnableDrugs = true -- Enable drug effects
 Config.Drugs = { -- Create you own drugs
 
-    ['joint'] = {
+    --[[['joint'] = {
         label = 'Joint',
         animation = 'smoke', -- Animations: blunt, sniff, pill
         time = 80, -- Time in seconds of the Effects
@@ -444,6 +444,59 @@ Config.Drugs = { -- Create you own drugs
             'psycoWalk'
         },
         cooldown = 480, -- Cooldown in seconds until you can use this drug again
+    }, ]] 
+    ['lemonhaze_joint'] = {
+        label = 'Lemon Haze Joint',
+        animation = 'smoke', -- Animations: blunt, sniff, pill
+        time = 80, -- Time in seconds of the Effects
+        effects = { -- Effects: runningSpeedIncrease, infinateStamina, moreStrength, healthRegen, foodRegen, drunkWalk, psycoWalk, outOfBody, cameraShake, fogEffect, confusionEffect, whiteoutEffect, intenseEffect, focusEffect
+            'intenseEffect',
+            'healthRegen',
+        },
+        cooldown = 360, -- Cooldown in seconds until you can use this drug again
+    },
+    ['bluedream_joint'] = {
+        label = 'Blue Dream Joint',
+        animation = 'smoke', -- Animations: blunt, sniff, pill
+        time = 80, -- Time in seconds of the Effects
+        effects = { -- Effects: runningSpeedIncrease, infinateStamina, moreStrength, healthRegen, foodRegen, drunkWalk, psycoWalk, outOfBody, cameraShake, fogEffect, confusionEffect, whiteoutEffect, intenseEffect, focusEffect
+            'whiteoutEffect',
+            'foodRegen',
+        },
+        cooldown = 360, -- Cooldown in seconds until you can use this drug again
+    },
+    ['sourdiesel_joint'] = {
+        label = 'Sour Diesel Joint',
+        animation = 'smoke', -- Animations: blunt, sniff, pill
+        time = 80, -- Time in seconds of the Effects
+        effects = { -- Effects: runningSpeedIncrease, infinateStamina, moreStrength, healthRegen, foodRegen, drunkWalk, psycoWalk, outOfBody, cameraShake, fogEffect, confusionEffect, whiteoutEffect, intenseEffect, focusEffect
+            'intenseEffect',
+            'runningSpeedIncrease',
+        },
+        cooldown = 360, -- Cooldown in seconds until you can use this drug again
+    },
+    ['pineappleexpress_joint'] = {
+        label = 'Pineapple Express Joint',
+        animation = 'smoke', -- Animations: blunt, sniff, pill
+        time = 80, -- Time in seconds of the Effects
+        effects = { -- Effects: runningSpeedIncrease, infinateStamina, moreStrength, healthRegen, foodRegen, drunkWalk, psycoWalk, outOfBody, cameraShake, fogEffect, confusionEffect, whiteoutEffect, intenseEffect, focusEffect
+            'fogEffect',
+            'infinateStamina',
+            'moreStrength',
+        },
+        cooldown = 360, -- Cooldown in seconds until you can use this drug again
+    },
+    ['whitewidow_joint'] = {
+        label = 'White Widow Joint',
+        animation = 'smoke', -- Animations: blunt, sniff, pill
+        time = 80, -- Time in seconds of the Effects
+        effects = { -- Effects: runningSpeedIncrease, infinateStamina, moreStrength, healthRegen, foodRegen, drunkWalk, psycoWalk, outOfBody, cameraShake, fogEffect, confusionEffect, whiteoutEffect, intenseEffect, focusEffect
+            'outOfBody',
+            'healthRegen',
+            'foodRegen',
+            'psycoWalk'
+        },
+        cooldown = 360, -- Cooldown in seconds until you can use this drug again
     },
 }
 
@@ -495,9 +548,11 @@ Config.SellZones = {
         },
         thickness = 27,
         drugs = {
-            { item = 'cocaine', price = math.random(100, 200)},
-            { item = 'joint', price = math.random(50, 100)},
-            { item = 'weed_lemonhaze', price = math.random(50, 100)}
+            { item = 'whitewidow_joint', price = math.random(20, 30)},
+            { item = 'pineappleexpress_joint', price = math.random(20, 30)},
+            { item = 'sourdiesel_joint', price = math.random(20, 30)}
+            { item = 'bluedream_joint', price = math.random(20, 30)},
+            { item = 'lemonhaze_joint', price = math.random(10, 40)}
         }
     },
     ['vinewood'] = {
@@ -516,9 +571,11 @@ Config.SellZones = {
         },
         thickness = 59.0,
         drugs = {
-            { item = 'cocaine', price = math.random(100, 200)},
-            { item = 'joint', price = math.random(50, 100)},
-            { item = 'weed_lemonhaze', price = math.random(50, 100)}
+            { item = 'whitewidow_joint', price = math.random(20, 30)},
+            { item = 'pineappleexpress_joint', price = math.random(20, 30)},
+            { item = 'sourdiesel_joint', price = math.random(20, 30)}
+            { item = 'bluedream_joint', price = math.random(20, 30)},
+            { item = 'lemonhaze_joint', price = math.random(10, 40)}
         }
     },
     ['beach'] = {
@@ -535,9 +592,11 @@ Config.SellZones = {
         },
         thickness = 4.0,
         drugs = {
-            { item = 'cocaine', price = math.random(100, 200)},
-            { item = 'joint', price = math.random(50, 100)},
-            { item = 'weed_lemonhaze', price = math.random(50, 100)}
+            { item = 'whitewidow_joint', price = math.random(20, 30)},
+            { item = 'pineappleexpress_joint', price = math.random(20, 30)},
+            { item = 'sourdiesel_joint', price = math.random(20, 30)}
+            { item = 'bluedream_joint', price = math.random(20, 30)},
+            { item = 'lemonhaze_joint', price = math.random(10, 40)}
         }
     },
 }

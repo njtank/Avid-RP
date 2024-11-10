@@ -1108,4 +1108,14 @@ return {
 			export = 'avid-parceltheft.useParcel'
 		}
 	},
+["small_explosive"] = {
+        label = "Small Explosive Bomb",
+        weight = 500,
+        stack = false,
+        close = true,
+        description = "",
+        client = {
+            image = "small_explosive.png",
+        }
+    },
 }

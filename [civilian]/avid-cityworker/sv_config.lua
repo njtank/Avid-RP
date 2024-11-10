@@ -24,6 +24,6 @@ return {
         vec3(1092.65, -795.06, 58.27),
         vec3(756.45, -1099.05, 22.32),
     },
-    Vehicle = `esperta`,
+    Vehicle = `gbesperta`,
     VehicleSpawn = vec4(-284.02, -2647.68, 5.41, 44.96),
 }

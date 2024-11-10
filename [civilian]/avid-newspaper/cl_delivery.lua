@@ -10,7 +10,7 @@ if Config.EnableBlip then
     local NEWS_BLIP = AddBlipForCoord(Config.PedCoords.xyz)
     SetBlipSprite(NEWS_BLIP, 590)
     SetBlipDisplay(NEWS_BLIP, 4)
-    SetBlipScale(NEWS_BLIP, 0.80)
+    SetBlipScale(NEWS_BLIP, 0.5)
     SetBlipAsShortRange(NEWS_BLIP, true)
     SetBlipColour(NEWS_BLIP, 1)
     BeginTextCommandSetBlipName("STRING")

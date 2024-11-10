@@ -94,7 +94,7 @@ local function RemoveStinger()
 
         Wait(250)
         if not DoesEntityExist(closestStinger) then
-            TriggerServerEvent("bprp-spikes:server:pickupspikes")
+            TriggerServerEvent("avid-spikes:server:pickupspikes")
         end
     end
 end
@@ -111,13 +111,13 @@ local function TouchingStinger(coords, stinger)
 end
 
 -- events
-RegisterNetEvent("bprp-spikes:client:usespikes", function()
+RegisterNetEvent("avid-spikes:client:usespikes", function()
     local ped = PlayerPedId()
     local player = QBCore.Functions.GetPlayerData()
     if not IsPedInAnyVehicle(ped, false) then
         if allowed then
             DeployStinger()
-            TriggerServerEvent('bprp-spikes:server:removespikes')
+            TriggerServerEvent('avid-spikes:server:removespikes')
         else
             QBCore.Functions.Notify('You are not trained to use this', 'error', 7500)
         end
@@ -126,7 +126,7 @@ RegisterNetEvent("bprp-spikes:client:usespikes", function()
     end
 end)
 
-RegisterNetEvent("bprp-spikes:client:removespikes", function()
+RegisterNetEvent("avid-spikes:client:removespikes", function()
     RemoveStinger()
 end)
 
@@ -175,17 +175,17 @@ CreateThread(function()
 end)
 
 
-exports['qb-target']:AddTargetModel('p_ld_stinger_s', {
-    options = {
-        {
-            num = 1,
-            event = 'bprp-spikes:client:removespikes',
-            icon = "fa fa fa-circle",
-            label = "Remove Spikes",
-            canInteract = function()
-                if allowed then return true end
-            end
-        },
-    },
-    distance = 2.0
+exports['ox_target']:addModel('p_ld_stinger_s', {
+    {
+        name = 'avid-spikes:client:removespikes',
+        icon = 'fa fa-circle',
+        label = 'Remove Spikes',
+        distance = 2.0,
+        onSelect = function(data)
+            TriggerEvent('avid-spikes:client:removespikes')
+        end,
+        canInteract = function()
+            return allowed
+        end
+    }
 })

@@ -665,6 +665,9 @@ return {
     ['empty_evidence_bag'] = {
         label = 'Empty Evidence Bag',
         weight = 200,
+        client = {
+            image = "empty_evidence.png",
+        },
     },
 
     ["filled_evidence_bag"] = {
@@ -1125,4 +1128,20 @@ return {
     ["bolt_cutter"] = { label = "Bolt Cutter", weight = 50, stack = true, close = true, description = "Wanna cut some metal items ?", client = {image = "bolt_cutter.png",}},
     ["leo_gps"] = { label = "LEO GPS", weight = 200, stack = true, close = true, description = "Show your gps location to others", client = {image = "leo-gps.png",}},
     ["alcoholtester"] = { label = "Alcohol Tester", weight = 400, stack = false, close = true, description = "For testing purposes..", client = {image = "alcoholtester.png",}},
+
+['spikestrip'] = {
+        label = 'Spikestrip',
+        weight = 25,
+        stack = false,  -- Set to `true` if the item should stack in the inventory
+        close = true,
+        description = 'A spikestrip',
+        client = {
+            image = 'spikestrip.png',
+            use = function(slot)
+                TriggerEvent('bprp-spikes:client:usespikestrip', slot)
+            end
+        },
+    },
+    
+
 }

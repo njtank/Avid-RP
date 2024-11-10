@@ -52,68 +52,70 @@ Config.BlipColors = {
     ['ambulance'] = 1 -- Red
 }
 
-Config.FuelScript = 'LegacyFuel'
-Config.LicenseRank = 2
+Config.FuelScript = 'cdn-fuel'
+Config.LicenseRank = 1
 Config.BlockWallThermals = true -- true/false; lowers thermal cam intensity to stop penetration through walls or tunnels
-Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
+Config.UseTarget = GetConvar('UseTarget', 'true') == 'true'
 Config.GaragePedModel = "s_m_y_hwaycop_01"
 Config.Locations = {
     ["duty"] = {
-        [1] = vector3(441.85, -981.95, 31.88), -- LSPD
-        [2] = vector3(-447.73, 6015.58, 32.28), -- BCSO
-        [3] = vector3(1832.68, 3678.4, 34.28), -- Sandy
+        [1] = vec3(616.76, 4.59, 87.82), -- VWPD1
+        [2] = vec3(626.23, 6.46, 84.39), -- VWPD2
+        --[3] = vec3(626.4, -5.59, 77.50), -- VWPD3
     },
     ["vehicle"] = {
-        [1] = vector4(442.1, -1013.92, 28.63, 184.47), -- LSPD
-        [2] = vector4(-458.86, 6031.5, 31.34, 139.15), --BCSO
-        [3] = vector4(1858.95, 3681.95, 33.83, 219.83), -- Sandy
+        [1] = vec4(611.74, -0.12, 70.63, 73.54), -- VWPD
+        --[2] = vector4(-458.86, 6031.5, 31.34, 139.15), --BCSO
+        --[3] = vector4(1858.95, 3681.95, 33.83, 219.83), -- Sandy
     },
     ["vehspawn"] = { -- The numbers [1] must match the numbers in [vehicle]
-        [1] = vector4(442.4, -1025.02, 28.29, 4.11), -- LSPD
-        [2] = vector4(-474.63, 6030.38, 30.95, 226.12), -- BCSO
-        [3] = vector4(1850.89, 3673.04, 33.37, 211.26), -- Sandy
+        [1] = vec4(613.09, 3.38, 70.24, 72.03), -- VWPD
+        --[2] = vector4(-474.63, 6030.38, 30.95, 226.12), -- BCSO
+        --[3] = vector4(1850.89, 3673.04, 33.37, 211.26), -- Sandy
     },
     ["stash"] = {
-        [1] = vector3(461.13, -995.88, 30.69), -- LSPD
-        [2] = vector3(-438.73, 6008.25, 36.99), -- BCSO
-        [3] = vector3(1837.89, 3688.08, 34.19), -- Sandy
+        [1] = vec3(604.42, -5.45, 87.82), -- VWPD
+        --[2] = vector3(-438.73, 6008.25, 36.99), -- BCSO
+        --[3] = vector3(1837.89, 3688.08, 34.19), -- Sandy
     },
     ["impound"] = {
-        [1] = vector3(479.08, -1022.54, 28.01),
-        [2] = vector3(1822.14, 3689.16, 33.97),
+        --[1] = vector3(479.08, -1022.54, 28.01),
+        --[2] = vector3(1822.14, 3689.16, 33.97),
     },
     ["helicopter"] = {
-        [1] = vector4(460.24, -980.18, 43.69, 181.43), -- LSPD
-        [2] = vector4(-462.15, 5994.77, 31.25, 134.84), -- BCSO
+        --[1] = vector4(460.24, -980.18, 43.69, 181.43), -- LSPD
+        --[2] = vector4(-462.15, 5994.77, 31.25, 134.84), -- BCSO
     },
     ["helispawn"] = { -- The numbers [1] must match the numbers in [helicopter]
-        [1] = vector4(449.16, -981.23, 43.69, 165.79), -- LSPD
-        [2] = vector4(-475.18, 5988.43, 31.72, 317.27), -- BCSO
+        --[1] = vector4(449.16, -981.23, 43.69, 165.79), -- LSPD
+        --[2] = vector4(-475.18, 5988.43, 31.72, 317.27), -- BCSO
     },
     ["armory"] = {
-        [1] = vector3(482.51, -995.62, 30.69), -- LSPD
-        [2] = vector3(-444.12, 6013.53, 37.00), -- BCSO
-        [3] = vector3(1836.2, 3687.01, 34.19), -- Sandy
+        --[1] = vector3(482.51, -995.62, 30.69), -- LSPD
+        --[2] = vector3(-444.12, 6013.53, 37.00), -- BCSO
+        --[3] = vector3(1836.2, 3687.01, 34.19), -- Sandy
     },
     ["trash"] = {
-        [1] = vector3(440.15, -978.25, 30.66), -- LSPD
+        [1] = vec3(629.4, 0.2, 77.5), -- VWPD
+        [2] = vec3(632.35, 8.6, 77.5), -- VWPD
+        [3] = vec3(622.91, -2.19, 90.47), -- VWPD
     },
     ["fingerprint"] = {
-        [1] = vector3(473.12, -1007.48, 26.27), -- LSPD
-        [2] = vector3(-452.22, 5997.96, 27.58), --BCSO
+        [1] = vec3(626.4, -5.59, 77.50), -- LSPD
+        --[2] = vector3(-452.22, 5997.96, 27.58), --BCSO
     },
     ["evidence"] = {
-        [1] = vector3(472.79, -993.10, 26.27), -- LSPD
-        [2] = vector3(-452.87, 5999.38, 37.00), -- BCSO
-        [3] = vector3(1817.97, 3672.25, 34.2), -- Sandy
+        [1] = vec3(625.82, 6.19, 77.5), -- VWPD
+        [2] = vec3(631.82, 7.07, 77.52), -- VWPD
+        --[3] = vector3(1817.97, 3672.25, 34.2), -- Sandy
     },
     ["labs"] = {
-        [1] = vector3(483.49, -988.62, 31.06), -- LSPD
+        [1] = vec3(627.97, -2.28, 90.47), -- VWPD
     },
     ["stations"] = {
-        [1] = {label = "Los Santos Police Department", coords = vector4(428.23, -984.28, 29.76, 3.5), sprite= 137, scale= 0.7, colour= 29},
-        [2] = {label = "San Andreas State Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249), sprite= 137, scale= 0.7, colour= 1},
-        [3] = {label = "Blaine County Sheriffs Office", coords = vector4(-448.26, 6007.83, 44.01, 225.93), sprite= 137, scale= 0.7, colour= 47},
+        [1] = {label = "Los Santos Police Department", coords = vec4(599.83, -9.18, 87.82, 141.99), sprite= 137, scale= 0.5, colour= 29},
+        --[2] = {label = "San Andreas State Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249), sprite= 137, scale= 0.7, colour= 1},
+        --[3] = {label = "Blaine County Sheriffs Office", coords = vector4(-448.26, 6007.83, 44.01, 225.93), sprite= 137, scale= 0.7, colour= 47},
     },
 }
 
@@ -127,12 +129,12 @@ Config.RepairStations = {
             pedloc = vector4(480.39, -996.65, 30.69, 87.97), -- location where the ped will be spawned
             walkto = vector4(487.31, -996.93, 30.69, 274.41), -- location where the ped will walk to repair
         },
-        [2] = {
+        --[[[2] = {
             jobtype = 'public', -- jobtype that can use this station or public to be used by everyone 
             pedhash = 'u_m_y_gunvend_01', -- ped hash to be used as repair guy
             pedloc = vector4(16.37, -1111.51, 29.8, 254.8), -- location where the ped will be spawned
             walkto = vector4(15.32, -1105.86, 29.8, 215.82), -- location where the ped will walk to repair
-        }
+        }]]
     }
 }
 
@@ -217,17 +219,17 @@ Config.CarExtras = { -- Extra options to be enabled / disabled
 Config.AuthorizedVehicles = {
     -- Garage 1 vehicles (LSPD)
     [1] = {
-        ["police"] = {label = "Police Car 1", ranks = {1,2}, livery = 1, price = 10},
-        ["police2"] = {label = "Police Car 2", ranks = {1,2}, livery = 1, price = 10},
-        ["police3"] = {label = "Police Car 3", ranks = {3}, livery = 1, price = 10},
-        ["police4"] = {label = "Police Car 4", ranks = {3}, livery = 1, price = 10},
-        ["policeb"] = {label = "Police Car 5", ranks = {3,4}, livery = 1, price = 10},
+        ["police"] = {label = "Police Car 1", ranks = {1,2}, livery = 1, price = nil},
+        ["police2"] = {label = "Police Car 2", ranks = {1,2}, livery = 1, price = nil},
+        ["police3"] = {label = "Police Car 3", ranks = {3}, livery = 1, price = nil},
+        ["police4"] = {label = "Police Car 4", ranks = {3}, livery = 1, price = nil},
+        ["policeb"] = {label = "Police Car 5", ranks = {3,4}, livery = 1, price = nil},
         ["policet"] = {label = "Police Car 6", ranks = {3,4}, livery = 1, price = nil},
-        ["fbi"] = {label = "Unmarked FBI", ranks = {3,4}, livery = 1, price = 15},
+        ["fbi"] = {label = "Unmarked FBI", ranks = {3,4}, livery = 1, price = nil},
         ["fbi2"] = {label = "Unmarked FBI2", ranks = {3,4}, livery = 1, price = nil},
     },
     -- Garage 2 vehicles (BCSO)
-    [2] = {
+    --[[[2] = {
         ["sheriff"] = {label = "Sheriff Car 1", ranks = {1,2}, livery = 1, price = 10},
         ["sheriff2"] = {label = "Sheriff Car 2", ranks = {2,3,4}, livery = 1, price = 10},
         ["fbi"] = {label = "Unmarked FBI", ranks = {3,4}, livery = 1, price = 10},
@@ -239,16 +241,16 @@ Config.AuthorizedVehicles = {
         ["sheriff2"] = {label = "Sheriff Car 2", ranks = {2,3,4}, livery = 1, price = 10},
         ["fbi"] = {label = "Unmarked FBI", ranks = {3,4}, livery = 1, price = 10},
         ["fbi2"] = {label = "Unmarked FBI2", ranks = {3,4}, livery = 1, price = nil},
-    },
+    },]]
 }
 
 Config.AmmoLabels = {
-    ["AMMO_PISTOL"] = "9x19mm parabellum bullet",
-    ["AMMO_SMG"] = "9x19mm parabellum bullet",
-    ["AMMO_RIFLE"] = "7.62x39mm bullet",
-    ["AMMO_MG"] = "7.92x57mm mauser bullet",
-    ["AMMO_SHOTGUN"] = "12-gauge bullet",
-    ["AMMO_SNIPER"] = "Large caliber bullet",
+    ["ammo-9"] = "9x19mm parabellum bullet",
+    ["ammo-9"] = "9x19mm parabellum bullet",
+    ["ammo-rifle2"] = "7.62x39mm bullet",
+    ["ammo-rifle"] = "5.56 bullet",
+    ["ammo-shotgun"] = "12-gauge bullet",
+    ["ammo-heavysniper"] = "Large caliber bullet",
 }
 
 Config.Radars = {

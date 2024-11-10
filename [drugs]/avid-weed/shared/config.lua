@@ -113,6 +113,29 @@ Config.Zones = {
         },
         exclusive = {'weed_lemonhaze_seed'} -- Types of drugs that will be affected in this are.
     },
+    ['weed_zone_three'] = { -- Zone id (Musst be unique)
+        points = {
+            vec3(-2685.64, 2345.53, 16.35),
+            vec3(-2569.95, 2350.19, 30.37),
+            vec3(-1832.09, 2406.98, 30.49),
+            vec3(-1656.2, 2449.72, 29.57),
+            vec3(-1445.83, 2418.44, 23.78),
+            vec3(-992.14, 2760.91, 24.75),
+            vec3(-300.97, 2936.17, 28.83),
+            vec3(-419.06, 3132.11, 40.23),
+            vec3(-2449.22, 3745.03, 17.49),
+            vec3(-3161.04, 3264.99, 2.04),
+        },
+        thickness = 4.0,
+        growMultiplier = 2, -- GlobalGrowTime / growMultiplier = Time in minutes for a plant to grow in this zone
+        blip = {
+            display = false, -- Display blip on map
+            sprite = 469, -- Select blip from (https://docs.fivem.net/docs/game-references/blips/)
+            displayColor = 2, -- Select blip color from (https://docs.fivem.net/docs/game-references/blips/)
+            displayText = 'Weed Zone',
+        },
+        --exclusive = {'weed_lemonhaze_seed'} -- Types of drugs that will be affected in this are.
+    },
 }
 
 
@@ -550,9 +573,9 @@ Config.SellZones = {
         drugs = {
             { item = 'whitewidow_joint', price = math.random(20, 30)},
             { item = 'pineappleexpress_joint', price = math.random(20, 30)},
-            { item = 'sourdiesel_joint', price = math.random(20, 30)}
+            { item = 'sourdiesel_joint', price = math.random(20, 30)},
             { item = 'bluedream_joint', price = math.random(20, 30)},
-            { item = 'lemonhaze_joint', price = math.random(10, 40)}
+            { item = 'lemonhaze_joint', price = math.random(10, 40)},
         }
     },
     ['vinewood'] = {
@@ -573,9 +596,9 @@ Config.SellZones = {
         drugs = {
             { item = 'whitewidow_joint', price = math.random(20, 30)},
             { item = 'pineappleexpress_joint', price = math.random(20, 30)},
-            { item = 'sourdiesel_joint', price = math.random(20, 30)}
+            { item = 'sourdiesel_joint', price = math.random(20, 30)},
             { item = 'bluedream_joint', price = math.random(20, 30)},
-            { item = 'lemonhaze_joint', price = math.random(10, 40)}
+            { item = 'lemonhaze_joint', price = math.random(10, 40)},
         }
     },
     ['beach'] = {
@@ -594,9 +617,9 @@ Config.SellZones = {
         drugs = {
             { item = 'whitewidow_joint', price = math.random(20, 30)},
             { item = 'pineappleexpress_joint', price = math.random(20, 30)},
-            { item = 'sourdiesel_joint', price = math.random(20, 30)}
+            { item = 'sourdiesel_joint', price = math.random(20, 30)},
             { item = 'bluedream_joint', price = math.random(20, 30)},
-            { item = 'lemonhaze_joint', price = math.random(10, 40)}
+            { item = 'lemonhaze_joint', price = math.random(10, 40)},
         }
     },
 }

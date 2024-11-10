@@ -1094,4 +1094,18 @@ return {
 			export = 'avid-backpack.openBackpack'
 		}
 	},
+["parcel"] = {
+		label = "Parcel",
+		weight = 350,
+		stack = false,
+		close = true,
+		consume = 0,
+		description = "Small package filled with something.",
+		client = {
+			image = "parcel.png",
+		},
+		server = {
+			export = 'avid-parceltheft.useParcel'
+		}
+	},
 }

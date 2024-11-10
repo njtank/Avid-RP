@@ -2,7 +2,7 @@ return {
     ProgressTime = 5000,
     Cooldown = {
         enable = true,
-        time = 30, -- seconds
+        time = 60, -- seconds
     },
     BlacklistedJobs = {
         police = true,

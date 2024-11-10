@@ -47,7 +47,7 @@ RegisterNetEvent('avid-pickpocket:server:pickPocketNpc', function(netId)
             DoNotification(src, ('You stole %sx %s.'):format(amount, itemLabel(item)), 'success')
         else
             local amount = math.random(Server.RewardZones[zoneId].cash.min, Server.RewardZones[zoneId].cash.max)
-            AddMoney(player, 'cash', amount)
+            AddItem(player, 'folded_cash', amount)
             DoNotification(src, ('You stole $%s.'):format(amount), 'success')
         end
     else

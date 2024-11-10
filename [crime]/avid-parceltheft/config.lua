@@ -10,10 +10,12 @@ Config.PropCooldown = 3600 -- Cooldown in seconds for props to respawn after bei
 Config.Loot = {
     amount = math.random(1, 3), -- Number of different items that can be received from one package
     items = {
-        { item = 'lockpick', minAmount = 1, maxAmount = 1, chance = 50 },
-        { item = 'bandage', minAmount = 1, maxAmount = 2, chance = 30 },
-        { item = 'rolex', minAmount = 1, maxAmount = 1, chance = 3 },
-        { item = 'folded_cash', minAmount = 1, maxAmount = 10, chance = 40 },
+        { item = 'weed_bluedream_seed', minAmount = 1, maxAmount = 1, chance = 5 },
+        { item = 'weed_lemonhaze_seed', minAmount = 1, maxAmount = 1, chance = 10 },
+        { item = 'weed_sourdiesel_seed', minAmount = 1, maxAmount = 1, chance = 10 },
+        { item = 'rolex', minAmount = 1, maxAmount = 1, chance = 5 },
+        { item = 'goldchain', minAmount = 1, maxAmount = 1, chance = 10 },
+        { item = 'folded_cash', minAmount = 1, maxAmount = 10, chance = 60 },
     }
 }
 

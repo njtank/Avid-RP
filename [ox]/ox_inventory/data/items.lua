@@ -1068,7 +1068,7 @@ return {
         client = {
             image = 'spikestrip.png',
             use = function(slot)
-                TriggerEvent('bprp-spikes:client:usespikestrip', slot)
+                TriggerEvent('avid-spikes:client:usespikestrip', slot)
             end
         },
     },
@@ -1224,4 +1224,158 @@ return {
     },
 },
 
+
+    ["weed_brick"] = {
+        label = "Weed Brick",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "1KG Weed Brick to sell to large customers.",
+        client = {
+            image = "weed_brick.png",
+        }
+    },
+
+    ["weed_og-kush_seed"] = {
+        label = "OGKush Seed",
+        weight = 0,
+        stack = true,
+        close = true,
+        description = "A weed seed of OG Kush",
+        client = {
+            image = "weed_seed.png",
+        }
+    },
+
+    ["weed_purple-haze_seed"] = {
+        label = "Purple Haze Seed",
+        weight = 0,
+        stack = true,
+        close = true,
+        description = "A weed seed of Purple Haze",
+        client = {
+            image = "weed_seed.png",
+        }
+    },
+
+    ["weed_skunk"] = {
+        label = "Skunk 2g",
+        weight = 200,
+        stack = true,
+        close = false,
+        description = "A weed bag with 2g Skunk",
+        client = {
+            image = "weed_baggy.png",
+        }
+    },
+
+    ["weed_ak47"] = {
+        label = "AK47 2g",
+        weight = 200,
+        stack = true,
+        close = false,
+        description = "A weed bag with 2g AK47",
+        client = {
+            image = "weed_baggy.png",
+        }
+    },
+
+    ["weed_amnesia"] = {
+        label = "Amnesia 2g",
+        weight = 200,
+        stack = true,
+        close = false,
+        description = "A weed bag with 2g Amnesia",
+        client = {
+            image = "weed_baggy.png",
+        }
+    },
+
+    ["weed_og-kush"] = {
+        label = "OGKush 2g",
+        weight = 200,
+        stack = true,
+        close = false,
+        description = "A weed bag with 2g OG Kush",
+        client = {
+            image = "weed_baggy.png",
+        }
+    },
+
+    ["weed_skunk_seed"] = {
+        label = "Skunk Seed",
+        weight = 0,
+        stack = true,
+        close = true,
+        description = "A weed seed of Skunk",
+        client = {
+            image = "weed_seed.png",
+        }
+    },
+
+    ["weed_white-widow_seed"] = {
+        label = "White Widow Seed",
+        weight = 0,
+        stack = true,
+        close = false,
+        description = "A weed seed of White Widow",
+        client = {
+            image = "weed_seed.png",
+        }
+    },
+
+    ["weed_amnesia_seed"] = {
+        label = "Amnesia Seed",
+        weight = 0,
+        stack = true,
+        close = true,
+        description = "A weed seed of Amnesia",
+        client = {
+            image = "weed_seed.png",
+        }
+    },
+
+    ["weed_ak47_seed"] = {
+        label = "AK47 Seed",
+        weight = 0,
+        stack = true,
+        close = true,
+        description = "A weed seed of AK47",
+        client = {
+            image = "weed_seed.png",
+        }
+    },
+
+    ["weed_nutrition"] = {
+        label = "Plant Fertilizer",
+        weight = 2000,
+        stack = true,
+        close = true,
+        description = "Plant nutrition",
+        client = {
+            image = "weed_nutrition.png",
+        }
+    },
+
+    ["weed_white-widow"] = {
+        label = "White Widow 2g",
+        weight = 200,
+        stack = true,
+        close = false,
+        description = "A weed bag with 2g White Widow",
+        client = {
+            image = "weed_baggy.png",
+        }
+    },
+
+    ["weed_purple-haze"] = {
+        label = "Purple Haze 2g",
+        weight = 200,
+        stack = true,
+        close = false,
+        description = "A weed bag with 2g Purple Haze",
+        client = {
+            image = "weed_baggy.png",
+        }
+    },
 }

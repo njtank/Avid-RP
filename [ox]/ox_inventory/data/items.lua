@@ -1403,6 +1403,31 @@ return {
         close = true,
     },
 
+-- Spray Items
+['spraycan'] = {
+    label = 'Spray Can',
+    weight = 1000,
+    stack = false,  -- `unique = true` implies no stacking
+    close = true,   -- `shouldClose = true`
+    description = 'Spray Can',
+    client = {
+        image = 'spraycan.png',
+    },
+    useable = true, -- Allows the item to be used
+},
+
+['sprayremover'] = {
+    label = 'Spray Remover',
+    weight = 100,
+    stack = false,  -- `unique = true` implies no stacking
+    close = true,   -- `shouldClose = true`
+    description = 'Spray Remover',
+    client = {
+        image = 'sprayremover.png',
+    },
+    useable = true, -- Allows the item to be used
+},
+   
 
 
 --Pickle x Avid Crafting

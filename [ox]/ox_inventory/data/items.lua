@@ -371,7 +371,7 @@ return {
 
     ['steel'] = {
         label = 'Steel',
-        weight = 100,
+        weight = 5,
         client = {
             image = "steel.png",
         }
@@ -379,7 +379,7 @@ return {
 
     ['rubber'] = {
         label = 'Rubber',
-        weight = 100,
+        weight = 5,
         client = {
             image = "rubber.png",
         }
@@ -387,7 +387,7 @@ return {
 
     ['metalscrap'] = {
         label = 'Metal Scrap',
-        weight = 100,
+        weight = 5,
         client = {
             image = "metalscrap.png",
         }
@@ -395,7 +395,7 @@ return {
 
     ['iron'] = {
         label = 'Iron',
-        weight = 100,
+        weight = 5,
         client = {
             image = "iron.png",
         }
@@ -403,7 +403,7 @@ return {
 
     ['copper'] = {
         label = 'Copper',
-        weight = 100,
+        weight = 5,
         client = {
             image = "copper.png",
         }
@@ -411,7 +411,7 @@ return {
 
     ['aluminium'] = {
         label = 'Aluminium',
-        weight = 100,
+        weight = 5,
         client = {
             image = "aluminium.png",
         }
@@ -419,7 +419,7 @@ return {
 
     ['plastic'] = {
         label = 'Plastic',
-        weight = 100,
+        weight = 5,
         client = {
             image = "plastic.png",
         }
@@ -428,6 +428,22 @@ return {
     ['glass'] = {
         label = 'Glass',
         weight = 100,
+        client = {
+            image = "glass.png",
+        }
+    },
+
+    ['leather'] = {
+        label = 'Leather',
+        weight = 5,
+        client = {
+            image = "glass.png",
+        }
+    },
+
+    ['dirty_cloth'] = {
+        label = 'Dirty Cloth',
+        weight = 5,
         client = {
             image = "glass.png",
         }
@@ -1378,4 +1394,178 @@ return {
             image = "weed_baggy.png",
         }
     },
+
+['c4'] = {
+        label = 'C4 Explosive',
+        description = 'A powerful explosive, handle with caution.',
+        weight = 1200,  -- weight in grams (adjust as needed)
+        stack = true,
+        close = true,
+    },
+
+
+
+--Pickle x Avid Crafting
+
+["crafting_table"] = {
+    label = 'Crafting Table',
+    weight = 1,
+    stack = true,
+    description = ""
+    client = {
+        image = "crafting_table.png",
+    }
+},
+
+["drug_table"] = {
+    label = 'Drug Table',
+    weight = 1,
+    stack = true,
+    description = ""
+    client = {
+        image = "drug_table.png",
+    }
+},
+
+-- Blueprints
+["blueprint_pistol"] = {
+    label = 'Blueprint Pistol',
+    weight = 1,
+    stack = true,
+    description = ""
+    client = {
+        image = "pistol_blueprint.png",
+    }
+},
+
+["blueprint_sns"] = {
+    label = 'Blueprint SNS Pistol',
+    weight = 1,
+    stack = true,
+    description = ""
+    client = {
+        image = "sns_blueprint.png",
+    }
+},
+
+["blueprint_ceramic"] = {
+    label = 'Blueprint Ceramic Pistol',
+    weight = 1,
+    stack = true,
+    description = ""
+    client = {
+        image = "ceramic_blueprint.png",
+    }
+},
+
+["armor_blueprint"] = {
+    label = 'Heavy Armror Blueprint',
+    weight = 1,
+    stack = true,
+    description = ""
+    client = {
+        image = "armor_blueprint.png",
+    }
+},
+
+["blueprint_smallexplosive"] = {
+    label = 'Small Explosive Blueprint',
+    weight = 1,
+    stack = true,
+    description = ""
+    client = {
+        image = "smallexplosives_blueprint.png",
+    }
+},
+
+["blueprint_c4"] = {
+    label = 'C4 Explosive Blueprint',
+    weight = 1,
+    stack = true,
+    description = ""
+    client = {
+        image = "c4_blueprint.png",
+    }
+},
+
+["blueprint_drill"] = {
+    label = 'Large Drill Blueprint',
+    weight = 1,
+    stack = true,
+    description = ""
+    client = {
+        image = "drill_blueprint.png",
+    }
+},
+
+-- Avid Weapon Parts 
+-- Pistol Parts
+['pistol_upper'] = {
+    label = 'Pistol Upper',
+    description = 'The upper receiver of a pistol, part of the firing mechanism.',
+    weight = 500, -- weight in grams
+    stack = true,
+    close = true,
+    client = {
+        image = "p_upper.png",
+    }
+},
+
+['pistol_lower'] = {
+    label = 'Pistol Lower',
+    description = 'The lower receiver of a pistol, connects the grip and magazine.',
+    weight = 400,
+    stack = true,
+    close = true,
+    client = {
+        image = "p_lower.png",
+    }
+},
+
+['pistol_slide'] = {
+    label = 'Pistol Slide',
+    description = 'The slide of the pistol, essential for chambering rounds.',
+    weight = 350,
+    stack = true,
+    close = true,
+    client = {
+        image = "p_slide.png",
+    }
+},
+
+['pistol_barrel'] = {
+    label = 'Pistol Barrel',
+    description = 'The barrel of the pistol, directs the projectile when fired.',
+    weight = 300,
+    stack = true,
+    close = true,
+    client = {
+        image = "p_barrel.png",
+    }
+},
+
+['pistol_frame'] = {
+    label = 'Pistol Frame',
+    description = 'The frame of the pistol, holds the parts together.',
+    weight = 600,
+    stack = true,
+    close = true,
+    client = {
+        image = "p_frame.png",
+    }
+},
+
+['pistol_trigger'] = {
+    label = 'Pistol Trigger',
+    description = 'The trigger of the pistol, initiates the firing sequence.',
+    weight = 50,
+    stack = true,
+    close = true,
+    client = {
+        image = "p_trigger.png",
+    }
+},
+
+
+
 }

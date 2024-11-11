@@ -188,42 +188,18 @@ Config.Props = {
             rotation = vector3(0.0, 0.0, 0.0), -- Only change 3rd value to change horizontal rotation.
         },
     },
-    ["WEAPON_PISTOL"] = {
+    ["burger"] = {
         ["default"] = { -- Default for tables with visible models.
-            model = `xm3_prop_xm3_pistol_xm3`, -- Model of the prop.
+            model = `prop_cs_burger_01`, -- Model of the prop.
             offset = vector3(0.0, 0.0, 0.85), -- X,Y,Z Offset from center of crafting table.
             rotation = vector3(0.0, 0.0, 0.0), -- Only change 3rd value to change horizontal rotation.
         },
         ["default_no_prop"] = { -- Default for tables with visible models.
-            model = `xm3_prop_xm3_pistol_xm3`, -- Model of the prop.
+            model = `prop_cs_burger_01`, -- Model of the prop.
             offset = vector3(0.0, 0.0, 0.0), -- X,Y,Z Offset from center of crafting table.
             rotation = vector3(0.0, 0.0, 0.0), -- Only change 3rd value to change horizontal rotation.
         },
-    },
-    ["WEAPON_CERAMICPISTOL"] = {
-        ["default"] = { -- Default for tables with visible models.
-            model = `xm3_prop_xm3_pistol_xm3`, -- Model of the prop.
-            offset = vector3(0.0, 0.0, 0.85), -- X,Y,Z Offset from center of crafting table.
-            rotation = vector3(0.0, 0.0, 0.0), -- Only change 3rd value to change horizontal rotation.
-        },
-        ["default_no_prop"] = { -- Default for tables with visible models.
-            model = `xm3_prop_xm3_pistol_xm3`, -- Model of the prop.
-            offset = vector3(0.0, 0.0, 0.0), -- X,Y,Z Offset from center of crafting table.
-            rotation = vector3(0.0, 0.0, 0.0), -- Only change 3rd value to change horizontal rotation.
-        },
-    },
-    ["WEAPON_SNSPISTOL"] = {
-        ["default"] = { -- Default for tables with visible models.
-            model = `xm3_prop_xm3_pistol_xm3`, -- Model of the prop.
-            offset = vector3(0.0, 0.0, 0.85), -- X,Y,Z Offset from center of crafting table.
-            rotation = vector3(0.0, 0.0, 0.0), -- Only change 3rd value to change horizontal rotation.
-        },
-        ["default_no_prop"] = { -- Default for tables with visible models.
-            model = `xm3_prop_xm3_pistol_xm3`, -- Model of the prop.
-            offset = vector3(0.0, 0.0, 0.0), -- X,Y,Z Offset from center of crafting table.
-            rotation = vector3(0.0, 0.0, 0.0), -- Only change 3rd value to change horizontal rotation.
-        },
-    },
+    }
 }
 
 Config.TableTypes = {
@@ -395,7 +371,7 @@ Config.TableTypes = {
                 category = "weapons", -- Category name (not the label).
                 amount = 1, -- Amount to craft each time.
                 time = 10, -- Time to craft the item after action is complete.
-                xp = {name = "weapons", level = 1}, -- Experience required to craft.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
                     {name = "plastic", amount = 20},
                     {name = "rubber", amount = 25},
@@ -411,7 +387,7 @@ Config.TableTypes = {
                 amount = 1, -- Amount to craft each time.
                 time = 10, -- Time to craft the item after action is complete.
                 --blueprint = "", -- Blueprint Requirement.
-                xp = {name = "weapons", level = 1}, -- Experience required to craft.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
                     {name = "iron", amount = 15},
                     {name = "steel", amount = 20},
@@ -426,7 +402,7 @@ Config.TableTypes = {
                 category = "weapons", -- Category name (not the label).
                 amount = 1, -- Amount to craft each time.
                 time = 10, -- Time to craft the item after action is complete.
-                xp = {name = "weapons", level = 1}, -- Experience required to craft.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
                     {name = "iron", amount = 5},
                     {name = "plastic", amount = 20},
@@ -442,7 +418,7 @@ Config.TableTypes = {
                 category = "weapons", -- Category name (not the label).
                 amount = 1, -- Amount to craft each time.
                 time = 10, -- Time to craft the item after action is complete.
-                xp = {name = "weapons", level = 1}, -- Experience required to craft.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
                     {name = "iron", amount = 15},
                     {name = "steel", amount = 20},
@@ -457,7 +433,7 @@ Config.TableTypes = {
                 category = "weapons", -- Category name (not the label).
                 amount = 1, -- Amount to craft each time.
                 time = 10, -- Time to craft the item after action is complete.
-                xp = {name = "weapons", level = 1}, -- Experience required to craft.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
                     {name = "pistol_trigger", amount = 1},
                     {name = "pistol_frame", amount = 1},
@@ -474,7 +450,7 @@ Config.TableTypes = {
                 category = "weapons", -- Category name (not the label).
                 amount = 1, -- Amount to craft each time.
                 time = 10, -- Time to craft the item after action is complete.
-                xp = {name = "weapons", level = 1}, -- Experience required to craft.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
                     {name = "pistol_slide", amount = 1},
                     {name = "pistol_barrel", amount = 1},
@@ -491,10 +467,10 @@ Config.TableTypes = {
                 category = "weapons", -- Category name (not the label).
                 amount = 1, -- Amount to craft each time.
                 time = 30, -- Time to craft the item after action is complete.
-                xp = {name = "weapons", level = 1}, -- Experience required to craft.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
-                    {name = "pistol_slide", amount = 1},
-                    {name = "pistol_barrel", amount = 1},
+                    {name = "pistol_upper", amount = 1},
+                    {name = "pistol_lower", amount = 1},
                     {name = "blueprint_pistol", amount = 1},
                 },
                 rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
@@ -509,9 +485,9 @@ Config.TableTypes = {
                 time = 30, -- Time to craft the item after action is complete.
                 xp = {name = "weapons", level = 1}, -- Experience required to craft.
                 parts = { -- Items required to craft.
-                    {name = "pistol_slide", amount = 1},
-                    {name = "pistol_barrel", amount = 1},
-                    {name = "blueprint_ceramic", amount = 1},
+                {name = "pistol_upper", amount = 1},
+                {name = "pistol_lower", amount = 1},
+                {name = "blueprint_ceramic", amount = 1},
                 },
                 rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
                     {type = "xp", name = "weapons", amount = 50},
@@ -523,10 +499,10 @@ Config.TableTypes = {
                 category = "weapons", -- Category name (not the label).
                 amount = 1, -- Amount to craft each time.
                 time = 10, -- Time to craft the item after action is complete.
-                xp = {name = "weapons", level = 1}, -- Experience required to craft.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
-                    {name = "pistol_slide", amount = 1},
-                    {name = "pistol_barrel", amount = 1},
+                    {name = "pistol_upper", amount = 1},
+                    {name = "pistol_lower", amount = 1},
                     {name = "blueprint_sns", amount = 1},
                 },
                 rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
@@ -537,10 +513,10 @@ Config.TableTypes = {
             {
                 name = "heavyarmour", -- Name of the item.
                 type = "weapon",
-                category = "weapons", -- Category name (not the label).
-                amount = 1, -- Amount to craft each time.
-                time = 10, -- Time to craft the item after action is complete.
-                xp = {name = "weapons", level = 1}, -- Experience required to craft.
+                category = "misc", -- Category name (not the label).
+                amount = 4, -- Amount to craft each time.
+                time = 25, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
                     {name = "armor_blueprint", amount = 1},
                     {name = "steel", amount = 30},

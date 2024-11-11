@@ -616,7 +616,7 @@ return {
         },
     },
 
-    ["filled_evidence_bag"] = {
+    ['filled_evidence_bag'] = {
         label = "Evidence Bag",
         weight = 200,
         stack = false,
@@ -671,7 +671,7 @@ return {
         weight = 200,
     },
 
-    ["aluminumoxide"] = {
+    ['aluminumoxide'] = {
         label = "Aluminium Powder",
         weight = 100,
         stack = true,
@@ -682,7 +682,7 @@ return {
         }
     },
 
-    ["iphone"] = {
+    ['iphone'] = {
         label = "iPhone",
         weight = 1000,
         stack = true,
@@ -693,7 +693,7 @@ return {
         }
     },
 
-    ["markedbills"] = {
+    ['markedbills'] = {
         label = "Marked Money",
         weight = 1000,
         stack = false,
@@ -704,7 +704,7 @@ return {
         }
     },
 
-    ["aluminum"] = {
+    ['aluminum'] = {
         label = "Aluminium",
         weight = 100,
         stack = true,
@@ -715,7 +715,7 @@ return {
         }
     },
 
-    ["microwave"] = {
+    ['microwave'] = {
         label = "Microwave",
         weight = 46000,
         stack = false,
@@ -726,7 +726,7 @@ return {
         }
     },
 
-    ["pinger"] = {
+    ['pinger'] = {
         label = "Pinger",
         weight = 1000,
         stack = true,
@@ -737,7 +737,7 @@ return {
         }
     },
 
-    ["diamond"] = {
+    ['diamond'] = {
         label = "Diamond",
         weight = 1000,
         stack = true,
@@ -748,7 +748,7 @@ return {
         }
     },
 
-    ["casinochips"] = {
+    ['casinochips'] = {
         label = "Casino Chips",
         weight = 0,
         stack = true,
@@ -759,7 +759,7 @@ return {
         }
     },
 
-    ["ironoxide"] = {
+    ['ironoxide'] = {
         label = "Iron Powder",
         weight = 100,
         stack = true,
@@ -770,7 +770,7 @@ return {
         }
     },
 
-    ["kurkakola"] = {
+    ['kurkakola'] = {
         label = "Cola",
         weight = 500,
         stack = true,
@@ -781,7 +781,7 @@ return {
         }
     },
 
-    ["radioscanner"] = {
+    ['radioscanner'] = {
         label = "Radio Scanner",
         weight = 1000,
         stack = true,
@@ -792,7 +792,7 @@ return {
         }
     },
 
-    ["twerks_candy"] = {
+    ['twerks_candy'] = {
         label = "Twerks",
         weight = 100,
         stack = true,
@@ -803,7 +803,7 @@ return {
         }
     },
 
-    ["mastercard"] = {
+    ['mastercard'] = {
         label = "Master Card",
         weight = 0,
         stack = false,
@@ -814,7 +814,7 @@ return {
         }
     },
 
-    ["visa"] = {
+    ['visa'] = {
         label = "Visa Card",
         weight = 0,
         stack = false,
@@ -825,7 +825,7 @@ return {
         }
     },
 
-    ["tosti"] = {
+    ['tosti'] = {
         label = "Grilled Cheese Sandwich",
         weight = 200,
         stack = true,
@@ -836,7 +836,7 @@ return {
         }
     },
 
-    ["snikkel_candy"] = {
+    ['snikkel_candy'] = {
         label = "Snikkel",
         weight = 100,
         stack = true,
@@ -847,7 +847,7 @@ return {
         }
     },
 
-    ["certificate"] = {
+    ['certificate'] = {
         label = "Certificate",
         weight = 0,
         stack = true,
@@ -858,7 +858,7 @@ return {
         }
     },
 
-    ["printerdocument"] = {
+    ['printerdocument'] = {
         label = "Document",
         weight = 500,
         stack = false,
@@ -869,7 +869,7 @@ return {
         }
     },
 
-    ["labkey"] = {
+    ['labkey'] = {
         label = "Key",
         weight = 500,
         stack = false,
@@ -880,7 +880,7 @@ return {
         }
     },
 
-    ["laptop"] = {
+    ['laptop'] = {
         label = "Laptop",
         weight = 4000,
         stack = true,
@@ -891,7 +891,7 @@ return {
         }
     },
 
-    ["moneybag"] = {
+    ['moneybag'] = {
         label = "Money Bag",
         weight = 0,
         stack = false,
@@ -902,7 +902,7 @@ return {
         }
     },
 
-    ["samsungphone"] = {
+    ['samsungphone'] = {
         label = "Samsung S10",
         weight = 1000,
         stack = true,
@@ -913,7 +913,7 @@ return {
         }
     },
 
-    ["tablet"] = {
+    ['tablet'] = {
         label = "Tablet",
         weight = 2000,
         stack = true,
@@ -924,7 +924,7 @@ return {
         }
     },
 
-    ["police_stormram"] = {
+    ['police_stormram'] = {
         label = "Stormram",
         weight = 18000,
         stack = true,
@@ -935,7 +935,7 @@ return {
         }
     },
 
-    ["walkstick"] = {
+    ['walkstick'] = {
         label = "Walking Stick",
         weight = 1000,
         stack = true,
@@ -946,7 +946,7 @@ return {
         }
     },
 
-    ["10kgoldchain"] = {
+    ['10kgoldchain'] = {
         label = "10k Gold Chain",
         weight = 2000,
         stack = true,
@@ -981,7 +981,7 @@ return {
 
 
 
-    ["heavyarmor"] = {
+    ['heavyarmor'] = {
         label = "Heavy Armor",
         weight = 5000,
         stack = true,
@@ -992,7 +992,7 @@ return {
         }
     },
 
-    ["water_bottle"] = {
+    ['water_bottle'] = {
         label = "Bottle of Water",
         weight = 500,
         stack = true,
@@ -1003,7 +1003,7 @@ return {
         }
     },
 
-    ["armor"] = {
+    ['armor'] = {
         label = "Armor",
         weight = 5000,
         stack = true,
@@ -1013,7 +1013,7 @@ return {
             image = "armor.png",
         }
     },
-["racing_gps"] = {
+['racing_gps'] = {
         label = "Racing GPS",
         weight = 500,
         stack = false,
@@ -1043,7 +1043,7 @@ return {
 			export = 'avid-backpack.openBackpack'
 		}
 	},
-["parcel"] = {
+['parcel'] = {
 		label = "Parcel",
 		weight = 350,
 		stack = false,
@@ -1057,7 +1057,7 @@ return {
 			export = 'avid-parceltheft.useParcel'
 		}
 	},
-["small_explosive"] = {
+['small_explosive'] = {
         label = "Small Explosive Bomb",
         weight = 500,
         stack = false,
@@ -1067,13 +1067,13 @@ return {
             image = "small_explosive.png",
         }
     },
-    ["broken_handcuffs"] = { label = "Broken handcuffs", weight = 100, stack = true, close = true, description = "It's broken, maybe you can repair it?", client = {image = "broken_handcuffs.png",}},
-    ["cuffkeys"] = { label = "Cuff Keys", weight = 75, stack = true, close = true, description = "Set them free !", client = {image = "cuffkeys.png",}},
-    ["ziptie"] = { label = "Ziptie", weight = 50, stack = true, close = true, description = "Comes in handy when people misbehave. Maybe it can be used for something else?", client = {image = "ziptie.png",}},
-    ["flush_cutter"] = { label = "Flush Cutter", weight = 50, stack = true, close = true, description = "Comes in handy when you want to cut zipties..", client = {image = "flush_cutter.png",}},
-    ["bolt_cutter"] = { label = "Bolt Cutter", weight = 50, stack = true, close = true, description = "Wanna cut some metal items ?", client = {image = "bolt_cutter.png",}},
-    ["leo_gps"] = { label = "LEO GPS", weight = 200, stack = true, close = true, description = "Show your gps location to others", client = {image = "leo-gps.png",}},
-    ["alcoholtester"] = { label = "Alcohol Tester", weight = 400, stack = false, close = true, description = "For testing purposes..", client = {image = "alcoholtester.png",}},
+    ['broken_handcuffs'] = { label = "Broken handcuffs", weight = 100, stack = true, close = true, description = "It's broken, maybe you can repair it?", client = {image = "broken_handcuffs.png",}},
+    ['cuffkeys'] = { label = "Cuff Keys", weight = 75, stack = true, close = true, description = "Set them free !", client = {image = "cuffkeys.png",}},
+    ['ziptie'] = { label = "Ziptie", weight = 50, stack = true, close = true, description = "Comes in handy when people misbehave. Maybe it can be used for something else?", client = {image = "ziptie.png",}},
+    ['flush_cutter'] = { label = "Flush Cutter", weight = 50, stack = true, close = true, description = "Comes in handy when you want to cut zipties..", client = {image = "flush_cutter.png",}},
+    ['bolt_cutter'] = { label = "Bolt Cutter", weight = 50, stack = true, close = true, description = "Wanna cut some metal items ?", client = {image = "bolt_cutter.png",}},
+    ['leo_gps'] = { label = "LEO GPS", weight = 200, stack = true, close = true, description = "Show your gps location to others", client = {image = "leo-gps.png",}},
+    ['alcoholtester'] = { label = "Alcohol Tester", weight = 400, stack = false, close = true, description = "For testing purposes..", client = {image = "alcoholtester.png",}},
 
 ['spikestrip'] = {
         label = 'Spikestrip',
@@ -1241,7 +1241,7 @@ return {
 },
 
 
-    ["weed_brick"] = {
+    ['weed_brick'] = {
         label = "Weed Brick",
         weight = 1000,
         stack = true,
@@ -1252,7 +1252,7 @@ return {
         }
     },
 
-    ["weed_og-kush_seed"] = {
+    ['weed_og-kush_seed'] = {
         label = "OGKush Seed",
         weight = 0,
         stack = true,
@@ -1263,7 +1263,7 @@ return {
         }
     },
 
-    ["weed_purple-haze_seed"] = {
+    ['weed_purple-haze_seed'] = {
         label = "Purple Haze Seed",
         weight = 0,
         stack = true,
@@ -1274,7 +1274,7 @@ return {
         }
     },
 
-    ["weed_skunk"] = {
+    ['weed_skunk'] = {
         label = "Skunk 2g",
         weight = 200,
         stack = true,
@@ -1285,7 +1285,7 @@ return {
         }
     },
 
-    ["weed_ak47"] = {
+    ['weed_ak47'] = {
         label = "AK47 2g",
         weight = 200,
         stack = true,
@@ -1296,7 +1296,7 @@ return {
         }
     },
 
-    ["weed_amnesia"] = {
+    ['weed_amnesia'] = {
         label = "Amnesia 2g",
         weight = 200,
         stack = true,
@@ -1307,7 +1307,7 @@ return {
         }
     },
 
-    ["weed_og-kush"] = {
+    ['weed_og-kush'] = {
         label = "OGKush 2g",
         weight = 200,
         stack = true,
@@ -1318,7 +1318,7 @@ return {
         }
     },
 
-    ["weed_skunk_seed"] = {
+    ['weed_skunk_seed'] = {
         label = "Skunk Seed",
         weight = 0,
         stack = true,
@@ -1329,7 +1329,7 @@ return {
         }
     },
 
-    ["weed_white-widow_seed"] = {
+    ['weed_white-widow_seed'] = {
         label = "White Widow Seed",
         weight = 0,
         stack = true,
@@ -1340,7 +1340,7 @@ return {
         }
     },
 
-    ["weed_amnesia_seed"] = {
+    ['weed_amnesia_seed'] = {
         label = "Amnesia Seed",
         weight = 0,
         stack = true,
@@ -1351,7 +1351,7 @@ return {
         }
     },
 
-    ["weed_ak47_seed"] = {
+    ['weed_ak47_seed'] = {
         label = "AK47 Seed",
         weight = 0,
         stack = true,
@@ -1362,7 +1362,7 @@ return {
         }
     },
 
-    ["weed_nutrition"] = {
+    ['weed_nutrition'] = {
         label = "Plant Fertilizer",
         weight = 2000,
         stack = true,
@@ -1373,7 +1373,7 @@ return {
         }
     },
 
-    ["weed_white-widow"] = {
+    ['weed_white-widow'] = {
         label = "White Widow 2g",
         weight = 200,
         stack = true,
@@ -1384,7 +1384,7 @@ return {
         }
     },
 
-    ["weed_purple-haze"] = {
+    ['weed_purple-haze'] = {
         label = "Purple Haze 2g",
         weight = 200,
         stack = true,
@@ -1406,109 +1406,108 @@ return {
 
 
 --Pickle x Avid Crafting
-
-["crafting_table"] = {
+-- Workbenches
+['crafting_table'] = {
     label = 'Crafting Table',
     weight = 1,
     stack = true,
-    description = ""
+    description = '',
     client = {
-        image = "crafting_table.png",
-    }
+        image = 'crafting_table.png',
+    },
 },
 
-["drug_table"] = {
+['drug_table'] = {
     label = 'Drug Table',
     weight = 1,
     stack = true,
-    description = ""
+    description = '',
     client = {
-        image = "drug_table.png",
-    }
+        image = 'drug_table.png',
+    },
 },
 
 -- Blueprints
-["blueprint_pistol"] = {
+['blueprint_pistol'] = {
     label = 'Blueprint Pistol',
     weight = 1,
     stack = true,
-    description = ""
+    description = '',
     client = {
-        image = "pistol_blueprint.png",
-    }
+        image = 'pistol_blueprint.png',
+    },
 },
 
-["blueprint_sns"] = {
+['blueprint_sns'] = {
     label = 'Blueprint SNS Pistol',
     weight = 1,
     stack = true,
-    description = ""
+    description = '',
     client = {
-        image = "sns_blueprint.png",
-    }
+        image = 'sns_blueprint.png',
+    },
 },
 
-["blueprint_ceramic"] = {
+['blueprint_ceramic'] = {
     label = 'Blueprint Ceramic Pistol',
     weight = 1,
     stack = true,
-    description = ""
+    description = '',
     client = {
-        image = "ceramic_blueprint.png",
-    }
+        image = 'ceramic_blueprint.png',
+    },
 },
 
-["armor_blueprint"] = {
-    label = 'Heavy Armror Blueprint',
+['armor_blueprint'] = {
+    label = 'Heavy Armor Blueprint',
     weight = 1,
     stack = true,
-    description = ""
+    description = '',
     client = {
-        image = "armor_blueprint.png",
-    }
+        image = 'armor_blueprint.png',
+    },
 },
 
-["blueprint_smallexplosive"] = {
+['blueprint_smallexplosive'] = {
     label = 'Small Explosive Blueprint',
     weight = 1,
     stack = true,
-    description = ""
+    description = '',
     client = {
-        image = "smallexplosives_blueprint.png",
-    }
+        image = 'smallexplosives_blueprint.png',
+    },
 },
 
-["blueprint_c4"] = {
+['blueprint_c4'] = {
     label = 'C4 Explosive Blueprint',
     weight = 1,
     stack = true,
-    description = ""
+    description = '',
     client = {
-        image = "c4_blueprint.png",
-    }
+        image = 'c4_blueprint.png',
+    },
 },
 
-["blueprint_drill"] = {
+['blueprint_drill'] = {
     label = 'Large Drill Blueprint',
     weight = 1,
     stack = true,
-    description = ""
+    description = '',
     client = {
-        image = "drill_blueprint.png",
-    }
+        image = 'drill_blueprint.png',
+    },
 },
 
--- Avid Weapon Parts 
 -- Pistol Parts
 ['pistol_upper'] = {
     label = 'Pistol Upper',
     description = 'The upper receiver of a pistol, part of the firing mechanism.',
-    weight = 500, -- weight in grams
+    weight = 500,
     stack = true,
     close = true,
     client = {
-        image = "p_upper.png",
-    }
+        image = 'p_upper.png',
+    },
 },
 
 ['pistol_lower'] = {
@@ -1518,8 +1517,8 @@ return {
     stack = true,
     close = true,
     client = {
-        image = "p_lower.png",
-    }
+        image = 'p_lower.png',
+    },
 },
 
 ['pistol_slide'] = {
@@ -1529,8 +1528,8 @@ return {
     stack = true,
     close = true,
     client = {
-        image = "p_slide.png",
-    }
+        image = 'p_slide.png',
+    },
 },
 
 ['pistol_barrel'] = {
@@ -1540,8 +1539,8 @@ return {
     stack = true,
     close = true,
     client = {
-        image = "p_barrel.png",
-    }
+        image = 'p_barrel.png',
+    },
 },
 
 ['pistol_frame'] = {
@@ -1551,8 +1550,8 @@ return {
     stack = true,
     close = true,
     client = {
-        image = "p_frame.png",
-    }
+        image = 'p_frame.png',
+    },
 },
 
 ['pistol_trigger'] = {
@@ -1562,8 +1561,8 @@ return {
     stack = true,
     close = true,
     client = {
-        image = "p_trigger.png",
-    }
+        image = 'p_trigger.png',
+    },
 },
 
 

@@ -51,6 +51,12 @@ local ITEMS = {
 	electronics = {
 		{ name = 'phone', price = 50 },
 	},
+	mining = {
+		{name = 'jackhammer', price =  1500, defaultStock = 5000, category = 'Supplies'},
+        {name = 'pickaxe', price = 250, defaultStock = 5000, category = 'Supplies'},
+        {name = 'shovel', price = 100, defaultStock = 5000, category = 'Supplies'},
+        {name = 'empty_bucket', price =  10, defaultStock = 5000, category = 'Supplies'},
+	},
 }
 
 local newFormatItems = {}

@@ -140,4 +140,17 @@ return {
 			scale = 0.5,
 		}
 	},
+	Mining = {
+		label = 'Mining Shop',
+		target = { label = "Mining Shop" },
+		coords = {
+			
+		},
+		shopItems = "mining",
+		blip = {
+			sprite = 78,
+			color = 15,
+			scale = 0.5,
+		}
+	},
 }

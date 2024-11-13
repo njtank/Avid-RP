@@ -519,7 +519,7 @@ newSubMenus = { -- NOTE basicly, what will be happen after clicking these button
     ['police:mdt'] = {
         title = "MDT",
         icon = "#mdt",
-        functionName = "avid-mdt:openTablet"    
+        functionName = "mdt:client:open"    
     },
     ['police:takeoffmask'] = {
         title = "Mask",

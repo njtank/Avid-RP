@@ -1,7 +1,7 @@
 Config = {}
 
 Config.Blip = {
-    Toggle = true,
+    Toggle = false,
     Location = vec3(2707.3708, 2776.7751, 36.8780),
     Scale = 0.5,
     Color = 47,

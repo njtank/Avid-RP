@@ -1,0 +1,183 @@
+.info-container {
+    border-radius: 10px;
+    width: 759px;
+    height: 220px;
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 11px;
+
+    .data-block-veh {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+
+        .img-veh {
+            position: relative;
+            width: 170px;
+            height: 170px;
+            border-radius: 3px;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            div{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(45deg);
+                color: white;
+                text-align: center;
+                background-color: rgba(84, 0, 0, 0.492);
+                width: 150%;
+                padding: 5px 0px;
+            }
+        }
+
+        .data-veh {
+            width: 446px;
+            height: 214px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5px;
+
+            .data-text {
+                width: 446px;
+                height: 28px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--secondColor);
+                border-radius: 5px;
+                font-size: 10px;
+                color: #fff;
+                gap: 8px;
+
+                div {
+                    height: 20px;
+                    min-width: 20px;
+                    font-size: 12px;
+                    background-color: var(--mainColor);
+                    opacity: 0.5;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+                }
+                .citizen_selected {
+                    color: #000;
+                    background-color: var(--fourthColor);
+                    opacity: 1.0;
+                }
+            }
+        }
+    }
+}
+
+.vehicle-notes {
+    width: 759px;
+    height: 100%;
+    .container {
+        width: 759px;
+        border-radius: 10px;
+        height: 440px;
+        background-color: var(--mainColor);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 13px;
+
+        .vehicle-notes-header {
+            font-size: 12px;
+            gap: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 32px;
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                opacity: 0.5;
+            }
+        }
+
+        *::-webkit-scrollbar {
+            width: 2px;
+            
+        }
+        
+        *::-webkit-scrollbar-track {
+            margin-right: 10px;
+            background: var(--secondColor);
+            border: 2px solid var(--secondColor);
+        }
+        
+        *::-webkit-scrollbar-thumb {
+            background-color: var(--fourthColor);
+            border: 2px solid var(--fourthColor);
+        }
+
+        .vehicle-notes-results {
+            width: 96%;
+            height: 470px;
+            display: flex;
+            justify-content: center;
+            overflow-y: scroll;
+
+            table {
+                border-spacing: 4px;
+                display: block;
+            }
+
+            .vehicle-notes-row {
+                min-height: 28px;
+                height: 28px;
+                font-size: 10px;
+                margin-bottom: 7px;
+                td {
+                    background-color: var(--secondColor);
+                    span {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+
+        }
+
+        .buttons {
+            width: 759px;
+            display: flex;
+            justify-content: flex-end;
+            padding: 18px 42px;
+            align-items: center;
+
+            .btn {
+                width: 147px;
+                height: 33px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--fourthColor);
+                border-radius: 5px;
+                color: black;
+                font-size: 10px;
+                &:hover {
+                    opacity: 0.7;
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+}

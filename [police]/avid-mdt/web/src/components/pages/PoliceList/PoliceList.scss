@@ -1,0 +1,93 @@
+.policelist-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.policelist {
+    width: 969px;
+    margin: 0 36px;
+    height: 100%;
+
+    .container {
+        width: 969px;
+        border-radius: 10px;
+        height: 675px;
+        background-color: var(--mainColor);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 13px;
+
+        .policelist-header {
+            font-size: 12px;
+            gap: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 32px;
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                opacity: 0.5;
+            }
+        }
+
+        *::-webkit-scrollbar {
+            width: 2px;
+            
+        }
+        
+        *::-webkit-scrollbar-track {
+            margin-right: 10px;
+            background: var(--secondColor);
+            border: 2px solid var(--secondColor);
+        }
+        
+        *::-webkit-scrollbar-thumb {
+            background-color: var(--fourthColor);
+            border: 2px solid var(--fourthColor);
+        }
+
+        .policelist-results {
+            width: 96%;
+            height: 593px;
+            display: flex;
+            justify-content: center;
+            overflow-y: scroll;
+
+            table {
+                border-spacing: 4px;
+                display: block;
+            }
+
+            .policelist-row {
+                min-height: 28px;
+                height: 28px;
+                font-size: 10px;
+                margin-bottom: 7px;
+                td {
+                    background-color: var(--secondColor);
+                    span {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+            }
+            .kick_player{
+                background-color: rgb(71, 0, 0) !important;
+                text-align: center;
+                border: unset;
+            }
+            
+        }
+
+    }
+
+}

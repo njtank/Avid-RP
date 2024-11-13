@@ -1,0 +1,497 @@
+.dispatch-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.dispatch {
+    width: 969px;
+    margin: 0 36px;
+    height: 100%;
+
+    .dispatch-header {
+        width: 969px;
+        height: 104px;
+        border-radius: 10px;
+        background-color: var(--mainColor);
+        margin-bottom: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+
+        div {
+            height: 65px;
+
+            .header-title {
+                display: flex;
+                height: 32px;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+                color: rgba(255, 255, 255, 0.6)
+            }
+
+            .pwc {
+                justify-content: space-between;
+
+                .pwc-button {
+                    width: 60px;
+                    height: 19px;
+                    font-size: 8px;
+                    background-color: var(--secondColor);
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover {
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+
+            }
+
+            .header-content {
+                height: 33px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 10px;
+                color: rgba(255, 255, 255, 0.6);
+                background-color: var(--secondColor);
+            }
+
+        }
+
+    }
+
+    .dispatch-container2 {
+        width: 969px;
+        height: 559px;
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+
+        *::-webkit-scrollbar {
+            width: 2px;
+        }
+        
+        *::-webkit-scrollbar-track {
+            margin: 0;
+            background: var(--secondColor);
+            border: 2px solid var(--secondColor);
+        }
+        
+        *::-webkit-scrollbar-thumb {
+            background-color: var(--fourthColor);
+            border: 2px solid var(--fourthColor);
+        }
+
+        .patrols-container {
+            width: 715px;
+            height: 520px;
+            border-radius: 10px;
+            background-color: var(--mainColor);
+            padding: 8px 14px;
+            overflow-y: scroll;
+            header {
+                width: 98%;
+                height: 32px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 12px;
+                color: rgba(255, 255, 255, 0.6);
+                padding: 0 20px;
+                .refresh:hover {
+                    opacity: 0.7;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+            .patrol {
+                width: 100%;
+                min-height: 33px !important;
+                max-height: 120px;
+                display: flex;
+                gap: 4px;
+                margin-bottom: 8px;
+                position: relative;
+                &:hover {
+                    cursor: pointer;
+                }
+                div {
+                    min-height: 100%;
+                    background-color: var(--secondColor);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 10px;
+                    color: #fff;
+                }
+                .pu-index {
+                    width: 102px;
+                }
+                .badges {
+                    width: 71px;
+                    flex-direction: column;
+                    gap: 5px;
+                    span {
+                        padding: 4px;
+                    }
+                }
+                .names {
+                    width: 142px;
+                    flex-direction: column;
+                    gap: 5px;
+                    span {
+                        padding: 4px;
+                    }
+                }
+                .unit {
+                    width: 100px;
+                }
+                .vehicle {
+                    width: 120px;
+                }
+                .status {
+                    width: 118px;
+                    padding: 10px;
+
+                    span{
+                        word-break: break;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+
+        .patrols-right {
+            height: 559px;
+            width: 242px;
+            display: flex;
+            flex-direction: column;
+            // justify-content: space-between;
+            gap: 14px;
+
+            .patrols-s4 {
+                width: 242px;
+                height: 350px;
+                border-radius: 10px;
+                background-color: var(--mainColor);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                header {
+                    width: 225px;
+                    height: 32px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    color: #fff;
+                    border-radius: 5px;
+                    background-color: var(--secondColor);
+                    margin: 8px;
+                }
+
+                ::-webkit-scrollbar {
+                    display: none;
+                }
+
+                .s4-scroll {
+                    width: 225px;
+                    overflow-y: scroll;
+                    max-height: 323px;
+
+                    div {
+                        width: 225px;
+                        height: 27px;
+                        margin-bottom: 4px;
+                        border-radius: 5px;
+                        background-color: var(--secondColor);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 10px;
+                        color: #fff;
+                    }
+
+                }
+
+            }
+
+            .patrols-self {
+                width: 242px;
+                height: 156px;
+                border-radius: 10px;
+                background-color: var(--mainColor);
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+                padding: 10px;
+                .create-patrol {
+                    width: 226px;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: var(--secondColor);
+                    border-radius: 5px;
+                    font-size: 14px;
+                    color:rgba(255, 255, 255, 0.6);
+                    &:hover {
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+                .line {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 2px 0px;
+                    .btn {
+                        border-radius: 5px;
+                        height: 31px;
+                        width: 49%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: var(--secondColor);
+                        font-size: 10px;
+                        color: rgba(255, 255, 255, 0.6);
+                        &:hover {
+                            cursor: pointer;
+                            opacity: 0.7;
+                        }
+                    }
+                    .patrol-data {
+                        border-radius: 5px;
+                        background-color: var(--secondColor);
+                        width: 109px;
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 10px;
+                        color: rgba(255, 255, 255, 0.6);
+                    }
+                    .status {
+                        width: 100%;
+                        border-radius: 5px;
+                        background-color: var(--secondColor);
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: var(--secondColor);
+                        font-size: 10px;
+                        color: rgba(255, 255, 255, 0.6);
+                        &:hover {
+                            cursor: pointer;
+                            opacity: 0.7;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+
+}
+
+.dispatch-modal {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: #fff;
+    select {
+        width: 40%;
+        height: 40px;
+        font-size: 10px;
+        background-color: var(--secondColor);
+        border-radius: 5px;
+        color: #fff;
+        outline: none;
+        border: none;
+        &:focus {
+            outline: none;
+            border: none;
+        }
+    }
+    option {
+        background-color: var(--secondColor);
+        color: rgba(255, 255, 255, 0.6);
+        height: 22px;
+        display: block;
+        font-size: 12px;
+    }
+}
+
+.buttons-zakladki{
+    display: flex;
+    gap: 10px;
+    width: 93%;
+    margin: auto;
+    margin-bottom: 10px;
+    button{
+        flex-grow: 1;
+        background-color: var(--mainColor);
+        border-radius: 3px;
+        border: unset;
+        color: rgba(255, 255, 255, 0.6);
+        padding: 5px;
+        font-size: .7rem;
+    }
+
+    .zakladka-selected{
+        background-color: var(--fourthColor);
+    }
+}
+
+
+.DispatchAlertsContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 95%;
+    .DispatchAlertsContent{
+        width: 969px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        gap: 10px;
+        padding-right: 10px;
+
+        .DispatchAlert{
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: var(--mainColor);
+            color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+
+            .daMainContent{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .dispatchalert_leftside{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 5px;
+
+                    .da_reactions{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        gap: 5px;
+                        width: 100%;
+
+                        .dareaction{
+                            background-color: rgba(0, 217, 255, 0.301);
+                            border: 1px solid rgba(0, 217, 255);
+                            border-radius: 2px;
+                            color: white;
+                            text-align: center;
+                            font-size: .6rem;
+                            padding: 2px 10px;
+                            box-shadow: 1px 1px 1px black;
+                        }
+                    }
+
+    
+                    .DAtitle{
+                        font-size: 1.3rem;
+                        font-weight: 900;
+                    }
+    
+                    .DAsubtitle{
+                        font-size: 1.0rem;
+                        font-size: 500;
+                    }
+                }
+    
+                .dispatchalert_rightside{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .DAtimer{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 10px;
+                        color: white;
+                        font-size: .8rem;
+    
+                        .da_remove{
+                            color: rgba(255, 0, 0, 0.253);
+                            font-size: .8rem;
+                            text-shadow: 1px 1px 1px black;
+                            &:hover{
+                                cursor: pointer;
+                                opacity: .8;
+                            }
+                        }
+                    }
+    
+                    .DACode{
+                        background-color: rgb(255, 0, 0);
+                        padding: 2px 5px;
+                        border-radius: 5px;
+                        border: 1px solid red;
+                        color: white;
+                        text-align: center;
+                        font-size: .6rem;
+                        box-shadow: 1px 1px 1px black;
+                    }
+    
+                    .DAReact{
+                        background-color: rgba(255, 238, 0, 0.253);
+                        padding: 2px 5px;
+                        border-radius: 5px;
+                        border: 1px solid rgba(255, 238, 0);
+                        color: white;
+                        text-align: center;
+                        font-size: .6rem;
+                        box-shadow: 1px 1px 1px black;
+                    }
+                }
+            }
+            
+
+            .DAButtons{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                
+                button{
+                    background-color: var(--fourthColor);
+                    color: white;
+                    padding: 5px;
+                    width: 100%;
+                    border-radius: 5px;
+                    font-size: .8rem;
+                    box-shadow: 1px 1px 1px black;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: .8;
+                    }
+                }
+            }
+        }
+
+    }
+}

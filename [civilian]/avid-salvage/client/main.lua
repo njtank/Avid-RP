@@ -66,35 +66,33 @@ FreezeEntityPosition(ped, true)
 SetEntityInvincible(ped, true)
 SetBlockingOfNonTemporaryEvents(ped, true)
 
-exports.ox_target:addLocalEntity(ped, {
-    options = {
+if DoesEntityExist(ped) then
+    -- Add ped to ox_target for interactions
+    exports.ox_target:addLocalEntity(ped, {
         {
-            name = "start_salvaging",
-            label = "Start Salvaging",
-            icon = "fa-solid fa-hammer",
+            name = 'start_salvaging',
+            icon = 'fas fa-wrench',
+            label = 'Start Salvaging',
             onSelect = function()
-                isSalvaging = true
-                scrapCount = 0
-                TriggerEvent("ox_lib:notify", { type = "inform", description = "Scrap 14 cars to earn $50!" })
+                TriggerServerEvent('avid-salvage:startSalvaging')
             end,
+            canInteract = function()
+                return not isSalvaging -- Prevent starting if already salvaging
+            end
         },
         {
-            name = "get_paid",
-            label = "Get Paid",
-            icon = "fa-solid fa-money-bill",
+            name = 'get_paid',
+            icon = 'fas fa-dollar-sign',
+            label = 'Get Paid',
             onSelect = function()
-                if scrapCount >= 14 then
-                    TriggerServerEvent("avid-salvage:payPlayer")
-                    scrapCount = 0
-                    isSalvaging = false
-                else
-                    TriggerEvent("ox_lib:notify", { type = "error", description = "You haven't completed 14 cars yet!" })
-                end
+                TriggerServerEvent('avid-salvage:getPaid')
             end,
-            distance = 1.5,
-            condition = function()
-                return scrapCount >= 14
-            end,
-        },
-    },
-})
+            canInteract = function()
+                return scrapCount >= 14 -- Only show if 14 tasks are completed
+            end
+        }
+    })
+else
+    print("Error: Failed to create ped for salvage script.")
+end
+

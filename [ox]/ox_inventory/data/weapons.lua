@@ -626,14 +626,14 @@ return {
 			label = 'SNS Pistol',
 			weight = 465,
 			durability = 0.1,
-			ammoname = 'ammo-45'
+			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_SNSPISTOL_MK2'] = {
 			label = 'SNS Pistol MK2',
 			weight = 465,
 			durability = 0.1,
-			ammoname = 'ammo-45'
+			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_SPECIALCARBINE'] = {

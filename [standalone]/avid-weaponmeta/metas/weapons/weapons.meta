@@ -4579,8 +4579,8 @@
           <RecoilAccuracyToAllowHeadShotPlayer value="0.175000" />
           <MinHeadShotDistancePlayer value="5.000000" />
           <MaxHeadShotDistancePlayer value="40.000000" />
-          <HeadShotDamageModifierPlayer value="20.000000" />
-          <Damage value="26.000000" />
+          <HeadShotDamageModifierPlayer value="1.000000" />
+          <Damage value="16.000000" />
           <DamageTime value="0.000000" />
           <DamageTimeInVehicle value="0.000000" />
           <DamageTimeInVehicleHeadShot value="0.000000" />
@@ -4890,7 +4890,7 @@
           <RecoilAccuracyToAllowHeadShotPlayer value="0.175000" />
           <MinHeadShotDistancePlayer value="5.000000" />
           <MaxHeadShotDistancePlayer value="40.000000" />
-          <HeadShotDamageModifierPlayer value="20.000000" />
+          <HeadShotDamageModifierPlayer value="1.000000" />
           <Damage value="27.000000" />
           <DamageTime value="0.000000" />
           <DamageTimeInVehicle value="0.000000" />

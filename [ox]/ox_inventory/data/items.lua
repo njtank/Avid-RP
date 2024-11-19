@@ -1646,5 +1646,60 @@ return {
 },
 
 
+--origen_illegal
+['packaged_weed'] = {
+    label = '',
+    weight = 100,
+    stack = true,
+    close = true,
+},
+['instant_camera'] = {
+    label = 'Instant camera',
+    weight = 0,
+    stack = true,
+    close = true,
+},
+['meth_bag'] = {
+    label = 'Bag of meth',
+    weight = 100,
+    stack = true,
+    close = true,
+},
+['cocaine_bag'] = {
+    label = 'Cocaine bag',
+    weight = 100,
+    stack = true,
+    close = true,
+},
+['graffiti'] = {
+    label = 'Graffiti',
+    weight = 100,
+    stack = true,
+    close = true,
+},
+['graffiti_cleaner'] = {
+    label = 'Graffiti cleaner',
+    weight = 100,
+    stack = true,
+    close = true,
+},
+['mapterritories'] = {
+    label = 'Territory map',
+    weight = 100,
+    stack = true,
+    close = true,
+},
+['photo'] = {
+    label = 'Photo',
+    weight = 100,
+    stack = false,
+    close = true,
+},
+['ilegal_cad'] = {
+    label = 'Tablet',
+    weight = 100,
+    stack = false,
+    close = true,
+},
 
 }

@@ -2,7 +2,7 @@ Config.Locations = {
 	['JewelBuyer'] = { -- The Location of the jewel buyer, I left this as Vangelico, others will proabably change to pawn shops
         Enable = true,
         positions = {
-            { name = "Jewel Buyer", coords = vec4(-629.86, -240.35, 38.16, 110.05), sprite = 527, col = 617, blipTrue = false, model = `S_M_M_HighSec_03`, scenario = "WORLD_HUMAN_CLIPBOARD", },
+            { name = "Jewel Buyer", coords = vec4(-549.65, -596.34, 34.68, 152.1), sprite = 527, col = 617, blipTrue = false, model = `S_M_M_HighSec_03`, scenario = "WORLD_HUMAN_CLIPBOARD", },
         },
     },
     ["Smelting"] = {
@@ -29,8 +29,8 @@ Config.Locations = {
                 { blipEnable = true, name = "Foundary", coords = vec3(1112.29, -2009.9, 31.46), sprite = 436, col = 1,  },
             },
             JewelCut = {
-                { blipEnable = false, name = "Jewel Cutting", coords = vec4(1077.11, -1984.22, 31.02, 235.8), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
-                { blipEnable = false, name = "Jewel Cutting", coords = vec4(1075.19, -1985.45, 30.92, 144.89), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
+                { blipEnable = false, name = "Jewel Cutting", coords = vec4(308.03, 2821.16, 43.45, 21.93), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
+                { blipEnable = false, name = "Jewel Cutting", coords = vec4(306.34, 2820.99, 43.45, 21.93), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
             },
         },
         ["MineShaft"] = {
@@ -142,7 +142,7 @@ Config.Locations = {
             },
         },
         ["K4MB1"] = { -- K4MB1's Mineshaft in the quarry
-            Enable = true,
+            Enable = false,
             Job = nil,
             Blip = {
                 Enable = true,
@@ -152,11 +152,11 @@ Config.Locations = {
                 col = 81,
             },
             Smelting = {
-                { blipEnable = true, name = "Smelter", coords = vec3(2921.81, 2653.42, 43.15), sprite = 436, col = 1, },
+                { blipEnable = false, name = "Smelter", coords = vec3(2921.81, 2653.42, 43.15), sprite = 436, col = 1, },
             },
             JewelCut = {
-                { blipEnable = true, name = "Jewel Cutting", coords = vec4(2917.45, 2654.24, 43.03, 229.61), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
-                { blipEnable = true, name = "Jewel Cutting", coords = vec4(2919.89, 2656.36, 43.15, 199.99), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
+                { blipEnable = false, name = "Jewel Cutting", coords = vec4(2917.45, 2654.24, 43.03, 229.61), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
+                { blipEnable = false, name = "Jewel Cutting", coords = vec4(2919.89, 2656.36, 43.15, 199.99), sprite = 566, col = 81, prop = `gr_prop_gr_speeddrill_01c` },
             },
             OrePositions = {
                 vec4(2906.33, 2736.05, 43.85, 30.0),

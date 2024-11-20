@@ -2,14 +2,13 @@ return {
     Luck = 0.2, -- If you roll 0.2 or lower, you will not find anything on them. (max is 1.0)
     Tiers = {
         low = { -- All RewardZones with tier = 'low'. It will randomly select 1 reward item and amount.
-            {name = 'metalscrap', amount = {min = 1, max = 3}}, 
-            {name = 'copper', amount = {min = 1, max = 1}},
+            {name = 'folded_cash', amount = {min = 1, max = 6}}, 
         },
         medium = {
-            {name = 'rolex', amount = {min = 1, max = 3}},
+            {name = 'folded_cash', amount = {min = 1, max = 8}},
         },
         high = {
-            {name = 'diamond_ring', amount = {min = 1, max = 1}},
+            {name = 'folded_cash', amount = {min = 1, max = 10}},
         },
     },
     RewardZones = {

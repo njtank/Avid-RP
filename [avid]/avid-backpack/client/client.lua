@@ -10,7 +10,7 @@ local justConnect = true
 
 
 
-local function PutOnBag()
+--[[local function PutOnBag()
     local x, y, z = table.unpack(GetOffsetFromEntityInWorldCoords(ped,0.0,3.0,0.5))
     lib.requestModel(hash, 100)
     bagObj = CreateObjectNoOffset(hash, x, y, z, true, false)
@@ -25,7 +25,7 @@ local function RemoveBag()
     SetModelAsNoLongerNeeded(hash)
     bagObj = nil
     bagEquipped = nil
-end
+end ]] -- Removing backpack physically showing on back.
 
 AddEventHandler('ox_inventory:updateInventory', function(changes)
     if justConnect then

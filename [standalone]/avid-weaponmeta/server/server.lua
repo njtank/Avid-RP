@@ -1,6 +1,6 @@
  CreateThread( function()
    local version = GetResourceMetadata(GetCurrentResourceName(), 'version')
-   SetConvarServerInfo("snag_weapon_metas", "V"..version)
+   --SetConvarServerInfo("snag_weapon_metas", "V"..version)
    Citizen.Wait(5000)
    PerformHttpRequest('https://raw.githubusercontent.com/CyCoSnag/snag_weapon_metas/master/version.json', function(code, res, headers)
        if code == 200 then

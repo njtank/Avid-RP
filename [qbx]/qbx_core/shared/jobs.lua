@@ -8,7 +8,7 @@ return {
         grades = {
             [0] = {
                 name = 'Freelancer',
-                payment = 10
+                payment = 0
             },
         },
     },

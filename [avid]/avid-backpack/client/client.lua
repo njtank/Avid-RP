@@ -35,17 +35,17 @@ AddEventHandler('ox_inventory:updateInventory', function(changes)
     for k, v in pairs(changes) do
         if type(v) == 'table' then
             local count = ox_inventory:Search('count', 'backpack')
-	        if count > 0 and (not bagEquipped or not bagObj) then
+	        --[[if count > 0 and (not bagEquipped or not bagObj) then
                 PutOnBag()
             elseif count < 1 and bagEquipped then
                 RemoveBag()
-            end
+            end]]
         end
         if type(v) == 'boolean' then
             local count = ox_inventory:Search('count', 'backpack')
-            if count < 1 and bagEquipped then
+            --[[if count < 1 and bagEquipped then
                 RemoveBag()
-            end
+            end]]
         end
     end
 end)

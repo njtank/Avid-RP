@@ -140,17 +140,4 @@ return {
 			scale = 0.5,
 		}
 	},
-	Mining = {
-		label = 'Mining Shop',
-		target = { label = "Mining Shop" },
-		coords = {
-			vec4(2707.09, 2777.21, 37.88, 218.72),
-		},
-		shopItems = "mining",
-		blip = {
-			sprite = 78,
-			color = 15,
-			scale = 0.5,
-		}
-	},
 }

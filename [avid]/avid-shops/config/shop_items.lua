@@ -46,7 +46,7 @@ local ITEMS = {
 		{ name = 'WEAPON_BAT',        price = 150,   defaultStock = 2500,        category = 'Point Defense' },
 		{ name = 'WEAPON_KNUCKLE',    price = 950,  defaultStock = 2500,        category = 'Point Defense' },
 		{ name = 'WEAPON_PISTOL',     price = 2450, defaultStock = 5,          license = "weapon",        category = 'Firearms' },
-		{ name = 'ammo-9',            price = 4,    defaultStock = 9500,       license = "weapon",        category = 'Ammunition' },
+		{ name = 'ammo-9',            price = 4,    defaultStock = 9500,          category = 'Ammunition' },
 	},
 	electronics = {
 		{ name = 'phone', price = 50 },

@@ -635,6 +635,9 @@ Config.BlacklistPeds = {
     "hc_hacker",
     "s_m_m_migrant_01",
     "S_M_Y_Cop_01",
+    "S_M_Y_AmmuCity_01",
+    "S_M_M_AmmuCountry",
+    
 }
 
 function SendPoliceAlert(coords)

@@ -125,6 +125,7 @@ return {
     ['lockpick'] = {
         label = 'Lockpick',
         weight = 160,
+        consume = 0.1,
     },
 
     ['phone'] = {
@@ -368,15 +369,6 @@ return {
         label = 'Weeping Willow',
         weight = 1000,
     },
-
-    ['steel'] = {
-        label = 'Steel',
-        weight = 5,
-        client = {
-            image = "steel.png",
-        }
-    },
-
     ['rubber'] = {
         label = 'Rubber',
         weight = 5,
@@ -416,7 +408,6 @@ return {
             image = "aluminium.png",
         }
     },
-
     ['plastic'] = {
         label = 'Plastic',
         weight = 5,
@@ -2059,6 +2050,7 @@ return {
         stack = true,
         close = true,
         description = "",
+        consume = 0.05,
         client = {
             image = "miningdrill.png",
         }
@@ -2069,6 +2061,7 @@ return {
         stack = true,
         close = true,
         description = "",
+        consume = 0.1,
         client = {
             image = "mininglaser.png",
         }

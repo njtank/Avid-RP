@@ -20,13 +20,13 @@ Config = {
 	},
 
 	PropTable = {
-		{ full = "cs_x_rubweec", 		item = 'silverore', type = "Silver Ore", weight = 15 },
+		--{ full = "cs_x_rubweec", 		item = 'silverore', type = "Silver Ore", weight = 15 },
 		{ full = "cs_x_rubweec", 		item = 'copperore', type = "Copper Ore", weight = 25 },
-		{ full = "cs_x_rubweec", 		item = 'goldore', type = "Gold Ore", weight = 10 },
+		--{ full = "cs_x_rubweec", 		item = 'goldore', type = "Gold Ore", weight = 10 },
 		{ full = "cs_x_rubweec", 		item = 'aluminumore', type = "Aluminum Ore", weight = 25 },
 		{ full = "cs_x_rubweec", 		item = 'coal', type = "Coal", weight = 30 },
 		{ full = "cs_x_rubweec", 		item = 'ironore', type = "Iron Ore", weight = 30 },
-		{ full = "cs_x_rubweec", 		item = 'uncut_diamond', type = "Uncut Diamond", weight = 5 },
+		--{ full = "cs_x_rubweec", 		item = 'uncut_diamond', type = "Uncut Diamond", weight = 5 },
 		{ full = "cs_x_rubweec", 		item = 'uncut_ruby', type = "Uncut Diamond", weight = 5 },
 		{ full = "cs_x_rubweec", 		item = 'uncut_sapphire', type = "Uncut Diamond", weight = 5 },
 		{ full = "cs_x_rubweec", 		item = 'uncut_emerald', type = "Uncut Diamond", weight = 5 },

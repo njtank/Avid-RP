@@ -38,3 +38,21 @@ lib.addKeybind({
     defaultKey = config.shuffleSeatKey,
     onPressed = shuffleSeat
 })
+
+--- Removing combat stance
+local function ResetPedStance()
+    local playerPed = PlayerPedId()
+    SetPedUsingActionMode(playerPed, false, -1, "DEFAULT_ACTION")
+end
+
+Citizen.CreateThread(function()
+    while true do
+        Citizen.Wait(0)
+        local playerPed = PlayerPedId()
+        
+        if IsPedShooting(playerPed) or IsPedInMeleeCombat(playerPed) then
+            Citizen.Wait(1000) -- Wait for 1 second after shooting or melee combat
+            ResetPedStance()
+        end
+    end
+end)

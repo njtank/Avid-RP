@@ -54,26 +54,26 @@ return {
     discord = {
         enabled = true, -- This will enable or disable the built in discord rich presence.
 
-        appId = '', -- This is the Application ID (Replace this with you own)
+        appId = '1296357009586782261', -- This is the Application ID (Replace this with you own)
 
         largeIcon = { -- To set this up, visit https://forum.cfx.re/t/how-to-updated-discord-rich-presence-custom-image/157686
             icon = 'logo_name', -- Here you will have to put the image name for the 'large' icon.
-            text = 'This is a large icon with text', -- Here you can add hover text for the 'large' icon.
+            text = 'Avid RP', -- Here you can add hover text for the 'large' icon.
         },
 
         smallIcon = {
             icon = 'logo_name', -- Here you will have to put the image name for the 'small' icon.
-            text = 'This is a small icon with text', -- Here you can add hover text for the 'small' icon.
+            text = '', -- Here you can add hover text for the 'small' icon.
         },
 
         firstButton = {
-            text = 'First Button!',
-            link = 'fivem://connect/localhost:30120',
+            text = 'Join the discord',
+            link = 'discord.gg/RZVjPUfyxG',
         },
 
         secondButton = {
-            text = 'Second Button!',
-            link = 'fivem://connect/localhost:30120',
+            text = 'Apply today!',
+            link = 'https://gather.sh/forms/01JB0CSCZ0CZFN24N07HQ32YEP',
         }
     },
 

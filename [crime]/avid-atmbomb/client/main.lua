@@ -85,8 +85,8 @@ function Main:Plant(ent)
      Wait(0)
    end
    Wrapper:CreateObject('thebomb',prop,pos,true,false)
-   Wrapper:Notify("The bomb will detonate in 10 seconds")
-   Wait(10000) 
+   Wrapper:Notify("The bomb will detonate in 20 seconds")
+   Wait(20000) 
    Wrapper:DeleteObject('thebomb')
    AddExplosion(pos.x,pos.y,pos.z,2,15.0,true,false,false)
    local droppos = vector3(entpos.x - (entf.x - 0.1),entpos.y - (entf.y - 0.1) ,entpos.z)
@@ -135,6 +135,7 @@ function Main:Cooldown()
 end
 
 RegisterNetEvent('bbv-atmrob:alarm',function()
+    exports['ps-dispatch']:SuspiciousActivity()
     -- put your police dispatch export here
     for i=1, 30 do
         PlaySoundFrontend(-1, "TIMER_STOP", "HUD_MINI_GAME_SOUNDSET", 1)

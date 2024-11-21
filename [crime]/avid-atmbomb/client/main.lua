@@ -52,7 +52,7 @@ RegisterNetEvent('bbv-robatm:rob',function()
             QBCore.Functions.Progressbar("rob_atm", "Planting the Explosive", 60000, false, true, {
                 disableMovement = true,
                 disableCarMovement = true,
-                disableMouse = true,
+                disableMouse = false,
                 disableCombat = true,
              }, {
                 animDict = "anim@amb@clubhouse@tutorial@bkr_tut_ig3@",

@@ -334,8 +334,8 @@ RegisterNetEvent('avid-mining:MineOre:Pick', function(data)
 	print("here")
 	if isMining then return else isMining = true end -- Stop players from doubling up the event
 	-- Anim Loading
-	local dict = "amb@world_human_hammering@male@base"
-	local anim = "base"
+	local dict = "melee@large_wpn@streamed_core"
+	local anim = "ground_attack_on_spot"
 	loadAnimDict(tostring(dict))
 	loadDrillSound()
 	--Create Pickaxe and Attach
@@ -352,7 +352,7 @@ RegisterNetEvent('avid-mining:MineOre:Pick', function(data)
 	CreateThread(function()
 		while IsDrilling do
 			UseParticleFxAssetNextCall("core")
-			TaskPlayAnim(Ped, tostring(dict), tostring(anim), 8.0, -8.0, -1, 2, 0, false, false, false)
+			TaskPlayAnim(Ped, tostring(dict), tostring(anim), 0.5, 1.0, -1, 0, 0, true, true, false)
 			Wait(200)
 			local pickcoords = GetOffsetFromEntityInWorldCoords(PickAxe, -0.4, 0.0, 0.7)
 			local dust = StartNetworkedParticleFxNonLoopedAtCoord("ent_dst_rocks", pickcoords.x, pickcoords.y, pickcoords.z, 0.0, 0.0, 0.0, 0.4, 0.0, 0.0, 0.0)
@@ -364,7 +364,7 @@ RegisterNetEvent('avid-mining:MineOre:Pick', function(data)
 		if math.random(1,10) >= 9 then
 			local breakId = GetSoundId()
 			PlaySoundFromEntity(breakId, "Drill_Pin_Break", Ped, "DLC_HEIST_FLEECA_SOUNDSET", 1, 0)
-			toggleItem(false, "pickaxe", 1)
+			--toggleItem(false, "pickaxe", 1)
 		end
 		stoneBreak(data.name, data.stone)
 	end

@@ -576,6 +576,7 @@ Config.SellZones = {
             { item = 'sourdiesel_joint', price = math.random(20, 30)},
             { item = 'bluedream_joint', price = math.random(20, 30)},
             { item = 'lemonhaze_joint', price = math.random(10, 40)},
+            { item = 'meth', price = math.random(60, 110)},
         }
     },
     ['vinewood'] = {
@@ -599,6 +600,7 @@ Config.SellZones = {
             { item = 'sourdiesel_joint', price = math.random(20, 30)},
             { item = 'bluedream_joint', price = math.random(20, 30)},
             { item = 'lemonhaze_joint', price = math.random(10, 40)},
+            { item = 'meth', price = math.random(60, 110)},
         }
     },
     ['beach'] = {
@@ -620,6 +622,7 @@ Config.SellZones = {
             { item = 'sourdiesel_joint', price = math.random(20, 30)},
             { item = 'bluedream_joint', price = math.random(20, 30)},
             { item = 'lemonhaze_joint', price = math.random(10, 40)},
+            { item = 'meth', price = math.random(60, 110)},
         }
     },
 }

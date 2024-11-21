@@ -664,7 +664,7 @@ return {
 
     ['aluminumoxide'] = {
         label = "Aluminium Powder",
-        weight = 100,
+        weight = 10,
         stack = true,
         close = false,
         description = "Some powder to mix with",

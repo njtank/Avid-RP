@@ -205,7 +205,7 @@ Config.Props = {
 Config.TableTypes = {
     ["default"] = {
         groups = nil, -- {["police"] = 0, ["ambulance"] = 0}
-        item = "crafting_table", -- Set this to the item's name if you'd like it to be spawnable.
+        item = nil, -- Set this to the item's name if you'd like it to be spawnable.
         model = `gr_prop_gr_bench_04b`, -- Table model.
         camera = { -- Camera Positioning and Rotation.
             offset = vector3(0.0, -1.0, 1.5), -- X,Y,Z Offset from center of crafting table.
@@ -616,10 +616,220 @@ Config.TableTypes = {
             },
         },
     },
+    ["container"] = {
+        groups = nil, -- {["police"] = 0, ["ambulance"] = 0}
+        model = nil, -- Table model, set to nil to use invisible prop.
+        item = nil, -- Set this to the item's name if you'd like it to be spawnable.
+        camera = { -- Camera Positioning and Rotation.
+            offset = vector3(0.0, -1.0, 0.5), -- X,Y,Z Offset from center of crafting table.
+            rotation = vector3(-25.0, 0.0, 0.0), -- Only change 3rd value to change horizontal rotation.
+        },
+        categories = { -- Categories in the crafting table. (All items must be using one of these categories).
+                {name = "weapons", image = "weapons.png", label = "Weapons", description = "Pistols, Rifles, and other weapons."},
+                {name = "misc", image = "", label = "Miscellaneous", description = "Other items that are craftable."},
+        },
+        items = { -- Items in the crafting table.
+            -- WEAPONS
+            {
+                name = "pistol_trigger", -- Name of the item.
+                type = "weapon",
+                category = "weapons", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "plastic", amount = 20},
+                    {name = "rubber", amount = 25},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 10},
+                },
+            },
+            {
+                name = "pistol_barrel", -- Name of the item.
+                type = "weapon",
+                category = "weapons", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                --blueprint = "", -- Blueprint Requirement.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "iron", amount = 12},
+                    {name = "steel", amount = 20},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 10},
+                },
+            },
+            {
+                name = "pistol_frame", -- Name of the item.
+                type = "weapon",
+                category = "weapons", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "iron", amount = 5},
+                    {name = "plastic", amount = 20},
+                    {name = "rubber", amoutn = 10},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 10},
+                },
+            },
+            {
+                name = "pistol_slide", -- Name of the item.
+                type = "weapon",
+                category = "weapons", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "iron", amount = 10},
+                    {name = "steel", amount = 12},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 10},
+                },
+            },
+            {
+                name = "pistol_lower", -- Name of the item.
+                type = "weapon",
+                category = "weapons", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "pistol_trigger", amount = 1},
+                    {name = "pistol_frame", amount = 1},
+                    {name = "steel", amount = 5},
+                    {name = "iron", amount = 7},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 10},
+                },
+            },
+            {
+                name = "pistol_upper", -- Name of the item.
+                type = "weapon",
+                category = "weapons", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "pistol_slide", amount = 1},
+                    {name = "pistol_barrel", amount = 1},
+                    {name = "steel", amount = 5},
+                    {name = "iron", amount = 7},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 10},
+                },
+            },
+            {
+                name = "WEAPON_PISTOL", -- Name of the item.
+                type = "weapon",
+                category = "weapons", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 30, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "pistol_upper", amount = 1},
+                    {name = "pistol_lower", amount = 1},
+                    {name = "blueprint_pistol", amount = 1},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 50},
+                },
+            },
+            {
+                name = "WEAPON_CERAMICPISTOL", -- Name of the item.
+                type = "weapon",
+                category = "weapons", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 30, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 1}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                {name = "pistol_upper", amount = 1},
+                {name = "pistol_lower", amount = 1},
+                {name = "blueprint_ceramic", amount = 1},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 50},
+                },
+            },
+            {
+                name = "WEAPON_SNSPISTOL", -- Name of the item.
+                type = "weapon",
+                category = "weapons", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "pistol_upper", amount = 1},
+                    {name = "pistol_lower", amount = 1},
+                    {name = "blueprint_sns", amount = 1},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 50},
+                },
+            },
+            -- MISC
+            {
+                name = "heavyarmour", -- Name of the item.
+                type = "weapon",
+                category = "misc", -- Category name (not the label).
+                amount = 4, -- Amount to craft each time.
+                time = 25, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "armor_blueprint", amount = 1},
+                    {name = "steel", amount = 10},
+                    {name = "rubber", amount = 22},
+                    {name = "dirty_cloth", amount = 30},
+                    {name = "leather", amount = 10},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 20},
+                },
+            },
+            {
+                name = "small_explosive", -- Name of the item.
+                type = "weapon",
+                category = "misc", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 45, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "blueprint_smallexplosive", amount = 1},
+                    {name = "aluminumoxide", amount = 15},
+                    {name = "electronickit", amount = 2},
+                    {name = "leather", amount = 10},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 20},
+                },
+            },
+            {
+                name = "aluminumoxide", -- Name of the item.
+                type = "weapon",
+                category = "misc", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "aluminium", amount = 2},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 20},
+                },
+            },
+        },
+    },    
 }
 
 Config.Tables = {
-    {
+    --[[{
         coords = vector3(-343.2248, -766.9445, 52.2465), -- Table coords.
         heading = -272.1112, -- Table heading.
         tableType = "default"
@@ -633,5 +843,10 @@ Config.Tables = {
         coords = vector3(-1200.3278, -901.2991, 14.0401), -- Table coords.
         heading = 124.1033, -- Table heading.
         tableType = "stove_no_prop"
+    },]] -- Default tables (just used for examples)  
+    {
+        coords = vec3(679.12, 1287.0, 360.49), -- Behind Vinewood sign in container.
+        heading = 270.82, -- Table heading.
+        tableType = "container"
     },
 }

@@ -521,7 +521,7 @@ Config.TableTypes = {
                     {name = "armor_blueprint", amount = 1},
                     {name = "steel", amount = 30},
                     {name = "rubber", amount = 22},
-                    {name = "dirty_cloth", amount = 30},
+                    {name = "iron", amount = 10},
                     {name = "leather", amount = 10},
                 },
                 rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
@@ -746,12 +746,12 @@ Config.TableTypes = {
                 name = "WEAPON_CERAMICPISTOL", -- Name of the item.
                 type = "weapon",
                 category = "weapons", -- Category name (not the label).
-                amount = 1, -- Amount to craft each time.
+                amount = 3, -- Amount to craft each time.
                 time = 30, -- Time to craft the item after action is complete.
                 xp = {name = "weapons", level = 1}, -- Experience required to craft.
                 parts = { -- Items required to craft.
-                {name = "pistol_upper", amount = 1},
-                {name = "pistol_lower", amount = 1},
+                {name = "pistol_upper", amount = 3},
+                {name = "pistol_lower", amount = 3},
                 {name = "blueprint_ceramic", amount = 1},
                 },
                 rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
@@ -784,9 +784,9 @@ Config.TableTypes = {
                 xp = {name = "weapons", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
                     {name = "armor_blueprint", amount = 1},
-                    {name = "steel", amount = 10},
+                    {name = "steel", amount = 30},
                     {name = "rubber", amount = 22},
-                    {name = "dirty_cloth", amount = 30},
+                    {name = "iron", amount = 10},
                     {name = "leather", amount = 10},
                 },
                 rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
@@ -821,7 +821,35 @@ Config.TableTypes = {
                     {name = "aluminium", amount = 2},
                 },
                 rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
-                    {type = "xp", name = "weapons", amount = 20},
+                    {type = "xp", name = "weapons", amount = 5},
+                },
+            },
+            {
+                name = "electronickit", -- Name of the item.
+                type = "weapon",
+                category = "misc", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "electronics", amount = 10},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 5},
+                },
+            },
+            {
+                name = "leather", -- Name of the item.
+                type = "weapon",
+                category = "misc", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                xp = {name = "weapons", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "dirty_cloth", amount = 5},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "weapons", amount = 5},
                 },
             },
         },

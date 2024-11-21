@@ -385,6 +385,14 @@ return {
         }
     },
 
+    ['electronics'] = {
+        label = 'Electronics',
+        weight = 5,
+        client = {
+            image = "electronics.png",
+        }
+    },
+
     ['iron'] = {
         label = 'Iron',
         weight = 5,

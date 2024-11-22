@@ -852,6 +852,35 @@ Config.TableTypes = {
                     {type = "xp", name = "weapons", amount = 5},
                 },
             },
+            {
+                name = "cryptostick", -- Name of the item.
+                type = "misc",
+                category = "misc", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                xp = {name = "drugs", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "electronics", amount = 25},
+                    {name = "rolled_cash", amount = 10},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "drugs", amount = 5},
+                },
+            },
+            {
+                name = "rolled_cash", -- Name of the item.
+                type = "misc",
+                category = "misc", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 2, -- Time to craft the item after action is complete.
+                xp = {name = "drugs", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "folded_cash", amount = 10},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "drugs", amount = 5},
+                },
+            },
         },
     },    
 }

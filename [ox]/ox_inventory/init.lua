@@ -46,25 +46,27 @@ if IsDuplicityVersion() then
         randomloot = GetConvarInt('inventory:randomloot', 1) == 1,
         evidencegrade = GetConvarInt('inventory:evidencegrade', 2),
         trimplate = GetConvarInt('inventory:trimplate', 1) == 1,
-        vehicleloot = json.decode(GetConvar('inventory:vehicleloot', [[
+        vehicleloot = json.decode(GetConvar('inventory:vehicleloot', 
 			[
-				["sprunk", 1, 1],
 				["water", 1, 1],
-				["garbage", 1, 2, 50],
-				["panties", 1, 1, 5],
-				["money", 1, 50],
-				["money", 200, 400, 5],
-				["bandage", 1, 1]
+				["folded_cash", 1, 8],
+				["bandage", 1, 1],
+                ["weed_lemonhaze_seed", 1, 1],
+                ["weed_bluedream_seed", 1, 1],
+                ["rolex", 1, 1],
+                ["diamond_ring", 1, 1],
 			]
-		]])),
-        dumpsterloot = json.decode(GetConvar('inventory:dumpsterloot', [[
+		)),
+        dumpsterloot = json.decode(GetConvar('inventory:dumpsterloot', 
 			[
-				["mustard", 1, 1],
-				["garbage", 1, 3],
-				["money", 1, 10],
-				["burger", 1, 1]
+				["dirty_cloth", 1, 1],
+				["glass", 1, 1],
+				["folded_cash", 1, 2],
+				["electronics", 1, 1],
+                ["metalscrap", 1,1],
+                ["bandage", 1,1],
 			]
-		]])),
+		)),
     }
 
     local accounts = json.decode(GetConvar('inventory:accounts', '["money"]'))

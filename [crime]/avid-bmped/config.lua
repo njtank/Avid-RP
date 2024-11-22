@@ -49,40 +49,40 @@ Config.Shop = {
     [1] = {
         item = "electronickit",
         label = locale('menu.electronic_kit'),
-        price = 6000,
-        type = "cash",
+        price = 5,
+        type = "crypto",
         icon = "fa-solid fa-laptop-code",
         description = locale('menu.electronic_kit_description')
     },
     [2] = {
-        item = "gatecrack",
-        label = locale('menu.gate_crack'),
-        price = 6000,
-        type = "cash",
+        item = "blueprint_smallexplosive",
+        label = locale('menu.blueprint_smallexplosive'),
+        price = 60,
+        type = "crypto",
         icon = "fa-solid fa-laptop-code",
-        description = locale('menu.gate_crack_description')
+        description = 'A small explosives bomb',
     },
     [3] = {
         item = "thermite",
         label = locale('menu.thermite'),
-        price = 6000,
-        type = "cash",
+        price = 100,
+        type = "crypto",
         icon = "fa-solid fa-laptop-code",
         description = locale('menu.thermite_description')
     },
     [4] = {
         item = "trojan_usb",
         label = locale('menu.trojan_usb'),
-        price = 6000,
-        type = "cash",
+        price = 100,
+        type = "crypto",
         icon = "fa-solid fa-laptop-code",
         description = locale('menu.trojan_usb_description')
     },
     [5] = {
         item = "drill",
         label = locale('menu.drill'),
-        price = 6000,
-        type = "cash",
+        price = 30,
+        type = "crypto",
         icon = "fa-solid fa-laptop-code",
         description = locale('menu.drill_description')
     }

@@ -266,7 +266,7 @@ return {
     },
 
     ['diamond_ring'] = {
-        label = 'Diamond',
+        label = 'Diamond Ring',
         weight = 1500,
     },
 

@@ -12,7 +12,7 @@ Config.Exchange = {
 
 Config.Chance = 0 -- Number % Chance of Failure on Success
 
-Config.Hack = 'ox_lib'
+Config.Hack = 'ps-ui'
 
 Config.Crypto = {
     Renewed = true, -- Set true for using Renewed-Phone

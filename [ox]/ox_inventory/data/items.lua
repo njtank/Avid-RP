@@ -2275,4 +2275,15 @@ return {
         }
     },
 
+    ["head_bag"] = {
+        label = "Head Bag",
+        weight = 20,
+        stack = false,
+        close = true,
+        description = "",
+        client = {
+            image = "head_bag.png",
+        }
+    },
+
 }

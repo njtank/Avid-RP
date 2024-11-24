@@ -52,11 +52,23 @@ local ITEMS = {
 		{ name = 'phone', price = 50 },
 	},
 	mining = {
-		{name = 'jackhammer', price =  1500, defaultStock = 5000, category = 'Supplies'},
-        {name = 'pickaxe', price = 250, defaultStock = 5000, category = 'Supplies'},
-        {name = 'shovel', price = 100, defaultStock = 5000, category = 'Supplies'},
-        {name = 'empty_bucket', price =  10, defaultStock = 5000, category = 'Supplies'},
+        {name = 'pickaxe', price = 50, defaultStock = 5000, category = 'Supplies'},
+        {name = 'miningdrill', price = 500, defaultStock = 5000, category = 'Supplies'},
+        {name = 'drillbit', price =  10, defaultStock = 5000, category = 'Supplies'},
 	},
+	police = {
+		{ name = 'WEAPON_FLASHLIGHT',    price = 10, defaultStock = 200,         job = "police",        category = 'Weapons' },
+		{ name = 'WEAPON_NIGHTSTICK',    price = 10, defaultStock = 200,         job = "police",        category = 'Weapons' },
+		{ name = 'WEAPON_STUNGUN',    	 price = 10, defaultStock = 200,         job = "police",        category = 'Weapons' },
+		{ name = 'ifaks',    			 price = 10, defaultStock = 1500,        job = "police",        category = 'Supplies' },
+		{ name = 'heavyarmour',    		 price = 30, defaultStock = 1500,        job = "police",        category = 'Supplies' },
+		{ name = 'bandage',    			 price = 3, defaultStock = 1500,         job = "police",        category = 'Supplies' },
+		{ name = 'empty_evidence_bag',   price = 0, defaultStock = 1500,         job = "police",        category = 'Supplies' },
+		{ name = 'WEAPON_COMBATPISTOL',  price = 0, defaultStock = 200,          job = "police",        category = 'Weapons' },
+		{ name = 'WEAPON_PUMPSHOTGUN_MK2',  price = 0, defaultStock = 200,       job = "police",        category = 'Weapons' },
+		{ name = 'ammo-shotgun', 		 price = 0, defaultStock = 9500,		 job = "police",		category = "Ammunition" },
+		{ name = 'ammo-9',            	 price = 2, defaultStock = 9500,    	 job = "police",      	category = 'Ammunition' },
+	}
 }
 
 local newFormatItems = {}

@@ -3904,3 +3904,149 @@
 {"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"QboxProject_2CE016\",\"players\"]) in 140.982443ms'","module":"DBInterface","timestamp":"2024-11-23T01:19:59.907Z"}
 {"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 50.981619ms'","module":"DBInterface","timestamp":"2024-11-23T01:19:59.958Z"}
 {"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2024-11-23T01:19:59.958Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2024-11-24T14:44:04.228Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2024-11-24T14:44:04.231Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2024-11-24T14:44:04.231Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2024-11-24T14:44:04.232Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2024-11-24T14:44:04.232Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2024-11-24T14:44:04.232Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2024-11-24T14:44:04.232Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2024-11-24T14:44:04.233Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2024-11-24T14:44:04.233Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2024-11-24T14:44:04.252Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2024-11-24T14:44:04.253Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2024-11-24T14:44:04.254Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2024-11-24T14:44:07.814Z"}
+{"level":"info","message":"Successfully started","timestamp":"2024-11-24T14:44:07.848Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"QboxProject_2CE016\",\"players\"]) in 170.828416ms'","module":"DBInterface","timestamp":"2024-11-24T14:44:07.987Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 143.953492ms'","module":"DBInterface","timestamp":"2024-11-24T14:44:08.132Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2024-11-24T14:44:08.132Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2024-11-24T14:46:40.546Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2024-11-24T14:46:40.549Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2024-11-24T14:46:40.549Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2024-11-24T14:46:40.549Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2024-11-24T14:46:40.551Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2024-11-24T14:46:40.551Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2024-11-24T14:46:40.551Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2024-11-24T14:46:40.552Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2024-11-24T14:46:40.552Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2024-11-24T14:46:40.566Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2024-11-24T14:46:40.567Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2024-11-24T14:46:40.568Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2024-11-24T14:46:43.806Z"}
+{"level":"info","message":"Successfully started","timestamp":"2024-11-24T14:46:43.832Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"QboxProject_2CE016\",\"players\"]) in 305.080953ms'","module":"DBInterface","timestamp":"2024-11-24T14:46:44.114Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 15.555329ms'","module":"DBInterface","timestamp":"2024-11-24T14:46:44.129Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2024-11-24T14:46:44.130Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (K96RC2R5)","module":"player","timestamp":"2024-11-24T14:47:19.564Z"}
+{"level":"debug","message":{"_firstname":"Test","_identifier":"K96RC2R5","_lastname":"Test","_phoneNumber":"8659031060","source":1,"username":"njtank"},"module":"player","timestamp":"2024-11-24T14:47:19.564Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (K96RC2R5)","module":"player","timestamp":"2024-11-24T14:47:19.581Z"}
+{"level":"debug","message":{"_firstname":"Test","_identifier":"K96RC2R5","_lastname":"Test","_phoneNumber":"8659031060","source":1,"username":"njtank"},"module":"player","timestamp":"2024-11-24T14:47:19.581Z"}
+{"level":"silly","message":"netPromise > npwd:fetchTweets > RequestObj","module":"events","timestamp":"2024-11-24T14:47:19.662Z"}
+{"level":"silly","message":{"data":{"pageId":0},"source":1},"module":"events","timestamp":"2024-11-24T14:47:19.662Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"K96RC2R5\"]) in 6.232915ms'","module":"DBInterface","timestamp":"2024-11-24T14:47:19.669Z"}
+{"level":"info","message":"Executed query (\n        SELECT \n  npwd_twitter_tweets.id,\n  npwd_twitter_tweets.identifier,\n  npwd_twitter_profiles.id AS profile_id,\n  npwd_twitter_profiles.profile_name,\n  npwd_twitter_profiles.avatar_url,\n  npwd_twitter_tweets.likes,\n  npwd_twitter_tweets.visible,\n  IFNULL(COALESCE(retweets.message, npwd_twitter_tweets.message), '') AS message,\n  IFNULL(COALESCE(retweets.images, npwd_twitter_tweets.images), '') AS images,\n  npwd_twitter_tweets.retweet IS NOT NULL AS isRetweet,\n  retweets.id AS retweetId,\n  retweets_profiles.profile_name AS retweetProfileName,\n  retweets_profiles.avatar_url AS retweetAvatarUrl,\n  npwd_twitter_likes.id IS NOT NULL AS isLiked,\n  npwd_twitter_reports.id IS NOT NULL AS isReported,\n  npwd_twitter_tweets.createdAt,\n  npwd_twitter_tweets.updatedAt,\n  TIME_TO_SEC(TIMEDIFF( NOW(), npwd_twitter_tweets.createdAt)) AS seconds_since_tweet\n\n        FROM npwd_twitter_tweets\n                 LEFT OUTER JOIN npwd_twitter_profiles\n                                 ON npwd_twitter_tweets.identifier = npwd_twitter_profiles.identifier\n                 LEFT OUTER JOIN npwd_twitter_likes ON npwd_twitter_tweets.id = npwd_twitter_likes.tweet_id AND\n                                                       npwd_twitter_likes.profile_id = ?\n                 LEFT OUTER JOIN npwd_twitter_reports ON npwd_twitter_tweets.id = npwd_twitter_reports.tweet_id AND\n                                                         npwd_twitter_reports.profile_id = ?\n                 LEFT OUTER JOIN npwd_twitter_tweets AS retweets ON retweets.id = npwd_twitter_tweets.retweet\n                 LEFT OUTER JOIN npwd_twitter_profiles AS retweets_profiles\n                                 ON retweets.identifier = retweets_profiles.identifier\n        WHERE npwd_twitter_tweets.visible = 1\n        ORDER BY id DESC\n        LIMIT ? OFFSET ?\n\t\t [1,1,\"25\",\"0\"]) in 9.458185ms'","module":"DBInterface","timestamp":"2024-11-24T14:47:19.680Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchTweets:a160cfba-7787-459a-84ba-d49518903cfd (17.981615ms), Data >>","module":"events","timestamp":"2024-11-24T14:47:19.680Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2024-11-24T14:47:19.680Z"}
+{"level":"silly","message":"netPromise > npwd:getOrCreateTwitterProfile > RequestObj","module":"events","timestamp":"2024-11-24T14:47:19.761Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2024-11-24T14:47:19.762Z"}
+{"level":"silly","message":"netPromise > phone:getMyProfile > RequestObj","module":"events","timestamp":"2024-11-24T14:47:19.763Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2024-11-24T14:47:19.764Z"}
+{"level":"silly","message":"netPromise > npwd:fetchMessageGroups > RequestObj","module":"events","timestamp":"2024-11-24T14:47:19.767Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2024-11-24T14:47:19.767Z"}
+{"level":"silly","message":"netPromise > npwd-contact-getAll > RequestObj","module":"events","timestamp":"2024-11-24T14:47:19.770Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2024-11-24T14:47:19.770Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"K96RC2R5\"]) in 17.139888ms'","module":"DBInterface","timestamp":"2024-11-24T14:47:19.780Z"}
+{"level":"silly","message":"Response Promise Event npwd:getOrCreateTwitterProfile:252d3d74-a6bd-4b06-a784-b9475eeed920 (19.398555ms), Data >>","module":"events","timestamp":"2024-11-24T14:47:19.781Z"}
+{"level":"silly","message":{"data":{"avatar_url":"https://i.fivemanage.com/images/3ClWwmpwkFhL.png","createdAt":"2024-11-07T15:57:16.000Z","id":1,"identifier":"K96RC2R5","profile_name":"Test_Test","updatedAt":"2024-11-07T15:57:16.000Z"},"status":"ok"},"module":"events","timestamp":"2024-11-24T14:47:19.781Z"}
+{"level":"info","message":"Executed query (\n        SELECT *,\n               UNIX_TIMESTAMP(updatedAt) AS lastActive\n        FROM npwd_match_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"K96RC2R5\"]) in 34.627306ms'","module":"DBInterface","timestamp":"2024-11-24T14:47:19.799Z"}
+{"level":"silly","message":"Response Promise Event phone:getMyProfile:6e61333c-60e2-47c6-9e01-4ec768b2c392 (37.587459ms), Data >>","module":"events","timestamp":"2024-11-24T14:47:19.801Z"}
+{"level":"info","message":"Executed query (SELECT * FROM npwd_phone_contacts WHERE identifier = ? ORDER BY display ASC [\"K96RC2R5\"]) in 32.816182ms'","module":"DBInterface","timestamp":"2024-11-24T14:47:19.803Z"}
+{"level":"silly","message":{"data":{"bio":"","createdAt":"2024-11-07T15:57:16.000Z","id":1,"identifier":"K96RC2R5","image":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg","job":"","lastActive":1730995036,"lastActiveFormatted":"Thu, 07 Nov 2024 15:57:16 GMT","location":"","name":"Test Test","tagList":[],"tags":"","updatedAt":"2024-11-07T15:57:16.000Z","viewed":false,"voiceMessage":null},"status":"ok"},"module":"events","timestamp":"2024-11-24T14:47:19.802Z"}
+{"level":"info","message":"Executed query (SELECT npwd_messages_conversations.id,\n                          npwd_messages_conversations.conversation_list         as conversationList,\n                          npwd_messages_participants.unread_count               as unreadCount,\n                          npwd_messages_conversations.is_group_chat             as isGroupChat,\n                          npwd_messages_conversations.label,\n                          UNIX_TIMESTAMP(npwd_messages_conversations.updatedAt) as updatedAt,\n                          npwd_messages_participants.participant\n                   FROM npwd_messages_conversations\n                            INNER JOIN npwd_messages_participants\n                                       on npwd_messages_conversations.id = npwd_messages_participants.conversation_id\n                   WHERE npwd_messages_participants.participant = ? [\"8659031060\"]) in 37.953427ms'","module":"DBInterface","timestamp":"2024-11-24T14:47:19.806Z"}
+{"level":"silly","message":"Response Promise Event npwd-contact-getAll:2043ba54-0711-43c1-9bd3-4ae457a3c27f (34.221668ms), Data >>","module":"events","timestamp":"2024-11-24T14:47:19.804Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2024-11-24T14:47:19.804Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchMessageGroups:d6c1abb8-0772-4457-957b-57c594c4910d (39.387967ms), Data >>","module":"events","timestamp":"2024-11-24T14:47:19.807Z"}
+{"level":"silly","message":{"data":[{"conversationList":"22231313441423+8659031060","id":1,"isGroupChat":0,"label":"","participant":"8659031060","unreadCount":0,"updatedAt":1731190982}],"status":"ok"},"module":"events","timestamp":"2024-11-24T14:47:19.807Z"}
+{"level":"info","message":"Executed query (SELECT id FROM npwd_marketplace_listings WHERE identifier = ? [\"K96RC2R5\"]) in 65.450218ms'","module":"DBInterface","timestamp":"2024-11-24T15:19:36.361Z"}
+{"level":"info","message":"Executed query (DELETE FROM npwd_marketplace_listings WHERE identifier = ? AND reported = 0 [\"K96RC2R5\"]) in 3.251531ms'","module":"DBInterface","timestamp":"2024-11-24T15:19:36.364Z"}
+{"level":"info","message":"Unloaded NPWD Player, source: (1)","module":"player","timestamp":"2024-11-24T15:19:36.366Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2024-11-24T15:20:03.279Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2024-11-24T15:20:03.282Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2024-11-24T15:20:03.282Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2024-11-24T15:20:03.283Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2024-11-24T15:20:03.283Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2024-11-24T15:20:03.283Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2024-11-24T15:20:03.284Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2024-11-24T15:20:03.284Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2024-11-24T15:20:03.284Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2024-11-24T15:20:03.296Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2024-11-24T15:20:03.297Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2024-11-24T15:20:03.298Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2024-11-24T15:21:00.361Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2024-11-24T15:21:00.364Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2024-11-24T15:21:00.365Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2024-11-24T15:21:00.365Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2024-11-24T15:21:00.366Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2024-11-24T15:21:00.366Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2024-11-24T15:21:00.367Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2024-11-24T15:21:00.367Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2024-11-24T15:21:00.367Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2024-11-24T15:21:00.379Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2024-11-24T15:21:00.380Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2024-11-24T15:21:00.381Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2024-11-24T15:21:03.551Z"}
+{"level":"info","message":"Successfully started","timestamp":"2024-11-24T15:21:03.571Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"QboxProject_2CE016\",\"players\"]) in 201.688762ms'","module":"DBInterface","timestamp":"2024-11-24T15:21:03.755Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 60.01936ms'","module":"DBInterface","timestamp":"2024-11-24T15:21:03.815Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2024-11-24T15:21:03.816Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (K96RC2R5)","module":"player","timestamp":"2024-11-24T15:21:46.307Z"}
+{"level":"debug","message":{"_firstname":"Test","_identifier":"K96RC2R5","_lastname":"Test","_phoneNumber":"8659031060","source":1,"username":"njtank"},"module":"player","timestamp":"2024-11-24T15:21:46.308Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (K96RC2R5)","module":"player","timestamp":"2024-11-24T15:21:46.319Z"}
+{"level":"debug","message":{"_firstname":"Test","_identifier":"K96RC2R5","_lastname":"Test","_phoneNumber":"8659031060","source":1,"username":"njtank"},"module":"player","timestamp":"2024-11-24T15:21:46.321Z"}
+{"level":"silly","message":"netPromise > npwd:fetchTweets > RequestObj","module":"events","timestamp":"2024-11-24T15:21:46.402Z"}
+{"level":"silly","message":{"data":{"pageId":0},"source":1},"module":"events","timestamp":"2024-11-24T15:21:46.402Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"K96RC2R5\"]) in 6.457245ms'","module":"DBInterface","timestamp":"2024-11-24T15:21:46.409Z"}
+{"level":"info","message":"Executed query (\n        SELECT \n  npwd_twitter_tweets.id,\n  npwd_twitter_tweets.identifier,\n  npwd_twitter_profiles.id AS profile_id,\n  npwd_twitter_profiles.profile_name,\n  npwd_twitter_profiles.avatar_url,\n  npwd_twitter_tweets.likes,\n  npwd_twitter_tweets.visible,\n  IFNULL(COALESCE(retweets.message, npwd_twitter_tweets.message), '') AS message,\n  IFNULL(COALESCE(retweets.images, npwd_twitter_tweets.images), '') AS images,\n  npwd_twitter_tweets.retweet IS NOT NULL AS isRetweet,\n  retweets.id AS retweetId,\n  retweets_profiles.profile_name AS retweetProfileName,\n  retweets_profiles.avatar_url AS retweetAvatarUrl,\n  npwd_twitter_likes.id IS NOT NULL AS isLiked,\n  npwd_twitter_reports.id IS NOT NULL AS isReported,\n  npwd_twitter_tweets.createdAt,\n  npwd_twitter_tweets.updatedAt,\n  TIME_TO_SEC(TIMEDIFF( NOW(), npwd_twitter_tweets.createdAt)) AS seconds_since_tweet\n\n        FROM npwd_twitter_tweets\n                 LEFT OUTER JOIN npwd_twitter_profiles\n                                 ON npwd_twitter_tweets.identifier = npwd_twitter_profiles.identifier\n                 LEFT OUTER JOIN npwd_twitter_likes ON npwd_twitter_tweets.id = npwd_twitter_likes.tweet_id AND\n                                                       npwd_twitter_likes.profile_id = ?\n                 LEFT OUTER JOIN npwd_twitter_reports ON npwd_twitter_tweets.id = npwd_twitter_reports.tweet_id AND\n                                                         npwd_twitter_reports.profile_id = ?\n                 LEFT OUTER JOIN npwd_twitter_tweets AS retweets ON retweets.id = npwd_twitter_tweets.retweet\n                 LEFT OUTER JOIN npwd_twitter_profiles AS retweets_profiles\n                                 ON retweets.identifier = retweets_profiles.identifier\n        WHERE npwd_twitter_tweets.visible = 1\n        ORDER BY id DESC\n        LIMIT ? OFFSET ?\n\t\t [1,1,\"25\",\"0\"]) in 10.05491ms'","module":"DBInterface","timestamp":"2024-11-24T15:21:46.420Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchTweets:6f2f27db-77b9-4535-a068-782567495910 (18.823621ms), Data >>","module":"events","timestamp":"2024-11-24T15:21:46.421Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2024-11-24T15:21:46.421Z"}
+{"level":"silly","message":"netPromise > npwd:getOrCreateTwitterProfile > RequestObj","module":"events","timestamp":"2024-11-24T15:21:46.500Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2024-11-24T15:21:46.500Z"}
+{"level":"silly","message":"netPromise > phone:getMyProfile > RequestObj","module":"events","timestamp":"2024-11-24T15:21:46.502Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2024-11-24T15:21:46.502Z"}
+{"level":"silly","message":"netPromise > npwd:fetchMessageGroups > RequestObj","module":"events","timestamp":"2024-11-24T15:21:46.506Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2024-11-24T15:21:46.506Z"}
+{"level":"silly","message":"netPromise > npwd-contact-getAll > RequestObj","module":"events","timestamp":"2024-11-24T15:21:46.509Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2024-11-24T15:21:46.510Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"K96RC2R5\"]) in 17.102732ms'","module":"DBInterface","timestamp":"2024-11-24T15:21:46.518Z"}
+{"level":"silly","message":"Response Promise Event npwd:getOrCreateTwitterProfile:f21b423f-e137-4595-a414-9ab7e5412d2f (18.857704ms), Data >>","module":"events","timestamp":"2024-11-24T15:21:46.520Z"}
+{"level":"silly","message":{"data":{"avatar_url":"https://i.fivemanage.com/images/3ClWwmpwkFhL.png","createdAt":"2024-11-07T15:57:16.000Z","id":1,"identifier":"K96RC2R5","profile_name":"Test_Test","updatedAt":"2024-11-07T15:57:16.000Z"},"status":"ok"},"module":"events","timestamp":"2024-11-24T15:21:46.520Z"}
+{"level":"info","message":"Executed query (SELECT * FROM npwd_phone_contacts WHERE identifier = ? ORDER BY display ASC [\"K96RC2R5\"]) in 17.760917ms'","module":"DBInterface","timestamp":"2024-11-24T15:21:46.528Z"}
+{"level":"silly","message":"Response Promise Event npwd-contact-getAll:7799d3b7-60b6-45f0-91ad-5456f6bfc1bc (19.465882ms), Data >>","module":"events","timestamp":"2024-11-24T15:21:46.528Z"}
+{"level":"info","message":"Executed query (\n        SELECT *,\n               UNIX_TIMESTAMP(updatedAt) AS lastActive\n        FROM npwd_match_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"K96RC2R5\"]) in 26.436321ms'","module":"DBInterface","timestamp":"2024-11-24T15:21:46.530Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2024-11-24T15:21:46.528Z"}
+{"level":"info","message":"Executed query (SELECT npwd_messages_conversations.id,\n                          npwd_messages_conversations.conversation_list         as conversationList,\n                          npwd_messages_participants.unread_count               as unreadCount,\n                          npwd_messages_conversations.is_group_chat             as isGroupChat,\n                          npwd_messages_conversations.label,\n                          UNIX_TIMESTAMP(npwd_messages_conversations.updatedAt) as updatedAt,\n                          npwd_messages_participants.participant\n                   FROM npwd_messages_conversations\n                            INNER JOIN npwd_messages_participants\n                                       on npwd_messages_conversations.id = npwd_messages_participants.conversation_id\n                   WHERE npwd_messages_participants.participant = ? [\"8659031060\"]) in 25.690696ms'","module":"DBInterface","timestamp":"2024-11-24T15:21:46.532Z"}
+{"level":"silly","message":"Response Promise Event phone:getMyProfile:2c541985-84da-4e8c-a93a-e29d764dea96 (29.119344ms), Data >>","module":"events","timestamp":"2024-11-24T15:21:46.531Z"}
+{"level":"silly","message":{"data":{"bio":"","createdAt":"2024-11-07T15:57:16.000Z","id":1,"identifier":"K96RC2R5","image":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg","job":"","lastActive":1730995036,"lastActiveFormatted":"Thu, 07 Nov 2024 15:57:16 GMT","location":"","name":"Test Test","tagList":[],"tags":"","updatedAt":"2024-11-07T15:57:16.000Z","viewed":false,"voiceMessage":null},"status":"ok"},"module":"events","timestamp":"2024-11-24T15:21:46.531Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchMessageGroups:9bec65fd-f585-4408-b3f2-e30617b92dfd (27.041425ms), Data >>","module":"events","timestamp":"2024-11-24T15:21:46.533Z"}
+{"level":"silly","message":{"data":[{"conversationList":"22231313441423+8659031060","id":1,"isGroupChat":0,"label":"","participant":"8659031060","unreadCount":0,"updatedAt":1731190982}],"status":"ok"},"module":"events","timestamp":"2024-11-24T15:21:46.533Z"}
+{"level":"info","message":"Executed query (SELECT id FROM npwd_marketplace_listings WHERE identifier = ? [\"K96RC2R5\"]) in 138.226227ms'","module":"DBInterface","timestamp":"2024-11-24T15:31:30.868Z"}
+{"level":"info","message":"Executed query (DELETE FROM npwd_marketplace_listings WHERE identifier = ? AND reported = 0 [\"K96RC2R5\"]) in 42.969148ms'","module":"DBInterface","timestamp":"2024-11-24T15:31:30.912Z"}
+{"level":"info","message":"Unloaded NPWD Player, source: (1)","module":"player","timestamp":"2024-11-24T15:31:30.913Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2024-11-24T15:31:56.877Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2024-11-24T15:31:56.880Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2024-11-24T15:31:56.881Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2024-11-24T15:31:56.882Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2024-11-24T15:31:56.882Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2024-11-24T15:31:56.882Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2024-11-24T15:31:56.883Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2024-11-24T15:31:56.884Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2024-11-24T15:31:56.884Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2024-11-24T15:31:56.898Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2024-11-24T15:31:56.898Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2024-11-24T15:31:56.900Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2024-11-24T15:31:59.962Z"}
+{"level":"info","message":"Successfully started","timestamp":"2024-11-24T15:31:59.979Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"QboxProject_2CE016\",\"players\"]) in 131.581807ms'","module":"DBInterface","timestamp":"2024-11-24T15:32:00.094Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 10.848306ms'","module":"DBInterface","timestamp":"2024-11-24T15:32:00.106Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2024-11-24T15:32:00.106Z"}

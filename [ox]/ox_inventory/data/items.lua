@@ -343,11 +343,17 @@ return {
     ['ifaks'] = {
         label = 'Individual First Aid Kit',
         weight = 2500,
+        client = {
+            image = "ifak.png",
+        }
     },
 
     ['painkillers'] = {
         label = 'Painkillers',
         weight = 400,
+        client = {
+            image = "painkillers.png",
+        }
     },
 
     ['firework1'] = {

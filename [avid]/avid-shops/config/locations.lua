@@ -140,4 +140,20 @@ return {
 			scale = 0.5,
 		}
 	},
+	police = {
+		label = "Police Armory",
+		model = {
+			`S_F_Y_Cop_01`,
+		},
+		coords = {
+			vec4(608.37, 2.23, 87.82, 252.04), -- VWPD Main
+		},
+		shopItems = "police",
+		blip = {
+			sprite = 827,
+			color = 15,
+			scale = 0.5,
+			disabled = true,
+		},
+	},
 }

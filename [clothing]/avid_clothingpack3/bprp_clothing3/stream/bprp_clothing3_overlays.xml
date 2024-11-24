@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PedDecorationCollection>
+  <bRequiredForSync value="true" />
+  <presets>
+    <!--mp_christmas2017_tattoo_006_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_christmas2017_tattoo_006_M</nameHash>
+      <txdHash>mp_christmas2017_tattoo_006</txdHash>
+      <txtHash>mp_christmas2017_tattoo_006</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_airraces_tattoo_004_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_airraces_tattoo_004_M</nameHash>
+      <txdHash>mp_airraces_tattoo_004</txdHash>
+      <txtHash>mp_airraces_tattoo_004</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_airraces_tattoo_000_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_airraces_tattoo_000_M</nameHash>
+      <txdHash>mp_airraces_tattoo_000</txdHash>
+      <txtHash>mp_airraces_tattoo_000</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_christmas2017_tattoo_021_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_christmas2017_tattoo_021_M</nameHash>
+      <txdHash>mp_christmas2017_tattoo_021</txdHash>
+      <txtHash>mp_christmas2017_tattoo_021</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_biker_tat_026_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_biker_tat_026_M</nameHash>
+      <txdHash>mp_biker_tat_026</txdHash>
+      <txtHash>mp_biker_tat_026</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_lr_tat_031_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_lr_tat_031_M</nameHash>
+      <txdHash>mp_lr_tat_031</txdHash>
+      <txtHash>mp_lr_tat_031</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_smuggler_tattoo_009_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_smuggler_tattoo_009_M</nameHash>
+      <txdHash>mp_smuggler_tattoo_009</txdHash>
+      <txtHash>mp_smuggler_tattoo_009</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_smuggler_tattoo_021_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_smuggler_tattoo_021_M</nameHash>
+      <txdHash>mp_smuggler_tattoo_021</txdHash>
+      <txtHash>mp_smuggler_tattoo_021</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_lr_tat_021_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_lr_tat_021_M</nameHash>
+      <txdHash>mp_lr_tat_021</txdHash>
+      <txtHash>mp_lr_tat_021</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_airraces_tattoo_007_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_airraces_tattoo_007_M</nameHash>
+      <txdHash>mp_airraces_tattoo_007</txdHash>
+      <txtHash>mp_airraces_tattoo_007</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_christmas2017_tattoo_027_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_christmas2017_tattoo_027_M</nameHash>
+      <txdHash>mp_christmas2017_tattoo_027</txdHash>
+      <txtHash>mp_christmas2017_tattoo_027</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_smuggler_tattoo_020_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_smuggler_tattoo_020_M</nameHash>
+      <txdHash>mp_smuggler_tattoo_020</txdHash>
+      <txtHash>mp_smuggler_tattoo_020</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_luxe_tat_008_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_luxe_tat_008_M</nameHash>
+      <txdHash>mp_luxe_tat_008_1</txdHash>
+      <txtHash>mp_luxe_tat_008_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_xm2_tat_m_011_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_xm2_tat_m_011_M</nameHash>
+      <txdHash>mp_xm2_tat_m_011_1</txdHash>
+      <txtHash>mp_xm2_tat_m_011_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_christmas2017_tattoo_021_1_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_christmas2017_tattoo_021_1_M</nameHash>
+      <txdHash>mp_christmas2017_tattoo_021_1</txdHash>
+      <txtHash>mp_christmas2017_tattoo_021_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_gunrunning_tattoo_028_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_gunrunning_tattoo_028_M</nameHash>
+      <txdHash>mp_gunrunning_tattoo_028</txdHash>
+      <txtHash>mp_gunrunning_tattoo_028</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_smuggler_tattoo_020_1_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_smuggler_tattoo_020_1_M</nameHash>
+      <txdHash>mp_smuggler_tattoo_020_1</txdHash>
+      <txtHash>mp_smuggler_tattoo_020_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_biker_tat_016_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_biker_tat_016_M</nameHash>
+      <txdHash>mp_biker_tat_016_1</txdHash>
+      <txtHash>mp_biker_tat_016_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_smuggler_tattoo_023_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_smuggler_tattoo_023_M</nameHash>
+      <txdHash>mp_smuggler_tattoo_023</txdHash>
+      <txtHash>mp_smuggler_tattoo_023</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_christmas2017_tattoo_006_1_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_christmas2017_tattoo_006_1_M</nameHash>
+      <txdHash>mp_christmas2017_tattoo_006_1</txdHash>
+      <txtHash>mp_christmas2017_tattoo_006_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_biker_tat_023_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_biker_tat_023_M</nameHash>
+      <txdHash>mp_biker_tat_023_1</txdHash>
+      <txtHash>mp_biker_tat_023_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_airraces_tattoo_000_1_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_airraces_tattoo_000_1_M</nameHash>
+      <txdHash>mp_airraces_tattoo_000_1</txdHash>
+      <txtHash>mp_airraces_tattoo_000_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_christmas2017_tattoo_005_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_christmas2017_tattoo_005_M</nameHash>
+      <txdHash>mp_christmas2017_tattoo_005_1</txdHash>
+      <txtHash>mp_christmas2017_tattoo_005_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_002_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_002_M</nameHash>
+      <txdHash>hwskull_002_1</txdHash>
+      <txtHash>hwskull_002_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_000_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_000_M</nameHash>
+      <txdHash>hwskull_000_1</txdHash>
+      <txtHash>hwskull_000_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_001_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_001_M</nameHash>
+      <txdHash>hwskull_001_1</txdHash>
+      <txtHash>hwskull_001_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_003_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_003_M</nameHash>
+      <txdHash>hwskull_003_1</txdHash>
+      <txtHash>hwskull_003_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_004_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_004_M</nameHash>
+      <txdHash>hwskull_004_1</txdHash>
+      <txtHash>hwskull_004_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_006_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_006_M</nameHash>
+      <txdHash>hwskull_006_1</txdHash>
+      <txtHash>hwskull_006_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_005_M-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_005_M</nameHash>
+      <txdHash>hwskull_005_1</txdHash>
+      <txtHash>hwskull_005_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_christmas2017_tattoo_006_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_christmas2017_tattoo_006_F</nameHash>
+      <txdHash>mp_christmas2017_tattoo_006_1</txdHash>
+      <txtHash>mp_christmas2017_tattoo_006_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_smuggler_tattoo_021_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_smuggler_tattoo_021_F</nameHash>
+      <txdHash>mp_smuggler_tattoo_021_1</txdHash>
+      <txtHash>mp_smuggler_tattoo_021_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_lr_tat_021_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_lr_tat_021_F</nameHash>
+      <txdHash>mp_lr_tat_021_1</txdHash>
+      <txtHash>mp_lr_tat_021_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_airraces_tattoo_007_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_airraces_tattoo_007_F</nameHash>
+      <txdHash>mp_airraces_tattoo_007_1</txdHash>
+      <txtHash>mp_airraces_tattoo_007_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_christmas2017_tattoo_027_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_christmas2017_tattoo_027_F</nameHash>
+      <txdHash>mp_christmas2017_tattoo_027_1</txdHash>
+      <txtHash>mp_christmas2017_tattoo_027_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_smuggler_tattoo_020_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_smuggler_tattoo_020_F</nameHash>
+      <txdHash>mp_smuggler_tattoo_020_1</txdHash>
+      <txtHash>mp_smuggler_tattoo_020_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_christmas2017_tattoo_005_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_christmas2017_tattoo_005_F</nameHash>
+      <txdHash>mp_christmas2017_tattoo_005</txdHash>
+      <txtHash>mp_christmas2017_tattoo_005</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_airraces_tattoo_000_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_airraces_tattoo_000_F</nameHash>
+      <txdHash>mp_airraces_tattoo_000_1</txdHash>
+      <txtHash>mp_airraces_tattoo_000_1</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_biker_tat_023_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_biker_tat_023_F</nameHash>
+      <txdHash>mp_biker_tat_023</txdHash>
+      <txtHash>mp_biker_tat_023</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_christmas2017_tattoo_015_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_christmas2017_tattoo_015_F</nameHash>
+      <txdHash>mp_christmas2017_tattoo_015</txdHash>
+      <txtHash>mp_christmas2017_tattoo_015</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_biker_tat_016_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_biker_tat_016_F</nameHash>
+      <txdHash>mp_biker_tat_016</txdHash>
+      <txtHash>mp_biker_tat_016</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_xm2_tat_m_011_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_xm2_tat_m_011_F</nameHash>
+      <txdHash>mp_xm2_tat_m_011</txdHash>
+      <txtHash>mp_xm2_tat_m_011</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--mp_luxe_tat_008_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mp_luxe_tat_008_F</nameHash>
+      <txdHash>mp_luxe_tat_008</txdHash>
+      <txtHash>mp_luxe_tat_008</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_002_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_002_F</nameHash>
+      <txdHash>hwskull_002</txdHash>
+      <txtHash>hwskull_002</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_000_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_000_F</nameHash>
+      <txdHash>hwskull_000</txdHash>
+      <txtHash>hwskull_000</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_001_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_001_F</nameHash>
+      <txdHash>hwskull_001</txdHash>
+      <txtHash>hwskull_001</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_003_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_003_F</nameHash>
+      <txdHash>hwskull_003</txdHash>
+      <txtHash>hwskull_003</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_004_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_004_F</nameHash>
+      <txdHash>hwskull_004</txdHash>
+      <txtHash>hwskull_004</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_006_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_006_F</nameHash>
+      <txdHash>hwskull_006</txdHash>
+      <txtHash>hwskull_006</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!--hwskull_005_F-->
+    <Item>
+      <uvPos x="0.845000" y="0.680000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>hwskull_005_F</nameHash>
+      <txdHash>hwskull_005</txdHash>
+      <txtHash>hwskull_005</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_TATTOO</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+  </presets>
+  <nameHash>bprp_clothing3_overlays</nameHash>
+   <medalLocations content="vector2_array">
+    0.140000	0.070000
+    0.370000	0.070000
+    0.600000	0.070000
+    0.835000	0.070000
+    0.140000	0.150000
+    0.370000	0.150000
+    0.600000	0.150000
+    0.835000	0.150000
+    0.140000	0.230000
+    0.370000	0.230000
+    0.600000	0.230000
+    0.835000	0.230000
+    0.100000	0.700000
+    0.300000	0.700000
+    0.500000	0.700000
+    0.700000	0.700000
+  </medalLocations>
+  <medalScale x="0.240000" y="0.100000" />
+</PedDecorationCollection>

@@ -1,0 +1,464 @@
+3/12/2024 1:42:45 PM|Created new project.
+3/12/2024 1:42:45 PM|License file is blocked. Attempting to unblock...
+3/12/2024 1:42:45 PM|File successfully unblocked.
+3/12/2024 1:42:45 PM|Found a valid license. [1616]
+3/12/2024 1:42:45 PM|License is not expired. (Expires: 4/11/2024 12:00:00 AM)
+3/12/2024 1:42:45 PM|License supports this app version.
+3/12/2024 1:42:45 PM|License matches with your hardware id.
+3/12/2024 1:42:46 PM|Project C:\Users\ankne\hard-busClothes\stream\ha4rdbusopt.durty-cloth.json loaded. 1765 total items loaded (1765 clothes/0 decorations/0 facial overlays)
+3/12/2024 1:42:46 PM|You are running the latest version: 2.5.2.2
+3/12/2024 1:42:51 PM|Started to import some external files into the tool...
+3/12/2024 1:42:51 PM|Started to import some external files into the tool...
+3/12/2024 1:42:51 PM|Started to import some external files into the tool...
+3/12/2024 1:42:51 PM|Started to import some external files into the tool...
+3/12/2024 1:42:51 PM|Started to import some external files into the tool...
+3/12/2024 1:42:51 PM|Started to import some external files into the tool...
+3/12/2024 1:42:51 PM|Started to import some external files into the tool...
+3/12/2024 1:42:51 PM|Started to import some external files into the tool...
+3/12/2024 1:42:51 PM|Started to import some external files into the tool...
+3/12/2024 1:42:51 PM|Started to import some external files into the tool...
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 91 Hair' (Hair) at pos 91 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_mp_m_gunrunning_hair_01^hair_009_u_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 53 Legs' (Legs) at pos 53 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_male_heist^lowr_001_r_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 171 Top' (Top) at pos 171 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_mp_m_bikerdlc_01^jbib_009_u_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 148 Top' (Top) at pos 148 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_male_freemode_mplts^jbib_000_u_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 0 Hair' (Hair) at pos 0 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01^hair_001_u_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 2 Armor' (Armor) at pos 2 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01^task_003_u_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 89 Undershirt' (Undershirt) at pos 89 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_mp_m_luxe_01^accs_003_u_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 108 Hair' (Hair) at pos 108 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_mp_m_vinewood^hair_000_u_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 58 Legs' (Legs) at pos 58 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_male_xmas2^lowr_000_r_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 72 Undershirt' (Undershirt) at pos 72 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_mp_m_christmas2017^accs_009_u_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 103 Hair' (Hair) at pos 103 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_mp_m_gunrunning_hair_01^hair_027_u_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 59 Legs' (Legs) at pos 59 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_male_xmas2^lowr_001_r_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 104 Hair' (Hair) at pos 104 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_mp_m_gunrunning_hair_01^hair_030_u_1.ydd.
+3/12/2024 1:42:51 PM|Successfully imported first person model for '👨🏻 107 Hair' (Hair) at pos 107 from C:\Users\ankne\hard-busClothes\stream\mp_m_freemode_01_mp_m_lowrider_02^hair_001_u_1.ydd.
+3/12/2024 1:42:51 PM|Finished importing external files into data folder
+3/12/2024 1:42:51 PM|Running error checks on all 14281 items, this can take some time...
+3/12/2024 1:43:55 PM|Finished error checks on all 14281 items.
+3/12/2024 1:46:10 PM|Project with 1765 clothes/decorations saved (C:\Users\ankne\hard-busClothes\stream\ha4rdbusopt.durty-cloth.json).
+3/12/2024 1:46:10 PM|Created new project.
+3/12/2024 1:47:20 PM|Project with 0 clothes/decorations saved (C:\Users\ankne\OneDrive\Desktop\bprpclothes_stream\bprp_clothing3.durty-cloth.json).
+3/12/2024 1:47:20 PM|Created new project.
+3/12/2024 1:48:12 PM|Added 👩🏻 0 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\fffe9a-hair1\hair1\mp_m_freemode_01\hair_031_u.ydd.
+3/12/2024 1:48:12 PM|Found 1 Female cloth models
+3/12/2024 1:48:24 PM|Added 👨🏻 0 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\fffe9a-hair1\hair1\mp_m_freemode_01\hair_031_u.ydd.
+3/12/2024 1:48:42 PM|Added 👩🏻 1 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\f5f582-#FREE Sury Hair JinxStore\#FREE Sury Hair JinxStore\Files\hair_058_u.ydd.
+3/12/2024 1:49:04 PM|Added 👩🏻 0 Bag with 10 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\f6c2ef-SAKE_Serpent_Nail-Set\SAKE_Serpent_Nail-Set\mp_f_freemode_01_mp_f_sakebrand_v4^hand_000_u.ydd.
+3/12/2024 1:49:19 PM|Added 👩🏻 2 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\f153df-Dollie Mods - MP Female Freebies #43 - Medium curled hair for MP Female\hair_073_u.ydd.
+3/12/2024 1:49:34 PM|Trying to optimize embedded textures of model 'hair_073_u.ydd '👩🏻 2 Hair' (Hair) at pos 2 => 4fa1b890-0ff5-4c93-9085-03facc7d6cb0.ydd' ...
+3/12/2024 1:49:39 PM|Drawable '👩🏻 2 Hair' (Hair) at pos 2 (4fa1b890-0ff5-4c93-9085-03facc7d6cb0.ydd) file got successfully updated to d1f9edb0-62a5-43cf-9a00-cf295151cbfe.ydd.
+3/12/2024 1:49:39 PM|Texture dollie_mods_spec_hair optimized from 1 MB to 1 MB, format D3DFMT_DXT1 => D3DFMT_DXT1, width/height 16px/16px => 16px/16px, mip maps 1 => 5
+3/12/2024 1:49:39 PM|Texture dollie_mods_normal_blank optimized from 1 MB to 1 MB, format D3DFMT_DXT1 => D3DFMT_DXT1, width/height 16px/16px => 16px/16px, mip maps 1 => 5
+3/12/2024 1:49:39 PM|Successfully optimized embedded textures of model 'hair_073_u.ydd '👩🏻 2 Hair' (Hair) at pos 2 => d1f9edb0-62a5-43cf-9a00-cf295151cbfe.ydd'
+3/12/2024 1:49:54 PM|Added 👩🏻 3 Hair with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\9bef8f-[WM] FAMOUS ON MYSPACE Hair\[WM] FAMOUS ON MYSPACE Hair\hair_000_u.ydd.
+3/12/2024 1:50:07 PM|Added 👨🏻 1 Hair with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\9bef8f-[WM] FAMOUS ON MYSPACE Hair\[WM] FAMOUS ON MYSPACE Hair\hair_000_u.ydd.
+3/12/2024 1:50:29 PM|Adding dummy drawable for gender Male
+3/12/2024 1:50:30 PM|Dummy drawable was not added. Options couldnt be resolved & were not set by user.
+3/12/2024 1:50:41 PM|Enabled adding duplicates automatically for this session (restart app to reset)
+3/12/2024 1:50:41 PM|Continue adding possible duplicate item of hair_031_u.ydd '👨🏻 0 Hair' (Hair) at pos 0 => b2b52c20-3bff-4049-a734-a072905395ca.ydd
+3/12/2024 1:50:41 PM|Added 👨🏻 2 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\fffe9a-hair1\hair1\mp_m_freemode_01\hair_031_u.ydd.
+3/12/2024 1:50:41 PM|Found 1 Male cloth models
+3/12/2024 1:50:52 PM|Removed drawable hair_031_u.ydd '👨🏻 2 Hair' (Hair) at pos 2 => 405cdc89-0729-4369-9714-07c29e0a5e2e.ydd
+3/12/2024 1:50:52 PM|Removed 'Hair' (See logs for full details). Total items: 7
+3/12/2024 1:51:05 PM|Added 👨🏻 0 Top with 8 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\eaf065-Updated flannel\Flannels\jbib_014_u.ydd.
+3/12/2024 1:51:07 PM|Added 👨🏻 0 Undershirt with 16 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\eaf065-Updated flannel\Undershirts\accs_012_u.ydd.
+3/12/2024 1:51:07 PM|Found 2 Male cloth models
+3/12/2024 1:51:45 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 1:52:20 PM|Added dummy texture to '👨🏻 1 Hair' (Hair) at pos 1
+3/12/2024 1:52:24 PM|Removed dummy texture from '👨🏻 1 Hair' (Hair) at pos 1
+3/12/2024 1:52:29 PM|Adding dummy drawable for gender Male
+3/12/2024 1:52:44 PM|Added dummy texture to '👨🏻 0 Mask' (Mask) at pos 0
+3/12/2024 1:52:44 PM|Adding dummy drawable for gender Male
+3/12/2024 1:52:46 PM|Dummy drawable was not added. Options couldnt be resolved & were not set by user.
+3/12/2024 1:53:33 PM|Adding dummy drawable for gender Male
+3/12/2024 1:53:42 PM|Added dummy texture to '👨🏻 0 PropHead' (PropHead) at pos 0
+3/12/2024 1:53:42 PM|Adding dummy drawable for gender Male
+3/12/2024 1:53:43 PM|Dummy drawable was not added. Options couldnt be resolved & were not set by user.
+3/12/2024 1:53:50 PM|Removed drawable  '👨🏻 0 PropHead' (PropHead) at pos 0 => 
+3/12/2024 1:53:50 PM|Removed 'PropHead' (See logs for full details). Total items: 10
+3/12/2024 1:53:57 PM|Removed drawable  '👨🏻 0 Mask' (Mask) at pos 0 => 
+3/12/2024 1:53:57 PM|Removed 'Mask' (See logs for full details). Total items: 9
+3/12/2024 1:54:04 PM|Adding dummy drawable for gender Male
+3/12/2024 1:54:20 PM|Added dummy texture to '👨🏻 0 Mask' (Mask) at pos 0
+3/12/2024 1:55:21 PM|Added 👨🏻 2 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\8dcce1-MaleHair11ApolloStore\Fivem\mp_m_freemode_01_mp_m_gunrunning_hair_01^hair_026_u.ydd.
+3/12/2024 1:56:55 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 1:57:07 PM|👨🏻 0 mp_christmas2017_tattoo_006_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 1:57:22 PM|👩🏻 0 mp_christmas2017_tattoo_006_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 1:57:39 PM|Added 👨🏻 3 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\9e2c93-MaleHair ApolloStore#1\Fivem\mp_m_freemode_01_mp_m_gunrunning_hair_01^hair_033_u.ydd.
+3/12/2024 1:57:39 PM|Found 1 Male cloth models
+3/12/2024 1:58:13 PM|Added 👨🏻 4 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\9e94a9-Hair for MP Male #01\Hair for MP Male #01\Hair for MP Male #01\FiveM\mp_m_freemode_01_mp_m_clothes_01^hair_004_u.ydd.
+3/12/2024 1:58:13 PM|Found 1 Male cloth models
+3/12/2024 1:58:43 PM|Continue adding possible duplicate item of mp_m_freemode_01_mp_m_clothes_01^hair_004_u.ydd '👨🏻 4 Hair' (Hair) at pos 4 => 098882f8-2989-4c9d-94f1-449c6ea755b8.ydd
+3/12/2024 1:58:43 PM|Added 👨🏻 5 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\9e94a9-Hair for MP Male #01\Hair for MP Male #01\Hair for MP Male #01\FiveM\mp_m_freemode_01_mp_m_clothes_01^hair_004_u.ydd.
+3/12/2024 1:58:43 PM|Found 1 Male cloth models
+3/12/2024 1:58:52 PM|Removed drawable mp_m_freemode_01_mp_m_clothes_01^hair_004_u.ydd '👨🏻 5 Hair' (Hair) at pos 5 => 28c3b95b-fdab-4e13-9534-8c2b102a84a2.ydd
+3/12/2024 1:58:52 PM|Removed 'Hair' (See logs for full details). Total items: 15
+3/12/2024 1:59:12 PM|Added 👨🏻 5 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\933cdb-Male Hair\Male Hair\mp_m_freemode_01_mp_m_lunar^hair_000_u.ydd.
+3/12/2024 1:59:12 PM|Found 1 Male cloth models
+3/12/2024 1:59:56 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:00:03 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:00:40 PM|Adding dummy drawable for gender Male
+3/12/2024 2:00:48 PM|Added dummy texture to '👨🏻 0 Hair' (Hair) at pos 0
+3/12/2024 2:01:30 PM|Continue adding possible duplicate item of mp_m_freemode_01_mp_m_lunar^hair_000_u.ydd '👨🏻 5 Hair' (Hair) at pos 5 => bf5e954f-2a38-4466-b060-37e73b0f1ed3.ydd
+3/12/2024 2:01:31 PM|Added 👨🏻 7 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\933cdb-Male Hair\Male Hair\mp_m_freemode_01_mp_m_lunar^hair_000_u.ydd.
+3/12/2024 2:01:31 PM|Found 1 Male cloth models
+3/12/2024 2:01:52 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\d07cfa-Hairline fade\Hairline fade\mppatcheseng\m_disc_hair_001_e.ytd to '👨🏻 7 Hair' (Hair) at pos 7
+3/12/2024 2:02:13 PM|Removed texture 'a' from '👨🏻 7 Hair' (Mask) at pos 7
+3/12/2024 2:03:30 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\d07cfa-Hairline fade\Hairline fade\biker\mp_biker_hair_001.ytd to '👨🏻 7 Hair' (Mask) at pos 7
+3/12/2024 2:03:36 PM|Removed drawable mp_m_freemode_01_mp_m_lunar^hair_000_u.ydd '👨🏻 7 Hair' (Mask) at pos 7 => b6f90761-52ed-4b9e-978f-cac1107ea1bb.ydd
+3/12/2024 2:03:36 PM|Removed 'Hair' (See logs for full details). Total items: 17
+3/12/2024 2:03:50 PM|Added 👨🏻 1 Top with 26 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\a3ed20-MuscleShirts\MuscleShirts\mpsmuggler\jbib_002_u.ydd.
+3/12/2024 2:03:50 PM|Found 1 Male cloth models
+3/12/2024 2:04:22 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:04:33 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:04:55 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:05:35 PM|Added 👨🏻 1 Mask with 2 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^berd_000_u.ydd.
+3/12/2024 2:05:36 PM|Added 👨🏻 2 Top with 26 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^jbib_000_u.ydd.
+3/12/2024 2:05:37 PM|Added 👨🏻 3 Top with 26 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^jbib_001_u.ydd.
+3/12/2024 2:05:37 PM|Continue adding possible duplicate item of mp_m_freemode_01_mp_m_taysbusinesspack^jbib_000_u.ydd '👨🏻 2 Top' (Top) at pos 2 => 4416c46a-2b51-47a6-84ee-66a51eebf314.ydd
+3/12/2024 2:05:38 PM|Added 👨🏻 4 Top with 7 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^jbib_002_u.ydd.
+3/12/2024 2:05:38 PM|Continue adding possible duplicate item of mp_m_freemode_01_mp_m_taysbusinesspack^jbib_001_u.ydd '👨🏻 3 Top' (Top) at pos 3 => 1d1f114b-4834-404e-88e6-9e95329aad02.ydd
+3/12/2024 2:05:38 PM|Added 👨🏻 5 Top with 7 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^jbib_003_u.ydd.
+3/12/2024 2:05:38 PM|Added 👨🏻 6 Top with 12 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^jbib_004_u.ydd.
+3/12/2024 2:05:38 PM|Added 👨🏻 7 Top with 2 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^jbib_005_u.ydd.
+3/12/2024 2:05:39 PM|Added 👨🏻 0 Legs with 6 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^lowr_000_r.ydd.
+3/12/2024 2:05:39 PM|Added 👨🏻 1 Legs with 5 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^lowr_001_r.ydd.
+3/12/2024 2:05:39 PM|Added 👨🏻 0 Armor with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^task_000_u.ydd.
+3/12/2024 2:05:39 PM|Added 👨🏻 0 Accessories with 4 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^teef_000_u.ydd.
+3/12/2024 2:05:39 PM|Added 👨🏻 1 Accessories with 4 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^teef_001_u.ydd.
+3/12/2024 2:05:39 PM|Added 👨🏻 0 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^uppr_000_r.ydd.
+3/12/2024 2:05:39 PM|Added 👨🏻 1 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^uppr_001_r.ydd.
+3/12/2024 2:05:39 PM|Added 👨🏻 2 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^uppr_002_r.ydd.
+3/12/2024 2:05:40 PM|Added 👨🏻 3 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^uppr_003_r.ydd.
+3/12/2024 2:05:40 PM|Added 👨🏻 4 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^uppr_004_r.ydd.
+3/12/2024 2:05:40 PM|Added 👨🏻 5 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^uppr_005_r.ydd.
+3/12/2024 2:05:40 PM|Added 👨🏻 6 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^uppr_006_r.ydd.
+3/12/2024 2:05:40 PM|Added 👨🏻 7 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^uppr_007_r.ydd.
+3/12/2024 2:05:40 PM|Added 👨🏻 8 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^uppr_008_r.ydd.
+3/12/2024 2:05:40 PM|Added 👨🏻 9 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^uppr_009_r.ydd.
+3/12/2024 2:05:40 PM|Added 👨🏻 10 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_m_freemode_01_mp_m_taysbusinesspack\mp_m_freemode_01_mp_m_taysbusinesspack^uppr_010_r.ydd.
+3/12/2024 2:06:36 PM|Added 👩🏻 0 Accessories with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\a4959d-Nose Ring (free)-20231109T125618Z-001\Nose Ring (free)\fivem\mp_f_freemode_01^teef_000_u.ydd.
+3/12/2024 2:06:36 PM|Found 1 Female cloth models
+3/12/2024 2:07:00 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:07:09 PM|Added 👩🏻 1 Accessories with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\a10662-diamond jewel necklace\diamond jewel necklace\teef_022_u.ydd.
+3/12/2024 2:07:09 PM|Found 1 Female cloth models
+3/12/2024 2:07:22 PM|Added 👩🏻 0 Mask with 6 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\afb037-babymods\mp_f_freemode_01^berd_009_u.ydd.
+3/12/2024 2:07:22 PM|Found 1 Female cloth models
+3/12/2024 2:07:44 PM|Adding dummy drawable for gender Male
+3/12/2024 2:07:45 PM|Dummy drawable was not added. Options couldnt be resolved & were not set by user.
+3/12/2024 2:07:52 PM|Added 👨🏻 2 Mask with 6 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\afb037-babymods\mp_f_freemode_01^berd_009_u.ydd.
+3/12/2024 2:07:52 PM|Found 1 Male cloth models
+3/12/2024 2:08:11 PM|Added 👩🏻 0 Top with 14 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\bb4bb1-Jumper\Jumper\mp_m_freemode_01_ztest^jbib_000_u.ydd.
+3/12/2024 2:08:11 PM|Found 1 Female cloth models
+3/12/2024 2:08:53 PM|Added 👨🏻 8 Top with 14 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\bb4bb1-Jumper\Jumper\mp_m_freemode_01_ztest^jbib_000_u.ydd.
+3/12/2024 2:08:53 PM|Found 1 Male cloth models
+3/12/2024 2:09:10 PM|Removed drawable mp_m_freemode_01_ztest^jbib_000_u.ydd '👩🏻 0 Top' (Top) at pos 0 => 178bc2ef-7d96-40b6-ad03-323e04cb012f.ydd
+3/12/2024 2:09:10 PM|Removed 'Top' (See logs for full details). Total items: 46
+3/12/2024 2:09:24 PM|Added 👩🏻 0 Top with 11 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\b34670-#VMODS_ANGELINESWIMSUIT\#VMODS_ANGELINESWIMSUIT\jbib_015_u.ydd.
+3/12/2024 2:09:24 PM|Found 1 Female cloth models
+3/12/2024 2:09:51 PM|Added 👩🏻 4 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\c13174-Wavy Bob\Hair\hair_045_u.ydd.
+3/12/2024 2:09:51 PM|Found 1 Female cloth models
+3/12/2024 2:10:04 PM|Added 👩🏻 5 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\82de05-sidecutshorthair\sidecutshorthair\hair_035_u.ydd.
+3/12/2024 2:10:04 PM|Found 1 Female cloth models
+3/12/2024 2:10:16 PM|Added 👨🏻 7 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\82de05-sidecutshorthair\sidecutshorthair\hair_035_u.ydd.
+3/12/2024 2:10:16 PM|Found 1 Male cloth models
+3/12/2024 2:11:12 PM|Added 👨🏻 8 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\c94096-hair [02]\hair [02]\Male hair [02]\FiveM\mp_m_freemode_01_mp_m_bikerdlc_01^hair_003_u.ydd.
+3/12/2024 2:11:12 PM|Found 1 Male cloth models
+3/12/2024 2:11:53 PM|Added 👩🏻 6 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\81ba95-Undercut_female\Undercut_female\hair_015_u.ydd.
+3/12/2024 2:11:53 PM|Found 1 Female cloth models
+3/12/2024 2:12:29 PM|Added 👩🏻 1 Mask with 10 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\d57484-cDev Custom Eyelashes Pack\cDev Custom Eyelashes Pack\FiveM\cdev_eyelashes_addon\stream\mp_f_freemode_01_mp_f_cdev_pack_eyelashes\mp_f_freemode_01_mp_f_cdev_pack_eyelashes^berd_000_u.ydd.
+3/12/2024 2:12:29 PM|Continue adding possible duplicate item of mp_f_freemode_01_mp_f_cdev_pack_eyelashes^berd_000_u.ydd '👩🏻 1 Mask' (Mask) at pos 1 => e1fdd9e2-64e0-4daa-ae23-693316f798ca.ydd
+3/12/2024 2:12:32 PM|Added 👩🏻 0 Decal with 10 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\d57484-cDev Custom Eyelashes Pack\cDev Custom Eyelashes Pack\FiveM\cdev_eyelashes_addon\stream\mp_f_freemode_01_mp_f_cdev_pack_eyelashes\mp_f_freemode_01_mp_f_cdev_pack_eyelashes^decl_000_u.ydd.
+3/12/2024 2:12:32 PM|Found 2 Female cloth models
+3/12/2024 2:12:58 PM|Trying to optimize texture 'g' of '👩🏻 0 Decal' (Decal) at pos 0 ...
+3/12/2024 2:12:58 PM|Retrieve texture DDS content for all mipmaps failed, falling back to regenerating mipmaps...
+3/12/2024 2:13:13 PM|Texture 'g' (f241c8c5-8af9-4353-bf5b-58807d2d7a90.ytd) file got successfully updated to 693a42a7-5e0b-4b14-9145-de3ded2fd7fd.ytd.
+3/12/2024 2:13:13 PM|Texture eyelashes4 optimized from 333 KB to 118 KB, format D3DFMT_A8B8G8R8 => D3DFMT_BC7, width/height 2048px/4096px => 2048px/4096px, mip maps 13 => 13
+3/12/2024 2:13:13 PM|Successfully optimized drawable texture 'g' of '👩🏻 0 Decal' (Decal) at pos 0
+3/12/2024 2:13:38 PM|Added 👩🏻 7 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\dc5c26-Egirl Hair\Egirl Hair\FiveM\mp_f_freemode_01^hair_015_u.ydd.
+3/12/2024 2:13:38 PM|Found 1 Female cloth models
+3/12/2024 2:13:59 PM|Added 👩🏻 8 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\dd9fc7-WM_M_HAIR_8\WM_M_HAIR_8-free\mp_m_freemode_01^hair_003_u.ydd.
+3/12/2024 2:13:59 PM|Found 1 Female cloth models
+3/12/2024 2:14:10 PM|Added 👨🏻 9 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\dd9fc7-WM_M_HAIR_8\WM_M_HAIR_8-free\mp_m_freemode_01^hair_003_u.ydd.
+3/12/2024 2:14:10 PM|Found 1 Male cloth models
+3/12/2024 2:14:55 PM|Added 👩🏻 2 Mask with 2 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^berd_000_u.ydd.
+3/12/2024 2:14:56 PM|Added 👩🏻 1 Top with 26 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^jbib_000_u.ydd.
+3/12/2024 2:14:57 PM|Added 👩🏻 2 Top with 26 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^jbib_001_u.ydd.
+3/12/2024 2:14:57 PM|Continue adding possible duplicate item of mp_f_freemode_01_mp_f_taysbusinesspack^jbib_000_u.ydd '👩🏻 1 Top' (Top) at pos 1 => 0ab7c00a-0a33-4ab6-a2db-f5cb43bc79c2.ydd
+3/12/2024 2:14:57 PM|Added 👩🏻 3 Top with 7 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^jbib_002_u.ydd.
+3/12/2024 2:14:57 PM|Continue adding possible duplicate item of mp_f_freemode_01_mp_f_taysbusinesspack^jbib_001_u.ydd '👩🏻 2 Top' (Top) at pos 2 => d7fb1693-7386-4d05-ba8b-d7e86da723df.ydd
+3/12/2024 2:14:58 PM|Added 👩🏻 4 Top with 7 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^jbib_003_u.ydd.
+3/12/2024 2:14:58 PM|Added 👩🏻 5 Top with 12 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^jbib_004_u.ydd.
+3/12/2024 2:14:58 PM|Added 👩🏻 6 Top with 2 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^jbib_005_u.ydd.
+3/12/2024 2:14:58 PM|Added 👩🏻 0 Legs with 6 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^lowr_000_r.ydd.
+3/12/2024 2:14:58 PM|Added 👩🏻 1 Legs with 5 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^lowr_001_u.ydd.
+3/12/2024 2:14:58 PM|Added 👩🏻 0 Armor with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^task_000_u.ydd.
+3/12/2024 2:14:58 PM|Added 👩🏻 2 Accessories with 4 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^teef_000_u.ydd.
+3/12/2024 2:14:58 PM|Added 👩🏻 3 Accessories with 4 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^teef_001_u.ydd.
+3/12/2024 2:14:59 PM|Added 👩🏻 0 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_000_r.ydd.
+3/12/2024 2:14:59 PM|Added 👩🏻 1 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_001_r.ydd.
+3/12/2024 2:14:59 PM|Added 👩🏻 2 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_002_r.ydd.
+3/12/2024 2:14:59 PM|Added 👩🏻 3 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_003_r.ydd.
+3/12/2024 2:14:59 PM|Added 👩🏻 4 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_004_r.ydd.
+3/12/2024 2:14:59 PM|Added 👩🏻 5 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_005_r.ydd.
+3/12/2024 2:14:59 PM|Added 👩🏻 6 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_006_r.ydd.
+3/12/2024 2:14:59 PM|Added 👩🏻 7 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_007_r.ydd.
+3/12/2024 2:14:59 PM|Added 👩🏻 8 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_008_r.ydd.
+3/12/2024 2:15:00 PM|Added 👩🏻 9 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_009_r.ydd.
+3/12/2024 2:15:00 PM|Added 👩🏻 10 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_010_r.ydd.
+3/12/2024 2:15:00 PM|Added 👩🏻 11 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_011_r.ydd.
+3/12/2024 2:15:00 PM|Added 👩🏻 12 Body with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_mp_f_taysbusinesspack\mp_f_freemode_01_mp_f_taysbusinesspack^uppr_012_r.ydd.
+3/12/2024 2:15:01 PM|Added 👩🏻 0 PropHead with 26 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_p_mp_f_taysbusinesspack\mp_f_freemode_01_p_mp_f_taysbusinesspack^p_head_000.ydd.
+3/12/2024 2:15:01 PM|Added 👩🏻 1 PropHead with 26 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\86f887-Files 1.9\FIVEM\taysbusinesspack\stream\mp_f_freemode_01_p_mp_f_taysbusinesspack\mp_f_freemode_01_p_mp_f_taysbusinesspack^p_head_001.ydd.
+3/12/2024 2:15:01 PM|Found 27 Female cloth models
+3/12/2024 2:15:45 PM|Added 👩🏻 9 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\50b94d-long braids hairstyle by jazlyn13\long braids hairstyle by jazlyn13\fivem\mp_f_freemode_01^hair_004_u.ydd.
+3/12/2024 2:15:45 PM|Found 1 Female cloth models
+3/12/2024 2:16:02 PM|Added 👩🏻 10 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\7e46dd-#26 Wavy Hair with Bangs by JinxStore\#26 Wavy Hair with Bangs by JinxStore\Files\hair_158_u.ydd.
+3/12/2024 2:16:02 PM|Found 1 Female cloth models
+3/12/2024 2:16:29 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:17:09 PM|Added 👩🏻 0 Shoes with 8 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\758c90-WM_F_SHOES_31_FREE\WM_F_SHOES_31_FREE\feet_006_r.ydd.
+3/12/2024 2:18:02 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:18:37 PM|Added 👩🏻 11 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\774b15-VINTAGEGIRL FREE FOR YOU HAIR#005\mp_m_freemode_01^hair_005_u.ydd.
+3/12/2024 2:18:59 PM|Removed drawable mp_m_freemode_01^hair_005_u.ydd '👩🏻 11 Hair' (Hair) at pos 11 => b6b6240a-bd53-4e79-9db6-e5e3a085ce9d.ydd
+3/12/2024 2:18:59 PM|Removed 'Hair' (See logs for full details). Total items: 87
+3/12/2024 2:19:14 PM|Added 👨🏻 10 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\774b15-VINTAGEGIRL FREE FOR YOU HAIR#005\mp_m_freemode_01^hair_005_u.ydd.
+3/12/2024 2:19:14 PM|Found 1 Male cloth models
+3/12/2024 2:19:52 PM|Added 👩🏻 11 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\6705ea-#FREE Laulanne Hair_JinxStore\#FREE Laulanne Hair\Files\hair_041_u.ydd.
+3/12/2024 2:19:52 PM|Found 1 Female cloth models
+3/12/2024 2:20:11 PM|Added 👨🏻 11 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\1d7005-K-POP INSPIRED HAIR by BluKay\K-POP INSPIRED HAIR by BluKay\FiveM\mp_m_freemode_01_mp_m_vinewood^hair_000_u.ydd.
+3/12/2024 2:20:11 PM|Found 1 Male cloth models
+3/12/2024 2:20:28 PM|Added 👨🏻 3 Mask with 12 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\842e3c-009-elhamios mustache\009-elhamios mustache\mp_m_freemode_01_mp_m_clothes_01^berd_009_u.ydd.
+3/12/2024 2:20:28 PM|Found 1 Male cloth models
+3/12/2024 2:21:36 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\bef92d-MoreBeards\MoreBeards\patchday4ng\ped_mp_overlay_txds.rpf\ng_hip_faov_beard_000.ytd to '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:21:36 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\bef92d-MoreBeards\MoreBeards\patchday4ng\ped_mp_overlay_txds.rpf\ng_hip_faov_beard_001.ytd to '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:21:36 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\bef92d-MoreBeards\MoreBeards\patchday4ng\ped_mp_overlay_txds.rpf\ng_hip_faov_beard_002.ytd to '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:21:36 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\bef92d-MoreBeards\MoreBeards\patchday4ng\ped_mp_overlay_txds.rpf\ng_hip_faov_beard_003.ytd to '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:21:36 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\bef92d-MoreBeards\MoreBeards\patchday4ng\ped_mp_overlay_txds.rpf\ng_hip_faov_beard_004.ytd to '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:21:37 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\bef92d-MoreBeards\MoreBeards\patchday4ng\ped_mp_overlay_txds.rpf\ng_hip_faov_beard_005.ytd to '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:21:37 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\bef92d-MoreBeards\MoreBeards\patchday4ng\ped_mp_overlay_txds.rpf\ng_hip_faov_beard_006.ytd to '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:21:37 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\bef92d-MoreBeards\MoreBeards\patchday4ng\ped_mp_overlay_txds.rpf\ng_hip_faov_beard_007.ytd to '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:21:37 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\bef92d-MoreBeards\MoreBeards\patchday4ng\ped_mp_overlay_txds.rpf\ng_hip_faov_beard_008.ytd to '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:21:58 PM|Removed texture 'm' from '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:22:47 PM|Removed texture 'q' from '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:22:50 PM|Removed texture 'p' from '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:22:57 PM|Removed texture 'n' from '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:23:07 PM|Removed texture 't' from '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:23:10 PM|Added dummy texture to '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:23:13 PM|Removed dummy texture from '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:23:17 PM|Removed texture 'r' from '👨🏻 3 Mask' (Mask) at pos 3
+3/12/2024 2:24:03 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:24:26 PM|Added 👨🏻 9 Top with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\64424f-capfordreads\capfordreads\jbib_023_u.ydd.
+3/12/2024 2:26:42 PM|Added 👨🏻 9 Top with 18 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\0f9ecb-sleek layered shirt by jazlyn13 v 1.0\sleek layered shirt by jazlyn13 v 1.0\fivem\mp_f_freemode_01_mp_f_gunrunning_01^jbib_001_u.ydd.
+3/12/2024 2:26:42 PM|Found 1 Male cloth models
+3/12/2024 2:26:55 PM|Removed drawable mp_f_freemode_01_mp_f_gunrunning_01^jbib_001_u.ydd '👨🏻 9 Top' (Top) at pos 9 => c495e3b0-b3a0-455e-af74-aff0c514a869.ydd
+3/12/2024 2:26:55 PM|Removed 'Top' (See logs for full details). Total items: 92
+3/12/2024 2:27:09 PM|Added 👩🏻 7 Top with 18 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\0f9ecb-sleek layered shirt by jazlyn13 v 1.0\sleek layered shirt by jazlyn13 v 1.0\fivem\mp_f_freemode_01_mp_f_gunrunning_01^jbib_001_u.ydd.
+3/12/2024 2:27:09 PM|Found 1 Female cloth models
+3/12/2024 2:28:47 PM|Added 👩🏻 1 Shoes with 10 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\8007f9-Platform Leather Boots\Platform Leather Boots\feet_005_u.ydd.
+3/12/2024 2:28:47 PM|Found 1 Female cloth models
+3/12/2024 2:29:37 PM|Added 👩🏻 2 Legs with 9 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\61097f-levis jeans by jazlyn13\levis jeans by jazlyn13\fivem\mp_f_freemode_01_mp_f_security^lowr_001_r.ydd.
+3/12/2024 2:29:37 PM|Found 1 Female cloth models
+3/12/2024 2:29:56 PM|Added 👨🏻 2 Legs with 9 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\61097f-levis jeans by jazlyn13\levis jeans by jazlyn13\fivem\mp_f_freemode_01_mp_f_security^lowr_001_r.ydd.
+3/12/2024 2:29:56 PM|Found 1 Male cloth models
+3/12/2024 2:30:18 PM|Removed drawable mp_f_freemode_01_mp_f_security^lowr_001_r.ydd '👨🏻 2 Legs' (Legs) at pos 2 => a281a07f-b017-4e47-a94a-3a99cc123795.ydd
+3/12/2024 2:30:18 PM|Removed 'Legs' (See logs for full details). Total items: 95
+3/12/2024 2:30:55 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:31:11 PM|Added 👩🏻 2 Shoes with 9 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\1e5141-Aevitas Pointy Plateau-Pumps\Aevitas Pointy Plateau-Pumps\Fivem\mp_f_freemode_01_mp_f_valentines_02^feet_000_r.ydd.
+3/12/2024 2:34:21 PM|Added 👩🏻 3 Legs with 6 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\069ec1-leatherpants-lacosturera\leatherpants-lacosturera\lowr_000_r.ydd.
+3/12/2024 2:34:21 PM|Found 1 Female cloth models
+3/12/2024 2:34:53 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:35:30 PM|Added 👨🏻 12 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\23b029-fluffymalehair\fluffymalehair\fivem\mp_m_freemode_01_mp_m_clothes_01^hair_032_u.ydd.
+3/12/2024 2:35:30 PM|Found 1 Male cloth models
+3/12/2024 2:35:53 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:36:17 PM|Added 👨🏻 13 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\104104-cody hairstyle\hair_007_u.ydd.
+3/12/2024 2:36:17 PM|Found 1 Male cloth models
+3/12/2024 2:36:57 PM|Added 👨🏻 9 Top with 13 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\213826-Jumper with Collar\Jumper with Collar\^jbib_000_u.ydd.
+3/12/2024 2:36:57 PM|Found 1 Male cloth models
+3/12/2024 2:37:39 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:37:48 PM|Added 👩🏻 8 Top with 12 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\46843b-off shoulder top by jazlyn\off shoulder top by jazlyn\fivem\mp_f_freemode_01^jbib_007_u.ydd.
+3/12/2024 2:37:48 PM|Found 1 Female cloth models
+3/12/2024 2:38:26 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:38:38 PM|Added 👩🏻 12 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\25031d-ivy hair\ivy hair\fivem\mp_f_freemode_01_mp_f_bikerdlc_01^hair_005_u.ydd.
+3/12/2024 2:38:47 PM|Adding dummy drawable for gender Female
+3/12/2024 2:38:48 PM|Dummy drawable was not added. Options couldnt be resolved & were not set by user.
+3/12/2024 2:39:01 PM|Added 👩🏻 9 Top with 10 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\174bed-Party Dress for MP Female by Jaagoda\Party Dress for MP Female by Jaagoda\Files\jbib_072_u.ydd.
+3/12/2024 2:39:28 PM|Added 👩🏻 3 Shoes with 4 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\147fc6-[WM] Mia Colucci Boots\[WM] Mia Colucci Boots\^feet_000_u.ydd.
+3/12/2024 2:39:28 PM|Found 1 Female cloth models
+3/12/2024 2:40:30 PM|Continue adding possible duplicate item of mp_f_freemode_01_mp_f_bikerdlc_01^hair_005_u.ydd '👩🏻 12 Hair' (Hair) at pos 12 => b49a42e9-d37b-4ccc-b822-6f101fab3ceb.ydd
+3/12/2024 2:40:31 PM|Added 👩🏻 13 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\25031d-ivy hair\ivy hair\fivem\mp_f_freemode_01_mp_f_bikerdlc_01^hair_005_u.ydd.
+3/12/2024 2:40:49 PM|Removed drawable mp_f_freemode_01_mp_f_bikerdlc_01^hair_005_u.ydd '👩🏻 13 Hair' (Hair) at pos 13 => 281514e8-7b6c-4a99-baf3-5600b105147a.ydd
+3/12/2024 2:40:49 PM|Removed 'Hair' (See logs for full details). Total items: 104
+3/12/2024 2:41:08 PM|Added 👩🏻 0 Undershirt with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\11b06c-stitched cargo pants by jazlyn13\stitched cargo pants by jazlyn13\fivem\mp_f_freemode_01^accs_012_u.ydd.
+3/12/2024 2:41:08 PM|Found 1 Female cloth models
+3/12/2024 2:42:18 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:42:38 PM|Added 👩🏻 4 Accessories with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\09f986-ellie_long_necklace_v1\ellie_long_necklace_v1\teef_004_u.ydd.
+3/12/2024 2:47:26 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:48:02 PM|Adding dummy drawable for gender Male
+3/12/2024 2:48:16 PM|Added dummy texture to '👨🏻 0 Decal' (Decal) at pos 0
+3/12/2024 2:48:57 PM|Added texture C:\Users\ankne\Downloads\08dc41-hairfadestyles\hairfadestyles\FiveM Versions\mp_fm_faov_beard_009.ytd to '👨🏻 3 Hair' (Hair) at pos 3
+3/12/2024 2:49:08 PM|Removed texture 'b' from '👨🏻 3 Hair' (Hair) at pos 3
+3/12/2024 2:49:53 PM|👨🏻 1 mp_airraces_tattoo_004_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:50:00 PM|👨🏻 2 mp_airraces_tattoo_000_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:50:11 PM|👨🏻 3 mp_christmas2017_tattoo_021_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:50:23 PM|👨🏻 4 mp_biker_tat_026_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:50:39 PM|👨🏻 5 mp_lr_tat_031_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:50:46 PM|👨🏻 6 mp_smuggler_tattoo_009_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:50:52 PM|👨🏻 7 mp_smuggler_tattoo_021_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:50:58 PM|👩🏻 1 mp_smuggler_tattoo_021_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:51:04 PM|👨🏻 8 mp_lr_tat_021_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:51:09 PM|👩🏻 2 mp_lr_tat_021_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:51:14 PM|👨🏻 9 mp_airraces_tattoo_007_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:51:20 PM|👩🏻 3 mp_airraces_tattoo_007_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:51:27 PM|👨🏻 10 mp_christmas2017_tattoo_027_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:51:31 PM|👩🏻 4 mp_christmas2017_tattoo_027_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:51:36 PM|👨🏻 11 mp_smuggler_tattoo_020_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:51:42 PM|👩🏻 5 mp_smuggler_tattoo_020_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:10 PM|👩🏻 6 mp_christmas2017_tattoo_005_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:14 PM|👩🏻 7 mp_airraces_tattoo_000_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:18 PM|👩🏻 8 mp_biker_tat_023_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:22 PM|👩🏻 9 mp_christmas2017_tattoo_015_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:27 PM|👩🏻 10 mp_biker_tat_016_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:31 PM|Continue adding possible duplicate item of mp_biker_tat_016 '👩🏻 10 mp_biker_tat_016_F' (TYPE_TATTOO) at pos 10 => 80460e82-c473-41ef-8334-b3e321a255a7.ytd
+3/12/2024 2:52:31 PM|👩🏻 11 mp_biker_tat_016_1_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:34 PM|Removed drawable mp_biker_tat_016 '👩🏻 11 mp_biker_tat_016_1_F' (TYPE_TATTOO) at pos 11 => 2dc0c4ea-c6d1-412a-af49-3dcb6eb0413e.ytd
+3/12/2024 2:52:34 PM|Removed 'mp_biker_tat_016_1_F' (See logs for full details). Total items: 128
+3/12/2024 2:52:37 PM|👩🏻 11 mp_xm2_tat_m_011_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:41 PM|👩🏻 12 mp_luxe_tat_008_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:45 PM|👨🏻 12 mp_luxe_tat_008_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:48 PM|👨🏻 13 mp_xm2_tat_m_011_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:52 PM|👨🏻 14 mp_christmas2017_tattoo_021_1_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:55 PM|👨🏻 15 mp_gunrunning_tattoo_028_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:52:59 PM|👨🏻 16 mp_smuggler_tattoo_020_1_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:53:04 PM|👨🏻 17 mp_biker_tat_016_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:53:09 PM|👨🏻 18 mp_smuggler_tattoo_023_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:53:14 PM|👨🏻 19 mp_christmas2017_tattoo_006_1_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:53:19 PM|👨🏻 20 mp_biker_tat_023_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:53:23 PM|👨🏻 21 mp_airraces_tattoo_000_1_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:53:27 PM|👨🏻 22 mp_christmas2017_tattoo_005_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:54:15 PM|Continue adding possible duplicate item of mp_christmas2017_tattoo_006 '👩🏻 0 mp_christmas2017_tattoo_006_F' (TYPE_TATTOO) at pos 0 => 943ffb69-df29-471a-bd43-0f127059ad9e.ytd
+3/12/2024 2:54:15 PM|👩🏻 13 mp_christmas2017_tattoo_006_1_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:54:19 PM|Removed drawable mp_christmas2017_tattoo_006 '👩🏻 13 mp_christmas2017_tattoo_006_1_F' (TYPE_TATTOO) at pos 13 => 1283b39a-0f1d-4989-b233-42add426ade3.ytd
+3/12/2024 2:54:19 PM|Removed 'mp_christmas2017_tattoo_006_1_F' (See logs for full details). Total items: 141
+3/12/2024 2:55:18 PM|Didn't find any cloth models (*.ydd) in the folder.
+3/12/2024 2:55:39 PM|Added 👩🏻 13 Hair with 0 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\female mesh\hair_001_u.ydd.
+3/12/2024 2:55:46 PM|Adding dummy drawable for gender Male
+3/12/2024 2:55:48 PM|Dummy drawable was not added. Options couldnt be resolved & were not set by user.
+3/12/2024 2:56:06 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_q_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:06 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_a_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:06 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_b_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:06 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_c_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_d_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_e_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_f_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_g_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_h_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_i_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_j_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_k_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_l_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_m_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_n_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:07 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_o_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:08 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_p_uni.ytd to '👩🏻 13 Hair' (Hair) at pos 13
+3/12/2024 2:56:26 PM|Added 👨🏻 14 Hair with 0 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\male mesh\hair_001_u.ydd.
+3/12/2024 2:56:34 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_q_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:34 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_a_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:34 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_b_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:34 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_c_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:34 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_d_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:34 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_e_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:34 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_f_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:34 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_g_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:35 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_h_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:35 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_i_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:35 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_j_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:35 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_k_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:35 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_l_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:35 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_m_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:35 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_n_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:35 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_o_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:35 PM|Added texture C:\Users\ankne\Downloads\Clothing Pack 3\3965cd-MOD_Final_Chapter_by_GekkoLilly\MOD\textures\hair_diff_001_p_uni.ytd to '👨🏻 14 Hair' (Hair) at pos 14
+3/12/2024 2:56:48 PM|Removed drawable hair_001_u.ydd '👨🏻 14 Hair' (Hair) at pos 14 => 1a51bb94-6e37-4bcc-82c6-721b32a08490.ydd
+3/12/2024 2:56:48 PM|Removed 'Hair' (See logs for full details). Total items: 142
+3/12/2024 2:58:09 PM|Continue adding possible duplicate item of hair_058_u.ydd '👩🏻 1 Hair' (Hair) at pos 1 => 82f64468-c5d4-4926-b1cc-3c040a5ff9e2.ydd
+3/12/2024 2:58:09 PM|Added 👩🏻 14 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\f5f582-#FREE Sury Hair JinxStore\#FREE Sury Hair JinxStore\Files\hair_058_u.ydd.
+3/12/2024 2:58:15 PM|Removed drawable hair_058_u.ydd '👩🏻 14 Hair' (Hair) at pos 14 => 2da4b577-2ff1-45e2-84c6-430bde705451.ydd
+3/12/2024 2:58:15 PM|Removed 'Hair' (See logs for full details). Total items: 142
+3/12/2024 2:58:49 PM|Continue adding possible duplicate item of mp_f_freemode_01^teef_000_u.ydd '👩🏻 0 Accessories' (Accessories) at pos 0 => b8bfc1ca-beea-43e5-99a7-eb09247e7f4c.ydd
+3/12/2024 2:58:49 PM|Added 👩🏻 5 Accessories with 3 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\a4959d-Nose Ring (free)-20231109T125618Z-001\Nose Ring (free)\fivem\mp_f_freemode_01^teef_000_u.ydd.
+3/12/2024 2:59:04 PM|Removed drawable mp_f_freemode_01^teef_000_u.ydd '👩🏻 5 Accessories' (Accessories) at pos 5 => ecc6c6e5-6e3d-41b5-bf6e-f0b7f1c16e73.ydd
+3/12/2024 2:59:04 PM|Removed 'Accessories' (See logs for full details). Total items: 142
+3/12/2024 2:59:33 PM|👩🏻 13 hwskull_002_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:59:39 PM|👨🏻 23 hwskull_002_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:59:45 PM|👩🏻 14 hwskull_000_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:59:51 PM|👨🏻 24 hwskull_000_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 2:59:58 PM|👩🏻 15 hwskull_001_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 3:00:03 PM|👨🏻 25 hwskull_001_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 3:00:08 PM|👩🏻 16 hwskull_003_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 3:00:12 PM|👨🏻 26 hwskull_003_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 3:00:18 PM|👩🏻 17 hwskull_004_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 3:00:23 PM|👨🏻 27 hwskull_004_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 3:00:28 PM|👩🏻 18 hwskull_006_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 3:00:32 PM|👨🏻 28 hwskull_006_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 3:00:37 PM|👩🏻 19 hwskull_005_F added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 3:00:42 PM|👨🏻 29 hwskull_005_M added with default zone ZONE_TORSO (Change in settings)
+3/12/2024 3:02:36 PM|Added 👨🏻 14 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Michael, Franklin, Trevor\M\hair_006_u.ydd.
+3/12/2024 3:02:36 PM|Added 👨🏻 15 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Michael, Franklin, Trevor\M\hair_007_u.ydd.
+3/12/2024 3:02:36 PM|Added 👨🏻 16 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Michael, Franklin, Trevor\M\hair_008_u.ydd.
+3/12/2024 3:02:36 PM|Found 3 Male cloth models
+3/12/2024 3:02:50 PM|Continue adding possible duplicate item of hair_006_u.ydd '👨🏻 14 Hair' (Hair) at pos 14 => 026a8d92-92c7-4c55-949d-491e3146e25f.ydd
+3/12/2024 3:02:50 PM|Added 👨🏻 17 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Michael, Franklin, Trevor\M\hair_006_u.ydd.
+3/12/2024 3:02:50 PM|Continue adding possible duplicate item of hair_007_u.ydd '👨🏻 15 Hair' (Hair) at pos 15 => 41dc7be6-591b-485d-8a53-80a59671e921.ydd
+3/12/2024 3:02:50 PM|Added 👨🏻 18 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Michael, Franklin, Trevor\M\hair_007_u.ydd.
+3/12/2024 3:02:50 PM|Continue adding possible duplicate item of hair_008_u.ydd '👨🏻 16 Hair' (Hair) at pos 16 => 99d823f1-16c6-44fb-9add-4ba0c98588f5.ydd
+3/12/2024 3:02:50 PM|Added 👨🏻 19 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Michael, Franklin, Trevor\M\hair_008_u.ydd.
+3/12/2024 3:02:50 PM|Found 3 Male cloth models
+3/12/2024 3:03:01 PM|Added 👨🏻 20 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Michael, Franklin, Trevor\T\hair_004_u.ydd.
+3/12/2024 3:03:01 PM|Found 1 Male cloth models
+3/12/2024 3:03:09 PM|Removed drawable hair_004_u.ydd '👨🏻 20 Hair' (Hair) at pos 20 => a026fcd0-4a37-4a2f-9f4f-9d8e75d7f498.ydd
+3/12/2024 3:03:09 PM|Removed 'Hair' (See logs for full details). Total items: 162
+3/12/2024 3:03:15 PM|Added 👨🏻 20 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Michael, Franklin, Trevor\F\hair_005_u.ydd.
+3/12/2024 3:03:15 PM|Found 1 Male cloth models
+3/12/2024 3:03:27 PM|Added 👨🏻 21 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\g_m_y_salvagoon_01\hair_023_u.ydd.
+3/12/2024 3:03:42 PM|Added 👨🏻 22 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Fabien\hair_022_u.ydd.
+3/12/2024 3:03:42 PM|Found 1 Male cloth models
+3/12/2024 3:03:54 PM|Added 👨🏻 23 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\csb_groom\hair_021_u.ydd.
+3/12/2024 3:04:06 PM|Added 👨🏻 24 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Milton\hair_024_u.ydd.
+3/12/2024 3:04:39 PM|Added 👨🏻 25 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Omega\hair_027_u.ydd.
+3/12/2024 3:04:53 PM|Added 👨🏻 26 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\Lazlow\hair_031_u.ydd.
+3/12/2024 3:05:07 PM|Continue adding possible duplicate item of hair_023_u.ydd '👨🏻 21 Hair' (Hair) at pos 21 => 1feb3a37-8dae-4709-92d6-57ba9aae35a9.ydd
+3/12/2024 3:05:07 PM|Added 👨🏻 27 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\g_m_y_salvagoon_01\hair_023_u.ydd.
+3/12/2024 3:05:24 PM|Added 👨🏻 28 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\TaoCheng\hair_025_u.ydd.
+3/12/2024 3:05:38 PM|Added 👨🏻 29 Hair with 0 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\TaoTranslator\hair_000_u.ydd.
+3/12/2024 3:05:38 PM|Continue adding possible duplicate item of hair_000_u.ydd '👨🏻 29 Hair' (Hair) at pos 29 => 6e34aeff-d434-4c7a-bcd2-eec045d7873f.ydd
+3/12/2024 3:05:38 PM|Added 👨🏻 30 Hair with 1 found textures from C:\Users\ankne\Downloads\Clothing Pack 3\TaoTranslator\hair_026_u.ydd.
+3/12/2024 3:05:48 PM|Removed drawable hair_000_u.ydd '👨🏻 29 Hair' (Hair) at pos 29 => 6e34aeff-d434-4c7a-bcd2-eec045d7873f.ydd
+3/12/2024 3:05:48 PM|Removed 'Hair' (See logs for full details). Total items: 172
+3/12/2024 3:08:53 PM|Added 👨🏻 1 Undershirt with 1 found textures from C:\Users\ankne\Downloads\493188-Beards for Male MP 1.0\FINAL FOLDER\1. Michael Beard\accs_003_u.ydd.
+3/12/2024 3:08:53 PM|Added 👨🏻 2 Undershirt with 1 found textures from C:\Users\ankne\Downloads\493188-Beards for Male MP 1.0\FINAL FOLDER\2. Franklin Beard\accs_002_u.ydd.
+3/12/2024 3:08:53 PM|Added 👨🏻 4 Mask with 1 found textures from C:\Users\ankne\Downloads\493188-Beards for Male MP 1.0\FINAL FOLDER\4. Hunter\berd_000_u.ydd.
+3/12/2024 3:08:53 PM|Found 3 Male cloth models
+3/12/2024 3:09:12 PM|Continue adding possible duplicate item of accs_002_u.ydd '👨🏻 2 Undershirt' (Undershirt) at pos 2 => c02643ae-9d8c-48f7-b43d-aa7106ba168b.ydd
+3/12/2024 3:09:12 PM|Added 👨🏻 3 Undershirt with 1 found textures from C:\Users\ankne\Downloads\493188-Beards for Male MP 1.0\FINAL FOLDER\2. Franklin Beard\accs_002_u.ydd.
+3/12/2024 3:09:12 PM|Found 1 Male cloth models
+3/12/2024 3:09:22 PM|Added 👨🏻 4 Undershirt with 1 found textures from C:\Users\ankne\Downloads\493188-Beards for Male MP 1.0\FINAL FOLDER\3. Trevor Beards\berd_001 (Regularstache)\accs_006_u.ydd.
+3/12/2024 3:09:22 PM|Added 👨🏻 5 Undershirt with 1 found textures from C:\Users\ankne\Downloads\493188-Beards for Male MP 1.0\FINAL FOLDER\3. Trevor Beards\berd_003 (Pornstache)\accs_001_u.ydd.
+3/12/2024 3:09:22 PM|Added 👨🏻 6 Undershirt with 1 found textures from C:\Users\ankne\Downloads\493188-Beards for Male MP 1.0\FINAL FOLDER\3. Trevor Beards\berd_004 (Horseshoe Beard)\accs_004_u.ydd.
+3/12/2024 3:09:22 PM|Added 👨🏻 5 Mask with 1 found textures from C:\Users\ankne\Downloads\493188-Beards for Male MP 1.0\FINAL FOLDER\3. Trevor Beards\berd_005 (Lumberjack Beard)\berd_004_u.ydd.
+3/12/2024 3:09:22 PM|Found 4 Male cloth models
+3/12/2024 3:09:34 PM|Continue adding possible duplicate item of accs_004_u.ydd '👨🏻 6 Undershirt' (Undershirt) at pos 6 => 229e33dd-3530-4ff3-9e9c-93a8a56e047b.ydd
+3/12/2024 3:09:34 PM|Added 👨🏻 7 Undershirt with 1 found textures from C:\Users\ankne\Downloads\493188-Beards for Male MP 1.0\FINAL FOLDER\3. Trevor Beards\berd_004 (Horseshoe Beard)\accs_004_u.ydd.
+3/12/2024 3:09:34 PM|Found 1 Male cloth models
+3/12/2024 3:09:50 PM|Continue adding possible duplicate item of berd_004_u.ydd '👨🏻 5 Mask' (Mask) at pos 5 => d540efbc-4def-43fb-bf8d-eb550964691c.ydd
+3/12/2024 3:09:50 PM|Added 👨🏻 6 Mask with 1 found textures from C:\Users\ankne\Downloads\493188-Beards for Male MP 1.0\FINAL FOLDER\3. Trevor Beards\berd_005 (Lumberjack Beard)\berd_004_u.ydd.
+3/12/2024 3:09:50 PM|Found 1 Male cloth models
+3/12/2024 3:10:00 PM|Continue adding possible duplicate item of accs_006_u.ydd '👨🏻 4 Undershirt' (Undershirt) at pos 4 => 582c355a-dcc9-4da2-b89d-767752114d7d.ydd
+3/12/2024 3:10:00 PM|Added 👨🏻 8 Undershirt with 1 found textures from C:\Users\ankne\Downloads\493188-Beards for Male MP 1.0\FINAL FOLDER\3. Trevor Beards\berd_001 (Regularstache)\accs_006_u.ydd.
+3/12/2024 3:10:54 PM|Project with 183 clothes/decorations saved (C:\Users\ankne\OneDrive\Desktop\bprpclothes_stream\bprp_clothing3.durty-cloth.json).
+3/12/2024 3:10:54 PM|Successfully optimized your data files. Cleaned 94 files that were not in use.
+3/12/2024 3:11:32 PM|Trying to optimize embedded textures of model 'mp_f_freemode_01^accs_012_u.ydd '👩🏻 0 Undershirt' (Undershirt) at pos 0 => 3c32674b-8410-4ff2-aa81-3b26fe2bf98a.ydd' ...
+3/12/2024 3:11:36 PM|Drawable '👩🏻 0 Undershirt' (Undershirt) at pos 0 (3c32674b-8410-4ff2-aa81-3b26fe2bf98a.ydd) file got successfully updated to f1e9606f-232c-40c6-92c1-c6faf430381d.ydd.
+3/12/2024 3:11:36 PM|Texture lowr_normal_011_a optimized from 1 MB to 1 MB, format D3DFMT_DXT5 => D3DFMT_DXT5, width/height 2048px/4096px => 2048px/4096px, mip maps 10 => 13
+3/12/2024 3:11:36 PM|Texture lowr_spec_011 optimized from 1 MB to 1 MB, format D3DFMT_DXT5 => D3DFMT_DXT5, width/height 2048px/4096px => 2048px/4096px, mip maps 10 => 13
+3/12/2024 3:11:36 PM|Successfully optimized embedded textures of model 'mp_f_freemode_01^accs_012_u.ydd '👩🏻 0 Undershirt' (Undershirt) at pos 0 => f1e9606f-232c-40c6-92c1-c6faf430381d.ydd'
+3/12/2024 3:11:42 PM|Project with 183 clothes/decorations saved (C:\Users\ankne\OneDrive\Desktop\bprpclothes_stream\bprp_clothing3.durty-cloth.json).
+3/12/2024 3:11:51 PM|Project with 183 clothes/decorations saved (C:\Users\ankne\OneDrive\Desktop\bprpclothes_stream\bprp_clothing3.durty-cloth.json).

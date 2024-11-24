@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TattooShopItemArray>
+	<TattooShopItems>
+		<Item>
+			<id value="10000"/>
+			<cost value="50"/>
+			<textLabel>mp_christmas2017_tattoo_006_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_christmas2017_tattoo_006_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10001"/>
+			<cost value="50"/>
+			<textLabel>mp_airraces_tattoo_004_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_airraces_tattoo_004_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10002"/>
+			<cost value="50"/>
+			<textLabel>mp_airraces_tattoo_000_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_airraces_tattoo_000_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10003"/>
+			<cost value="50"/>
+			<textLabel>mp_christmas2017_tattoo_021_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_christmas2017_tattoo_021_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10004"/>
+			<cost value="50"/>
+			<textLabel>mp_biker_tat_026_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_biker_tat_026_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10005"/>
+			<cost value="50"/>
+			<textLabel>mp_lr_tat_031_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_lr_tat_031_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10006"/>
+			<cost value="50"/>
+			<textLabel>mp_smuggler_tattoo_009_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_smuggler_tattoo_009_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10007"/>
+			<cost value="50"/>
+			<textLabel>mp_smuggler_tattoo_021_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_smuggler_tattoo_021_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10008"/>
+			<cost value="50"/>
+			<textLabel>mp_lr_tat_021_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_lr_tat_021_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10009"/>
+			<cost value="50"/>
+			<textLabel>mp_airraces_tattoo_007_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_airraces_tattoo_007_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10010"/>
+			<cost value="50"/>
+			<textLabel>mp_christmas2017_tattoo_027_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_christmas2017_tattoo_027_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10011"/>
+			<cost value="50"/>
+			<textLabel>mp_smuggler_tattoo_020_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_smuggler_tattoo_020_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10012"/>
+			<cost value="50"/>
+			<textLabel>mp_luxe_tat_008_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_luxe_tat_008_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10013"/>
+			<cost value="50"/>
+			<textLabel>mp_xm2_tat_m_011_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_xm2_tat_m_011_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10014"/>
+			<cost value="50"/>
+			<textLabel>mp_christmas2017_tattoo_021_1_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_christmas2017_tattoo_021_1_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10015"/>
+			<cost value="50"/>
+			<textLabel>mp_gunrunning_tattoo_028_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_gunrunning_tattoo_028_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10016"/>
+			<cost value="50"/>
+			<textLabel>mp_smuggler_tattoo_020_1_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_smuggler_tattoo_020_1_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10017"/>
+			<cost value="50"/>
+			<textLabel>mp_biker_tat_016_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_biker_tat_016_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10018"/>
+			<cost value="50"/>
+			<textLabel>mp_smuggler_tattoo_023_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_smuggler_tattoo_023_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10019"/>
+			<cost value="50"/>
+			<textLabel>mp_christmas2017_tattoo_006_1_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_christmas2017_tattoo_006_1_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10020"/>
+			<cost value="50"/>
+			<textLabel>mp_biker_tat_023_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_biker_tat_023_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10021"/>
+			<cost value="50"/>
+			<textLabel>mp_airraces_tattoo_000_1_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_airraces_tattoo_000_1_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10022"/>
+			<cost value="50"/>
+			<textLabel>mp_christmas2017_tattoo_005_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_christmas2017_tattoo_005_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10023"/>
+			<cost value="50"/>
+			<textLabel>hwskull_002_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_002_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10024"/>
+			<cost value="50"/>
+			<textLabel>hwskull_000_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_000_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10025"/>
+			<cost value="50"/>
+			<textLabel>hwskull_001_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_001_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10026"/>
+			<cost value="50"/>
+			<textLabel>hwskull_003_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_003_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10027"/>
+			<cost value="50"/>
+			<textLabel>hwskull_004_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_004_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10028"/>
+			<cost value="50"/>
+			<textLabel>hwskull_006_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_006_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10029"/>
+			<cost value="50"/>
+			<textLabel>hwskull_005_M</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_005_M</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10030"/>
+			<cost value="50"/>
+			<textLabel>mp_christmas2017_tattoo_006_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_christmas2017_tattoo_006_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10031"/>
+			<cost value="50"/>
+			<textLabel>mp_smuggler_tattoo_021_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_smuggler_tattoo_021_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10032"/>
+			<cost value="50"/>
+			<textLabel>mp_lr_tat_021_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_lr_tat_021_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10033"/>
+			<cost value="50"/>
+			<textLabel>mp_airraces_tattoo_007_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_airraces_tattoo_007_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10034"/>
+			<cost value="50"/>
+			<textLabel>mp_christmas2017_tattoo_027_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_christmas2017_tattoo_027_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10035"/>
+			<cost value="50"/>
+			<textLabel>mp_smuggler_tattoo_020_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_smuggler_tattoo_020_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10036"/>
+			<cost value="50"/>
+			<textLabel>mp_christmas2017_tattoo_005_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_christmas2017_tattoo_005_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10037"/>
+			<cost value="50"/>
+			<textLabel>mp_airraces_tattoo_000_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_airraces_tattoo_000_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10038"/>
+			<cost value="50"/>
+			<textLabel>mp_biker_tat_023_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_biker_tat_023_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10039"/>
+			<cost value="50"/>
+			<textLabel>mp_christmas2017_tattoo_015_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_christmas2017_tattoo_015_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10040"/>
+			<cost value="50"/>
+			<textLabel>mp_biker_tat_016_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_biker_tat_016_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10041"/>
+			<cost value="50"/>
+			<textLabel>mp_xm2_tat_m_011_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_xm2_tat_m_011_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10042"/>
+			<cost value="50"/>
+			<textLabel>mp_luxe_tat_008_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>mp_luxe_tat_008_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10043"/>
+			<cost value="50"/>
+			<textLabel>hwskull_002_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_002_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10044"/>
+			<cost value="50"/>
+			<textLabel>hwskull_000_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_000_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10045"/>
+			<cost value="50"/>
+			<textLabel>hwskull_001_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_001_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10046"/>
+			<cost value="50"/>
+			<textLabel>hwskull_003_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_003_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10047"/>
+			<cost value="50"/>
+			<textLabel>hwskull_004_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_004_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10048"/>
+			<cost value="50"/>
+			<textLabel>hwskull_006_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_006_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+		<Item>
+			<id value="10049"/>
+			<cost value="50"/>
+			<textLabel>hwskull_005_F</textLabel>
+			<collection>bprp_clothing3</collection>
+			<preset>hwskull_005_F</preset>
+			<zone>PDZ_TORSO</zone>
+			<updateGroup>torsoDecal</updateGroup>
+			<eFaction>TATTOO_MP_FM</eFaction>
+			<eFacing>TATTOO_FRONT</eFacing>
+	        <lockHash>CUSTOM_TATTOOS</lockHash>
+		</Item>
+	</TattooShopItems>
+</TattooShopItemArray>

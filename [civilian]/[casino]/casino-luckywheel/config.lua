@@ -3,12 +3,12 @@ Config	= {}
 
 Config.WheelPos = {x = 949.71, y = 45.1, z = 70.9, h =328.0}	-- Where the wheel prop will spawn OR where wheel prop is
 Config.startingPrice = 5000
-Config.VehiclePrize = 'sultanrs'
+Config.VehiclePrize = 'sultan'
 Config.VehicleSpawnCoords = vector4(933.29, -2.82, 78.76, 144.6)
 Config.VehiclePlateText = 'Diamond'
 
 
-Config.LimitedSpins = true				-- [true = players spin once per day for free] [false= $5000 a spin]
+Config.LimitedSpins = false				-- [true = players spin once per day for free] [false= $5000 a spin]
 Config.LimitedSpinResetTime = 24 * 60 * 60 -- 24 hours in seconds
 
  

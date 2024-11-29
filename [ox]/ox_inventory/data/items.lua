@@ -370,6 +370,9 @@ return {
     ['oxy'] = {
         label = 'Oxycodone',
         weight = 100,
+        client = {
+            image = "oxy.png",
+        }
     },
 
     ['joint'] = {
@@ -494,7 +497,7 @@ return {
         label = 'Leather',
         weight = 5,
         client = {
-            image = "glass.png",
+            image = "leather.png",
         }
     },
 
@@ -502,7 +505,7 @@ return {
         label = 'Dirty Cloth',
         weight = 5,
         client = {
-            image = "glass.png",
+            image = "dirty_cloth.png",
         }
     },
 

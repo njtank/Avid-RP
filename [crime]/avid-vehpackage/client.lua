@@ -73,7 +73,7 @@ local function smashWindow(vehicle)
     if math.random(1, 10) == 1 then
         spawnAngryPed(playerPos)
     end
-
+    
     TaskStartScenarioInPlace(playerPed, "PROP_HUMAN_BUM_BIN", 0, true)
     Citizen.Wait(5000)
     ClearPedTasksImmediately(playerPed)
@@ -111,5 +111,5 @@ exports.ox_target:addGlobalVehicle({
         end
     }
 }, {
-    distance = 1.5
+    distance = 1.0
 })

@@ -912,17 +912,17 @@ Config.TableTypes = {
         },
         items = { -- Items in the crafting table.
             {
-                name = "meth", -- Name of the item.
+                name = "meth_brick", -- Name of the item.
                 type = "drugs",
                 category = "drugs", -- Category name (not the label).
-                amount = 5, -- Amount to craft each time.
-                time = 20, -- Time to craft the item after action is complete.
+                amount = 1, -- Amount to craft each time.
+                time = 600, -- Time to craft the item after action is complete.
                 xp = {name = "drugs", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
-                    {name = "folded_cash", amount = 10},
+                    {name = "meth", amount = 15},
                 },
                 rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
-                    {type = "xp", name = "drugs", amount = 5},
+                    {type = "xp", name = "drugs", amount = 10},
                 },
             },
             {

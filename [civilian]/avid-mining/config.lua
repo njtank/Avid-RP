@@ -20,7 +20,7 @@ Config = {
 	},
 
 	PropTable = {
-		--{ full = "cs_x_rubweec", 		item = 'silverore', type = "Silver Ore", weight = 15 },
+		{ full = "cs_x_rubweec", 		item = 'lithium_ore', type = "Silver Ore", weight = 15 },
 		{ full = "cs_x_rubweec", 		item = 'copperore', type = "Copper Ore", weight = 25 },
 		--{ full = "cs_x_rubweec", 		item = 'goldore', type = "Gold Ore", weight = 10 },
 		{ full = "cs_x_rubweec", 		item = 'aluminumore', type = "Aluminum Ore", weight = 25 },
@@ -56,7 +56,7 @@ Crafting = {
 	SmeltMenu = {
 		{ ["copper"] = { ["copperore"] = 3 }, ['amount'] = 3 },
 		{ ["goldingot"] = { ["goldore"] = 4 }, ['amount'] = 4 },
-		{ ["silveringot"] = { ["silverore"] = 4 }, ['amount'] = 4 },
+		{ ["lithium"] = { ["lithium_ore"] = 4 }, ['amount'] = 1 },
 		{ ["iron"] = { ["ironore"] = 4 }, ['amount'] = 4 },
 		{ ["steel"] = { ["ironore"] = 2, ["coal"] = 1 } },
 		{ ["aluminum"] = { ["aluminumore"] = 3, }, ['amount'] = 3 },

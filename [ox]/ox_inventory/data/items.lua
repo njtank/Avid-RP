@@ -327,6 +327,36 @@ return {
         }
     },
 
+    ['acetone'] = {
+		label = 'Acetone',
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "It is a colourless, highly volatile and flammable liquid with a characteristic pungent odour."
+        client = {
+            image = "acetone.png",
+        }
+	},
+    	['lithium'] = {
+		label = 'Lithium',
+		weight = 100,
+		stack = true,
+		close = false,
+        client = {
+            image = "lithium.png",
+        }
+	},
+    	['meth_equipment'] = {
+		label = 'Portable meth_equipment',
+		weight = 5000,
+		stack = true,
+		close = false,
+		description = "A portable Meth Lab."
+        client = {
+            image = "meth_equipment.png",
+        }
+	},
+
     ['meth_brick'] = {
         label = 'Brick of Methamphetamine',
         weight = 600,
@@ -1717,6 +1747,16 @@ return {
 },
 
 -- avid-mining 
+    ["lithium_ore"] = {
+        label = "Lithium Ore",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "Lithium Ore",
+        client = {
+            image = "lithium_ore.png",
+        }
+    },
       ["silverore"] = {
         label = "Silver Ore",
         weight = 1000,

@@ -226,11 +226,20 @@ return {
     ['advancedlockpick'] = {
         label = 'Advanced Lockpick',
         weight = 500,
+        stack = false,
+        consume = 0.1,
+        client = {
+            image = "lockpick_red.png",
+        }
     },
 
     ['screwdriverset'] = {
         label = 'Screwdriver Set',
         weight = 500,
+        stack = false,
+        client = {
+            image = "screwdriverset_grey.png",
+        }
     },
 
     ['electronickit'] = {

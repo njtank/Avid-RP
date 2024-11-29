@@ -16,9 +16,9 @@ return {
             carjackingImmune = false,
             lockpickImmune = false,
             shared = false,
-            removeNormalLockpickChance = 0.4,
-            removeAdvancedLockpickChance = 0.2,
-            findKeysChance = 0.5,
+            removeNormalLockpickChance = 0.0,  --- Made consumable items
+            removeAdvancedLockpickChance = 0.0, --- Made consumable items
+            findKeysChance = 0.1, --- Reduced to a 10% chance. 
         },
         ---@type table<VehicleClass, VehicleConfig>
         classes = {

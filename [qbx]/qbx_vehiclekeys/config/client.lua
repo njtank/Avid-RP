@@ -49,7 +49,8 @@ return {
     ---@param crime string
     ---@param vehicle number entity
     alertPolice = function(crime, vehicle)
-        TriggerServerEvent('police:server:policeAlert', locale("info.vehicle_theft") .. crime)
+        exports['ps-dispatch']:VehicleTheft(vehicle)
+        --TriggerServerEvent('police:server:policeAlert', locale("info.vehicle_theft") .. crime)
     end,
 
     vehicleAlarmDuration = 10000,
@@ -107,8 +108,8 @@ return {
         lockpick = {
             default = normalLockpickSkillCheck,
             class = {
-                [VehicleClass.PLANES] = hardLockpickSkillCheck,
-                [VehicleClass.HELICOPTERS] = hardLockpickSkillCheck,
+                [VehicleClass.PLANES] = {}, -- cannot be hotwired
+                [VehicleClass.HELICOPTERS] = {}, -- cannot be hotwired
                 [VehicleClass.EMERGENCY] = hardLockpickSkillCheck,
                 [VehicleClass.MILITARY] = {}, -- cannot be lockpicked
                 [VehicleClass.TRAINS] = {}, -- cannot be lockpicked
@@ -117,10 +118,10 @@ return {
             model = {}
         },
         advancedLockpick = {
-            default = easyLockpickSkillCheck,
+            default = normalLockpickSkillCheck,
             class = {
-                [VehicleClass.PLANES] = hardLockpickSkillCheck,
-                [VehicleClass.HELICOPTERS] = hardLockpickSkillCheck,
+                [VehicleClass.PLANES] = {}, -- cannot be hotwired
+                [VehicleClass.HELICOPTERS] = {}, -- cannot be hotwired
                 [VehicleClass.EMERGENCY] = hardLockpickSkillCheck,
                 [VehicleClass.MILITARY] = {}, -- cannot be lockpicked
                 [VehicleClass.TRAINS] = {}, -- cannot be lockpicked
@@ -128,10 +129,10 @@ return {
             model = {}
         },
         hotwire = {
-            default = normalLockpickSkillCheck,
+            default = hardLockpickSkillCheck,
             class = {
-                [VehicleClass.PLANES] = hardLockpickSkillCheck,
-                [VehicleClass.HELICOPTERS] = hardLockpickSkillCheck,
+                [VehicleClass.PLANES] = {}, -- cannot be hotwired
+                [VehicleClass.HELICOPTERS] = {}, -- cannot be hotwired
                 [VehicleClass.EMERGENCY] = hardLockpickSkillCheck,
                 [VehicleClass.MILITARY] = {}, -- cannot be hotwired
                 [VehicleClass.TRAINS] = {}, -- cannot be hotwired
@@ -140,10 +141,10 @@ return {
             model = {}
         },
         advancedHotwire = {
-            default = easyLockpickSkillCheck,
+            default = hardLockpickSkillCheck,
             class = {
-                [VehicleClass.PLANES] = hardLockpickSkillCheck,
-                [VehicleClass.HELICOPTERS] = hardLockpickSkillCheck,
+                [VehicleClass.PLANES] = {}, -- cannot be hotwired
+                [VehicleClass.HELICOPTERS] = {}, -- cannot be hotwired
                 [VehicleClass.EMERGENCY] = hardLockpickSkillCheck,
                 [VehicleClass.MILITARY] = {}, -- cannot be hotwired
                 [VehicleClass.TRAINS] = {}, -- cannot be hotwired

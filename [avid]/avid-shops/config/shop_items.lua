@@ -29,7 +29,7 @@ local ITEMS = {
 		whiskey = { price = 15, defaultStock = 5000 },
 	},
 	hardware = {
-		{ name = 'lockpick', price = 20, defaultStock = 5000, category = 'Tools' },
+		{ name = 'screwdriverset', price = 20, defaultStock = 5000, category = 'Tools' },
 		{ name = 'binoculars', price = 20, defaultStock = 5000, category = 'Tools' },
 		{ name = 'repairkit', price = 100, defaultStock = 5000, category = 'Tools' },
 		{ name = 'backpack', price = 30, defaultStock = 500, category = 'Tools' },

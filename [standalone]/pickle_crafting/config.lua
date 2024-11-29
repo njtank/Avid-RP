@@ -898,6 +898,50 @@ Config.TableTypes = {
             },
         },
     },    
+    ["drugtable"] = {
+        groups = nil, -- {["police"] = 0, ["ambulance"] = 0}
+        model = nil, -- Table model, set to nil to use invisible prop.
+        item = nil, -- Set this to the item's name if you'd like it to be spawnable.
+        camera = { -- Camera Positioning and Rotation.
+            offset = vector3(0.0, -1.0, 0.5), -- X,Y,Z Offset from center of crafting table.
+            rotation = vector3(-25.0, 0.0, 0.0), -- Only change 3rd value to change horizontal rotation.
+        },
+        categories = { -- Categories in the crafting table. (All items must be using one of these categories).
+                {name = "drugs", image = "drugs.png", label = "Drugs", description = "Weed, Heroin, and other drugs."},
+                {name = "misc", image = "", label = "Miscellaneous", description = "Other items that are craftable."},
+        },
+        items = { -- Items in the crafting table.
+            {
+                name = "meth", -- Name of the item.
+                type = "drugs",
+                category = "drugs", -- Category name (not the label).
+                amount = 5, -- Amount to craft each time.
+                time = 20, -- Time to craft the item after action is complete.
+                xp = {name = "drugs", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "folded_cash", amount = 10},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "drugs", amount = 5},
+                },
+            },
+            {
+                name = "advancedlockpick", -- Name of the item.
+                type = "misc",
+                category = "misc", -- Category name (not the label).
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                xp = {name = "tools", level = 0}, -- Experience required to craft.
+                parts = { -- Items required to craft.
+                    {name = "screwdriverset", amount = 1},
+                    {name = "metalscrap", amount = 5},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "tools", amount = 5},
+                },
+            },
+        },
+    }, 
 }
 
 Config.Tables = {
@@ -920,5 +964,10 @@ Config.Tables = {
         coords = vec3(679.12, 1287.0, 360.49), -- Behind Vinewood sign in container.
         heading = 270.82, -- Table heading.
         tableType = "container"
+    },
+    {
+        coords = vec3(2450.21, 1578.63, 33.01), -- Across from powerplant
+        heading = 95.62, -- Table heading.
+        tableType = "drugtable"
     },
 }

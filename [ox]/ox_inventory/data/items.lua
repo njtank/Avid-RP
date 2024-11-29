@@ -322,6 +322,18 @@ return {
     ['meth'] = {
         label = 'Methamphetamine',
         weight = 100,
+        client = {
+            image = "meth.png",
+        }
+    },
+
+    ['meth_brick'] = {
+        label = 'Brick of Methamphetamine',
+        weight = 600,
+        stack = false,
+        client = {
+            image = "meth_brick.png",
+        }
     },
 
     ['oxy'] = {
@@ -1670,18 +1682,6 @@ return {
 ['instant_camera'] = {
     label = 'Instant camera',
     weight = 0,
-    stack = true,
-    close = true,
-},
-['meth_bag'] = {
-    label = 'Bag of meth',
-    weight = 100,
-    stack = true,
-    close = true,
-},
-['cocaine_bag'] = {
-    label = 'Cocaine bag',
-    weight = 100,
     stack = true,
     close = true,
 },

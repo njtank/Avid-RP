@@ -292,6 +292,7 @@ return {
     ['goldchain'] = {
         label = 'Golden Chain',
         weight = 1500,
+        stack = true,
     },
 
     ['crack_baggy'] = {

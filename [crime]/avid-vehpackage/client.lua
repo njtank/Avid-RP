@@ -61,7 +61,7 @@ local function smashWindow(vehicle)
 
     if math.random(1, 2) == 1 then
         local vehicleCoords = GetEntityCoords(vehicle)
-        exports['bub-mdt']:CustomAlert({
+        exports['ps-dispatch']:CustomAlert({
             coords = vec3(vehicleCoords.x, vehicleCoords.y, vehicleCoords.z),
             info = {},
             code = '10-90',

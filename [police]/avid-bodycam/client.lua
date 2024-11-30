@@ -12,7 +12,7 @@ RegisterNetEvent("bodycam:time")
 AddEventHandler("bodycam:time", function (h,m,s)
     SendNUIMessage({
         action = "zamanguncelle",
-        zaman = day.."/"..month.."/"..year.." ".." - "..h..":"..m..":"..s.." BST",
+        zaman = day.."/"..month.."/"..year.." ".." - "..h..":"..m..":"..s.." LST",
     })
 end)
 
@@ -37,7 +37,7 @@ AddEventHandler("bprp-bodycam:openBoy", function (item, h,m,s)
                 action = "showbodycam",
                 player = Player.job.grade.name.. " "..gender.." "..Player.charinfo.lastname,
                 callsign = "["..Player.metadata['callsign'].."]",
-                tarih = day.."/"..month.."/"..year.." ".." - "..h..":"..m..":"..s.." BST",
+                tarih = day.."/"..month.."/"..year.." ".." - "..h..":"..m..":"..s.." LST",
             })
             TriggerServerEvent("booleanuodate", true)
             acik = true

@@ -333,7 +333,7 @@ return {
 		weight = 200,
 		stack = true,
 		close = false,
-		description = "It is a colourless, highly volatile and flammable liquid with a characteristic pungent odour."
+		description = "It is a colourless, highly volatile and flammable liquid with a characteristic pungent odour.",
         client = {
             image = "acetone.png",
         }

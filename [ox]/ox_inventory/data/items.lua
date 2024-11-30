@@ -352,7 +352,7 @@ return {
 		weight = 5000,
 		stack = true,
 		close = false,
-		description = "A portable Meth Lab."
+		description = "A portable Meth Lab.",
         client = {
             image = "meth_equipment.png",
         }

@@ -9,7 +9,22 @@ local PED_HEADING = 41.79
 local SALVAGE_LOCATIONS = {
     {coords = vec3(2405.42, 3118.98, 49.41), radius = 2.0},
     {coords = vec3(2409.79, 3115.95, 49.3), radius = 2.0},
-    -- Add more coordinates as needed
+    {coords = vec3(2412.51, 3118.41, 49.7), radius = 2.0},
+    {coords = vec3(2410.71, 3122.52, 49.63), radius = 2.0},
+    {coords = vec3(2416.01, 3125.31, 49.4), radius = 2.0},
+    {coords = vec3(2417.12, 3122.92, 48.6), radius = 2.0},
+    {coords = vec3(2416.13, 3120.36, 48.68), radius = 2.0},
+    {coords = vec3(2416.69, 3117.87, 48.51), radius = 2.0},
+    {coords = vec3(2416.0, 3115.38, 49.87), radius = 2.0},
+    {coords = vec3(2399.28, 3139.09, 49.56), radius = 2.0},
+    {coords = vec3(2397.63, 3142.29, 48.39), radius = 2.0},
+    {coords = vec3(2402.59, 3144.59, 49.6), radius = 2.0},
+    {coords = vec3(2409.08, 3145.74, 49.59), radius = 2.0},
+    {coords = vec3(2411.34, 3148.44, 49.44), radius = 2.0},
+    {coords = vec3(2414.47, 3150.54, 49.34), radius = 2.0},
+    {coords = vec3(2406.82, 3152.77, 49.7), radius = 2.0},
+    {coords = vec3(2401.84, 3150.94, 48.56), radius = 2.0},
+    {coords = vec3(2403.02, 3153.53, 49.68), radius = 2.0},
 }
 
 
@@ -86,7 +101,7 @@ function scrapVehicle(coords)
         ClearPedTasks(playerPed)
     end)
 
-    Wait(5000) -- Cooldown
+    Wait(8000) -- Cooldown
     scrappingCooldown = false
 end
 

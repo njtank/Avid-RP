@@ -9,7 +9,7 @@ local ITEM_REWARDS = {
     "leather"
 }
 
-local COOLDOWN = 5 
+local COOLDOWN = 8 
 
 RegisterNetEvent("salvage:giveItem", function()
     local src = source

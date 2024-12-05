@@ -105,7 +105,7 @@ return {
             type = 'public',
             vehicleCategories = {'car', 'motorcycle', 'other'},
             drawText = 'Parking',
-            debug = false,
+            debug = true,
             ParkingSpots = {
                 vec4(48.46, -600.58, 31.05, 339.83),
                 vec4(45.27, -598.81, 31.05, 337.94),

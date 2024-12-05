@@ -253,3 +253,50 @@ function Hotwire(vehicle, isAdvancedLockedpick, customChallenge)
         isHotwiringProcessLocked = false -- end of the critical section
     end)
 end
+
+--- AVID RP CUSTOM GARAGES ---
+RegisterNetEvent("customkeys:client:SetOwner", function(plate)
+    -- Find the vehicle entity by plate
+    local vehicle = nil
+    for _, veh in pairs(GetGamePool('CVehicle')) do
+        if GetVehicleNumberPlateText(veh) == plate then
+            vehicle = veh
+            break
+        end
+    end
+
+    -- If no matching vehicle is found, log an error
+    if not vehicle then
+        print("Error: No vehicle found with plate:", plate)
+        return
+    end
+
+    local playerCitizenId = QBX.PlayerData.citizenid
+    local owner = Entity(vehicle).state.owner
+    local sessionId = Entity(vehicle).state.sessionId
+
+    -- Check if player is already the owner
+    if owner and playerCitizenId == owner then
+        print("Player is already the owner of this vehicle.")
+        return
+    end
+
+    -- Assign keys if sessionId exists or give keys via server callback
+    if sessionId then
+        LocalPlayer.state.keysList = LocalPlayer.state.keysList or {}
+        LocalPlayer.state.keysList[sessionId] = true
+        print("Keys assigned via session ID for plate:", plate)
+    else
+        local result = lib.callback.await('qbx_vehiclekeys:server:giveKeys', false, VehToNet(vehicle))
+        if result then
+            print("Keys granted via server callback for plate:", plate)
+        else
+            print("Failed to grant keys via server callback for plate:", plate)
+        end
+    end
+
+    -- Update vehicle owner state
+    Entity(vehicle).state.owner = playerCitizenId
+    print("Keys granted for vehicle with plate:", plate)
+end)
+

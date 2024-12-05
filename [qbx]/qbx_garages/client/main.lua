@@ -709,7 +709,7 @@ function UpdateSpawnedVehicle(spawnedVehicle, vehicleInfo, heading, garage)
         ApplyVehicleDamage(spawnedVehicle, vehicleInfo)
         TriggerServerEvent('qb-garage:server:updateVehicleState', 0, vehicleInfo.plate, vehicleInfo.garage)
         if not RenewedKeys then
-            TriggerEvent("vehiclekeys:client:SetOwner", plate) -- There is really no other way to do this one since it's cliented...
+            TriggerEvent("customkeys:client:SetOwner", plate) -- There is really no other way to do this one since it's cliented...
         end
     end
     SetEntityHeading(spawnedVehicle, heading)

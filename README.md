@@ -29,14 +29,14 @@ Avid RP is a custom GTA V roleplay server designed to deliver an immersive and b
 ### Other Features
 - **Custom Clothing**: A wide variety of clothing options to personalize your character.
 - **Detailed MLOs**: Unique interior and exterior locations designed for roleplay.
-- **Optimized Framework**: Built on QBCore with seamless integration of scripts.
+- **Optimized Framework**: Built on qbox_core with seamless integration of scripts.
 
 ---
 
 ## Requirements
 - **FiveM**: Ensure you have the latest version installed.
 - **Dependencies**:
-  - [QBCore Framework](https://github.com/qbcore-framework)
+  - [qbox Framework]([https://github.com/qbcore-framework](https://github.com/Qbox-project/qbx_core))
   - [ox_inventory](https://github.com/overextended/ox_inventory)
   - [ox_lib](https://github.com/overextended/ox_lib)
   - [ox_target](https://github.com/overextended/ox_target)

@@ -3,7 +3,7 @@
 
 # Avid RP
 
-![Avid RP Logo]((https://i.ibb.co/gyWppbK/Avid.png))
+![Avid RP Logo](https://i.ibb.co/gyWppbK/Avid.png)
 
 Avid RP is a custom GTA V roleplay server designed to deliver an immersive and balanced roleplay experience. Our server features a wide range of custom scripts for civilians, criminals, and emergency services, along with unique clothing, MLOs, and gameplay enhancements to cater to all types of players.
 

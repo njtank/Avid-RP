@@ -20,6 +20,14 @@ function Main:Int(Model)
             type = 'client',
             icon = "fa-solid fa-money-bill",
             label = 'Rob',
+            canInteract = function(entity, distance, coords, name)
+                local hasBomb = exports.ox_inventory:Search('count', 'small_explosive')
+                if hasBomb >= 1 then
+                    return true
+                else
+                    return false
+                end
+            end,
         }
     }, {
         distance = 2.5

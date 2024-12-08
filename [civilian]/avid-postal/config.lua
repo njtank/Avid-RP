@@ -14,7 +14,7 @@ Config.TARGET    = 'ox' -- 'ox' | 'qb-target'
 Config.FRAMEWORK = 'qb' -- 'qb' | 'esx' | 'esx-old'
 -- COMMENT OUT GET_CORE if using 'esx' or 'esx-old'
 -- optional to fill in, if you use qb-core this is your getCoreObject function you use.
-Config.GET_CORE  = exports['qbox-core']:GetCoreObject()
+Config.GET_CORE  = exports['qb-core']:GetCoreObject()
 
 Config.DEBUG = false -- debug target boxes
 

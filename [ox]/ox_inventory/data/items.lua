@@ -193,6 +193,7 @@ return {
 
     ['money'] = {
         label = 'Money',
+        weight = 0,
     },
 
     ['black_money'] = {
@@ -1023,24 +1024,25 @@ return {
 
 ['folded_cash'] = {
     label = 'Folded Cash',
+    weight = 0,
     client = {
         image = "folded_cash.png",
     }
 },
 ['rolled_cash'] = {
     label = 'Rolled Cash',
+    weight = 0,
     client = {
         image = "rolled_cash.png",
     }
 },
-['artkeys'] = {
-    label = 'Art Keys',
-    description = "Faded words of : La Fuente Blanca on the back.",
+['wallet'] = {
+    label = 'Wallet',
+    weight = 0,
     client = {
-        image = "key2.png",
+        image = "wallet.png",
     }
 },
-
 
 
     ['heavyarmor'] = {

@@ -69,5 +69,11 @@ setContainerProperties('keyring', {
 	whitelist = { 'vehiclekey'}
 })
 
+setContainerProperties('wallet', {
+	slots = 10,
+	maxWeight = 10,
+	whitelist = { 'vehiclekey'}
+})
+
 return containers
 

@@ -11,7 +11,7 @@ return {
 
     useKeyItem = false, -- set to true if you want to use a item based key system
 
-    engineKey = 'B', -- Key to toggle the engine on and off
+    engineKey = 'F9', -- Key to toggle the engine on and off
     lockKey = 'L', -- Key to toggle the lock on and off
 
     circleProgress = true, -- Uses the circle progress bar instead of the default one from ox_lib

@@ -125,7 +125,9 @@ return {
     ['lockpick'] = {
         label = 'Lockpick',
         weight = 160,
-        consume = 0.1,
+        client = {
+            event = 'lockpick:use',
+        }
     },
 
     ['phone'] = {
@@ -2344,5 +2346,30 @@ return {
             image = "head_bag.png",
         }
     },
+
+---- RENEWED-VEHICLEKEYS----
+['vehiclekey'] = {
+	label = 'Vehicle Key'
+},
+
+['keyring'] = {
+	label = 'Key Ring',
+	weight = 1,
+	stack = false,
+	close = false,
+	consume = 0
+},
+
+-- Heist Key and Key Cards -- 
+['artkey'] = {
+    label = 'Art Key',
+    weight = 20,
+    stack = false, 
+    close = false,
+    consume = 1.0,
+    client = {
+        image = "artkey.png",
+    }
+},
 
 }

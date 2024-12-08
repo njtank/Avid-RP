@@ -37,8 +37,8 @@ return {
     keys = {'r', 'e', 'n', 'e', 'w', 'e', 'd'},
 
     difficulties = {
-        slow = { time = {min = 75, max = 150}, turns = {min = 3, max = 5} },
-        medium = { time = {min = 50, max = 100}, turns = {min = 2, max = 4} },
+        slow = { time = {min = 120, max = 255}, turns = {min = 3, max = 5} },
+        medium = { time = {min = 75, max = 145}, turns = {min = 2, max = 4} },
         fast = { time = {min = 25, max = 50}, turns = {min = 1, max = 2} }
     },
 

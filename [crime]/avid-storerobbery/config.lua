@@ -15,4 +15,4 @@ Config.cashPayout =  math.random(100, 250) -- first variable is minimum, second 
 --safe rewards
 Config.safePayout =  math.random(400, 1000) -- first variable is minimum, second it max, changeto a static number ifyou dont want random
 Config.rewardChance = math.random(1, 10) -- this is 1 out of 10, use to change odds
-Config.rewardItem = 'heavyarmour' --item 
+Config.rewardItem = 'artkey' --item 

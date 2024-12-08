@@ -1028,11 +1028,13 @@ CreateThread(function()
     end
 end)
 
-local garageName = 'pillboxlowergarage'
+-- ADDING GARAGE MENUS AND PARKING FOR AVID RP --
+------
+    local garageName = 'legionsquare'
     exports.ox_target:addBoxZone({
-        name = "Pillbox Lower",
-        coords = vec3(344.04, -631.52, 29.29),
-        size = vec3(0.5, 0.5, 1.5),
+        name = "Legion Square Parking",
+        coords = vec3(214.62, -810.48, 30.74),
+        size = vec3(1.0, 1.0, 1.5),
         rotation = 0,
         debug = true,
         options = {
@@ -1046,18 +1048,6 @@ local garageName = 'pillboxlowergarage'
                     return distance <= 2.5
                 end
             },
-        },
-    })
-
-
-    local garageName = 'pillboxlowergarage'
-    exports.ox_target:addBoxZone({
-        name = "Pillbox Lower Garage",
-        coords = vec3(344.93, -633.83, 29.51),
-        size = vec3(0.5, 0.5, 1.5),
-        rotation = 0,
-        debug = true,
-        options = {
             {
                 icon = 'parking',
                 label = 'Open Garage',
@@ -1071,3 +1061,309 @@ local garageName = 'pillboxlowergarage'
             },
         },
     })
+------
+local garageName = 'spanishave'
+exports.ox_target:addBoxZone({
+    name = "Spanish Ave Parking",
+    coords = vec3(-1154.39, -753.88, 18.9),
+    size = vec3(1.0, 1.0, 1.5),
+    rotation = 0,
+    debug = true,
+    options = {
+        {
+            icon = 'parking',
+            label = 'Park Vehicle',
+            onSelect = function()
+                TriggerEvent('qb-garages:client:ParkLastVehicle', garageName)
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+        {
+            icon = 'parking',
+            label = 'Open Garage',
+            onSelect = function()
+                if cache.vehicle then return exports.qbx_core:Notify(locale('in_vehicle'), 'error') end
+                OpenGarageMenu()
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+    },
+})
+------
+local garageName = 'casinop'
+exports.ox_target:addBoxZone({
+    name = "Diamond Casino Parking",
+    coords = vec3(895.67, -1.46, 78.9),
+    size = vec3(1.0, 1.0, 1.5),
+    rotation = 0,
+    debug = true,
+    options = {
+        {
+            icon = 'parking',
+            label = 'Park Vehicle',
+            onSelect = function()
+                TriggerEvent('qb-garages:client:ParkLastVehicle', garageName)
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+        {
+            icon = 'parking',
+            label = 'Open Garage',
+            onSelect = function()
+                if cache.vehicle then return exports.qbx_core:Notify(locale('in_vehicle'), 'error') end
+                OpenGarageMenu()
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+    },
+})
+------
+local garageName = 'caears24'
+exports.ox_target:addBoxZone({
+    name = "Caesar 24h Parking",
+    coords = vec3(69.63, 13.48, 69.0),
+    size = vec3(1.0, 1.0, 1.5),
+    rotation = 0,
+    debug = true,
+    options = {
+        {
+            icon = 'parking',
+            label = 'Park Vehicle',
+            onSelect = function()
+                TriggerEvent('qb-garages:client:ParkLastVehicle', garageName)
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+        {
+            icon = 'parking',
+            label = 'Open Garage',
+            onSelect = function()
+                if cache.vehicle then return exports.qbx_core:Notify(locale('in_vehicle'), 'error') end
+                OpenGarageMenu()
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+    },
+})
+------
+local garageName = 'pillboxgarage'
+exports.ox_target:addBoxZone({
+    name = "Lower Power Parking",
+    coords = vec3(64.35, -616.96, 31.7),
+    size = vec3(1.0, 1.0, 1.5),
+    rotation = 0,
+    debug = true,
+    options = {
+        {
+            icon = 'parking',
+            label = 'Park Vehicle',
+            onSelect = function()
+                TriggerEvent('qb-garages:client:ParkLastVehicle', garageName)
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+        {
+            icon = 'parking',
+            label = 'Open Garage',
+            onSelect = function()
+                if cache.vehicle then return exports.qbx_core:Notify(locale('in_vehicle'), 'error') end
+                OpenGarageMenu()
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+    },
+})
+------
+local garageName = 'delperro'
+exports.ox_target:addBoxZone({
+    name = "Del Perro Parking",
+    coords = vec3(-1459.51, -506.12, 32.08),
+    size = vec3(1.0, 1.0, 1.5),
+    rotation = 0,
+    debug = true,
+    options = {
+        {
+            icon = 'parking',
+            label = 'Park Vehicle',
+            onSelect = function()
+                TriggerEvent('qb-garages:client:ParkLastVehicle', garageName)
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+        {
+            icon = 'parking',
+            label = 'Open Garage',
+            onSelect = function()
+                if cache.vehicle then return exports.qbx_core:Notify(locale('in_vehicle'), 'error') end
+                OpenGarageMenu()
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+    },
+})
+------
+local garageName = 'rockfordhills'
+exports.ox_target:addBoxZone({
+    name = "Rockford Hills Parking",
+    coords = vec3(-885.89, -339.0, 34.68),
+    size = vec3(1.0, 1.0, 1.5),
+    rotation = 0,
+    debug = true,
+    options = {
+        {
+            icon = 'parking',
+            label = 'Park Vehicle',
+            onSelect = function()
+                TriggerEvent('qb-garages:client:ParkLastVehicle', garageName)
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+        {
+            icon = 'parking',
+            label = 'Open Garage',
+            onSelect = function()
+                if cache.vehicle then return exports.qbx_core:Notify(locale('in_vehicle'), 'error') end
+                OpenGarageMenu()
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+    },
+})
+------
+local garageName = 'themotorhotel'
+exports.ox_target:addBoxZone({
+    name = "Motor Hotel Parking",
+    coords = vec3(1140.21, 2647.79, 38.0),
+    size = vec3(1.0, 1.0, 1.5),
+    rotation = 0,
+    debug = true,
+    options = {
+        {
+            icon = 'parking',
+            label = 'Park Vehicle',
+            onSelect = function()
+                TriggerEvent('qb-garages:client:ParkLastVehicle', garageName)
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+        {
+            icon = 'parking',
+            label = 'Open Garage',
+            onSelect = function()
+                if cache.vehicle then return exports.qbx_core:Notify(locale('in_vehicle'), 'error') end
+                OpenGarageMenu()
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+    },
+})
+------
+local garageName = 'haanparking'
+exports.ox_target:addBoxZone({
+    name = "Bell Farm Parking",
+    coords = vec3(86.45, 6396.73, 31.38),
+    size = vec3(1.0, 1.0, 1.5),
+    rotation = 0,
+    debug = true,
+    options = {
+        {
+            icon = 'parking',
+            label = 'Park Vehicle',
+            onSelect = function()
+                TriggerEvent('qb-garages:client:ParkLastVehicle', garageName)
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+        {
+            icon = 'parking',
+            label = 'Open Garage',
+            onSelect = function()
+                if cache.vehicle then return exports.qbx_core:Notify(locale('in_vehicle'), 'error') end
+                OpenGarageMenu()
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+    },
+})
+------
+local garageName = 'impoundlot'
+exports.ox_target:addBoxZone({
+    name = "Impound Lot",
+    coords = vec3(402.46, -1626.66, 29.29),
+    size = vec3(1.0, 1.0, 1.5),
+    rotation = 0,
+    debug = true,
+    options = {
+        {
+            icon = 'parking',
+            label = 'Open impound',
+            onSelect = function()
+                if cache.vehicle then return exports.qbx_core:Notify(locale('in_vehicle'), 'error') end
+                OpenGarageMenu()
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+    },
+})
+------
+
+local pedModel = `S_M_Y_Casino_01`
+local pedLocations = {
+    vec4(895.91, -1.56, 78.9, 156.84), -- Casino Parking
+    vec4(214.62, -810.45, 30.74, 238.0), -- Legion Square Parking
+    vec4(-1154.47, -753.97, 18.89, 306.7), -- Spanish Ave
+    vec4(69.62, 13.45, 69.0, 253.32), -- 
+}
+
+-- Spawn the peds with idle animation
+local function spawnPedsWithAnimation()
+    loadModel(pedModel)
+    loadAnimDict("missheistdocksprep1clipboard@base")
+
+    for _, loc in ipairs(pedLocations) do
+        local x, y, z, w = table.unpack(loc)
+        local ped = CreatePed(0, pedModel, x, y, z - 1.0, w, false, false)
+        FreezeEntityPosition(ped, true)
+        SetEntityInvincible(ped, true)
+        SetBlockingOfNonTemporaryEvents(ped, true)
+
+        -- Play clipboard animation
+        TaskPlayAnim(ped, "missheistdocksprep1clipboard@base", "base", 8.0, -8.0, -1, 49, 0, false, false, false)
+    end
+
+    SetModelAsNoLongerNeeded(pedModel)
+end

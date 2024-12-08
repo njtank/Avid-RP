@@ -103,7 +103,7 @@ Config.Blips = {
     ["clothing"] = {
         Show = true,
         Sprite = 73,
-        Color = 3,
+        Color = 19,
         Scale = 0.5,
         Name = "Clothing Store",
     },

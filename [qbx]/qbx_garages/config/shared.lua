@@ -105,7 +105,7 @@ return {
             type = 'public',
             vehicleCategories = {'car', 'motorcycle', 'other'},
             drawText = 'Parking',
-            debug = true,
+            debug = false,
             ParkingSpots = {
                 vec4(48.46, -600.58, 31.05, 339.83),
                 vec4(45.27, -598.81, 31.05, 337.94),
@@ -151,7 +151,7 @@ return {
                 vec4(45.67, -662.47, 31.05, 66.96),
             }
         },
-        ['pillboxlowergarage'] = {
+        --[[['pillboxlowergarage'] = {
             Zone = {
                 Shape = {
                     vec3(352.34439086914, -620.59851074219, 28.2),
@@ -247,7 +247,7 @@ return {
                 vec4(1029.35, -763.6, 57.49, 56.05),
                 vec4(1041.6, -791.45, 57.5, 0.97),
             }
-        },
+        }, ]]
         ['casinop'] = {
             Zone = {
                 Shape = {
@@ -466,7 +466,7 @@ return {
                 vec4(924.0, -89.35, 78.27, 237.62),
             }
         },
-        ['leigonsquarealley'] = {
+        --[[['leigonsquarealley'] = {
             Zone = {
                 Shape = {
                     vec3(69.414520263672, -849.34320068359, 29.0),
@@ -534,8 +534,76 @@ return {
                 vec4(236.68, -795.08, 30.08, 66.13),
                 vec4(233.41, -774.07, 30.31, 248.68)
             }
+        },]]
+        ['delperro'] = {
+            Zone = {
+                Shape = { --polygon that surrounds the parking area
+                    vec3(-1457.33, -506.66, 31.58),
+                    vec3(-1473.13, -487.74, 32.81),
+                    vec3(-1504.71, -508.65, 32.81),
+                    vec3(-1492.62, -528.95, 32.81)
+                },
+                Thickness = 6.0,
+            },
+            label = "Del Perro Parking",
+            showBlip = true,
+            blipcoords = vec3(-1484.74, -509.79, 32.81),
+            blipName = "Public Parking",
+            blipNumber = 357,
+            type = 'public',                -- public, job, gang, depot
+            vehicleCategories = {'car', 'motorcycle', 'other'},                --car, air, sea
+            drawText = 'Parking',
+            debug = false,
+            ParkingSpots = {
+                vec4(-1464.89, -502.88, 32.16, 35.1),
+                vec4(-1467.63, -504.45, 32.16, 37.06),
+                vec4(-1469.89, -507.35, 32.16, 38.55),
+                vec4(-1472.3, -508.6, 32.16, 36.07),
+                vec4(-1475.34, -509.98, 32.16, 38.07),
+                vec4(-1477.52, -512.19, 32.16, 38.24),
+                vec4(-1479.98, -513.97, 32.16, 38.38),
+                vec4(-1482.44, -515.88, 32.16, 39.9),
+                vec4(-1500.8, -509.63, 32.16, 216.38),
+                vec4(-1498.22, -508.79, 32.16, 216.86),
+                vec4(-1495.35, -506.73, 32.16, 215.85),
+                vec4(-1492.35, -505.21, 32.16, 216.54),
+                vec4(-1487.14, -501.65, 32.16, 215.94),
+                vec4(-1482.42, -498.37, 32.16, 218.23),
+                vec4(-1479.57, -496.24, 32.16, 214.12),
+                vec4(-1477.21, -494.59, 32.16, 214.57),
+                vec4(-1474.8, -492.99, 32.16, 217.12),
+                vec4(-1472.02, -491.51, 32.16, 215.78),
+            }
         },
-        ['motelgarage'] = {
+        ['rockfordhills'] = {
+            Zone = {
+                Shape = { --polygon that surrounds the parking area
+                    vec3(-881.02, -346.96, 34.68),
+                    vec3(-895.22, -354.84, 34.71),
+                    vec3(-903.15, -339.59, 34.71),
+                    vec3(-888.46, -332.43, 34.68)
+                },
+                Thickness = 6.0,
+            },
+            label = "Rockford Hills Parking",
+            showBlip = true,
+            blipcoords = vec3(-890.55, -343.12, 34.53),
+            blipName = "Public Parking",
+            blipNumber = 357,
+            type = 'public',                -- public, job, gang, depot
+            vehicleCategories = {'car', 'motorcycle', 'other'},                --car, air, sea
+            drawText = 'Parking',
+            debug = false,
+            ParkingSpots = {
+                vec4(-891.12, -347.03, 33.89, 29.85),
+                vec4(-894.84, -348.69, 33.89, 27.1),
+                vec4(-898.35, -342.08, 33.89, 208.37),
+                vec4(-895.18, -340.81, 33.89, 207.5),
+                vec4(-891.59, -338.91, 33.89, 206.31),
+                vec4(-888.61, -338.04, 33.89, 208.78)  
+            }
+        },
+        --[[['motelgarage'] = {
             Zone = {
                 Shape = { --polygon that surrounds the parking area
                     vec3(266.04238891602, -348.67025756836, 43.5),
@@ -678,7 +746,7 @@ return {
                 vec4(-302.62, -742.8, 33.54, 159.48),
                 vec4(-275.18, -768.22, 33.54, 71.26)
             }
-        },
+        },]]
         ['spanishave'] = {
             Zone = {
                 Shape = { --polygon that surrounds the parking area
@@ -697,7 +765,23 @@ return {
             type = 'public',                --public, job, gang, depot
             vehicleCategories = {'car', 'motorcycle', 'other'},
             drawText = 'Parking',                 --car, air, sea
-            debug = false
+            debug = false,
+            ParkingSpots = {
+                vec4(-1145.49, -745.5, 19.06, 110.17),
+                vec4(-1143.98, -748.93, 18.86, 107.68),
+                vec4(-1141.32, -751.58, 18.75, 110.44),
+                vec4(-1138.8, -754.97, 18.57, 109.46),
+                vec4(-1137.16, -757.93, 18.41, 107.78),
+                vec4(-1135.18, -760.97, 18.24, 107.84),
+                vec4(-1131.89, -763.91, 18.09, 108.46),
+                vec4(-1141.96, -741.03, 19.4, 289.37),
+                vec4(-1139.66, -743.28, 19.28, 285.82),
+                vec4(-1137.43, -746.34, 19.14, 287.87),
+                vec4(-1134.65, -749.61, 18.99, 285.14),
+                vec4(-1132.18, -752.51, 18.85, 289.2),
+                vec4(-1129.88, -755.42, 18.71, 286.2),
+                vec4(-1127.21, -758.28, 18.57, 288.67)
+            }
         },
         ['caears24'] = {
             Zone = {
@@ -781,7 +865,7 @@ return {
                 vec4(-460.34, -806.46, 30.11, 267.68),
             }
         },
-        ['lagunapi'] = {
+        --[[['lagunapi'] = {
             Zone = {
                 Shape = { --polygon that surrounds the parking area
                     vec3(358.69207763672, 302.30017089844, 102.00),
@@ -938,7 +1022,7 @@ return {
             vehicleCategories = {'car', 'motorcycle', 'other'},
             drawText = 'Parking',                 --car, air, sea
             debug = false
-        },
+        }, ]]
         ["themotorhotel"] = {
             Zone = {
                 Shape = { --polygon that surrounds the parking area
@@ -961,9 +1045,22 @@ return {
             type = 'public',                --public, job, gang, depot
             vehicleCategories = {'car', 'motorcycle', 'other'},
             drawText = 'Parking',                 --car, air, sea
-            debug = false
+            debug = false,
+            ParkingSpots = {
+                vec4(1135.19, 2647.61, 37.35, 359.93),
+                vec4(1131.41, 2648.41, 37.35, 1.86),
+                vec4(1127.72, 2648.57, 37.35, 1.58),
+                vec4(1124.1, 2648.71, 37.36, 0.72),
+                vec4(1120.54, 2648.6, 37.35, 1.71),
+                vec4(1116.77, 2648.63, 37.35, 0.25),
+                vec4(1111.91, 2654.23, 37.36, 272.32),
+                vec4(1112.04, 2657.78, 37.35, 271.94),
+                vec4(1105.34, 2663.72, 37.33, 0.08),
+                vec4(1101.76, 2663.06, 37.33, 0.9),
+                vec4(1098.31, 2663.47, 37.33, 1.25),
+            }
         },
-        ['liqourparking'] = {
+        --[[['liqourparking'] = {
             Zone = {
                 Shape = { --polygon that surrounds the parking area
                     vec3(934.54669189453, 3604.5546875, 31.5),
@@ -982,7 +1079,7 @@ return {
             vehicleCategories = {'car', 'motorcycle', 'other'},
             drawText = 'Parking',                 --car, air, sea
             debug = false
-        },
+        },]]
         ['haanparking'] = {
             Zone = {
                 Shape = { --polygon that surrounds the parking area
@@ -1134,16 +1231,20 @@ return {
         ['impoundlot'] = {
             Zone = {
                 Shape = { --polygon that surrounds the parking area
-                    vec3(-128.76565551758, -1186.7231445312, 22.25),
-                    vec3(-128.95680236816, -1158.9990234375, 22.25),
-                    vec3(-155.75888061524, -1158.6616210938, 22.25),
-                    vec3(-155.84657287598, -1186.7335205078, 22.25)
+                    vec3(388.09, -1641.98, 29.29),
+                    vec3(410.92, -1660.62, 29.29),
+                    vec3(423.33, -1645.25, 29.29),
+                    vec3(423.8, -1632.45, 29.29),
+                    vec3(422.86, -1627.98, 29.29),
+                    vec3(411.5, -1619.71, 29.29),
+                    vec3(406.6, -1625.67, 29.29),
+                    vec3(403.39, -1623.67, 29.29)
                 },
                 Thickness = 5.0,
             },
             label = "Impound Lot",
             showBlip = true,
-            blipcoords = vec3(-143.15, -1175.06, 23.77),
+            blipcoords = vec3(406.93, -1636.73, 29.29),
             blipName = "Impound Lot",
             blipNumber = 68,
             type = 'depot',                --public, job, gang, depot
@@ -1151,16 +1252,12 @@ return {
             drawText = 'Impound',                 --car, air, sea
             debug = false,
             ParkingSpots = {
-                vec4(-152.91, -1170.13, 23.14, 270.11),
-                vec4(-153.26, -1166.51, 23.14, 270.74),
-                vec4(-147.67, -1161.83, 23.14, 179.67),
-                vec4(-144.19, -1161.83, 23.14, 179.02),
-                vec4(-139.1, -1161.6, 23.14, 178.95),
-                vec4(-131.92, -1166.54, 23.14, 89.09),
-                vec4(-132.01, -1170.05, 23.14, 90.24),
-                vec4(-132.03, -1175.15, 23.14, 90.94),
-                vec4(-131.99, -1178.68, 23.14, 90.07),
-                vec4(-131.95, -1182.25, 23.14, 90.11),
+                vec4(409.17, -1639.09, 28.65, 228.81),
+                vec4(410.84, -1636.54, 28.65, 229.95),
+                vec4(419.86, -1629.35, 28.65, 142.22),
+                vec4(417.02, -1628.04, 28.65, 139.7),
+                vec4(420.29, -1635.83, 28.65, 91.61),
+                vec4(420.62, -1639.02, 28.65, 89.64),
             }
         },
         ['police'] = {
@@ -1227,7 +1324,7 @@ return {
                 vec4(627.16, 24.64, 87.48, 247.88)
             }
         },
-        ['mechanic'] = {
+        --[[['mechanic'] = {
             Zone = {
                 Shape = { --polygon that surrounds the parking area
                     vec3(-321.17425537109, -166.47213745117, 36.15),
@@ -1642,6 +1739,6 @@ return {
                 vec4(-1010.91, -3012.56, 14.55, 2.31),
                 vec4(-968.09, -3004.59, 14.55, 62.25)
             },
-        },
+        }, ]]
     }
 }

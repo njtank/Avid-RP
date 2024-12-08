@@ -1,6 +1,6 @@
 return {
     apartmentStash = {
-        slots = 50,
+        slots = 100,
         maxWeight = 150000
     }
 }

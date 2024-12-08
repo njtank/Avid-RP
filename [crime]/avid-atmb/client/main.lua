@@ -143,7 +143,7 @@ function Main:Cooldown()
 end
 
 RegisterNetEvent('bbv-atmrob:alarm',function()
-    exports['ps-dispatch']:SuspiciousActivity()
+    exports['ps-dispatch']:atmtampering()
     -- put your police dispatch export here
     for i=1, 30 do
         PlaySoundFrontend(-1, "TIMER_STOP", "HUD_MINI_GAME_SOUNDSET", 1)

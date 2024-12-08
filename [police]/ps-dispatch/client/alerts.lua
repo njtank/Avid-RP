@@ -786,3 +786,28 @@ local function SignRobbery()
     TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
 end
 exports('SignRobbery', SignRobbery)
+
+local function ATMTampering()
+    local coords = GetEntityCoords(cache.ped)
+    local vehicle = GetVehicleData(cache.vehicle)
+
+    local dispatchData = {
+        message = ATM Tampering, -- add this into your locale
+        codeName = 'testalert', -- this should be the same as in config.lua
+        code = '10-76',
+        icon = 'fas fa-car-burst',
+        priority = 2,
+        coords = coords,
+        street = GetStreetAndZone(coords),
+        --heading = GetPlayerHeading(),
+        --vehicle = vehicle.name,
+        --plate = vehicle.plate,
+        color = vehicle.color,
+        --class = vehicle.class,
+        --doors = vehicle.doors,
+        jobs = { 'leo' }
+    }
+
+    TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
+end
+exports('atmtampering', atmtampering)

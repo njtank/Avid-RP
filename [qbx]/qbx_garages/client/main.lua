@@ -1036,7 +1036,7 @@ end)
         coords = vec3(214.62, -810.48, 30.74),
         size = vec3(1.0, 1.0, 1.5),
         rotation = 0,
-        debug = true,
+        debug = false,
         options = {
             {
                 icon = 'parking',
@@ -1068,7 +1068,7 @@ exports.ox_target:addBoxZone({
     coords = vec3(-1154.39, -753.88, 18.9),
     size = vec3(1.0, 1.0, 1.5),
     rotation = 0,
-    debug = true,
+    debug = false,
     options = {
         {
             icon = 'parking',
@@ -1100,7 +1100,7 @@ exports.ox_target:addBoxZone({
     coords = vec3(895.67, -1.46, 78.9),
     size = vec3(1.0, 1.0, 1.5),
     rotation = 0,
-    debug = true,
+    debug = false,
     options = {
         {
             icon = 'parking',
@@ -1132,7 +1132,7 @@ exports.ox_target:addBoxZone({
     coords = vec3(69.63, 13.48, 69.0),
     size = vec3(1.0, 1.0, 1.5),
     rotation = 0,
-    debug = true,
+    debug = false,
     options = {
         {
             icon = 'parking',
@@ -1164,7 +1164,7 @@ exports.ox_target:addBoxZone({
     coords = vec3(64.35, -616.96, 31.7),
     size = vec3(1.0, 1.0, 1.5),
     rotation = 0,
-    debug = true,
+    debug = false,
     options = {
         {
             icon = 'parking',
@@ -1193,10 +1193,10 @@ exports.ox_target:addBoxZone({
 local garageName = 'delperro'
 exports.ox_target:addBoxZone({
     name = "Del Perro Parking",
-    coords = vec3(-1459.51, -506.12, 32.08),
+    coords = vec3(-1464.26, -500.5, 32.96),
     size = vec3(1.0, 1.0, 1.5),
     rotation = 0,
-    debug = true,
+    debug = false,
     options = {
         {
             icon = 'parking',
@@ -1228,7 +1228,7 @@ exports.ox_target:addBoxZone({
     coords = vec3(-885.89, -339.0, 34.68),
     size = vec3(1.0, 1.0, 1.5),
     rotation = 0,
-    debug = true,
+    debug = false,
     options = {
         {
             icon = 'parking',
@@ -1260,7 +1260,7 @@ exports.ox_target:addBoxZone({
     coords = vec3(1140.21, 2647.79, 38.0),
     size = vec3(1.0, 1.0, 1.5),
     rotation = 0,
-    debug = true,
+    debug = false,
     options = {
         {
             icon = 'parking',
@@ -1292,7 +1292,7 @@ exports.ox_target:addBoxZone({
     coords = vec3(86.45, 6396.73, 31.38),
     size = vec3(1.0, 1.0, 1.5),
     rotation = 0,
-    debug = true,
+    debug = false,
     options = {
         {
             icon = 'parking',
@@ -1324,7 +1324,7 @@ exports.ox_target:addBoxZone({
     coords = vec3(402.46, -1626.66, 29.29),
     size = vec3(1.0, 1.0, 1.5),
     rotation = 0,
-    debug = true,
+    debug = false,
     options = {
         {
             icon = 'parking',
@@ -1341,29 +1341,34 @@ exports.ox_target:addBoxZone({
 })
 ------
 
-local pedModel = `S_M_Y_Casino_01`
-local pedLocations = {
-    vec4(895.91, -1.56, 78.9, 156.84), -- Casino Parking
-    vec4(214.62, -810.45, 30.74, 238.0), -- Legion Square Parking
-    vec4(-1154.47, -753.97, 18.89, 306.7), -- Spanish Ave
-    vec4(69.62, 13.45, 69.0, 253.32), -- 
+local propName = "prop_parkingpay"
+local propLocations = {
+    vec4(86.55, 6396.71, 31.38, 271.4), -- Paleto Chicken Factory
+    vec4(1140.2, 2647.79, 37.99, 271.4), -- The Motor Hotel
+    vec4(-885.45, -339.08, 34.68, 304.59), -- Rockford Hills
+    vec4(-1464.26, -500.5, 32.96, 126.22), -- Del Perro Parking
+    vec4(895.68, -1.5, 78.9, 331.42), -- Casino
+    vec4(-1154.39, -753.82, 18.9, 126.63), -- Spanish Ave
+    vec4(214.64, -810.54, 30.74, 64.61), -- Legion Square
+    vec4(69.63, 13.48, 69.0, 70.4), -- Caesars 24
+
 }
 
--- Spawn the peds with idle animation
-local function spawnPedsWithAnimation()
-    loadModel(pedModel)
-    loadAnimDict("missheistdocksprep1clipboard@base")
+Citizen.CreateThread(function()
+    for _, location in ipairs(propLocations) do
+        local x, y, z, heading = location.x, location.y, location.z, location.w
 
-    for _, loc in ipairs(pedLocations) do
-        local x, y, z, w = table.unpack(loc)
-        local ped = CreatePed(0, pedModel, x, y, z - 1.0, w, false, false)
-        FreezeEntityPosition(ped, true)
-        SetEntityInvincible(ped, true)
-        SetBlockingOfNonTemporaryEvents(ped, true)
+        -- Load the prop model
+        local model = GetHashKey(propName)
+        RequestModel(model)
+        while not HasModelLoaded(model) do
+            Citizen.Wait(10)
+        end
 
-        -- Play clipboard animation
-        TaskPlayAnim(ped, "missheistdocksprep1clipboard@base", "base", 8.0, -8.0, -1, 49, 0, false, false, false)
+        -- Create the prop
+        local prop = CreateObject(model, x, y, z - 1.0, false, true, false)
+        SetEntityHeading(prop, heading)
+        FreezeEntityPosition(prop, true) -- Prevent movement
+        SetModelAsNoLongerNeeded(model) -- Clean up the model from memory
     end
-
-    SetModelAsNoLongerNeeded(pedModel)
-end
+end)

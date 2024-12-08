@@ -1044,7 +1044,6 @@ return {
     }
 },
 
-
     ['heavyarmor'] = {
         label = "Heavy Armor",
         weight = 5000,

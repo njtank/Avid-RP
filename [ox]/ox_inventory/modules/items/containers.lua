@@ -76,17 +76,17 @@ setContainerProperties('wallet', {
 
 setContainerProperties('small_backpack', {
 	slots = 10,
-	maxWeight = 2000,
+	maxWeight = 20000,
 })
 
 setContainerProperties('medium_backpack', {
 	slots = 15,
-	maxWeight = 320000,
+	maxWeight = 32000,
 })
 
 setContainerProperties('large_backpack', {
 	slots = 20,
-	maxWeight = 530000,
+	maxWeight = 53000,
 })
 
 return containers

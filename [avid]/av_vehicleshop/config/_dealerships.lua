@@ -6,7 +6,7 @@
 Config.Dealerships = {
     ['pdm_dealership'] = { -- dealership key index, should be unique for each dealership.
         job = false, -- Job ("string") or false
-        garage = "Legion Square", -- Where the vehicle will be stored.
+        garage = "legionsquare", -- Where the vehicle will be stored.
         money_account = "bank", -- Account used for purchase.
         money_sign = "$", -- For price display of the vehicle: $, €, £, ¥, etc... or leave it empty ""
         categories = {"compact", "coupe", "cycle", "motorcycle", "muscle", "offroad", "openwheel", "sedan", "service", "sport"}, -- Categories the dealership can sell.

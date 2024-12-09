@@ -1,8 +1,3 @@
---[[
-    decrypted for reason: scamming
-    opiumdev owns all
-]]
-
 local statsCache = {}
 
 function calculateStats(vehicle)

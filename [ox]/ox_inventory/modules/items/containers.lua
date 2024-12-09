@@ -81,12 +81,12 @@ setContainerProperties('small_backpack', {
 
 setContainerProperties('medium_backpack', {
 	slots = 15,
-	maxWeight = 3200,
+	maxWeight = 320000,
 })
 
 setContainerProperties('large_backpack', {
 	slots = 20,
-	maxWeight = 5300,
+	maxWeight = 530000,
 })
 
 return containers

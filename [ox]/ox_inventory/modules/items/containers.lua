@@ -72,7 +72,21 @@ setContainerProperties('keyring', {
 setContainerProperties('wallet', {
 	slots = 10,
 	maxWeight = 10,
-	whitelist = { 'vehiclekey'}
+})
+
+setContainerProperties('small_backpack', {
+	slots = 10,
+	maxWeight = 20,
+})
+
+setContainerProperties('medium_backpack', {
+	slots = 15,
+	maxWeight = 32,
+})
+
+setContainerProperties('large_backpack', {
+	slots = 20,
+	maxWeight = 53,
 })
 
 return containers

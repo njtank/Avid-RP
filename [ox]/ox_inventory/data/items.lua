@@ -1043,7 +1043,36 @@ return {
         image = "wallet.png",
     }
 },
-
+['small_backpack'] = {
+    label = 'Small Backpack',
+    weight = 220,
+    stack = false,
+    consume = 0,
+    client = {
+        image = "smallbackpack.png",
+        
+    }
+},
+['medium_backpack'] = {
+    label = 'Medium Backpack',
+    weight = 440,
+    stack = false,
+    consume = 0,
+    client = {
+        image = "medium_backpack.png",
+        
+    }
+},
+['large_backpack'] = {
+    label = 'Large Backpack',
+    weight = 880,
+    stack = false,
+    consume = 0,
+    client = {
+        image = "large_backpack.png",
+        
+    }
+},
     ['heavyarmor'] = {
         label = "Heavy Armor",
         weight = 5000,
@@ -1094,16 +1123,6 @@ return {
 		client = {
             image = "polbag.png",
 			export = 'krs_outfitbag.outfitbag',
-		}
-	},
-['backpack'] = {
-		label = 'Backpack',
-		weight = 220,
-		stack = false,
-		consume = 0,
-		client = {
-            image = "backpack.png",
-			export = 'avid-backpack.openBackpack'
 		}
 	},
 ['parcel'] = {

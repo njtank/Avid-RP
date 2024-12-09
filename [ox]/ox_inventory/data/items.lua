@@ -241,7 +241,7 @@ return {
         weight = 500,
         stack = false,
         client = {
-            image = "screwdriverset_grey.png",
+            image = "screwdriver.png",
         }
     },
 
@@ -1049,7 +1049,7 @@ return {
     stack = false,
     consume = 0,
     client = {
-        image = "smallbackpack.png",
+        image = "backpack.png",
         
     }
 },

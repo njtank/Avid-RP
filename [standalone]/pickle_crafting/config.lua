@@ -882,14 +882,13 @@ Config.TableTypes = {
                 },
             },
             {
-                name = "advancedlockpick", -- Name of the item.
+                name = "lockpick", -- Name of the item.
                 type = "misc",
                 category = "misc", -- Category name (not the label).
                 amount = 1, -- Amount to craft each time.
                 time = 10, -- Time to craft the item after action is complete.
                 xp = {name = "tools", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
-                    {name = "screwdriverset", amount = 1},
                     {name = "metalscrap", amount = 5},
                 },
                 rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
@@ -926,14 +925,13 @@ Config.TableTypes = {
                 },
             },
             {
-                name = "advancedlockpick", -- Name of the item.
+                name = "lockpick", -- Name of the item.
                 type = "misc",
                 category = "misc", -- Category name (not the label).
                 amount = 1, -- Amount to craft each time.
                 time = 10, -- Time to craft the item after action is complete.
                 xp = {name = "tools", level = 0}, -- Experience required to craft.
                 parts = { -- Items required to craft.
-                    {name = "screwdriverset", amount = 1},
                     {name = "metalscrap", amount = 5},
                 },
                 rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
@@ -942,6 +940,121 @@ Config.TableTypes = {
             },
         },
     }, 
+    ["regular"] = {
+        groups = nil, -- {["police"] = 0, ["ambulance"] = 0}
+        item = nil, -- Set this to the item's name if you'd like it to be spawnable.
+        model = `gr_prop_gr_bench_04b`, -- Table model.
+        camera = { -- Camera Positioning and Rotation.
+            offset = vector3(0.0, -1.0, 1.5), -- X,Y,Z Offset from center of crafting table.
+            rotation = vector3(-25.0, 0.0, 0.0), -- Only change 3rd value to change horizontal rotation.
+        },
+        categories = { -- Categories in the crafting table. (All items must be using one of these categories).
+            --{name = "farming", image = "farming.png", label = "Farming", description = "Wheat, Corn, and other plants."},
+           -- {name = "cooking", image = "cooking.png", label = "Cooking", description = "Burgers, Water, and other foods."},
+            {name = "tools", image = "tools.png", label = "Tools", description = "Hammers, Nails, and other tools."},
+            {name = "weapons", image = "weapons.png", label = "Weapons", description = "Pistols, Rifles, and other weapons."},
+            {name = "misc", label = "Miscellaneous", description = "Other items that are craftable."},
+        },
+        items = { -- Items in the crafting table.
+            --[[ -- Example Item (All features shown)
+                {
+                    name = "item_name", -- Name of the item.
+                    category = "category_name", -- Category name (not the label).
+                    type = "item", -- "weapon" treats the item as a weapon. Default is "item" when not set.
+                    amount = 1, -- Amount to craft each time.
+                    time = 5, -- Time to craft the item after action is complete.
+                    chance = 100, -- Chance to succeed in crafting the item, failing destroys the removeable parts and reward. 
+                    blueprint = "blueprint_name", -- Blueprint Requirement.
+                    action = {name = "action_name", params = {1, 2, 3}}, -- Action to execute before crafting.
+                    xp = {name = "xp_name", level = 1}, -- Experience required to craft.
+                    parts = { -- Items required to craft.
+                        {name = "part_name", amount = 2, remove = true},
+                    },
+                    rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                        {type = "xp", name = "drugs", amount = 1000},
+                    },
+                    createItem = function(craftingData)
+                        return {} -- Return this as the item's metadata.
+                    end
+                },
+            ]]
+            {
+                name = "lockpick", -- Name of the item.
+                category = "tools", -- Category name (not the label).
+                type = "item", -- "weapon" treats the item as a weapon. Default is "item" when not set.
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                chance = 100, -- Chance to succeed in crafting the item, failing destroys the removeable parts and reward. 
+                parts = { -- Items required to craft.
+                    {name = "metalscrap", amount = 5, remove = true},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "tools", amount = 5},
+                },
+            },
+            {
+                name = "medium_backpack", -- Name of the item.
+                category = "tools", -- Category name (not the label).
+                type = "item", -- "weapon" treats the item as a weapon. Default is "item" when not set.
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                chance = 100, -- Chance to succeed in crafting the item, failing destroys the removeable parts and reward. 
+                parts = { -- Items required to craft.
+                    {name = "dirty_cloth", amount = 10, remove = true},
+                    {name = "leather", amount = 5, remove = true},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "tools", amount = 7},
+                },
+            },
+            {
+                name = "large_backpack", -- Name of the item.
+                category = "tools", -- Category name (not the label).
+                type = "item", -- "weapon" treats the item as a weapon. Default is "item" when not set.
+                amount = 1, -- Amount to craft each time.
+                time = 10, -- Time to craft the item after action is complete.
+                chance = 100, -- Chance to succeed in crafting the item, failing destroys the removeable parts and reward. 
+                parts = { -- Items required to craft.
+                    {name = "small_backpack", amount = 10, remove = true},
+                    {name = "leather", amount = 15, remove = true},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "tools", amount = 10},
+                },
+            },
+            {
+                name = "rolled_cash", -- Name of the item.
+                category = "misc", -- Category name (not the label).
+                type = "item", -- "weapon" treats the item as a weapon. Default is "item" when not set.
+                amount = 1, -- Amount to craft each time.
+                time = 5, -- Time to craft the item after action is complete.
+                chance = 100, -- Chance to succeed in crafting the item, failing destroys the removeable parts and reward. 
+                parts = { -- Items required to craft.
+                    {name = "folded_cash", amount = 10, remove = true},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "tools", amount = 10},
+                },
+            },
+            {
+                name = "armour", -- Name of the item.
+                category = "misc", -- Category name (not the label).
+                type = "item", -- "weapon" treats the item as a weapon. Default is "item" when not set.
+                amount = 1, -- Amount to craft each time.
+                time = 20, -- Time to craft the item after action is complete.
+                chance = 100, -- Chance to succeed in crafting the item, failing destroys the removeable parts and reward. 
+                parts = { -- Items required to craft.
+                    {name = "leather", amount = 5, remove = true},
+                    {name = "steel", amount = 10, remove = true},
+                    {name = "rubber", amount = 10, remove = true},
+                    {name = "iron", amount = 5, remove = true},
+                },
+                rewards = { -- Additional rewards after crafting. Types: "xp" for experience reward, "item" for item reward. Default is "item" if not set.
+                    {type = "xp", name = "tools", amount = 10},
+                },
+            },
+        },
+    },
 }
 
 Config.Tables = {
@@ -966,8 +1079,28 @@ Config.Tables = {
         tableType = "container"
     },
     {
+        coords = vec3(-11.62, 6189.06, 31.49), -- Chicken Factory Paleto.
+        heading = 217.93, -- Table heading.
+        tableType = "container"
+    }, 
+    {
+        coords = vec3(-88.95, -2556.52, 6.14), -- Elysian Island.
+        heading = 217.93, -- Table heading.
+        tableType = "container"
+    },
+    {
+        coords = vec3(-457.6, -1734.05, 16.94), -- La Puerta.
+        heading = 283.29, -- Table heading.
+        tableType = "container"
+    },  
+    {
         coords = vec3(2450.21, 1578.63, 33.01), -- Across from powerplant
         heading = 95.62, -- Table heading.
         tableType = "drugtable"
+    },
+    {
+        coords = vec3(97.13, 176.05, 103.63), -- Table coords.
+        heading = 162.54, -- Table heading.
+        tableType = "regular"
     },
 }

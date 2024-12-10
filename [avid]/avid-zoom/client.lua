@@ -1,5 +1,5 @@
 local zoomed = false
-local zoomFOV = 30.0
+local zoomFOV = 13.0
 local normalFOV = 50.0
 local zoomSpeed = 2.0
 local camera = nil

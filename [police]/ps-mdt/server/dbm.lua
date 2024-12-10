@@ -61,8 +61,8 @@ function GetBulletins(JobType)
 end
 
 function GetPlayerProperties(cid, cb)
-	local result =  MySQL.query.await('SELECT houselocations.label, houselocations.coords FROM player_houses INNER JOIN houselocations ON player_houses.house = houselocations.name where player_houses.citizenid = ?', {cid})
-	return result
+    local result =  MySQL.query.await('SELECT property_name, coords FROM properties WHERE owner = ?', {cid})
+    return result
 end
 
 function GetPlayerDataById(id)
@@ -91,7 +91,7 @@ function GetVehicleInformation(plate, cb)
 end
 
 function GetPlayerApartment(cid, cb)
-    local result =  MySQL.query.await('SELECT property_name, interior FROM properties where citizenid = ?', {cid})
+    local result =  MySQL.query.await('SELECT property_name, interior FROM properties where owner = ?', {cid})
     return result
 end
 

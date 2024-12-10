@@ -423,8 +423,8 @@ QBCore.Functions.CreateCallback('mdt:server:GetProfileData', function(source, cb
         apartmentData = GetPlayerApartment(target.citizenid)
         if apartmentData then
             if apartmentData[1] then
-                apartmentData = apartmentData[1].interior .. ' (' ..apartmentData[1].property_name..')'
-			else
+				apartmentData = apartmentData[1].interior .. ' (' ..apartmentData[1].property_name..')'
+            else
                 TriggerClientEvent("QBCore:Notify", src, 'The citizen does not have an apartment.', 'error')
                 print('The citizen does not have an apartment. Set Config.UsingDefaultQBApartments to false.')
             end
@@ -529,20 +529,20 @@ QBCore.Functions.CreateCallback('mdt:server:GetProfileData', function(source, cb
 			person.properties = Houses
 		else
 			local Coords = {}
-			local Houses = {}
-			local properties= GetPlayerProperties(person.cid)
-			for k, v in pairs(properties) do
-				Coords[#Coords+1] = {
-					coords = json.decode(v["coords"]),
-				}
-			end
-			for index = 1, #Coords, 1 do
-				Houses[#Houses+1] = {
-					label = properties[index]["label"],
-					coords = tostring(Coords[index]["coords"]["enter"]["x"]..",".. Coords[index]["coords"]["enter"]["y"].. ",".. Coords[index]["coords"]["enter"]["z"]),
-				}
-			end
-			person.properties = Houses
+            local Houses = {}
+            local properties= GetPlayerProperties(person.cid)
+            for k, v in pairs(properties) do
+                Coords[#Coords+1] = {
+                    coords = json.decode(v["coords"]),
+                }
+            end
+            for index = 1, #Coords, 1 do
+                Houses[#Houses+1] = {
+                    label = properties[index]["property_name"],
+                    coords = tostring(Coords[index]["coords"]["x"]..",".. Coords[index]["coords"]["y"].. ",".. Coords[index]["coords"]["z"]),
+                }
+            end
+            person.properties = Houses
 		end
 	end
 	local mdtData = GetPersonInformation(sentId, JobType)

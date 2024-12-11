@@ -3,7 +3,7 @@ Locales["en"] = {
         modal = {
             save = {
                 title = "Save customization",
-                description = "You will remain ugly"
+                description = "Save changes"
             },
             exit = {
                 title = "Exit customization",

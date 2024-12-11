@@ -4,12 +4,11 @@ game 'gta5'
 
 author 'Jakers'
 
-description 'pbbjvj'
+description 'pbbjv'
 
-version '1'
+version '2.0'
 
 files {
-
     'vehicles.meta',
     'carvariations.meta',
     'carcols.meta',
@@ -27,6 +26,7 @@ client_script {
 
 escrow_ignore {
     'stream/**/*.ytd',
+    'vehicle_names.lua'
 }
 
 lua54 'yes'

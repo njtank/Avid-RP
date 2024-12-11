@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPersonAlternateData>
+    <alternates>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_emergency/jbib_016_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_emergency/jbib_020_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_emergency/jbib_025_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_emergency/jbib_026_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_emergency/jbib_029_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_emergency/lowr_002_r</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_emergency/lowr_008_r</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_emergency/lowr_012_r</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_emergency/jbib_011_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_emergency/jbib_012_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_emergency/jbib_026_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_emergency/jbib_030_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_emergency/lowr_016_r</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_emergency/lowr_020_r</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_emergency/lowr_024_r</assetName>
+            <alternate value="1" />
+        </Item>
+    </alternates>
+</FirstPersonAlternateData>

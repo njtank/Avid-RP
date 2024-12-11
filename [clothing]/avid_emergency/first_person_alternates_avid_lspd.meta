@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPersonAlternateData>
+    <alternates>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_lspd/jbib_016_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_lspd/jbib_020_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_lspd/jbib_025_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_lspd/jbib_026_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_lspd/jbib_029_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_lspd/lowr_002_r</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_lspd/lowr_008_r</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_m_freemode_01_avid_lspd/lowr_012_r</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_lspd/jbib_011_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_lspd/jbib_012_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_lspd/jbib_026_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_lspd/jbib_030_u</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_lspd/lowr_016_r</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_lspd/lowr_020_r</assetName>
+            <alternate value="1" />
+        </Item>
+        <Item>
+            <assetName>mp_f_freemode_01_avid_lspd/lowr_024_r</assetName>
+            <alternate value="1" />
+        </Item>
+    </alternates>
+</FirstPersonAlternateData>

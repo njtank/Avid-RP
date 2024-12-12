@@ -31,7 +31,7 @@ Config = {
     AllowInWater = false, -- If turned off, opening the menu and playing an emote will not be possible while swimming
 
     -- Ragdoll options
-    RagdollEnabled = false,     -- You can enable or disable the Ragdoll keybinding here.
+    RagdollEnabled = true,     -- You can enable or disable the Ragdoll keybinding here.
     RagdollKeybind = 'u', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can enable or disable Ragdoll as Toggle here. Only works if RagdollEnabled is set to true.
     RagdollAsToggle = true,
@@ -46,16 +46,16 @@ Config = {
     AnimalEmotesEnabled = false, -- You can disable the Animal Emotes here.
 
     -- Hands Up Options
-    HandsupEnabled = false, -- You can disable the handsup here / change the keybind. It is currently set to Y
-    HandsupKeybind = 'Y', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
-    HandsupKeybindEnabled = false,
+    HandsupEnabled = true, -- You can disable the handsup here / change the keybind. It is currently set to Y
+    HandsupKeybind = 'X', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    HandsupKeybindEnabled = true,
     HandsupKeybindInCarEnabled = false,
     PersistentEmoteAfterHandsup = true, -- If true, you will play the emote you were playing previously after you stop handsup.
     HoldToHandsUp = false, -- Hands-up action occurs only while holding the button down
 
     -- Pointing Options
-    PointingEnabled = false, -- You can disable the finger pointing here / change the keybind. It is currently set to B
-    PointingKeybindEnabled = false,
+    PointingEnabled = true, -- You can disable the finger pointing here / change the keybind. It is currently set to B
+    PointingKeybindEnabled = true,
     PointingKeybind = 'B', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     PointingKeybindInCarEnabled = false,
     PersistentEmoteAfterPointing = false, -- If true, you will play the emote you were playing previously after you stop pointing.
@@ -68,8 +68,8 @@ Config = {
     FpsMode = false, -- set this to true if you have first-person shooting to disable the ability to crouch and shoot in third-person
 
     -- Crawling Options
-    CrawlEnabled = true, -- If crawling should be enabled.
-    CrawlKeybindEnabled = true, -- If true, crawling will use keybinds.
+    CrawlEnabled = false, -- If crawling should be enabled.
+    CrawlKeybindEnabled = false, -- If true, crawling will use keybinds.
     CrawlKeybind = 'rcontrol', -- The default crawl keybind, get the button string here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
 
     -- Binocular Options

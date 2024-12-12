@@ -792,7 +792,7 @@ local function ATMTampering()
     local vehicle = GetVehicleData(cache.vehicle)
 
     local dispatchData = {
-        message = ATM Tampering, -- add this into your locale
+        message = 'ATM Tampering', -- add this into your locale
         codeName = 'atmtampering', -- this should be the same as in config.lua
         code = '10-76',
         icon = 'fas fa-car-burst',
@@ -812,13 +812,13 @@ local function ATMTampering()
 end
 exports('atmtampering', atmtampering)
 
-local function ArtHeist()
+local function ArtGalleryRobbery()
     local coords = GetEntityCoords(cache.ped)
     local vehicle = GetVehicleData(cache.vehicle)
 
     local dispatchData = {
-        message = Shamoota Art Gallery, -- add this into your locale
-        codeName = 'artheist', -- this should be the same as in config.lua
+        message = 'Shamoota Art Gallery', -- add this into your locale
+        codeName = 'ArtGalleryRobbery', -- this should be the same as in config.lua
         code = '10-83',
         icon = 'fa-artstation',
         priority = 2,
@@ -835,4 +835,4 @@ local function ArtHeist()
 
     TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
 end
-exports('artheist', artheist)
+exports('ArtGalleryRobbery', ArtGalleryRobbery)

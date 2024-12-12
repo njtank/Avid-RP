@@ -443,7 +443,7 @@ Config.Blips = {
         offset = true,
         flash = false
     },
-    ['artheist'] = {
+    ['ArtGalleryRobbery'] = {
         radius = 50.0,
         sprite = 436,
         color = 1,

@@ -78,9 +78,28 @@ Citizen.CreateThread(function()
 end)
 
 RegisterNetEvent('artheist:client:policeAlert')
-exports('artheist', artheist)
-end
+AddEventHandler('artheist:client:policeAlert', function(targetCoords)
+    QBCore.Functions.Notify(Strings['police_alert'], 'primary')
+    local alpha = 250
+    local artheistBlip = AddBlipForRadius(targetCoords.x, targetCoords.y, targetCoords.z, 50.0)
 
+    SetBlipHighDetail(artheistBlip, true)
+    SetBlipColour(artheistBlip, 1)
+    SetBlipAlpha(artheistBlip, alpha)
+    SetBlipAsShortRange(artheistBlip, true)
+
+    while alpha ~= 0 do
+        Citizen.Wait(125)
+        alpha = alpha - 1
+        SetBlipAlpha(artheistBlip, alpha)
+
+        if alpha == 0 then
+            RemoveBlip(artheistBlip)
+            return
+        end
+    end
+end)
+--exports('artheist', artheist)
 RegisterNetEvent('artheist:client:syncHeistStart')
 AddEventHandler('artheist:client:syncHeistStart', function()
     ArtHeist['start'] = not ArtHeist['start']

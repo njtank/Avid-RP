@@ -1340,7 +1340,38 @@ exports.ox_target:addBoxZone({
     },
 })
 ------
-
+local garageName = 'pdgarage'
+exports.ox_target:addBoxZone({
+    name = "MRPD",
+    coords = vec3(441.33, -998.65, 25.7),
+    size = vec3(1.0, 1.0, 1.5),
+    rotation = 0,
+    debug = false,
+    options = {
+        {
+            icon = 'parking',
+            label = 'Park Vehicle',
+            onSelect = function()
+                TriggerEvent('qb-garages:client:ParkLastVehicle', garageName)
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+        {
+            icon = 'parking',
+            label = 'Open Garage',
+            onSelect = function()
+                if cache.vehicle then return exports.qbx_core:Notify(locale('in_vehicle'), 'error') end
+                OpenGarageMenu()
+            end,
+            canInteract = function(_, distance)
+                return distance <= 2.5
+            end
+        },
+    },
+})
+----
 local propName = "prop_parkingpay"
 local propLocations = {
     vec4(86.55, 6396.71, 31.38, 271.4), -- Paleto Chicken Factory
@@ -1351,6 +1382,7 @@ local propLocations = {
     vec4(-1154.39, -753.82, 18.9, 126.63), -- Spanish Ave
     vec4(214.64, -810.54, 30.74, 64.61), -- Legion Square
     vec4(69.63, 13.48, 69.0, 70.4), -- Caesars 24
+    vec4(441.33, -998.65, 25.7, 180.33),-- MRPD(pdgarage)
 
 }
 

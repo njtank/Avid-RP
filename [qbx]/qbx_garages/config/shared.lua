@@ -1528,7 +1528,7 @@ return {
                 vec4(407.68, -979.62, 28.94, 51.69),
             },
             debug = false
-        },
+        },]]
         ['pdgarage'] = {
             Zone = {
                 Shape = { --polygon that surrounds the parking area
@@ -1544,8 +1544,8 @@ return {
             label = 'MRPD Garage',
             type = 'job',
             job = "police",
-            --useVehicleSpawner = false,
-            --jobGarageIdentifier = 'pd1',
+            --useVehicleSpawner = true,
+            jobGarageIdentifier = 'pd1',
             vehicleCategories = {'emergency'},
             --platePrefix = 'LSPD', -- Requires useVehicleSpawner = true
             drawText = 'Parking',
@@ -1571,7 +1571,7 @@ return {
             },
             debug = false
         },
-        ['helipad'] = {
+        --[[['helipad'] = {
             Zone = {
                 Shape = { --polygon that surrounds the parking area
                     vec3(-757.8896484375, -1469.876953125, 4.0),

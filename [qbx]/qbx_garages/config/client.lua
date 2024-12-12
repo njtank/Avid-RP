@@ -55,12 +55,12 @@ return {
             vehicles = {
                 [0] = {},
                 [1] = {
-                    -- [1] = { label = "Some Vehicle", model = "yourmodel", job = {"police", "ambulance"} }, -- example
+                    [1] = { label = "Buffalo SXT", model = "pbbjv", job = {"police"} },
                     -- [2] = { label = "Another Vehicle", model = "anothermodel", configName = "myUniqueNameForThisCarConfiguration3", job = {"police", "swat"} },
                 },
             }
         },
-        ['pdhelicopter'] = {
+        --[[['pdhelicopter'] = {
             label = 'Police Helicopters',
             job = 'police',
             vehicles = {
@@ -73,15 +73,15 @@ return {
                 [6] = { ["as350"] = "Police AS350" },
                 [7] = { ["as350"] = "Police AS350" },
             }
-        }
+        }]]
     },
 
     VehicleSettings = {
-        ['myUniqueNameForThisCarConfiguration'] = { -- configName
-            -- ['model'] = 'police2', -- You can either define the model and grades here, or use the configName in the jobVehicles config
+        ['buffalopatrol'] = { -- configName
+            ['model'] = 'pbbjv', -- You can either define the model and grades here, or use the configName in the jobVehicles config
             -- ['jobGrades'] = {0},
             ["livery"] = 1,
-            ["extras"] = {
+            --[[["extras"] = {
                 ["1"] = true, -- on/off
                 ["2"] = true,
                 ["3"] = true,
@@ -95,7 +95,7 @@ return {
                 ["11"] = true,
                 ["12"] = true,
                 ["13"] = true,
-            },
+            },]]
         },
     },
 

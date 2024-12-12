@@ -5,7 +5,7 @@ return {
     painkillerInterval = 5, -- Time in minutes that painkillers last for
     checkInHealTime = 30, -- Time in seconds that it takes to be healed from the check-in system
     laststandTimer = 150, -- Time in seconds that the laststand timer lasts
-    aiHealTimer = 60, -- How long it will take to be healed after checking in, in seconds
+    aiHealTimer = 30, -- How long it will take to be healed after checking in, in seconds
 
     ---@alias Grade integer job grade
     ---@alias VehicleName string as appears in QBCore shared config

@@ -16,14 +16,20 @@ return {
 
     locations = {
         duty = {
-            vec3(626.28, 6.46, 84.39), -- VWPD Front Desk
-            vec3(619.6, 10.51, 87.82), -- VWPD Side Desk
+            vec3(441.32, -981.71, 30.69), -- MRPD Front Desk
         },
         vehicle = {
-            vec4(592.41, -2.27, 70.23, 250.34), -- VWPD
-            vec4(591.15, -4.89, 70.24, 251.37), -- VWPD
-            vec4(589.43, -9.89, 70.24, 251.39), -- VWPD
-            vec4(588.53, -12.28, 70.24, 248.42), -- VWPD
+            vec4(445.68, -997.2, 25.35, 270.71), -- MRPD
+            vec4(445.77, -994.33, 25.35, 269.16), 
+            vec4(445.49, -991.36, 25.35, 271.06),
+            vec4(446.05, -988.86, 25.35, 271.05), 
+            vec4(445.99, -985.97, 25.35, 269.64),
+            vec4(437.3, -996.89, 25.35, 90.92),
+            vec4(437.57, -994.45, 25.35, 88.52),
+            vec4(437.4, -991.53, 25.35, 91.4),
+            vec4(437.25, -988.84, 25.35, 90.76),
+            vec4(437.3, -985.93, 25.35, 88.88),
+            
         },
         stash = { -- Not currently used, use ox_inventory stashes
             -- vec3(453.075, -980.124, 30.889),
@@ -38,17 +44,17 @@ return {
             -- vec3(462.23, -981.12, 30.68),
         },
         trash = {
-            vec3(629.43, 0.15, 77.5), -- VWPD
+            vec3(446.84, -997.08, 30.69), -- MRPD
         },
         fingerprint = {
-            vec3(626.28, -5.62, 77.5), -- VWPD
+            vec3(473.16, -1007.45, 26.27), -- MRPD
         },
         evidence = { -- Not currently used, use ox_inventory evidence system
         },
         stations = {
-            -- {label = 'Mission Row Police Station', coords = vec3(434.0, -983.0, 30.7)},
+            {label = 'Mission Row Police Station', coords = vec3(434.0, -983.0, 30.7)},
             -- {label = 'Sandy Shores Police Station', coords = vec3(1853.4, 3684.5, 34.3)},
-             {label = 'Vinewood Police Station', coords = vec3(637.1, 1.6, 81.8)},
+            -- {label = 'Vinewood Police Station', coords = vec3(637.1, 1.6, 81.8)},
             -- {label = 'Vespucci Police Station', coords = vec3(-1092.6, -808.1, 19.3)},
             -- {label = 'Davis Police Station', coords = vec3(368.0, -1618.8, 29.3)},
             -- {label = 'Paleto Bay Police Station', coords = vec3(-448.4, 6011.8, 31.7)},

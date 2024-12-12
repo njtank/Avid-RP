@@ -146,7 +146,7 @@ return {
 			`S_F_Y_Cop_01`,
 		},
 		coords = {
-			vec4(608.37, 2.23, 87.82, 252.04), -- VWPD Main
+			vec4(482.21, -995.22, 30.69, 194.14), -- MRPD
 		},
 		shopItems = "police",
 		blip = {

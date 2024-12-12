@@ -66,6 +66,7 @@ local ITEMS = {
 		{ name = 'heavyarmour',    		 price = 30, defaultStock = 1500,        job = "police",        category = 'Supplies' },
 		{ name = 'bandage',    			 price = 3, defaultStock = 1500,         job = "police",        category = 'Supplies' },
 		{ name = 'empty_evidence_bag',   price = 0, defaultStock = 1500,         job = "police",        category = 'Supplies' },
+		{ name = 'handcuffs', 			 price = 10, defaultStock = 1500,		 job = "police",		category = 'Supplies' },
 		{ name = 'WEAPON_COMBATPISTOL',  price = 0, defaultStock = 200,          job = "police",        category = 'Weapons' },
 		{ name = 'WEAPON_PUMPSHOTGUN_MK2',  price = 0, defaultStock = 200,       job = "police",        category = 'Weapons' },
 		{ name = 'ammo-shotgun', 		 price = 0, defaultStock = 9500,		 job = "police",		category = "Ammunition" },

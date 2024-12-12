@@ -1545,9 +1545,9 @@ return {
             type = 'job',
             job = "police",
             --useVehicleSpawner = true,
-            jobGarageIdentifier = 'pd1',
+            --jobGarageIdentifier = 'pd1',
             vehicleCategories = {'emergency'},
-            --platePrefix = 'LSPD', -- Requires useVehicleSpawner = true
+            platePrefix = 'LSPD', -- Requires useVehicleSpawner = true
             drawText = 'Parking',
             ParkingSpots = {
                 vec4(445.67, -997.0, 24.81, 269.98),

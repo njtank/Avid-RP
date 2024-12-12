@@ -187,7 +187,7 @@ Config = {
 
 	StoreCraft = {
 		Crafting = true, 				-- Set true to turn on crafting features
-		StashCraft = false,  			-- Set true to grab materials from mechaincs stash for crafting
+		StashCraft = true,  			-- Set true to grab materials from mechaincs stash for crafting
 		Stores = true, 					-- Set true to turn on shop store features
 	},
 

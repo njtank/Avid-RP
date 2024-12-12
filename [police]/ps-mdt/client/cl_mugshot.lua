@@ -3,6 +3,7 @@ local PlayerData = {}
 local mugshotInProgress, createdCamera, MugshotArray, playerData = false, 0, {}, nil
 local handle, board, board_scaleform, overlay, ped, pedcoords, x, y, z, r, suspectheading, suspectx, suspecty, suspectz, board_pos
 local MugShots = {}
+local lib = ox_lib
 
 -- Mugshot location  ( Position is the default QBCore Prison Interior )
 	x = 1828.69
@@ -226,6 +227,12 @@ RegisterNUICallback("sendToJail", function(data, cb)
                 end
                 Citizen.Wait(5000)
                 -- Uses qb-policejob JailPlayer event
+                local sent = lib.callback.await('xt-prison:client:enterJail', targetSource, setTime)
+                    if sent then
+                        lib.notify(source, {
+                            title = 'Sent Player to Jail'
+                        })
+                end
                 TriggerServerEvent("police:server:JailPlayer", targetSourceId, sentence)
             end
         end

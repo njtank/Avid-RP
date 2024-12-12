@@ -1,11 +1,11 @@
 return {
     DebugPoly = false,
-    Freedom = vec4(1842.58, 2573.43, 45.89, 357.77), -- Freedom spawn coords
+    Freedom = vec4(1837.23, 2591.15, 46.01, 174.99), -- Freedom spawn coords
     RemoveJob = false,          -- Remove player jobs when send to jail
 
     -- Create Target Zone to Check Time (if XTPrisonJobs is false) --
     CheckOut = {
-        coords = vec3(1836.5, 2592.05, 46.35),
+        coords = vec3(1828.77, 2580.21, 46.01),
         size = vec3(0.9, 7.8, 1.45),
         rotation = 0.5,
     },

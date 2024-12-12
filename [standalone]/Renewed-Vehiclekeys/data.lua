@@ -1,6 +1,6 @@
 return {
-    lockChance = 0.5, -- (50%) Chance of local vehicles to be locked around the world
-    lockChanceAI = 0.5, -- (50%) Chance of AI vehicles to be locked around the world
+    lockChance = 0.9, -- (90%) Chance of local vehicles to be locked around the world
+    lockChanceAI = 0.8, -- (80%) Chance of AI vehicles to be locked around the world
 
     useWeaponRobbery = true, -- Be able to rob driving peds for their vehicle keys
 
@@ -34,12 +34,12 @@ return {
     -- Minigame settings
 
     -- Whichs possible keys can show up when they lockpick / hotwire the vehicle
-    keys = {'r', 'e', 'n', 'e', 'w', 'e', 'd'},
+    keys = {'w', 'a', 's', 'd', 'q', 'e', 'r', 'z', 'c'},
 
     difficulties = {
-        slow = { time = {min = 120, max = 255}, turns = {min = 3, max = 5} },
-        medium = { time = {min = 75, max = 145}, turns = {min = 2, max = 4} },
-        fast = { time = {min = 25, max = 50}, turns = {min = 1, max = 2} }
+        slow = { time = {min = 75, max = 150}, turns = {min = 5, max = 7} },
+        medium = { time = {min = 50, max = 100}, turns = {min = 3, max = 5} },
+        fast = { time = {min = 25, max = 50}, turns = {min = 3, max = 5} }
     },
 
     -- Vehicle Config

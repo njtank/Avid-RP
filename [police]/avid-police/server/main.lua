@@ -306,6 +306,13 @@ RegisterNetEvent('police:server:JailPlayer', function(targetSrc, time)
         currentDate.day = 30
     end
 
+    local sent = lib.callback.await('xt-prison:client:enterJail', targetSource, setTime)
+    if sent then
+        lib.notify(source, {
+            title = 'Sent Player to Jail'
+        })
+    end
+
     targetPlayer.Functions.SetMetaData('injail', time)
     targetPlayer.Functions.SetMetaData('criminalrecord', {
         hasRecord = true,

@@ -733,7 +733,7 @@ return {
         label = 'Handcuffs',
         weight = 200,
         client = {
-            image = "handcuffs",
+            image = "handcuffs.png",
         }
     },
 

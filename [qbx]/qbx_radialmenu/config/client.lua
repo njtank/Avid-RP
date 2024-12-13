@@ -88,7 +88,7 @@ return {
                     id = 'openGroup',
                     icon = 'user-group',
                     label = 'Group Menu',
-                    event = 'openGroupMenu',
+                    event = 'openUIEvent',
                 },
                 {
                     id = 'clothesMenu',

@@ -85,6 +85,12 @@ return {
             label = 'General',
             items = {
                 {
+                    id = 'openGroup',
+                    icon = 'user-group',
+                    label = 'Group Menu',
+                    event = 'openGroupMenu',
+                },
+                {
                     id = 'clothesMenu',
                     icon = 'shirt',
                     label = 'Clothing',

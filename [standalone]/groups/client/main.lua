@@ -31,3 +31,8 @@ if shared.standaloneUI then
     end, false)
     RegisterKeyMapping('+group', 'Open Group UI', 'keyboard', 'o')
 end
+
+RegisterNetEvent('openUIEvent')
+AddEventHandler('openUIEvent', function()
+    OpenUI()
+end)

@@ -732,6 +732,16 @@ return {
     ['handcuffs'] = {
         label = 'Handcuffs',
         weight = 200,
+        client = {
+            image = "handcuffs",
+        }
+    },
+
+    ['bodycam'] = {
+        label = 'Body Cam',
+        weight = 200,
+        client = {
+            image = "bodycam.png", event = "bprp-bodycam:openBoy" }
     },
 
     ['aluminumoxide'] = {
@@ -1165,9 +1175,7 @@ return {
         description = 'A spikestrip',
         client = {
             image = 'spikestrip.png',
-            use = function(slot)
-                TriggerEvent('avid-spikes:client:usespikestrip', slot)
-            end
+            event = 'avid-spikes:client:usespikestrip'
         },
     },
 

@@ -5,7 +5,7 @@
 	<Item type="CHandlingData">
       <handlingName>pvdtrt</handlingName>
       <fMass value="1760.000000" />
-      <fInitialDragCoeff value="9.620000" />
+      <fInitialDragCoeff value="6.620000" />
       <fPercentSubmerged value="85.000000" />
       <vecCentreOfMassOffset x="0.000000" y="0.050000" z="0.100000" />
       <vecInertiaMultiplier x="1.150000" y="1.475000" z="1.820000" />
@@ -15,7 +15,7 @@
       <fDriveInertia value="1.000000" />
       <fClutchChangeRateScaleUpShift value="2.100000" />
       <fClutchChangeRateScaleDownShift value="2.000000" />
-      <fInitialDriveMaxFlatVel value="220.000000" />
+      <fInitialDriveMaxFlatVel value="240.000000" />
       <fBrakeForce value="0.930000" />
       <fBrakeBiasFront value="0.425000" />
       <fHandBrakeForce value="0.700000" />

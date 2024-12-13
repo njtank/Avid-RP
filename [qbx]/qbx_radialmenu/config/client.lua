@@ -220,7 +220,7 @@ return {
                 id = 'emergencyButton',
                 icon = 'bell',
                 label = 'Emergency Button',
-                event = 'police:client:SendPoliceEmergencyAlert',
+                event = 'ps-dispatch:client:officerbackup',
             },
             {
                 id = 'resetHouse',

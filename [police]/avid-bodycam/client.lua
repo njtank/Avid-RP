@@ -37,7 +37,7 @@ AddEventHandler("bprp-bodycam:openBoy", function (item, h,m,s)
                 action = "showbodycam",
                 player = Player.job.grade.name.. " "..gender.." "..Player.charinfo.lastname,
                 callsign = "["..Player.metadata['callsign'].."]",
-                tarih = day.."/"..month.."/"..year.." ".." - "..h..":"..m..":"..s.." LST",
+                tarih = day.."/"..month.."/"..year.." ".." - "..hour..":"..minute..":"..second.." LST",
             })
             TriggerServerEvent("booleanuodate", true)
             acik = true

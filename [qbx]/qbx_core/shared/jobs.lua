@@ -27,18 +27,44 @@ return {
                 payment = 75
             },
             [2] = {
-                name = 'Sergeant',
+                name = 'Senior Officer',
                 payment = 100
             },
             [3] = {
-                name = 'Lieutenant',
+                name = 'Corporal',
                 payment = 125
             },
             [4] = {
+                name = 'Sergeant',
+                payment = 175
+            },
+            [5] = {
+                name = 'Lieutenant',
+                isboss = true,
+                payment = 225
+            },
+            [6] = {
+                name = 'Capitan',
+                isboss = true,
+                payment = 275
+            },
+            [7] = {
+                name = 'Assistant Chief',
+                isboss = true,
+                bankAuth = true,
+                payment = 275
+            },
+            [8] = {
                 name = 'Chief',
                 isboss = true,
                 bankAuth = true,
-                payment = 150
+                payment = 325
+            },
+            [9] = {
+                name = 'Commissioner',
+                isboss = true,
+                bankAuth = true,
+                payment = 375
             },
         },
     },
@@ -114,21 +140,18 @@ return {
             },
             [1] = {
                 name = 'Paramedic',
-                payment = 75
+                payment = 200
             },
             [2] = {
                 name = 'Doctor',
-                payment = 100
+                isboss = true,
+                payment = 275
             },
             [3] = {
-                name = 'Surgeon',
-                payment = 125
-            },
-            [4] = {
                 name = 'Chief',
                 isboss = true,
                 bankAuth = true,
-                payment = 150
+                payment = 325
             },
         },
     },

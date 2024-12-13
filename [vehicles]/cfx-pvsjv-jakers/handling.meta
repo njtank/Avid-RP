@@ -13,7 +13,7 @@
       <vecInertiaMultiplier x="1.50000" y="2.000" z="2.7500" />
       <fDriveBiasFront value="0.500000" />
       <nInitialDriveGears value="6" />
-      <fInitialDriveForce value="0.99000" />
+      <fInitialDriveForce value="0.74000" />
       <fDriveInertia value="1.000000" />
       <fClutchChangeRateScaleUpShift value="3.00000" />
       <fClutchChangeRateScaleDownShift value="4.00000" />

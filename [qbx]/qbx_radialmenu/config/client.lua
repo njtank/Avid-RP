@@ -223,6 +223,12 @@ return {
                 event = 'ps-dispatch:client:officerbackup',
             },
             {
+                id = 'mdt',
+                icon = 'user-group',
+                label = 'MDT',
+                event = 'mdt:client:open', 
+            },
+            {
                 id = 'resetHouse',
                 icon = 'key',
                 label = 'Reset House Lock',

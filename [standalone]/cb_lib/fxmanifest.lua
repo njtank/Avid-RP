@@ -8,7 +8,7 @@ lua54 'yes'
 use_experimental_fxv2_oal 'yes'
 
 client_scripts { 
-  -- '@ox_core/imports/client.lua', --Remove the two -- if you're using ox_core in your server
+   '@ox_core/imports/client.lua', --Remove the two -- if you're using ox_core in your server
 
   'client/groups/**', 
   "client/inventory/carryItems.lua", 
@@ -23,8 +23,8 @@ shared_scripts {
   -- '@PolyZone/CircleZone.lua', --Remove the two -- if you're using polyzone in your server
   -- '@PolyZone/ComboZone.lua', --Remove the two -- if you're using polyzone in your server
 
-  -- '@ox_lib/init.lua', --Remove the two -- if you're using ox_lib in your server
-  -- '@qbx_core/modules/lib.lua', --Remove the two -- if you're using qbx_core in your server
+   '@ox_lib/init.lua', --Remove the two -- if you're using ox_lib in your server
+   '@qbx_core/modules/lib.lua', --Remove the two -- if you're using qbx_core in your server
   
   'utils/**/*.lua', 
   'shared/**/*.lua' 

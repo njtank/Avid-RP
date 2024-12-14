@@ -85,10 +85,10 @@ return {
             label = 'General',
             items = {
                 {
-                    id = 'openGroup',
+                    id = 'openTablet',
                     icon = 'user-group',
-                    label = 'Group Menu',
-                    event = 'openUIEvent',
+                    label = 'Open tablet',
+                    event = 'OpenTabletRep',
                 },
                 {
                     id = 'clothesMenu',

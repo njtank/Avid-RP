@@ -993,7 +993,7 @@ return {
         close = true,
         description = "Expensive tablet",
         client = {
-            image = "tablet.png",
+            image = "tablet.png", event = "OpenTabletRep"
         }
     },
 

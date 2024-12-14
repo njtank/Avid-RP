@@ -986,6 +986,17 @@ return {
         }
     },
 
+    ['vpn'] = {
+        label = VPN,
+        weight = 1000,
+        stack = false,
+        close = false,
+        description = "For some privacy, and other stuff...",
+        client = {
+            image = 'vpn.png',
+        },
+    },
+
     ['tablet'] = {
         label = "Tablet",
         weight = 2000,

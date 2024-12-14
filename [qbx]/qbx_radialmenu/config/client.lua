@@ -91,6 +91,12 @@ return {
                     event = 'OpenTabletRep',
                 },
                 {
+                    id = 'openRadio',
+                    icon = 'fa-solid fa-walkie-talkie',
+                    label = 'Open Radio',
+                    event = 'avid_radio:client:use',
+                },
+                {
                     id = 'clothesMenu',
                     icon = 'shirt',
                     label = 'Clothing',
@@ -413,51 +419,8 @@ return {
     vehicleDoors = {
         id = 'vehicleDoors',
         icon = 'car-side',
-        label = 'Vehicle Doors',
-        items = {
-            {
-                id = 'door0',
-                icon = 'car-side',
-                label = 'Driver\'s Door',
-                event = 'qb-radialmenu:client:openDoor',
-                args = 0,
-            },
-            {
-                id = 'door1',
-                icon = 'car-side',
-                label = 'Passenger\'s Door',
-                event = 'qb-radialmenu:client:openDoor',
-                args = 1,
-            },
-            {
-                id = 'door2',
-                icon = 'car-side',
-                label = 'Back Left Door',
-                event = 'qb-radialmenu:client:openDoor',
-                args = 2,
-            },
-            {
-                id = 'door3',
-                icon = 'car-side',
-                label = 'Back Right Door',
-                event = 'qb-radialmenu:client:openDoor',
-                args = 3,
-            },
-            {
-                id = 'door4',
-                icon = 'car-side',
-                label = 'Hood',
-                event = 'qb-radialmenu:client:openDoor',
-                args = 4,
-            },
-            {
-                id = 'door5',
-                icon = 'car-side',
-                label = 'Trunk',
-                event = 'qb-radialmenu:client:openDoor',
-                args = 5,
-            },
-        },
+        label = 'Vehicle Menu',
+        event = 'bl_vehiclemenu:client:open',
     },
 
     vehicleSeats = {

@@ -69,6 +69,7 @@ local ITEMS = {
 		{ name = 'handcuffs', 			 price = 10, defaultStock = 1500,		 job = "police",		category = 'Supplies' },
 		{ name = 'bodycam',				 price = 0,	defaultStock = 1500,		 job = "police",		category = 'Supplies' },
 		{ name = 'spikestrip',				 price = 0,	defaultStock = 1500,		 job = "police",		category = 'Supplies' },
+		{ name = 'megaphone',			 price = 150, defaultStock = 20,		 job = "police",		category = 'Supplies' },
 		{ name = 'WEAPON_COMBATPISTOL',  price = 500, defaultStock = 200,          job = "police",        category = 'Weapons' },
 		{ name = 'WEAPON_PUMPSHOTGUN_MK2',  price = 1000, defaultStock = 200,       job = "police",        category = 'Weapons' },
 		{ name = 'ammo-shotgun', 		 price = 50, defaultStock = 9500,		 job = "police",		category = "Ammunition" },

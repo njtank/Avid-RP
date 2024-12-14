@@ -261,7 +261,7 @@ return {
         }
     },
 
-    ['repairkit'] = {
+    --[[['repairkit'] = {
         label = 'Repair Kit',
         weight = 2500,
         client = {
@@ -275,7 +275,7 @@ return {
         client = {
             image = "advancedkit.png",
         }
-    },
+    }, ]] -- Replaced by jim-mechanics
 
     ['diamond_ring'] = {
         label = 'Diamond Ring',
@@ -2734,13 +2734,23 @@ return {
     label = "Cleaning Kit", weight = 0, stack = true, close = true, description = "A microfiber cloth with some soap will let your car sparkle again!",
     client = { image = "cleaningkit.png", event = "jim-mechanic:client:cleanVehicle"},
 },
---[[["repairkit"] = {
+["repairkit"] = {
     label = "Repairkit", weight = 0, stack = true, close = true, description = "A nice toolbox with stuff to repair your vehicle",
     client = { image = "repairkit.png", event = "jim-mechanic:vehFailure:RepairVehicle", item = "repairkit", full = false },
 },
 ["advancedrepairkit"] = {
     label = "Advanced Repairkit", weight = 0, stack = true, close = true, description = "A nice toolbox with stuff to repair your vehicle",
     client = { image = "advancedkit.png", event = "jim-mechanic:vehFailure:RepairVehicle", item = "advancedrepairkit", full = true },
-},]]
+},
+
+['megaphone'] = {
+    label = 'Megaphone',
+    weight = 500,
+    consume = 0,
+    client = {
+        image = 'megaphone.png', export = 'cb-megaphone.UseMegaphone',
+    },
+    stack = false,
+},
 
 }

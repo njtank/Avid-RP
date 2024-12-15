@@ -1037,7 +1037,7 @@ Config.TableTypes = {
                 },
             },
             {
-                name = "armour", -- Name of the item.
+                name = "armor_plate", -- Name of the item.
                 category = "misc", -- Category name (not the label).
                 type = "item", -- "weapon" treats the item as a weapon. Default is "item" when not set.
                 amount = 1, -- Amount to craft each time.

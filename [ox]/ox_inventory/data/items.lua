@@ -116,10 +116,10 @@ return {
         stack = true,
         close = true,
         client = {
-            status = { stress = 200000},
+            status = { stress = 20000},
             anim = { dict = 'amb@world_human_smoking@male@male_a@enter', clip = 'enter' },
             prop = { model = 'prop_cs_ciggy_01', pos = vec3(0.03, 0, 0.02), rot = vec3(1.7096, -43.1362, -27.9428) },
-            usetime = 25000,
+            usetime = 12500,
             image = "cigarette.png",
         }
     },
@@ -187,7 +187,7 @@ return {
         }
     },
 
-    ['armour'] = {
+    ['lightarmour'] = {
         label = 'Standard Armor Vest',
         weight = 3000,
         stack = false,
@@ -203,10 +203,22 @@ return {
         weight = 3000,
         stack = false,
         client = {
-            image = "armour.png",
+            image = "heavy_armor.png",
             anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
-            usetime = 4500
+            usetime = 3500
         }
+    },
+
+    ['armor_plate'] = {
+        label = 'Armor Plate',
+        weight = 2000,
+        stack = true,
+        close = true,
+        client = {
+            image = 'armor_plate.png',
+            anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+            usetime = 5500
+        }    
     },
 
     ['clothing'] = {

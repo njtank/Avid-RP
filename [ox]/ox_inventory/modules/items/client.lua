@@ -99,12 +99,12 @@ Item('bandage', function(data, slot)
 	end)
 end)
 
-Item('armour', function(data, slot)
-	if GetPedArmour(cache.ped) < 50 then
+Item('lightarmour', function(data, slot)
+	if GetPedArmour(cache.ped) < 20 then
 		ox_inventory:useItem(data, function(data)
 			if data then
-				SetPlayerMaxArmour(PlayerData.id, 50)
-				SetPedArmour(cache.ped, 50)
+				SetPlayerMaxArmour(PlayerData.id, 20)
+				SetPedArmour(cache.ped, 20)
 			end
 		end)
 	end
@@ -119,6 +119,29 @@ Item('heavyarmour', function(data, slot)
 			end
 		end)
 	end
+end)
+
+Item('armor_plate', function(data, slot)
+    if GetPedArmour(cache.ped) < 100 then
+        ox_inventory:useItem(data, function(data)
+            if data then
+                local currentArmor = GetPedArmour(cache.ped)
+                local maxArmor = 60 -- Default to 60 for "armour"
+
+                -- Check the item type and adjust max armor
+                if data.name == 'heavy_armour' then
+                    maxArmor = 100
+                end
+
+                -- Add armor while ensuring it doesn't exceed max armor
+                local newArmor = math.min(currentArmor + 10, maxArmor)
+                
+                -- Apply the max armor and new armor value
+                SetPlayerMaxArmour(PlayerData.id, maxArmor)
+                AddArmourToPed(cache.ped, newArmor)
+            end
+        end)
+    end
 end)
 
 client.parachute = false

@@ -1219,9 +1219,10 @@ return {
         stack = false,  -- Set to `true` if the item should stack in the inventory
         close = true,
         description = 'A spikestrip',
+        consume = 1.0,
         client = {
             image = 'spikestrip.png',
-            event = 'avid-spikes:client:usespikestrip'
+            event = 'avid-spikes:client:usespikes'
         },
     },
 

@@ -21,7 +21,8 @@ local ITEMS = {
 		bandage = { price = 15, defaultStock = 5000, category = 'Other' },
 		lighter = { price = 5, defaultStock = 5000, category = 'Other' },
 		wallet = { price = 20, defaultStock = 1000, category = 'Other' },
-		--redwoodpack = { price = 15, defaultStock = 5000, category = 'Other' },
+		cigarette = { price = 1, defaultStock = 50000, category = 'Other' },
+		cigarette_case = {price = 10, defaultStock = 5000, category = 'Other'},
 		phone = { price = 50, defaultStock = 5000, category = 'Other' },
 	},
 	bar = {

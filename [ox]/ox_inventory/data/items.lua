@@ -2816,7 +2816,7 @@ return {
     weight = 500,
     consume = 0,
     client = {
-        image = 'megaphone.png', export = 'cb-megaphone.UseMegaphone',
+        image = 'megaphone.png', export = 'avid-megaphone.UseMegaphone',
     },
     stack = false,
 },

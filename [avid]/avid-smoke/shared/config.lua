@@ -82,7 +82,7 @@ Config.CoreSettings = {
 
 Config.InteractionLocations = {-- if using ox_inventory you can ignore this section but make sure you have included the ox_inventory shops snippet found in the readme file to be able to obtain the items
     Store = {
-        Location = {
+       --[[ Location = {
             Location = vector3(170.03, -1337.09, 29.3), -- location of boxzone
             Width = 1.5, --width of boxzone
             Height = 1.5, -- height of boxzone
@@ -104,7 +104,7 @@ Config.InteractionLocations = {-- if using ox_inventory you can ignore this sect
                 [5] = { name = "vape", price = 25, amount = 100, info = {}, type = "item", slot = 6,},
                 [6] = { name = "vapejuice", price = 25, amount = 100, info = {}, type = "item", slot = 7,},
             },
-        },
+        },]]
     },
 }
 

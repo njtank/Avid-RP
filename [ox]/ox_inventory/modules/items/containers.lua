@@ -89,5 +89,10 @@ setContainerProperties('large_backpack', {
 	maxWeight = 53000,
 })
 
+setContainerProperties('cigarette_case', {
+	slots = 20,
+	maxWeight = 100,
+})
+
 return containers
 

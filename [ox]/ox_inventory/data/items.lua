@@ -110,6 +110,29 @@ return {
         consume = 0
     },
 
+    ['cigarette'] = {
+        label = "Redwood Cigarette",
+        weight = 1,
+        stack = true,
+        close = true,
+        client = {
+            status = { stress = 200000},
+            anim = { dict = 'amb@world_human_smoking@male@male_a@enter', clip = 'enter' },
+            prop = { model = 'prop_cs_ciggy_01', pos = vec3(0.03, 0, 0.02), rot = vec3(1.7096, -43.1362, -27.9428) },
+            usetime = 25000,
+            image = "cigarette.png",
+        }
+    },
+
+    ['cigarette_case'] = {
+        weight = 20,
+        stack = false,
+        close = false,
+        client = {
+            image = 'cigarette_case.png',
+        }
+    },
+
     ['panties'] = {
         label = 'Knickers',
         weight = 10,
@@ -232,7 +255,7 @@ return {
         stack = false,
         consume = 0.1,
         client = {
-            image = "lockpick_red.png",
+            image = "advanced_lockpick.png",
         }
     },
 
@@ -741,7 +764,7 @@ return {
         label = 'Body Cam',
         weight = 200,
         client = {
-            image = "bodycam.png", event = "bprp-bodycam:openBoy" }
+            image = "body_cam.png", event = "bprp-bodycam:openBoy" }
     },
 
     ['aluminumoxide'] = {
@@ -1191,6 +1214,28 @@ return {
     },
 
     -- Avid Weed add ons
+["watering_can"] = {
+        label = "Watering can",
+        weight = 500,
+        stack = false,
+        close = false,
+        description = "Simple watering can",
+        client = {
+            image = "watering_can.png",
+        }
+},
+
+["fertilizer"] = {
+    label = "Fertilizer",
+    weight = 500,
+    stack = false,
+    close = false,
+    description = "Fertilizer",
+    client = {
+        image = "weed_nutrition.png",
+    }
+},
+    
 ['weed_lemonhaze_seed'] = {
     label = 'Lemonhaze Weed Seed',
     weight = 5,

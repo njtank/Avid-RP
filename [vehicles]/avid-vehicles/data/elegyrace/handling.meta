@@ -14,11 +14,11 @@
       <vecInertiaMultiplier x="1.00000" y="1.00000" z="1.700000" />
       <fDriveBiasFront value="0.500" />
       <nInitialDriveGears value="6" />
-      <fInitialDriveForce value="0.9" />
+      <fInitialDriveForce value="1.0" />
       <fDriveInertia value="1.5000" />
       <fClutchChangeRateScaleUpShift value="2.00000" />
       <fClutchChangeRateScaleDownShift value="3.00000" />
-      <fInitialDriveMaxFlatVel value="195.000000" />
+      <fInitialDriveMaxFlatVel value="199.000000" />
       <fBrakeForce value="0.700" />
       <fBrakeBiasFront value="0.700000" />
       <fHandBrakeForce value="0.8500" />
@@ -70,7 +70,7 @@
 
     <Item type="CHandlingData">
       <handlingName>ELEGYHER</handlingName>
-      <fMass value="1700.000000" />
+      <fMass value="1500.000000" />
       <fInitialDragCoeff value="7.0000" />
 	  <fDownforceModifier value="1.5" />
       <fPercentSubmerged value="85.000000" />
@@ -78,11 +78,11 @@
       <vecInertiaMultiplier x="1.00000" y="1.00000" z="1.500000" />
       <fDriveBiasFront value="0.500" />
       <nInitialDriveGears value="5" />
-      <fInitialDriveForce value="0.320" />
+      <fInitialDriveForce value="0.9" />
       <fDriveInertia value="1.7500000" />
       <fClutchChangeRateScaleUpShift value="4.0000" />
       <fClutchChangeRateScaleDownShift value="5.00000" />
-      <fInitialDriveMaxFlatVel value="155.000000" />
+      <fInitialDriveMaxFlatVel value="185.000000" />
       <fBrakeForce value="0.8500" />
       <fBrakeBiasFront value="0.65000" />
       <fHandBrakeForce value="0.8500" />

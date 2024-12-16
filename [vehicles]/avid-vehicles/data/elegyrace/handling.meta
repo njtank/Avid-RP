@@ -6,7 +6,7 @@
 
     <Item type="CHandlingData">
       <handlingName>ELEGYHE</handlingName>
-      <fMass value="1700.000000" />
+      <fMass value="1400.000000" />
       <fInitialDragCoeff value="7.0000" />
 	  <fDownforceModifier value="1.5" />
       <fPercentSubmerged value="85.000000" />
@@ -14,7 +14,7 @@
       <vecInertiaMultiplier x="1.00000" y="1.00000" z="1.700000" />
       <fDriveBiasFront value="0.500" />
       <nInitialDriveGears value="6" />
-      <fInitialDriveForce value="0.375" />
+      <fInitialDriveForce value="0.9" />
       <fDriveInertia value="1.5000" />
       <fClutchChangeRateScaleUpShift value="2.00000" />
       <fClutchChangeRateScaleDownShift value="3.00000" />

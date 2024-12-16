@@ -2509,7 +2509,7 @@ return {
 },
 --Performance
 ["turbo"] = {
-    label = "Supercharger Turbo", weight = 0, stack = false, close = true, description = "Who doesn't need a 65mm Turbo??",
+    label = "Turbo", weight = 0, stack = false, close = true, description = "Who doesn't need a 65mm Turbo??",
     client = { image = "turbo.png", event = "jim-mechanic:client:applyTurbo", remove = false },
 },
 ["car_armor"] = {

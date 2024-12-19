@@ -1022,7 +1022,7 @@ return {
     },
 
     ['vpn'] = {
-        label = VPN,
+        label = 'VPN',
         weight = 1000,
         stack = false,
         close = false,

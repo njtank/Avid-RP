@@ -157,7 +157,8 @@ Config.Blips = {
         color = 1,
         scale = 1.5,
         length = 2,
-        sound = 'panicbutton',
+        sound = 'Lose_1st',
+        sound2 = 'GTAO_FM_Events_Soundset',
         offset = false,
         flash = true
     },
@@ -167,7 +168,8 @@ Config.Blips = {
         color = 1,
         scale = 1.5,
         length = 2,
-        sound = 'panicbutton',
+        sound = 'Lose_1st',
+        sound2 = 'GTAO_FM_Events_Soundset',
         offset = false,
         flash = true
     },
@@ -177,7 +179,8 @@ Config.Blips = {
         color = 1,
         scale = 1.5,
         length = 2,
-        sound = 'panicbutton',
+        sound = 'Lose_1st',
+        sound2 = 'GTAO_FM_Events_Soundset',
         offset = false,
         flash = true
     },
@@ -187,7 +190,8 @@ Config.Blips = {
         color = 3,
         scale = 1.5,
         length = 2,
-        sound = 'panicbutton',
+        sound = 'Lose_1st',
+        sound2 = 'GTAO_FM_Events_Soundset',
         offset = false,
         flash = false
     },

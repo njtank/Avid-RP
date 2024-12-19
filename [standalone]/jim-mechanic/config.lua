@@ -43,7 +43,7 @@ Config = {
 
 		DoorAnimations = true,		-- Enable door openning animations when repairing/fixing
 
-		disableNos = false,			-- Disable nos if you wish to use a separate script
+		disableNos = true,			-- Disable nos if you wish to use a separate script
 
 
 		disablePreviewPlate = false,-- enable this to disable temporary plate while previewing

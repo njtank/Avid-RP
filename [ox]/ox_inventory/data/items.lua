@@ -2822,4 +2822,10 @@ return {
     stack = false,
 },
 
+['case_recoil'] = {
+    label = 'Loot Case',
+    weight = 500,
+    client = { image = "case_recoil.png" },
+},
+
 }

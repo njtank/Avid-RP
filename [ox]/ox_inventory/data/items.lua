@@ -2823,9 +2823,9 @@ return {
 },
 
 ['case_recoil'] = {
-    label = 'Loot Case',
+    label = 'Regular Loot Crate',
     weight = 500,
-    client = { image = "case_recoil.png" },
+    client = { image = "loot_crate.png" },
 },
 
 }

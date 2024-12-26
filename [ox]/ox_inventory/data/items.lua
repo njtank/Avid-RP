@@ -2859,13 +2859,13 @@ return {
 },
 
 ['white_lootcrate'] = {
-    label = 'Criminal Loot Crate',
+    label = 'Heist Loot Crate',
     weight = 500,
     client = { image = "loot_crate7.png" },
 },
 
 ['black_lootcrate'] = {
-    label = 'Criminal Loot Crate',
+    label = 'Heist Loot Crate',
     weight = 500,
     client = { image = "loot_crate8.png" },
 },

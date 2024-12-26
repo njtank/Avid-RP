@@ -6,8 +6,8 @@ return {
     policeHelicopter = 'polmav',
 
     breakCuffs = true,
-    breakCuffsDifficulty = { "medium", "hard", "medium" },
-    breakCuffsKeys = { "w", "a", "s", "d" },
+    breakCuffsDifficulty = { "easy", "easy", "easy" },
+    breakCuffsKeys = { "e" },
 
     securityCameras = {
         hideRadar = false,

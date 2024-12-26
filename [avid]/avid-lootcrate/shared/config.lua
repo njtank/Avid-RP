@@ -1,7 +1,7 @@
 Config = {
         framework = "qb", -- qb/esx (ESX Untested, added in theoretical support but did not test.)
         inventory = "ox", -- ps, qb, ox, qs
-        Debug = true, -- verbose console logging
+        Debug = false, -- verbose console logging
 
         Rewards = {
         ['lb_lootcrate'] = { --Civilian Base Loot Crate

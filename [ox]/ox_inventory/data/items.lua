@@ -2822,10 +2822,52 @@ return {
     stack = false,
 },
 
-['case_recoil'] = {
-    label = 'Regular Loot Crate',
+['lb_lootcrate'] = {
+    label = 'Civilian Loot Crate',
     weight = 500,
     client = { image = "loot_crate.png" },
+},
+
+['green_lootcrate'] = {
+    label = 'Civilian Loot Crate',
+    weight = 500,
+    client = { image = "loot_crate2.png" },
+},
+
+['orange_lootcrate'] = {
+    label = 'Civilian Loot Crate',
+    weight = 500,
+    client = { image = "loot_crate3.png" },
+},
+
+['purple_lootcrate'] = {
+    label = 'Criminal Loot Crate',
+    weight = 500,
+    client = { image = "loot_crate4.png" },
+},
+
+['red_lootcrate'] = {
+    label = 'Criminal Loot Crate',
+    weight = 500,
+    client = { image = "loot_crate5.png" },
+},
+
+['blue_lootcrate'] = {
+    label = 'Criminal Loot Crate',
+    weight = 500,
+    client = { image = "loot_crate6.png" },
+},
+
+['white_lootcrate'] = {
+    label = 'Criminal Loot Crate',
+    weight = 500,
+    client = { image = "loot_crate7.png" },
+},
+
+['black_lootcrate'] = {
+    label = 'Criminal Loot Crate',
+    weight = 500,
+    client = { image = "loot_crate8.png" },
 },
 
 }

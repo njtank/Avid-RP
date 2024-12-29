@@ -32,6 +32,12 @@ return {
             description = 'This breathtaking luxury condo is a stone\'s throw from AKAN Records and a Sperm Donor Clinic.',
             enter = vec3(-936.15, -378.91, 38.96)
         },
+        {
+            interior = 'TinselTowersApt42',
+            label = 'Tinsel Towers Apt',
+            description = 'A picture-perfect lateral living experience in one of Los Santos most sought-after tower blocks.',
+            enter = vec3(-614.58, 46.52, 43.59)
+        },
     },
 
     interiors = {
@@ -70,6 +76,12 @@ return {
             clothing = vec3(-903.79, -363.99, 113.07),
             stash = vec3(-928.04, -377.22, 113.67),
             logout = vec3(-900.27, -368.65, 113.07)
+        },
+        ['TinselTowersApt42'] = {
+            exit = vec4(-604.06, 58.99, 98.2, 91.45),
+            clothing = vec3(-594.63, 56.15, 97.0),
+            stash = vec3(-622.36, 55.09, 97.6),
+            logout = vec3(-593.71, 50.18, 97.0)
         },
         ['GTAOHouseMid1'] = {
             exit = vec4(346.76, -1011.52, -99.2, 358.57),

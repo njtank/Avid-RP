@@ -13,7 +13,7 @@ RegisterKeyMapping("holdZoom", "Hold to Zoom", "keyboard", "SCROLLWHEEL_BUTTON")
 CreateThread(function()
     while true do
         Wait(0)
-        local isZoomKeyHeld = IsControlPressed(0) -- Scroll wheel press (Control ID 27)  
+        local isZoomKeyHeld = IsControlPressed(0, 348) -- Scroll wheel press (Control ID 27)  
         local targetFOV
 
         if isZoomKeyHeld then

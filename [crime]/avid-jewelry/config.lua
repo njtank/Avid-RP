@@ -57,12 +57,12 @@ Config.SoundAlarm = {
 Config.Rewards = {
     {
         chance = 100,
-        item = 'jewels',
+        item = 'ruby_necklace',
         amount = { min = 1, max = 2 }
     },
     {
         chance = 5,
-        item = 'diamond',
+        item = 'emerald_necklace',
         amount = 1
     }
 }

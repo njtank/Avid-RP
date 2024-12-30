@@ -22,7 +22,7 @@ AddEventHandler('FinishSafeRobbery', function()
 	if chance >= 4 then
 		exports.ox_inventory:AddItem(source, Config.rewardItem, 1)
 	end
-	TimerThread()
+	SafeTimerThread()
 end)
 
 
@@ -33,6 +33,14 @@ end)
 
 function TimerThread()
 	print('TimerThread')
+	GlobalState.GettingRobbed = true
+	local magicMath = Config.Cooldown * 60000
+	Wait(magicMath)
+	GlobalState.GettingRobbed = false
+end
+
+function SafeTimerThread()
+	print('SafeTimerThread')
 	GlobalState.GettingRobbed = true
 	local magicMath = Config.Cooldown * 60000
 	Wait(magicMath)

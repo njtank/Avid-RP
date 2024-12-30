@@ -170,12 +170,12 @@ local smashVitrine = function(data)
 
     local animDict = 'missheist_jewel'
 
-    if _Progress(locale('smash_progress'), 5000, {
+    if _Progress(locale('smash_progress'), 10000, {
         dict = animDict,
         clip = 'smash_case',
         blendIn = 8.0,
         blendOut = 8.0,
-        duration = 5000,
+        duration = 10000,
         flag = 31
     }) then
         lib.requestAnimDict(animDict)

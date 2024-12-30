@@ -97,11 +97,11 @@ RegisterNetEvent('avid-jewelry:server:toggleDoors', function(value)
     if Config.DoorLock == 'qb' then
         TriggerClientEvent('qb-doorlock:client:setState', -1, _source, Config.Locations.doors[1], value, _source, false, false)
     elseif Config.DoorLock == 'ox' then
-        local door = exports['ox_doorlock']:getDoorFromName(string.format('jewellery_stores %s', Config.Locations.doors[1]))
+        local door = exports['ox_doorlock']:getDoorFromName(string.format('jewellery_stores %s', Config.Locations.doors[0]))
 
         if not door then return end
 
-        exports['ox_doorlock']:setDoorState(door.id, value)
+        exports['ox_doorlock']:setDoorState(93, false)
     elseif Config.Dispatch == 'cd' then
         TriggerClientEvent('cd_doorlock:SetDoorState_name', -1, value, Config.Locations.doors[1], locale('jewellery_store'))
     end

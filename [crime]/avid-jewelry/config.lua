@@ -6,7 +6,7 @@ Config.Framework = 'qb-core'
 Config.RobberyTime = 10 -- Minutes
 Config.Cooldown = 30 -- Minutes
 
-Config.AutoLock = false
+Config.AutoLock = true
 
 Config.RequiredPolice = 0
 Config.PoliceJobs = {
@@ -23,7 +23,7 @@ Config.Locations = {
     name = 'Vangelico\'s Jewellers',
     coords = vec3(-630.5, -237.13, 38.08),
     doors = {
-        752, 753
+        752,753
     },
     thermite = {
         coords = vec4(-596.02, -283.7, 50.4, 300.0),
@@ -44,13 +44,13 @@ Config.Alerts = {
 
 Config.Thermite = {
     item = 'thermite',
-    time = 20,
-    gridsize = 10,
+    time = 30,
+    gridsize = 5,
     incorrectBlocks = 2
 }
 
 Config.SoundAlarm = {
-    enable = false,
+    enable = true,
     time = 60 -- How many seconds the alarm will go
 }
 

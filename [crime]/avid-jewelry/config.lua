@@ -1,7 +1,7 @@
 Config = {}
 
 -- esx, qb-core
-Config.Framework = 'qb-core'
+Config.Framework = 'ox-lib'
 
 Config.RobberyTime = 10 -- Minutes
 Config.Cooldown = 30 -- Minutes
@@ -43,7 +43,7 @@ Config.Alerts = {
 }
 
 Config.Thermite = {
-    item = 'thermal_charge',
+    item = 'thermite',
     time = 60,
     gridsize = 5,
     incorrectBlocks = 10

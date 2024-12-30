@@ -4,8 +4,8 @@ return {
     -- Value of 1.0 represents GTA Online populate rates
     -- Value of 0.0 removes all of that type
     parked = 0.6, -- Density of parked vehicles
-    vehicle = 0.0, -- Density of vehicles
-    randomvehicles = 0.0, -- Density of random vehicles
+    vehicle = 0.6, -- Density of vehicles
+    randomvehicles = 0.5, -- Density of random vehicles
     peds = 0.6, -- Density of random peds (civilians, etc.)
     scenario = 0.0, -- Density of scenario peds (bikers, gangsters, etc.)
 }

@@ -10,9 +10,10 @@ Config.registerSkill = 'ox_lib' -- options of ps-ui, ox_lib, or boii, spelled ju
 Config.safeSkill = 'ox_lib'
 
 Config.Cooldown = 30 --cooldown in minutes
+Config.SafeCooldown = 30 --cooldown in minutes
 Config.cashPayout =  math.random(100, 250) -- first variable is minimum, second it max, changeto a static number ifyou dont want random
 
 --safe rewards
 Config.safePayout =  math.random(400, 1000) -- first variable is minimum, second it max, changeto a static number ifyou dont want random
-Config.rewardChance = math.random(1, 10) -- this is 1 out of 10, use to change odds
+Config.rewardChance = math.random(1, 100) -- this is 1 out of 10, use to change odds
 Config.rewardItem = 'artkey' --item 

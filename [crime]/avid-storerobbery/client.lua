@@ -32,8 +32,7 @@
                         label = 'Grabbing Cash', 
                         useWhileDead = false, 
                         canCancel = true,
-                        disableMovement = true,
-                        disable = {car = true,}, 
+                        disable = {car = true, move = true}, 
                         anim = {dict = 'anim@heists@ornate_bank@grab_cash', clip = 'grab'},  flag = 3})
                     then 
                         TriggerServerEvent("FinishRobbery")
@@ -90,16 +89,16 @@
     RegisterNetEvent('SafeRobbery')
     AddEventHandler('SafeRobbery', function()
         local policeCount = GlobalState.police or 0
+        local state = GlobalState.GettingSafeRobbed
         if policeCount >= Config.policeCount then
             local result = PerformSkillCheckSafe()
             if result then
                 if lib.progressBar({
-                    duration = 20000, 
+                    duration = 200, 
                     label = 'Robbing Safe', 
                     useWhileDead = false, 
                     canCancel = false,
-                    disableMovement = true,
-                    disable = {car = true,}, 
+                    disable = {car = true, move = true, }, 
                     anim = {dict = 'anim@heists@ornate_bank@grab_cash', clip = 'grab'},  flag = 3})
                 then 
                     TriggerServerEvent("FinishSafeRobbery")

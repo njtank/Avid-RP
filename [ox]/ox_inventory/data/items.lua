@@ -2874,32 +2874,32 @@ return {
 ['paintinge'] = {
     label = 'Painting',
     weight = 1000,
-    client = { image = "paintinge.png" },
+    client = { image = "ch_prop_vault_painting_01e.png" },
 },
 ['paintingi'] = {
     label = 'Painting',
     weight = 1000,
-    client = { image = "paintingi.png" },
+    client = { image = "ch_prop_vault_painting_01i.png" },
 },
 ['paintingh'] = {
     label = 'Painting',
     weight = 1000,
-    client = { image = "paintingh.png" },
+    client = { image = "ch_prop_vault_painting_01h.png" },
 },
 ['paintingj'] = {
     label = 'Painting',
     weight = 1000,
-    client = { image = "paintingj.png" },
+    client = { image = "ch_prop_vault_painting_01j.png" },
 },
 ['paintingf'] = {
     label = 'Painting',
     weight = 1000,
-    client = { image = "paintingf.png" },
+    client = { image = "ch_prop_vault_painting_01f.png" },
 },
 ['paintingg'] = {
     label = 'Painting',
     weight = 1000,
-    client = { image = "paintingg.png" },
+    client = { image = "ch_prop_vault_painting_01g.png" },
 },
 
 

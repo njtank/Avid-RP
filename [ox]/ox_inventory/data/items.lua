@@ -2870,4 +2870,37 @@ return {
     client = { image = "loot_crate8.png" },
 },
 
+-- Art Heist Paintings
+['paintinge'] = {
+    label = 'Painting',
+    weight = 1000,
+    client = { image = "paintinge.png" },
+},
+['paintingi'] = {
+    label = 'Painting',
+    weight = 1000,
+    client = { image = "paintingi.png" },
+},
+['paintingh'] = {
+    label = 'Painting',
+    weight = 1000,
+    client = { image = "paintingh.png" },
+},
+['paintingj'] = {
+    label = 'Painting',
+    weight = 1000,
+    client = { image = "paintingj.png" },
+},
+['paintingf'] = {
+    label = 'Painting',
+    weight = 1000,
+    client = { image = "paintingf.png" },
+},
+['paintingg'] = {
+    label = 'Painting',
+    weight = 1000,
+    client = { image = "paintingg.png" },
+},
+
+
 }

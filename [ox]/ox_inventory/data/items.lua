@@ -586,6 +586,11 @@ return {
     ['security_card_02'] = {
         label = 'Security Card B',
         weight = 100,
+        consume = 1.0,
+        client = {
+            image = "security_card_02.png",
+
+        },
     },
 
     ['drill'] = {

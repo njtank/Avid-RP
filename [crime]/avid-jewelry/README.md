@@ -81,7 +81,7 @@ Config.Alerts = {
 - time, gridsize, incorrrectBlocks - These are options for the ps-ui script's Thermite hack.
 ```lua
 Config.Thermite = {
-    item = 'thermal_charge',
+    item = 'thermite',
     time = 60,
     gridsize = 5,
     incorrectBlocks = 10

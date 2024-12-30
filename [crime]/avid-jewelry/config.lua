@@ -1,7 +1,7 @@
 Config = {}
 
 -- esx, qb-core
-Config.Framework = 'ox-lib'
+Config.Framework = 'qbcore'
 
 Config.RobberyTime = 10 -- Minutes
 Config.Cooldown = 30 -- Minutes

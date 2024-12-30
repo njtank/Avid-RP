@@ -13,7 +13,7 @@ if Config.storeMap == 'vanilla' then
                 label = "Rob Store",
 
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'lockpick', 'electronickit')
+                    local hasPick = exports.ox_inventory:Search('count', 'lockpick')
                     if hasPick >= 1 then
                         return true
                     else
@@ -42,7 +42,7 @@ if Config.storeMap == 'vanilla' then
                 label = "Rob Store",
 
                 canInteract = function(entity, distance, coords, name)
-                    local hasPick = exports.ox_inventory:Search('count', 'lockpick', 'electronickit')
+                    local hasPick = exports.ox_inventory:Search('count', 'lockpick')
                     if hasPick >= 1 then
                         return true
                     else

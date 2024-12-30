@@ -12,11 +12,11 @@ option to open / close vault door with inside / outside pad
 
 BK.banks  = {
 
-    key = 'scard_fleeca',
+    key = 'lockpick',
 
-    hack = 'hack_tablet',
+    hack = 'lockpick',
 
-    drill = 'drill_thermal',
+    drill = 'lockpick',
     drilltime = 0.5, -- time in minutes
 
     money = {

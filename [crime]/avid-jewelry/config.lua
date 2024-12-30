@@ -44,9 +44,9 @@ Config.Alerts = {
 
 Config.Thermite = {
     item = 'thermite',
-    time = 60,
-    gridsize = 5,
-    incorrectBlocks = 10
+    time = 20,
+    gridsize = 10,
+    incorrectBlocks = 2
 }
 
 Config.SoundAlarm = {

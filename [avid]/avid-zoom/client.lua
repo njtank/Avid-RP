@@ -8,7 +8,7 @@ function interpolateFOV(currentFOV, targetFOV, speed)
     return currentFOV + (targetFOV - currentFOV) / speed
 end
 
-RegisterKeyMapping("holdZoom", "Hold to Zoom", "keyboard", "SCROLLWHEEL_BUTTON")
+RegisterKeyMapping("holdZoom", "Hold to Zoom", "keyboard")
 
 CreateThread(function()
     while true do

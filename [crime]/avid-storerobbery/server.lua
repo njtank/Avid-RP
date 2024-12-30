@@ -17,7 +17,7 @@ RegisterNetEvent('FinishSafeRobbery')
 AddEventHandler('FinishSafeRobbery', function()
 	local cashMoney = Config.safePayout
 	local chance = math.random(1, 10)
-	exports.ox_inventory:RemoveItem(source, 'lockpick', 1)
+	exports.ox_inventory:RemoveItem(source, 'electronickit', 1)
 	exports.ox_inventory:AddItem(source, 'money', cashMoney)
 	if chance >= 4 then
 		exports.ox_inventory:AddItem(source, Config.rewardItem, 1)
@@ -28,7 +28,7 @@ end)
 
 RegisterNetEvent('FailRobbery')
 AddEventHandler('FailRobbery', function()
-	exports.ox_inventory:RemoveItem(source, 'advanced_lockpick', 1)
+	exports.ox_inventory:RemoveItem(source, 'lockpick', 1)
 end)
 
 function TimerThread()

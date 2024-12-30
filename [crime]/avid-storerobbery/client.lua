@@ -32,6 +32,7 @@
                         label = 'Grabbing Cash', 
                         useWhileDead = false, 
                         canCancel = true,
+                        disableMovement = true
                         disable = {car = true,}, 
                         anim = {dict = 'anim@heists@ornate_bank@grab_cash', clip = 'grab'},  flag = 3})
                     then 
@@ -97,6 +98,7 @@
                     label = 'Robbing Safe', 
                     useWhileDead = false, 
                     canCancel = false,
+                    disableMovement = true
                     disable = {car = true,}, 
                     anim = {dict = 'anim@heists@ornate_bank@grab_cash', clip = 'grab'},  flag = 3})
                 then 

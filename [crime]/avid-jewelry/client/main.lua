@@ -3,6 +3,13 @@ local AlertTriggered = false
 
 lib.locale()
 
+function LightsOut()
+    local success = exports.bl_ui:LightsOut(3, {
+        level = 2,
+        duration = 5000,
+    })
+end
+
 ---Play alarm sound near Jewellery Store
 ---@param coords vector3
 local playAlarmAtCoords = function(coords)
@@ -309,15 +316,11 @@ RegisterNetEvent('avid-jewelry:client:startThermite', function()
         _Dispatch('startThermite')
     end
 
-    exports['ps-ui']:Thermite(function(success)
-        if not success then
-            _Notification(locale('notification_thermite_fail'), 'error')
-            return
-        end
-
-        _Notification(locale('notification_thermite_success', locale('jewellery_store')), 'success')
-        plantTherminte()
-    end, Config.Thermite.time, Config.Thermite.gridsize, Config.Thermite.incorrectBlocks)
+    local success = LightsOut()
+    if not LightOut() then
+        _Notification(locale('notification_thermite_fail'), 'error')
+        return
+    end
 end)
 
 RegisterNetEvent('avid-jewelry:client:playSound', function()

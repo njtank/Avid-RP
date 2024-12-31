@@ -5,12 +5,10 @@ local vaultopen = false
 local vaultmoving = false
 local inside, outside
 
-function thermiteMinigame()
-    local success = exports.bl_ui:MineSweeper(3, {
-        grid = 5,
-        duration = 10000,
-        target = 6,
-        previewDuration = 1000
+function Untangle()
+    local success = exports.bl_ui:Untangle(5, {
+        numberOfNodes = 10,
+        duration = 6500,
     })
 
     return success
@@ -18,7 +16,7 @@ end
 
 local function hackpad()
     if not hacked then
-    local success = thermiteMinigame()
+    local success = Untangle()
     if not success then return end
         if lib.progressBar({
             duration = 100000,

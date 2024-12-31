@@ -49,35 +49,36 @@ TaskPlayAnim(playerPed, animDict, animName, 8.0, -8.0, -1, 49, 0, false, false, 
 
 Citizen.Wait(100)
 
-    exports['progressbar']:Progress({
-        name = "rob_mailbox",
-        duration = 5000,
-        label = "Robbing Mailbox...",
-        useWhileDead = false,
-        canCancel = true,
-        controlDisables = {
-            disableMovement = true,
-            disableCarMovement = true,
-            disableMouse = false,
-            disableCombat = true,
-        },
-    }, function(status)
-        if not status then
+-- Use ox_lib for progress bar
+local result = exports.ox_lib:progress({
+    name = "rob_mailbox",
+    duration = 5000,
+    label = "Robbing Mailbox...",
+    useWhileDead = false,
+    canCancel = true,
+    controlDisables = {
+        disableMovement = true,
+        disableCarMovement = true,
+        disableMouse = false,
+        disableCombat = true,
+    },
+})
 
-            local policeCallChance = 0.2
-            if math.random() < policeCallChance then
+-- Check if the progress was cancelled or completed
+if not result then
+    local policeCallChance = 0.2
+    if math.random() < policeCallChance then
+        exports['ps-dispatch']:SuspiciousActivity('Mail Robbery', mailboxCoords)
+        exports.qbx_core:Notify('The police have been alerted!', 'error', 3500)
+    end
 
-                exports['ps-dispatch']:SuspiciousActivity('Mail Robbery', mailboxCoords)
-                exports.qbx_core:Notify('The police have been alerted!', 'error', 3500)
-            end
-
-            local rewardItem = GetRandomItem(itemProbabilities)
-            TriggerServerEvent('vivify_mailrobbery:reward', rewardItem, mailboxCoords)
-        end
-        ClearPedTasksImmediately(playerPed)
-        FreezeEntityPosition(playerPed, false)
-    end)
+    local rewardItem = GetRandomItem(itemProbabilities)
+    TriggerServerEvent('vivify_mailrobbery:reward', rewardItem, mailboxCoords)
 end
+
+ClearPedTasksImmediately(playerPed)
+FreezeEntityPosition(playerPed, false)
+
 
 local function UseItem(item)
     local usageProbabilities = itemUsageProbabilities[item]
@@ -89,23 +90,25 @@ end
 
 Citizen.CreateThread(function()
     for _, model in ipairs(Config.MailboxModels) do
-        exports.interact:AddModelInteraction({
-            model = model,
-            name = 'mailbox_robbery_' .. model,
-            id = 'mailbox_robbery',
-            distance = 2.5,
-            interactDst = 1.5,
+        -- Use ox_target to add a target interaction
+        exports['ox_target']:addSphereZone({
+            coords = GetEntityCoords(model),
+            radius = 2.5,  -- Distance at which the interaction can be triggered
+            debug = false, -- Set to true for debugging
             options = {
                 {
+                    name = 'mailbox_robbery_' .. model,
                     label = 'Rob Mailbox',
-                    action = function(entity, coords, args)
+                    icon = 'fas fa-envelope',  -- Optional icon (use one from Font Awesome)
+                    onSelect = function(entity, coords)
                         RobMailbox(entity)
-                    end,
-                },
+                    end
+                }
             }
         })
     end
 end)
+
 
 RegisterNetEvent('vivify_mailrobbery:client:useItem')
 AddEventHandler('vivify_mailrobbery:client:useItem', function(item)

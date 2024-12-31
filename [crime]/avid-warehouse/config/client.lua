@@ -7,7 +7,7 @@ return {
     debugPoly = false,
 
     blip = {
-        enabled = true,
+        enabled = false,
         location = vec3(839.0181, -1923.1303, 30.8329), 
         sprite = 473,
         display = 4,

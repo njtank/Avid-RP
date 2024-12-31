@@ -6,10 +6,6 @@ author 'Aimeri'
 description 'Mailbox Robbery Script For VivifyRP'
 version '1.0.0'
 
-dependencies {
-	'progressbar',
-    'interact'
-}
 
 client_scripts {
     'client/main.lua'

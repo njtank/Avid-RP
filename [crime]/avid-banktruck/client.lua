@@ -15,6 +15,14 @@ local GaurdList = {}
 local VehicleList = {}
 local CooldownRemaining = 0
 
+function CircleSum()
+    local success = exports.bl_ui:CircleSum(3, {
+        length = 4,
+        duration = 5000,
+    })
+return success
+end
+
 RegisterNetEvent('angelicxs-BankTruck:Notify', function(message, type)
 	if Config.UseCustomNotify then
         TriggerEvent('angelicxs-BankTruck:CustomNotify',message, type)
@@ -460,6 +468,8 @@ RegisterNetEvent('angelicxs-BankTruck:Client:TruckSync', function(time, inital, 
 end)
 
 RegisterNetEvent('angelicxs-BankTruck:Client:ArmExplosion', function(obj, number)
+    local success = CircleSum()
+    if not success then return end
     EPlant[number] = true
     local timer = Config.ArmExplosionTimer * 100
     if not DoesEntityExist(obj) then return end

@@ -49,9 +49,9 @@ Config.Locales = {
 }
 
 function Client_Notify(msg, type) 
-    ESX.ShowNotification(msg) -- OR custom notification like TriggerEvent('six_notify', title, msg, type, time)
+    --ESX.ShowNotification(msg) -- OR custom notification like TriggerEvent('six_notify', title, msg, type, time)
 end
 
 function Server_Notify(source, msg, type) 
-    TriggerClientEvent("esx:showNotification", source, msg) -- OR custom notification like TriggerEvent('six_notify', source, title, msg, type, time)
+    --TriggerClientEvent("esx:showNotification", source, msg) -- OR custom notification like TriggerEvent('six_notify', source, title, msg, type, time)
 end

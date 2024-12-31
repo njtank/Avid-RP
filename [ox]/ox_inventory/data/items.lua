@@ -634,6 +634,9 @@ return {
     ['drill'] = {
         label = 'Drill',
         weight = 5000,
+        client = {
+            image = 'drill.png', event = "avid-atmrobbery:startRobbery",
+        }
     },
 
     ['thermite'] = {

@@ -428,7 +428,7 @@ function giveRandomItem(lootTable)
 end
 
 for index, location in ipairs(Config.robberyStartLocations) do
-    exports['ox_target']:addSphereZone("containerRobbery" .. index, location.entry, 1.0, 1.0, {
+--[[    exports['ox_target']:addSphereZone("containerRobbery" .. index, location.entry, 1.0, 1.0, {
         name = "containerRobbery" .. index,
         heading = 0,
         debugPoly = false,
@@ -446,4 +446,20 @@ for index, location in ipairs(Config.robberyStartLocations) do
         },
         distance = 2.0
     })
+end ]]
+
+exports['ox_target']:addBoxZone({
+    coords = vector3(-153.31, -2419.78, 6.93),
+    rotation = 0,
+    drawSprite = true,
+    options = {
+        {
+            icon = 'fa-solid fa-box',
+                label = "Enter Container",
+                action = function()
+                    TriggerEvent('container-robbery:enter', { parameters = { locationIndex = index } })
+                end
+        }
+    }
+})
 end

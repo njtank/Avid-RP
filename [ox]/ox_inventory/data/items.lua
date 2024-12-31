@@ -1428,7 +1428,7 @@ return {
     stack = true, 
     close = true, 
     client = {
-        image = 'pineappleexpres.png',
+        image = 'pineappleexpress.png',
     },
 },
 

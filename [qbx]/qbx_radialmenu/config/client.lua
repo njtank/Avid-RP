@@ -23,12 +23,6 @@ return {
                     event = 'qb-trunk:client:GetIn'
                 },
                 {
-                    id = 'cornerselling',
-                    icon = 'cannabis',
-                    label = 'Corner Selling',
-                    event = 'qb-drugs:client:cornerselling'
-                },
-                {
                     id = 'interactions',
                     icon = 'exclamation-triangle',
                     label = 'Interaction',

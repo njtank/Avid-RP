@@ -53,17 +53,11 @@ Config.IndividualCDTimer = 3600             -- How many SECONDS until the cooldo
 Config.RequireStartItem = true 			-- If true requires an item to start heist 
 Config.StartItemName = 'lockpick' 		-- If Config.RequireStartItem = true, name of start item
 Config.Payphonemodels = {
-	1158960338,
-    1511539537,
-    1281992692,
-    -429560270,
-    -1559354806,
-    -78626473,
+	-1559354806,
+    -1563529038,
     295857659,
-    -2103798695,
-    -870868698,
-    -1126237515,
-    506770882,
+    4216340823,
+    1158960338,
 }
 Config.ArmExplosionTimer = 30				-- Time in seconds it takes for explosion to arm and destory truck to loot it
 Config.AllowStartLocationBlip = true        -- If true, marks on the map for 60 seconds the start point of the truck

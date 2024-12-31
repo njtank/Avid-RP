@@ -71,16 +71,16 @@ Config.TimeLimit = true                     -- If true, puts a time limit to get
 Config.TimeToFindLimit = 30                 -- If Config.TimeLimit = true, amount of time in minutes to get to truck position before failing
 
 -- Reward Config
-Config.GoldBarChance = 25					-- Chance to receive gold bars instead of marked bills
+Config.GoldBarChance = 5					-- Chance to receive gold bars instead of marked bills
 Config.GoldBarName = 'goldbar'				-- Name of gold bar item
-Config.GoldBarMin = 10						-- Minimum number of gold bars recevied
-Config.GoldBarMax = 100						-- Maximum number of gold bars received
-Config.MarkedBillName = 'markedbills'		-- Name of marked bill item
-Config.MarkedBillMinNumberAmount = 1		-- Minimum number of marked bills received
-Config.MarkedBillMaxNumberAmount = 5		-- Maximum number of marked bills received
+Config.GoldBarMin = 1						-- Minimum number of gold bars recevied
+Config.GoldBarMax = 3						-- Maximum number of gold bars received
+Config.MarkedBillName = 'rolled_cash'		-- Name of marked bill item
+Config.MarkedBillMinNumberAmount = 120		-- Minimum number of marked bills received
+Config.MarkedBillMaxNumberAmount = 210		-- Maximum number of marked bills received
 Config.MarkedBillMin = 1000					-- Minimum value of marked bills (qb-core only)
 Config.MarkedBillMax = 10000				-- Maximum value of marked bills (qb-core only)
-Config.UseMoneyNotItem = true               -- If true, DOES NOT use money as an item.
+Config.UseMoneyNotItem = false               -- If true, DOES NOT use money as an item.
 Config.MoneyType = 'cash'                   -- If Config.UseMoneyNotItem = true, what acccount the money goes into.
 
 Config.RareLootChance = 1					-- Chance to receive rare item in addition to normal reward
@@ -88,7 +88,7 @@ Config.RareLootItem = 'gold_monkey_idol'	-- Name of rare loot item
 Config.RareLootItemAmount = 1				-- Amount of rare loot item received
 
 -- Starting Ped Config
-Config.UsePed = true										-- Use a ped to start the mission instead of using a payphone
+Config.UsePed = false										-- Use a ped to start the mission instead of using a payphone
 Config.StartPed = vector4(-2309.4, 317.07, 169.6, 96.22)	-- Location for starting NPC
 Config.StartModel = 'u_m_m_willyfist'                   	-- Model of starting NPC
 Config.StartBlip = false 				                	-- Enable Blip for starting NPC

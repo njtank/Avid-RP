@@ -15,7 +15,7 @@ CG.options = {
 CG.heistcooldown = 30
 
 CG.start = {
-    loc = vec4(1276.001, -1710.265, 54.771, 297.869),
+    loc = vector4(-321.27, 6302.58, 36.68, 314.72),
     size = vec3(0.5, 1, 1),
     head = 25,
     debug = Debug

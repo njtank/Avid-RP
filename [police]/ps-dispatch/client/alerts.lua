@@ -836,3 +836,28 @@ local function ArtGalleryRobbery()
     TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
 end
 exports('ArtGalleryRobbery', ArtGalleryRobbery)
+
+local function BankTruckRobbery()
+    local coords = GetEntityCoords(cache.ped)
+    local vehicle = GetVehicleData(cache.vehicle)
+
+    local dispatchData = {
+        message = 'Bank Truck Distress Call', -- add this into your locale
+        codeName = 'BankTruckRobbery', -- this should be the same as in config.lua
+        code = '10-22',
+        icon = 'fa-truck',
+        priority = 2,
+        coords = coords,
+        street = GetStreetAndZone(coords),
+        heading = GetPlayerHeading(),
+        --vehicle = vehicle.name,
+        --plate = vehicle.plate,
+        --color = vehicle.color,
+        --class = vehicle.class,
+        --doors = vehicle.doors,
+        jobs = { 'leo' }
+    }
+
+    TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
+end
+exports('BankTruckRobbery', BankTruckRobbery)

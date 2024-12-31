@@ -21,6 +21,7 @@ RegisterNetEvent('angelicxs-BankTruck:Notify', function(message, type)
 	elseif Config.UseESX then
 		ESX.ShowNotification(message)
 	elseif Config.UseQBCore then
+        --exports('BankTruckRobbery', BankTruckRobbery)
 		QBCore.Functions.Notify(message, type)
 	end
 end)
@@ -297,7 +298,8 @@ RegisterNetEvent('angelicxs-BankTruck:Client:HesitSyncCopsStart', function(finis
         CreateThread(function()
             BlipAdder(start, finish)
         end)
-        TriggerEvent('angelicxs-BankTruck:Notify', Config.Lang['cop_notify'], Config.LangType['info'])
+        --TriggerEvent('angelicxs-BankTruck:Notify', Config.Lang['cop_notify'], Config.LangType['info'])
+        exports('BankTruckRobbery', BankTruckRobbery)
     end
 end)
 

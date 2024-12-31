@@ -66,7 +66,7 @@ RegisterNetEvent('package_theft:givePackage', function()
         if success then
             TriggerClientEvent('ox_lib:notify', source, {
                 type = 'success',
-                description = "You grabbed " .. randomAmount .. "x " .. reward.item .. "!"
+                description = "You grabbed " .. randomAmount .. "x " .. reward.item.label .. "!"
             })
         else
             TriggerClientEvent('ox_lib:notify', source, {
@@ -82,10 +82,10 @@ end)
 
 Config.Rewards = {
     { item = 'cash', amount = { min = 10, max = 20 } },
-    { item = 'folded_cash', amount = { min = 2, max = 6 } },
-    { item = 'weed_lemonhaze_seed', amount = { min = 1, max = 3 } },
-    { item = 'weed_bluedream_seed', amount = { min = 1, max = 3 } },
-    { item = 'diamond_ring', amount = { min = 1, max = 1 } },
-    { item = 'goldchain', amount = { min = 1, max = 1 } },
-    { item = 'dirty_cloth', amount = { min = 2, max = 4 } }
+    { item = 'folded_cash', label = 'Folded Cash', amount = { min = 2, max = 6 } },
+    { item = 'weed_lemonhaze_seed', label = 'Lemon Haze Seed', amount = { min = 1, max = 3 } },
+    { item = 'weed_bluedream_seed', label = 'Blue Dream Seed', amount = { min = 1, max = 3 } },
+    { item = 'diamond_ring', label = 'Diamond Ring', amount = { min = 1, max = 1 } },
+    { item = 'goldchain', label = 'Gold Chain', amount = { min = 1, max = 1 } },
+    { item = 'dirty_cloth', label = 'Dirty Cloth', amount = { min = 2, max = 4 } }
 }

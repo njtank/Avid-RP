@@ -119,7 +119,7 @@ function proceedWithRobbery(locationIndex)
             FreezeEntityPosition(box, true)
             table.insert(spawnedObjects, box)
 
-            exports['ox_target']:addBoxZone("containerSearch" .. category .. i, searchCoords, 5.0, 5.0, {
+            exports['ox_target']:addSphereZone("containerSearch" .. category .. i, searchCoords, 5.0, 5.0, {
                 name = "containerSearch" .. category .. i,
                 coords = searchCoords,
                 debug = false,
@@ -145,7 +145,7 @@ function proceedWithRobbery(locationIndex)
     end
 
     local exitCoords = vector3(interiorCoords.x, interiorCoords.y - 6.0, interiorCoords.z)
-    exports['ox_target']:addBoxZone("containerExit", exitCoords, 2.0, 2.0, {
+    exports['ox_target']:addSphereZone("containerExit", exitCoords, 2.0, 2.0, {
         name = "containerExit",
         heading = 0,
         debugPoly = false,
@@ -428,7 +428,7 @@ function giveRandomItem(lootTable)
 end
 
 for index, location in ipairs(Config.robberyStartLocations) do
-    exports['ox_target']:addBoxZone("containerRobbery" .. index, location.entry, 1.0, 1.0, {
+    exports['ox_target']:addSphereZone("containerRobbery" .. index, location.entry, 1.0, 1.0, {
         name = "containerRobbery" .. index,
         heading = 0,
         debugPoly = false,

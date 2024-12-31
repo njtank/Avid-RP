@@ -641,6 +641,7 @@ Config.BlacklistPeds = {
     "S_M_Y_AmmuCity_01",
     "S_M_M_AmmuCountry",
     "S_F_Y_Cop_01",
+    "s_m_y_construct_01",
     
 }
 

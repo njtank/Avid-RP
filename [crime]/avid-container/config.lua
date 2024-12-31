@@ -13,17 +13,11 @@ Config = {
 
     SearchProgress = 10000, -- Searching boxes inside progress length
 
-    Required = 'weapon_crowbar', -- Required item to enter the container
+    Required = 'lockpick', -- Required item to enter the container
     
     -- Container locations, add as many or as little as you wish
     robberyStartLocations = {
-        { entry = vector3(896.39, -3079.50, 5.90) },
-        { entry = vector3(896.40, -3090.78, 5.90) },
-        { entry = vector3(587.52, -2829.06, 5.42) },
         { entry = vector3(-153.31, -2419.78, 6.93) },
-        { entry = vector3(54.16, -1633.60, 28.60) },
-        { entry = vector3(680.01, 1284.26, 359.57) },
-        { entry = vector3(208.01, 2743.93, 42.72) },
     },
 
     -- Chance to recieve an item from each box

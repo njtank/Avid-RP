@@ -5,9 +5,21 @@ local vaultopen = false
 local vaultmoving = false
 local inside, outside
 
+function thermiteMinigame()
+    local success = exports.bl_ui:MineSweeper(3, {
+        grid = 5,
+        duration = 10000,
+        target = 6,
+        previewDuration = 1000
+    })
+
+    return success
+end
 
 local function hackpad()
     if not hacked then
+    local success = thermiteMinigame()
+    if not success then return end
         if lib.progressBar({
             duration = 100000,
             label = 'Hacking terminal',
@@ -15,6 +27,7 @@ local function hackpad()
             canCancel = true,
             disable = {
                 car = true,
+                move = true,
             },
             anim = {
                 dict = 'mp_prison_break',

@@ -25,6 +25,7 @@ Config.AllowLeoRob = true                  -- If true lets LEOs start the event/
 Config.LEOJobName = {'police', 'bcso'} 		-- Job name of law enforcement officers
 RegisterNetEvent('angelicxs-BankTruck:PoliceAlert')
 AddEventHandler('angelicxs-BankTruck:PoliceAlert', function(coords)
+    exports('BankTruckRobbery', BankTruckRobbery)
     -- TriggerEvent("police:client:policeAlert", coords, "Bank Truck Robbery Alert")
 
     -- local data = exports['cd_dispatch']:GetPlayerInfo()
@@ -112,7 +113,7 @@ Config.GuardType = { 									-- Guard models
 Config.GuardWeapon = { 									-- Guard weapons, all guards will have same weapons
     'weapon_carbinerifle',
 }
-Config.GuardArmour = 200 								-- Guard Armour
+Config.GuardArmour = 250 								-- Guard Armour
 
 Config.LangType = {
 	['error'] = 'error',

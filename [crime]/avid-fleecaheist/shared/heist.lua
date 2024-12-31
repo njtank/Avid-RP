@@ -12,19 +12,19 @@ option to open / close vault door with inside / outside pad
 
 BK.banks  = {
 
-    key = 'lockpick',
+    key = 'fleeca_bank_card',
 
     hack = 'lockpick',
 
-    drill = 'lockpick',
-    drilltime = 0.5, -- time in minutes
+    drill = 'thermal_drill',
+    drilltime = 4.5, -- time in minutes
 
     money = {
-        cash = true, -- if true, gives player money / false gives player bag item
-        amt = math.random(85000, 145000),
+        cash = false, -- if true, gives player money / false gives player bag item
+        amt = math.random(350, 650),
         item1 = 'money',
 
-        item2 = 'bag_blackmoney',
+        item2 = 'folded',
     },
 
     alta = {

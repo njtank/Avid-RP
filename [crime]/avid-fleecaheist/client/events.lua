@@ -34,6 +34,8 @@ local function heiststartloc()
                 icon = 'fa-solid fa-ticket',
                 label = 'Pick bank location',
                 canInteract = function(_, distance)
+                    local hasCoin = exports.ox_inventory:Search('count', 'fleeca_bank_coin')
+                    if hasCoin >= 1 then
                     return distance < 2.0 and not FH.inprogress
                 end,
                 onSelect = function()

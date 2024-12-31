@@ -7,11 +7,9 @@ local inside, outside
 
 
 local function hackpad()
-    local hackingdict = lib.requestAnimDict('anim@heists@humane_labs@emp@hack_door', 100)
-    local hackingset = lib.requestAnimSet('hack_loop', 100)
     if not hacked then
         if lib.progressBar({
-            duration = 10000,
+            duration = 100000,
             label = 'Hacking terminal',
             useWhileDead = false,
             canCancel = true,
@@ -19,8 +17,8 @@ local function hackpad()
                 car = true,
             },
             anim = {
-                dict = hackingdict,
-                clip = hackingset,
+                dict = 'mp_prison_break',
+                clip = 'hack_loop'
             },
             prop = {
                 bone = 28422,

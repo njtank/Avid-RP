@@ -593,6 +593,44 @@ return {
         },
     },
 
+    ['fleeca_bank_card'] = {
+        label = 'Security Card F',
+        weight = 100,
+        consume = 1.0,
+        client = {
+            image = "security_card_f.png",
+
+        },
+    },
+
+    ['thermal_drill'] = {
+        label = 'Thermal Drill',
+        weight = 5000,
+        consume = 1.0,
+        client = {
+            image = "thermal_drill.png",
+        },
+    },
+
+    ['usb_black'] = {
+        label = 'Black USB',
+        weight = 5000,
+        consume = 1.0,
+        client = {
+            image = "usb_black.png",
+        },
+    },
+
+    ['fleeca_bank_coin'] = {
+        label = 'Unknown Gold Coin',
+        description = "It has some numbers on the back for an adress in Paleto ....",
+        weight = 5000,
+        consume = 1.0,
+        client = {
+            image = "fleeca_bank_coin.png",
+        },
+    },
+
     ['drill'] = {
         label = 'Drill',
         weight = 5000,

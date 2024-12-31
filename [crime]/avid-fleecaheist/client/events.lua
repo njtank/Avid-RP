@@ -36,7 +36,9 @@ local function heiststartloc()
                 canInteract = function(_, distance)
                     local hasCoin = exports.ox_inventory:Search('count', 'fleeca_bank_coin')
                     if hasCoin >= 1 then
-                    return distance < 2.0 and not FH.inprogress
+                        return distance < 2.0 and not FH.inprogress
+                    end
+                    return false
                 end,
                 onSelect = function()
                     lib.showContext('fleecaheist_menu')
@@ -164,4 +166,30 @@ Citizen.CreateThread(function()
             return end
         Citizen.Wait(1000)
     end
+end)
+
+-- Adding Lester PED to Paleto ---
+local function loadModel(model)
+    RequestModel(model)
+    while not HasModelLoaded(model) do
+        Wait(0)
+    end
+end
+
+-- Coordinates and heading for Lester
+local lesterCoords = vector4(-321.27, 6302.58, 36.68, 314.72)
+
+-- Spawn Lester
+CreateThread(function()
+    local lesterModel = "cs_lestercrest" -- Model name for Lester
+    loadModel(lesterModel)
+
+    local lesterPed = CreatePed(4, GetHashKey(lesterModel), lesterCoords.x, lesterCoords.y, lesterCoords.z - 1.0, lesterCoords.w, false, true)
+
+    SetEntityAsMissionEntity(lesterPed, true, true)
+    SetPedFleeAttributes(lesterPed, 0, false)
+    SetPedCombatAttributes(lesterPed, 17, true)
+    SetBlockingOfNonTemporaryEvents(lesterPed, true)
+    FreezeEntityPosition(lesterPed, true)
+    SetEntityInvincible(lesterPed, true)
 end)

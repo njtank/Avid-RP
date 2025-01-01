@@ -1,6 +1,12 @@
 local packageModel = `prop_cs_package_01`
 local angryPedModel = `a_m_m_hillbilly_02`
 
+function RapidLines()
+    local success = exports.bl_ui:RapidLines(2, 50, 5)
+
+    return success
+end
+
 local function spawnAngryPed(playerPos)
     RequestModel(angryPedModel)
     while not HasModelLoaded(angryPedModel) do
@@ -95,7 +101,13 @@ end
 RegisterNetEvent('package_theft:playSmashAnimation')
 AddEventHandler('package_theft:playSmashAnimation', function(vehicleNetId)
     local vehicle = NetworkGetEntityFromNetworkId(vehicleNetId)
-    playBreakInMinigame(vehicle)
+    local success = RapidLines()
+    if success then
+    smashWindow(vehicle)
+    else
+    TriggerEvent('QBCore:Notify', "Failed to break in!", 'error')
+    end
+    --playBreakInMinigame(vehicle)
 end)
 
 exports.ox_target:addGlobalVehicle({

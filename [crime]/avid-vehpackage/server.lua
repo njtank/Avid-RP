@@ -13,7 +13,7 @@ RegisterNetEvent('package_theft:smashWindow', function(vehicleNetId)
 
         TriggerClientEvent('package_theft:playSmashAnimation', src, vehicleNetId)
 
-        Citizen.Wait(5000)
+        Citizen.Wait(1000)
         TriggerClientEvent('package_theft:givePackage', src)
     else
         TriggerClientEvent('QBCore:Notify', src, "This vehicle has already been broken into!", 'error')

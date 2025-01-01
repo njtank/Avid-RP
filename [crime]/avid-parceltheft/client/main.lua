@@ -4,6 +4,12 @@ local holdingBox = false
 local spawnedProps = {}
 local localLocations = {}
 
+function RapidLines()
+    local success = exports.bl_ui:RapidLines(2, 50, 5)
+
+    return success
+end
+
 local DisableControls = function()
     CreateThread(function ()
         while holdingBox do
@@ -178,7 +184,8 @@ end)
 
 RegisterNetEvent('avid-parceltheft:client:openBox', function()
     local ped = PlayerPedId()
-
+    local success = RapidLines()
+        if not success then return end
     SD.StartProgress('opening_parcel', locale('progress.opening_parcel'), 2500, 
     function()
         ClearPedTasks(ped)

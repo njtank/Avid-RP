@@ -13,6 +13,17 @@ CreateThread(function()
     end
 end)
 
+function MineSweeper()
+    local success = exports.bl_ui:MineSweeper(3, {
+        grid = 4, -- grid 4x4
+        duration = 10000, -- 10sec to fail
+        target = 7, --target you need to remember
+        previewDuration = 2000 --preview duration (time for red mines preview to hide)
+    })
+
+    return success
+end
+
 function Main:Int(Model)
     exports['ox_target']:addModel(Model, {
         {
@@ -57,7 +68,9 @@ RegisterNetEvent('bbv-robatm:rob',function()
             SetEntityDrawOutlineColor(255, 1, 1, 255)
             SetEntityDrawOutlineShader(0)
             TriggerEvent('bbv-atmrob:alarm')
-            QBCore.Functions.Progressbar("rob_atm", "Planting the Explosive", 60000, false, true, {
+            local success = MineSweeper()
+            if not success then return end
+            QBCore.Functions.Progressbar("rob_atm", "Planting the Explosive", 45000, false, true, {
                 disableMovement = true,
                 disableCarMovement = true,
                 disableMouse = false,

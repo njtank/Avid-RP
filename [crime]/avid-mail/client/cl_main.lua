@@ -1,10 +1,7 @@
 local cache = {}
 
-function CircleSum()
-    local success = exports.bl_ui:CircleSum(3, {
-        length = 4,
-        duration = 6500,
-    })
+function RapidLines()
+    local success = exports.bl_ui:RapidLines(2, 50, 5)
 
     return success
 end
@@ -99,7 +96,7 @@ Citizen.CreateThread(function()
         Wait(length)
         ClearPedTasks(PlayerPedId())
 
-        local success = CircleSum()
+        local success = RapidLines()
             if not success then return end
 
         --local success = lib.skillCheck('medium', {'w', 'a', 's', 'd'})

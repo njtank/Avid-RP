@@ -262,6 +262,9 @@ local function enterGarage(coords)
         end
         garageZone = nil
     end
+    lib.progressBar({
+        duration = 2000,
+        label = 'Opening garage door...',})
     SetEntityHeading(cache.ped, coords.w)
     SetEntityCoords(cache.ped, coords.x, coords.y, coords.z-1.0)
     Wait(100)

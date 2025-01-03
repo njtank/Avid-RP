@@ -283,7 +283,7 @@ RegisterNetEvent('an-tow:client:SpawnVehicle', function()
         exports[Config.fuel]:SetFuel(veh, 100.0)
         SetEntityAsMissionEntity(veh, true, true)
         CloseMenuFull()
-        exports['Renewed-Vehiclekeys']:addKey(plate)
+        handleVehicleKeys(veh)
         --TriggerEvent("vehiclekeys:client:SetOwner", QBCore.Functions.GetPlate(veh))
         SetVehicleEngineOn(veh, true, true)
         for i = 1, 9, 1 do

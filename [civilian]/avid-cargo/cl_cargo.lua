@@ -236,7 +236,6 @@ RegisterNetEvent('randol_cargo:client:startRoute', function(data, vehNet, crateN
     CRATE_OBJECT = NetworkGetEntityFromNetworkId(crateNet)
 
     SetVehicleNumberPlateText(veh, "CARG"..rnd)
-    exports['Renewed-Vehiclekeys']:addKey(plate)
     handleVehicleKeys(veh)
     SetVehicleEngineOn(veh, true, true)
     SetVehicleExtra(veh, 2, true)

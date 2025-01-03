@@ -2947,6 +2947,11 @@ return {
     weight = 1000,
     client = { image = "ch_prop_vault_painting_01g.png" },
 },
+['securitycard_lf'] = {
+    label = 'Security Key Card',
+    weight = 1000,
+    client = { image = "securitycard_lf.png" },
+},
 
 
 }

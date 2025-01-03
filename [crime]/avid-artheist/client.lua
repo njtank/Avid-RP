@@ -37,7 +37,7 @@ Citizen.CreateThread(function()
         local sleep = 1000
         local heistDist = #(pedCo - Config['ArtHeist']['startHeist']['pos'])
         local sellDist = #(pedCo - Config['ArtHeist']['sellPainting']['pos'])
-        if heistDist <= 3.0 then
+        --[[if heistDist <= 3.0 then
             sleep = 1
             ShowHelpNotification(Strings['start_heist'])
             if IsControlJustPressed(0, 38) then
@@ -49,7 +49,7 @@ Citizen.CreateThread(function()
             if IsControlJustPressed(0, 38) then
                 FinishHeist()
             end
-        end
+        end ]]
         if ArtHeist['start'] then
             for k, v in pairs(Config['ArtHeist']['painting']) do
                 local dist = #(pedCo - v['scenePos'])
@@ -127,6 +127,67 @@ function FinishHeist()
         RemoveBlip(stealBlip)
     end
 end
+
+
+-- ADDING TARGET TO SCRIPT --
+local coords = vector3(244.346, 374.012, 105.738)
+local radius = 2.0 -- Adjust radius as needed
+
+exports.ox_target:addSphereZone({
+    coords = coords,
+    radius = radius,
+    options = {
+        {
+            name = 'start_heist',
+            event = 'heist:start', -- Custom event name
+            icon = 'fas fa-mask', -- Icon to display in the target menu
+            label = 'Start Heist', -- Label to display in the target menu
+        }
+    }
+})
+
+-- Event handler for starting the heist
+RegisterNetEvent('heist:start')
+AddEventHandler('heist:start', function()
+    StartHeist()
+    -- Define the spawn locations for the NPCs
+    local npcSpawns = {
+        {x = 1399.67, y = 1163.8, z = 114.33, heading = 179.69},
+        {x = 1392.48, y = 1147.18, z = 114.33, heading = 267.34},
+        {x = 1405.31, y = 1149.3, z = 114.33, heading = 158.15},
+        {x = 1400.22, y = 1131.17, z = 114.33, heading = 30.25},
+        {x = 1391.97, y = 1137.96, z = 114.44, heading = 89.82},
+        {x = 1389.86, y = 1157.54, z = 114.33, heading = 124.35},
+    }
+
+    -- The NPC model and weapon
+    local npcModel = `CSB_MWeather`
+    local weaponHash = `WEAPON_ASSAULTSMG`
+
+    -- Ensure the model is loaded
+    RequestModel(npcModel)
+    while not HasModelLoaded(npcModel) do
+        Wait(0)
+    end
+
+    -- Spawn the NPCs
+    for _, spawn in ipairs(npcSpawns) do
+        local ped = CreatePed(4, npcModel, spawn.x, spawn.y, spawn.z, spawn.heading, true, true)
+        
+        -- Give the NPC a weapon
+        GiveWeaponToPed(ped, weaponHash, 999, false, true)
+
+        -- Set the NPC health
+        SetEntityHealth(ped, 250)
+
+        -- Make the NPC hostile
+        SetPedAsEnemy(ped, true)
+        TaskCombatPed(ped, GetPlayerPed(-1), 0, 16) -- Target the player
+    end
+
+    -- Clean up the model to free memory
+    SetModelAsNoLongerNeeded(npcModel)
+end)
 
 function StartHeist()
     QBCore.Functions.TriggerCallback('artheist:server:checkRobTime', function(time)
@@ -314,3 +375,5 @@ AddEventHandler('onResourceStop', function (resource)
         end
     end
 end)
+
+

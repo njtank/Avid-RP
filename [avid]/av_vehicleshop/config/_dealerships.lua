@@ -32,7 +32,7 @@ Config.Dealerships = {
             coords = {x = -46.62, y = -1094.36, z = 27.3}
         }
     },
-    ['boat_dealership'] = { -- dealership key index, should be unique for each dealership.
+    --[[['boat_dealership'] = { -- dealership key index, should be unique for each dealership.
         job = false, -- Job ("string") or false
         garage = "millars", -- Where the vehicle will be stored.
         money_account = "bank", -- Account used for purchase.
@@ -79,5 +79,5 @@ Config.Dealerships = {
             scale = 0.7,
             coords = {x = 459.50, y = -986.48, z = 25.7, distance = 3.0}
         }
-    }
+    }]]
 }

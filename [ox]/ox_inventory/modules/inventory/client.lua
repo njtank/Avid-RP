@@ -14,6 +14,7 @@ function Inventory.OpenDumpster(entity)
 	end
 
 	if netId then
+		lib.progressBar( {duration = 3000, label = 'Searching dumpster...'})
 		client.openInventory('dumpster', 'dumpster'..netId)
 	end
 end
@@ -82,6 +83,7 @@ if shared.target then
         label = locale('search_dumpster'),
         onSelect = function(data) return Inventory.OpenDumpster(data.entity) end,
         distance = 2
+		
 	})
 
     exports.ox_target:addGlobalVehicle({

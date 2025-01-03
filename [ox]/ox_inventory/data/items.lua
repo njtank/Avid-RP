@@ -2953,5 +2953,17 @@ return {
     client = { image = "securitycard_lf.png" },
 },
 
+-- Car Boosting
+["heist_papers"] = {
+    label = "Vehicle Papers",
+    weight = 0,
+    stack = false,
+    close = true,
+    description = "Delivery documents.",
+    client = {
+        image = "heist_papers.png",
+    }
+},
+
 
 }

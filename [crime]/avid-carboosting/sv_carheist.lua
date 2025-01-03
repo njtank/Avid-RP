@@ -4,6 +4,16 @@ local onCooldown = false
 local tracker = 0
 local carHeist = {}
 
+function TryToGetItem()
+    local chance = math.random(1, 100) -- Generate a random integer between 1 and 100
+
+    if chance <= 3 then
+        AddItem("purple_lootcrate") -- Add the item if the chance is 3% or less
+    else
+        print("Better luck next time!")
+    end
+end
+
 local function initCooldown(src)
     onCooldown = true
     SetTimeout(Server.Cooldown * 60000, function()
@@ -137,6 +147,7 @@ lib.callback.register('randol_carheist:server:returnPapers', function(source)
 
     RemoveHeistPapers(Player, item.name, item.slot)
     AddRewardMoney(Player, metadata.amount)
+
 
     DoNotification(src, ('You received $%s for delivering the vehicle.'):format(metadata.amount), 'success')
 end)

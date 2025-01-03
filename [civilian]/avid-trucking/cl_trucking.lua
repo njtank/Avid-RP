@@ -266,6 +266,7 @@ RegisterNetEvent('randol_trucking:server:spawnTruck', function(netid)
         end
     end, 'Could not load entity in time.', 3000)
     
+    exports['Renewed-Vehiclekeys']:addKey(plate)
     handleVehicleKeys(MY_VEH)
     if Config.Fuel.enable then
         exports[Config.Fuel.script]:SetFuel(MY_VEH, 100.0)

@@ -444,7 +444,8 @@ function spawnGoPostalVehicle()
     while not HasModelLoaded(POSTAL_VEHICLE_HASH) do Citizen.Wait(0) end
     local vehicle = CreateVehicle(POSTAL_VEHICLE_HASH, POSTAL_VEHICLE_SPAWN_COORDS, true, false)
 
-    GivePlayerVehicleKeys(vehicle)
+    exports['Renewed-Vehiclekeys']:addKey(plate)
+    --GivePlayerVehicleKeys(vehicle)
 
     local networkId = NetworkGetNetworkIdFromEntity(vehicle)
     SetNetworkIdCanMigrate(networkId, true)

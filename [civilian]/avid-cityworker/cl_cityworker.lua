@@ -44,6 +44,7 @@ local function startWork(netid, data)
     SetVehicleNumberPlateText(workVehicle, 'CITY'..tostring(math.random(1000, 9999)))
     SetVehicleColours(workVehicle, 111, 111)
     SetVehicleDirtLevel(workVehicle, 1)
+    exports['Renewed-Vehiclekeys']:addKey(plate)
     handleVehicleKeys(workVehicle)
     SetVehicleEngineOn(workVehicle, true, true)
     isHired = true

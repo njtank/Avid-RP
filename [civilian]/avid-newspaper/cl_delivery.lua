@@ -81,6 +81,7 @@ local function createPaperRoute(netid)
         end
     end, 'Could not load entity in time.', 5000)
 
+    exports['Renewed-Vehiclekeys']:addKey(plate)
     handleVehicleKeys(vehicle)
     
     for k,v in pairs(myData.locations) do

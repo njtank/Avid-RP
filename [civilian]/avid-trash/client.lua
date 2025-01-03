@@ -56,8 +56,9 @@ RegisterNetEvent('trash:spawnTruck', function()
 
     -- Set the player as the vehicle owner and give keys
     local plate = GetVehicleNumberPlateText(truck) -- Get the truck's plate
-    TriggerServerEvent('vehiclekeys:server:SetVehicleOwner', plate) -- Register ownership
-    TriggerEvent('vehiclekeys:client:SetOwner', plate) -- Give client keys
+    exports['Renewed-Vehiclekeys']:addKey(plate)
+    --TriggerServerEvent('vehiclekeys:server:SetVehicleOwner', plate) -- Register ownership
+    --TriggerEvent('vehiclekeys:client:SetOwner', plate) -- Give client keys
 
     -- Notify the player
     TriggerEvent('QBCore:Notify', 'Trash truck spawned. Use it to collect trash.', 'success')

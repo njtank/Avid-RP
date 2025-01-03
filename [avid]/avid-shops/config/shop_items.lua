@@ -63,6 +63,7 @@ local ITEMS = {
 		{ name = 'WEAPON_FLASHLIGHT',    price = 10, defaultStock = 200,         job = "police",        category = 'Weapons' },
 		{ name = 'WEAPON_NIGHTSTICK',    price = 10, defaultStock = 200,         job = "police",        category = 'Weapons' },
 		{ name = 'WEAPON_STUNGUN',    	 price = 10, defaultStock = 200,         job = "police",        category = 'Weapons' },
+		{ name = 'at_flashlight',	     price = 10, defaultStock = 200,		 job = "police",		category = 'Weapons' },
 		{ name = 'ifaks',    			 price = 20, defaultStock = 1500,        job = "police",        category = 'Supplies' },
 		{ name = 'heavyarmour',    		 price = 30, defaultStock = 1500,        job = "police",        category = 'Supplies' },
 		{ name = 'bandage',    			 price = 3, defaultStock = 1500,         job = "police",        category = 'Supplies' },

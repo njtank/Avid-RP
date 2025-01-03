@@ -1279,8 +1279,8 @@ return {
             showBlip = false,
             blipName = "Police",
             blipNumber = 357,
-            type = 'job',                --public, job, gang, depot
-            vehicleCategories = {'emergency'},
+            type = 'public',                --public, job, gang, depot
+            vehicleCategories = {'car', 'motorcycle', 'other'},
             drawText = 'Parking',              --car, air, sea
             job = "police",
             debug = false,

@@ -44,6 +44,7 @@ local function spawnPed()
         {
             icon = 'fa-solid fa-square-check',
             label = 'Start Job',
+            item = 'heist_papers',
             action = function()
                 local data = lib.callback.await('randol_carheist:attemptjob', false)
                 if type(data) == 'table' then
@@ -102,7 +103,7 @@ local function dropoffVehicle()
     FreezeEntityPosition(vehicle, true)
     droppingOff = true
 
-    if lib.progressCircle({
+    if lib.progressBar({
         duration = 8000,
         position = 'bottom',
         label = 'Delivering vehicle..',
@@ -296,7 +297,13 @@ function stealPoint()
     if Config.Debug then SetNewWaypoint(coords.x, coords.y) end
 
     PlaySoundFrontend(-1, 'Text_Arrive_Tone', 'Phone_SoundSet_Default', 1)
-    DoNotification(('You need to retrieve a %s. It has been marked on your gps.'):format(label), 'success')
+    TriggerServerEvent('qb-phone:server:sendNewMail', {
+        sender = 'Mr. Barker',
+        subject = 'Work for you',
+        message = 'You need to retrieve the vehicle. It has been marked on your gps.',
+        button = {}
+    })
+    --DoNotification(('You need to retrieve a %s. It has been marked on your gps.'):format(label), 'success')
 
     if GetResourceState('ox_target') == 'started' then
         garageZone = exports.ox_target:addSphereZone({

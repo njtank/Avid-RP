@@ -2950,6 +2950,7 @@ return {
 ['securitycard_lf'] = {
     label = 'Security Key Card',
     weight = 1000,
+    consume = 1.0,
     client = { image = "securitycard_lf.png" },
 },
 

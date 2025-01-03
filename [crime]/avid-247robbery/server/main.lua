@@ -249,10 +249,6 @@ RegisterNetEvent('avid-247robbery:CompleteSafeRobbery', function()
     states[identifier].state = nil
     states[identifier].completed = os.time()
     AddItem(source, data.item, quantity)
-    chance = random.uniform(0, 100)
-    local chance = math.random(0, 100) -- Generate a random number between 0 and 100
-    if chance < 3 then -- Check if the chance is within the 3% range
-        AddItem("securitycard_lf", 1)
     StartCooldown()
     if Logs.Events.safe_robbed then
         local log = Strings.Logs.safe_robbed.message

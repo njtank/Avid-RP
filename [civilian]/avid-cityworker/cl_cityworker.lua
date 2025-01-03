@@ -153,6 +153,14 @@ local function spawnPed()
     end
 end
 
+function Untangle()
+    local success = exports.bl_ui:Untangle(3, {
+        length = 10,
+        duration = 5000,
+    })
+return success
+end
+
 local function repairSpot()
     if not isHired then return end
     if GetResourceState('ox_target') == 'started' then
@@ -162,6 +170,8 @@ local function repairSpot()
     end
     currZone = nil
     TaskStartScenarioInPlace(cache.ped, 'WORLD_HUMAN_WELDING', 0, true)
+    local success = CircleSum()
+    if not success then return end
     if lib.progressCircle({
         duration = 20000,
         position = 'bottom',

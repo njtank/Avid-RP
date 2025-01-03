@@ -242,6 +242,7 @@ local function initVehicle(netid)
     end
 
     if AlertPolice then
+        exports['ps-dispatch']:CarBoost()
         AlertPolice(HEIST_CAR)
     end
     

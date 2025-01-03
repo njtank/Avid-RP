@@ -2,7 +2,7 @@ Config = {}
 Config.OxTarget = true -- true if you use ox target
 Config.MetalDetectShop = vector4(-1113.45, -1689.03, 4.38, 150.53) -- where you buy a metal detector or sell loot founs
 Config.Pricefordetector = 500 -- how much you pay for the metal detector
-Config.InvWeblink = "nui://ps-inventory/html/images/"
+Config.InvWeblink = "ox/ox_inventory/web/images/"
 Config.clumpwash = { -- place to wash out clumps 
 
 vector3(-1247.79, -1542.34, 4.3),

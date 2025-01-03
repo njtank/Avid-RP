@@ -469,6 +469,17 @@ Config.Blips = {
         offset = true,
         flash = true
     },
+    ['CarBoost'] = {
+        radius = 50.0,
+        sprite = 41,
+        color = 1,
+        scale = 1.5,
+        length = 2,
+        sound = 'Lose_1st',
+        sound2 = 'GTAO_FM_Events_Soundset',
+        offset = true,
+        flash = true
+    },
 }
 
 Config.Colors = {

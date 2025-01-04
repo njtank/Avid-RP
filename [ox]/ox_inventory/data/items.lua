@@ -2954,7 +2954,7 @@ return {
     client = { image = "securitycard_lf.png" },
 },
 
--- Car Boosting
+-- Car Boosting --
 ["heist_papers"] = {
     label = "Vehicle Papers",
     weight = 0,
@@ -2966,5 +2966,16 @@ return {
     }
 },
 
+-- Metal Detecting --
+["metaldetector"] = {
+    label = "Metal Detector",
+    weight = 1000, 
+    stack = false,
+    close = true,
+    description = "Find precious metals",
+    client = {
+        image = "metaldetector.png",
+    }
+},
 
 }

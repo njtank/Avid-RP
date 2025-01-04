@@ -155,6 +155,45 @@ return {
             },
         },
     },
+    ['firefighter'] = {
+        label = 'SAFD',
+        type = 'ems',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Probationary Firefighter',
+                payment = 100
+            },
+            [1] = {
+                name = 'Firefighter',
+                payment = 200
+            },
+            [2] = {
+                name = 'Engineer',
+                isboss = true,
+                payment = 275
+            },
+            [3] = {
+                name = 'Lieutenant',
+                isboss = true,
+                bankAuth = true,
+                payment = 325
+            },
+            [3] = {
+                name = 'Battalion Chief',
+                isboss = true,
+                bankAuth = true,
+                payment = 350
+            },
+            [3] = {
+                name = 'Fire Chief',
+                isboss = true,
+                bankAuth = true,
+                payment = 400
+            },
+        },
+    },
     ['realestate'] = {
         label = 'Real Estate',
         type = 'realestate',

@@ -154,9 +154,9 @@ local function spawnPed()
 end
 
 function Untangle()
-    local success = exports.bl_ui:Untangle(3, {
-        length = 10,
-        duration = 5000,
+    local success = exports.bl_ui:Untangle(1, {
+        numberOfNodes = 10,
+        duration = 7000,
     })
 return success
 end
@@ -169,10 +169,9 @@ local function repairSpot()
         exports['qb-target']:RemoveZone(currZone)
     end
     currZone = nil
+    local success = Untangle()
     TaskStartScenarioInPlace(cache.ped, 'WORLD_HUMAN_WELDING', 0, true)
-    local success = CircleSum()
-    if not success then return end
-    if lib.progressCircle({
+    if lib.progressBar({
         duration = 20000,
         position = 'bottom',
         label = 'Completing the task..',

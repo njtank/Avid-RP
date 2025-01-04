@@ -180,13 +180,13 @@ return {
                 bankAuth = true,
                 payment = 325
             },
-            [3] = {
+            [4] = {
                 name = 'Battalion Chief',
                 isboss = true,
                 bankAuth = true,
                 payment = 350
             },
-            [3] = {
+            [5] = {
                 name = 'Fire Chief',
                 isboss = true,
                 bankAuth = true,

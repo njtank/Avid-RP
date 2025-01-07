@@ -173,4 +173,20 @@ return {
 			disabled = true,
 		},
 	},
+	hunting = {
+		label = "Hunting Shop",
+		model = {
+			`mp_m_exarmy_01`,
+		},
+		coords = {
+			vec4(-773.24, 5598.16, 33.61, 184.79)
+		},
+		shopItems = "hunting",
+		blip = {
+			sprite = 898,
+			color = 20,
+			scale = 0.5,
+			disabled = false,
+		},
+	},
 }

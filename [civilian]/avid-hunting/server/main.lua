@@ -1,7 +1,7 @@
 lib.locale()
 local antifarm = {}
 
-lib.versionCheck('manason/avid-hunting')
+--lib.versionCheck('manason/avid-hunting')
 assert(lib.checkDependency('ox_lib', '3.21.0', true))
 assert(lib.checkDependency('ox_inventory', '2.28.0', true))
 assert(lib.checkDependency('ox_target', '1.8.0'), true)

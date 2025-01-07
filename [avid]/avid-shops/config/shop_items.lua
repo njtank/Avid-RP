@@ -84,6 +84,12 @@ local ITEMS = {
 		{ name = 'megaphone',			 price = 150, defaultStock = 20,		 job = "firefighter",		category = 'Equipment' },
 		{ name = 'watertank',			 price = 0, defaultStock = 5000,		 job = "firefighter",		category = 'Equipment' },
 		{ name = 'WEAPON_FLASHLIGHT',    price = 0, defaultStock = 2000,         job = "firefighter",        category = 'Equipment' },
+	},
+	hunting = {
+		{ name = 'WEAPON_MUSKET',    	 price = 200, defaultStock = 1500,               category = 'Hunting' },
+		{ name = 'bandage',    			 price = 5, defaultStock = 1500,                 category = 'Supplies' },
+		{ name = 'ammo-musket',			 price = 1, defaultStock = 20000,		 		category = 'Hunting' },
+
 	}
 }
 

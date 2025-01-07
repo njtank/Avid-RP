@@ -58,7 +58,15 @@ local function toPickGrapes()
     --end
 end
 
+local lastProcessingTime = 0 -- Variable to store the last processing timestamp
+
 local function wineProcessing()
+    local currentTime = GetGameTimer() -- Get the current game time in milliseconds
+    if currentTime - lastProcessingTime < 60000 then -- Check if 1 minute (60000 ms) has passed
+        exports.qbx_core:Notify(locale('You should wait a minute before doing this'), 'error')
+        return
+    end
+
     lib.callback('qbx_vineyard:server:grapeJuicesNeeded', false, function(result)
         if result then
             loadIngredients = true
@@ -78,6 +86,7 @@ local function wineProcessing()
                     clip = 'car_bomb_mechanic'
                 }
             }) then
+                lastProcessingTime = GetGameTimer() -- Update the last processing time
                 TriggerServerEvent('qbx_vineyard:server:receiveWine')
             else
                 exports.qbx_core:Notify(locale('task.cancel_task'), 'error')

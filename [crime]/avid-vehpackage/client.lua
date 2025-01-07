@@ -28,7 +28,17 @@ local function spawnAngryPed(playerPos)
     SetPedFleeAttributes(ped, 0, false)
 end
 
+local lastSmashTime = 0 -- Variable to store the last smash timestamp
+
 local function smashWindow(vehicle)
+    local currentTime = GetGameTimer() -- Get the current game time in milliseconds
+    if currentTime - lastSmashTime < 120000 then -- Check if 2 minutes (120,000 ms) have passed
+        exports.qbx_core:Notify("You need to wait before smashing another window.", 'error')
+        return
+    end
+
+    lastSmashTime = currentTime -- Update the last smash time
+
     local playerPed = PlayerPedId()
 
     local rearRightDoorBone = GetEntityBoneIndexByName(vehicle, "door_pside_r")
@@ -54,7 +64,6 @@ local function smashWindow(vehicle)
     end
 
     SetVehicleDoorsLocked(vehicle, 7)
-    --TaskEnterVehicle(playerPed, vehicle, 2000, doorIndex, 1.0, 1, 0)
     Citizen.Wait(2000)
     ClearPedTasksImmediately(playerPed)
 
@@ -79,13 +88,14 @@ local function smashWindow(vehicle)
     if math.random(1, 10) == 1 then
         spawnAngryPed(playerPos)
     end
-    
+
     TaskStartScenarioInPlace(playerPed, "PROP_HUMAN_BUM_BIN", 0, true)
     Citizen.Wait(5000)
     ClearPedTasksImmediately(playerPed)
     DeleteEntity(package)
     TriggerServerEvent('package_theft:givePackage')
 end
+
 
 local function playBreakInMinigame(vehicle)
     local success = false

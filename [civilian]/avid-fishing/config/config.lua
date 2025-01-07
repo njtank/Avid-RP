@@ -84,7 +84,7 @@ Config.fishingZones = {
             scale = 0.6
         },
         locations = {
-            vector3(-4941.7964, -2411.9146, 0.0),
+            vec3(-3583.49, -462.73, 0.96),
         },
         radius = 1000.0,
         minLevel = 3,
@@ -159,6 +159,6 @@ Config.renting = {
 
     ---@type { coords: vector4, spawn: vector4 }[]
     locations = {
-        { coords = vector4(-1434.4818, -1512.2745, 2.1486, 25.8666), spawn = vector4(-1494.4496, -1537.6943, 2.3942, 115.6015) }
+        { coords = vec4(-845.34, -1338.66, 1.6, 15.17), spawn = vec4(-853.62, -1344.16, 0.15, 111.06) }
     }
 }

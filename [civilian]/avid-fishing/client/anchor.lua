@@ -21,7 +21,7 @@ end)
 keybind = lib.addKeybind({
     name = 'anchor_toggle',
     description = 'Toggles the anchor on your boat.',
-    defaultKey = 'G',
+    defaultKey = '8',
     defaultMapper = 'keyboard',
     onReleased = function()
         if not IsPedInAnyBoat(cache.ped)

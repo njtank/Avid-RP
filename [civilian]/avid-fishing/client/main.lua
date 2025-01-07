@@ -38,6 +38,12 @@ local function updateBlips(level)
     end
 end
 
+function RapidLines()
+    local success = exports.bl_ui:RapidLines(2, 50, 5)
+
+    return success
+end
+
 ---@param level number
 local function updateZones(level)
     for _, zone in ipairs(zones) do
@@ -154,11 +160,6 @@ lib.callback.register('avid-fishing:itemUsed', function(bait, fish)
         return p.state == 0
     end
 
-    function CircleShake()
-    local success = bl_ui:CircleShake(iterations, difficulty, numberOfStages)
-    
-        return success
-    end
 
     CreateThread(function()
         TaskPlayAnim(cache.ped, 'mini@tennis', 'forehand_ts_md_far', 3.0, 3.0, 1.0, 16, 0, false, false, false)
@@ -179,7 +180,7 @@ lib.callback.register('avid-fishing:itemUsed', function(bait, fish)
 
         if not wait(math.random(2000, 4000)) then return end
 
-        local success = CircleShake()
+        local success = RapidLines()
 
         if not success then
             ShowNotification(locale('catch_failed'), 'error')

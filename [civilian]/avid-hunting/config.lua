@@ -27,7 +27,7 @@ Config.Carcass  = {
 ---@type number[] hash codes of weapons that lead to higher grade carcasses.
 Config.GoodWeapon = {
 ---@diagnostic disable-next-line: assign-type-mismatch
-    `WEAPON_SNIPERRIFLE`,`WEAPON_KNIFE`
+    `WEAPON_MUSKET`,`WEAPON_KNIFE`
 }
 
 ---@type table<CarcassItem, {min: number, max: number}> min and max sell prices per carcass based on durability

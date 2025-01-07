@@ -1,0 +1,113 @@
+/**
+ *
+ * Breakpoints
+ *
+ */
+/**
+ *
+ * Color
+ *
+ */
+.on-duty-card {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 500ms;
+}
+.on-duty-card.is-active {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.on-duty-card.is-active .on-duty-card__header {
+  border-radius: 8px 8px 0 0;
+}
+.on-duty-card.is-active .on-duty-card__icon--arrow {
+  transform: rotateX(180deg);
+}
+.on-duty-card.is-active .on-duty-card__main {
+  max-height: 100vh;
+  transition: all 500ms ease-in;
+}
+.on-duty-card__header {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #232428;
+  transition: all 125ms;
+}
+.on-duty-card__header:hover {
+  cursor: pointer;
+  background-color: #27292d;
+}
+.on-duty-card__title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #727374;
+}
+.on-duty-card__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #727374;
+}
+.on-duty-card__label {
+  padding: 5px 18px;
+  border-radius: 6.6666666667px;
+  background-color: rgba(68, 68, 68, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #fff;
+}
+.on-duty-card__label--yellow {
+  color: #fbe947;
+}
+.on-duty-card__label--red {
+  color: #fb5247;
+}
+.on-duty-card__icon {
+  font-size: 14px;
+  margin-right: 5px;
+  display: flex;
+}
+.on-duty-card__icon--arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #757785;
+  transition: all 500ms;
+}
+.on-duty-card__icon--normal {
+  font-size: 17px;
+  color: #5d5e61;
+}
+.on-duty-card__icon-inner {
+  transition: all 400ms;
+}
+.on-duty-card__main {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 500ms ease-out;
+}
+.on-duty-card__main-inner {
+  padding: 15px;
+}
+.on-duty-card__map {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #25262b;
+}
+.on-duty-card__map-img {
+  width: 100%;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+}/*# sourceMappingURL=OnDutyCard.css.map */

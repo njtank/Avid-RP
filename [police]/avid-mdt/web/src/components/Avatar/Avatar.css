@@ -1,0 +1,38 @@
+.avatar {
+  position: relative;
+}
+.avatar__img {
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.1);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+}
+.avatar__circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -7px;
+  min-width: 15px;
+  max-width: 15px;
+  margin: 0 auto;
+  height: 15px;
+  border: 3px solid #232428;
+  border-radius: 999px;
+  background-color: #fff;
+}
+.avatar__circle--blue {
+  background-color: #52acff;
+}
+.avatar__circle--pink {
+  background-color: #ef7be3;
+}
+.avatar__circle--yellow {
+  background-color: #fbe947;
+}/*# sourceMappingURL=Avatar.css.map */

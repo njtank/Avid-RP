@@ -1,0 +1,46 @@
+//
+// Badge
+//
+
+@import '../../styles/_variables.scss';
+
+.badge {
+  height: 26px;
+  padding: 2px 10px;
+  border-radius: calc($default-border-radius / 2);
+  background-color: rgb(255, 255, 255, 0.025);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 22px;
+  color: #fff;
+  text-shadow: 0px 0px 18px #fff;
+
+  &--green {
+    color: rgb(47, 252, 215, 0.5);
+    text-shadow: 0px 0px 18px rgb(47, 252, 215, 0.5);
+  }
+
+  &--light-green {
+    color: #2ffcd7;
+    text-shadow: 0px 0px 18px rgb(47, 252, 215, 0.5);
+  }
+
+  &--size-long {
+    padding: 2px 15px;
+  }
+
+  &__circle {
+    min-width: 10px;
+    max-width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    background-color: #fff;
+
+    &--red {
+      background-color: #ff2f61;
+    }
+  }
+}

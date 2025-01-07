@@ -1,0 +1,72 @@
+/**
+ *
+ * Breakpoints
+ *
+ */
+/**
+ *
+ * Color
+ *
+ */
+.image-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 325ms;
+}
+.image-modal.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+.image-modal.is-active .image-modal__inner {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+.image-modal__inner {
+  width: 1010px;
+  min-height: 550px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #3e444c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.95);
+  transition: all 225ms;
+}
+.image-modal__img {
+  width: 100%;
+  height: 540px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+}
+.image-modal__title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #d0d0d0;
+}/*# sourceMappingURL=ImageModal.css.map */

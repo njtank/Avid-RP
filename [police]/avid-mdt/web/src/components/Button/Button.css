@@ -1,0 +1,73 @@
+/**
+ *
+ * Breakpoints
+ *
+ */
+/**
+ *
+ * Color
+ *
+ */
+.button {
+  border: 0;
+  outline: 0;
+  padding: 8px 20px;
+  border-radius: 6.6666666667px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gilroy";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #acacac;
+  white-space: nowrap;
+  transition: all 125ms;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.button--medium {
+  padding: 6px 15px;
+}
+.button--big {
+  padding: 10px 20px;
+  font-size: 15px;
+  line-height: 25px;
+}
+.button--rounded {
+  border-radius: 999px;
+}
+.button--min-width {
+  min-width: 130px;
+}
+.button--blue {
+  background-color: #2f75fc;
+  color: #fff;
+}
+.button--blue:hover {
+  background-color: #265dcc;
+}
+.button--purple {
+  background-color: #6052ff;
+  color: #fff;
+}
+.button--purple:hover {
+  background-color: #5245db;
+}
+.button--red {
+  background-color: red;
+  color: #fff;
+}
+.button--red:hover {
+  background-color: rgb(211, 0, 0);
+}
+.button--icon-only {
+  min-width: 36px;
+  max-width: 36px;
+  height: 36px;
+  padding: 5px;
+  font-size: 18px;
+}/*# sourceMappingURL=Button.css.map */

@@ -1,0 +1,45 @@
+/**
+ *
+ * Breakpoints
+ *
+ */
+/**
+ *
+ * Color
+ *
+ */
+.badge {
+  height: 26px;
+  padding: 2px 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.025);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 22px;
+  color: #fff;
+  text-shadow: 0px 0px 18px #fff;
+}
+.badge--green {
+  color: rgba(47, 252, 215, 0.5);
+  text-shadow: 0px 0px 18px rgba(47, 252, 215, 0.5);
+}
+.badge--light-green {
+  color: #2ffcd7;
+  text-shadow: 0px 0px 18px rgba(47, 252, 215, 0.5);
+}
+.badge--size-long {
+  padding: 2px 15px;
+}
+.badge__circle {
+  min-width: 10px;
+  max-width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background-color: #fff;
+}
+.badge__circle--red {
+  background-color: #ff2f61;
+}/*# sourceMappingURL=Badge.css.map */

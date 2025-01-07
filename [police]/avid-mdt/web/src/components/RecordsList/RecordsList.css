@@ -1,0 +1,32 @@
+/**
+ *
+ * Breakpoints
+ *
+ */
+/**
+ *
+ * Color
+ *
+ */
+.records-list__header {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.records-list__main {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1b1c1f;
+  display: flex;
+  flex-direction: column;
+}
+.records-list__main > *:not(:first-child) {
+  margin-top: 12px;
+}
+.records-list__load-more {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=RecordsList.css.map */

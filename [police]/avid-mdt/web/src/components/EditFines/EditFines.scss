@@ -1,0 +1,55 @@
+//
+// Edit Fines
+//
+
+@import '../../styles/_variables.scss';
+
+.edit-fines {
+  &__header {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__main {
+    padding: 20px;
+    border-radius: calc($default-border-radius / 1.25);
+    background-color: #1b1c1f;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #b7b8b9;
+  }
+
+  &__text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #626368;
+  }
+
+  &__close {
+    min-width: 26px;
+    max-width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    background-color: rgb(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    transition: all 125ms;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(235, 50, 0);
+    }
+  }
+}

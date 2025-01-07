@@ -1,0 +1,21 @@
+//
+// Cameras
+//
+
+@import '../../styles/_variables.scss';
+
+.cameras {
+  &__header {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__main {
+    padding: 20px;
+    border-radius: calc($default-border-radius / 1.25);
+    background-color: #1b1c1f;
+    display: flex;
+    flex-direction: column;
+  }
+}

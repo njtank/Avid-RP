@@ -1,0 +1,94 @@
+//
+// Global
+//
+
+@import './mixins';
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  src: url('../assets/fonts/gilroy-regular.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  src: url('../assets/fonts/gilroy-medium.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 600;
+  src: url('../assets/fonts/gilroy-semibold.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  src: url('../assets/fonts/gilroy-bold.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  src: url('../assets/fonts/gilroy-extrabold.ttf');
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Gilroy';
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  height: 100%;
+  padding: 100px;
+  display: block;
+
+  &--hidden {
+    display: none;
+  }
+
+  /**
+   *
+   * Responsive
+   *
+   */
+  @include mediumSize() {
+    padding: 50px;
+  }
+}
+
+.Toastify {
+  overflow: hidden;
+  --toasitfy-toast-width: 400px !important;
+  --toastify-toast-min-height: 55px;
+
+  &__toast {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #27282d;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #c8c8c8;
+
+    &-container {
+      position: absolute;
+    }
+  }
+
+  &__close-button {
+    color: #fff;
+    transition: all 125ms;
+  }
+}

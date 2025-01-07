@@ -1,0 +1,81 @@
+//
+// Button
+//
+
+@import '../../styles/_variables.scss';
+
+.button {
+  border: 0;
+  outline: 0;
+  padding: 8px 20px;
+  border-radius: calc($default-border-radius / 1.5);
+  background-color: rgb(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gilroy';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #acacac;
+  white-space: nowrap;
+  transition: all 125ms;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255, 0.15);
+  }
+
+  &--medium {
+    padding: 6px 15px;
+  }
+
+  &--big {
+    padding: 10px 20px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  &--rounded {
+    border-radius: 999px;
+  }
+
+  &--min-width {
+    min-width: 130px;
+  }
+
+  &--blue {
+    background-color: #2f75fc;
+    color: #fff;
+
+    &:hover {
+      background-color: #265dcc;
+    }
+  }
+
+  &--purple {
+    background-color: #6052ff;
+    color: #fff;
+
+    &:hover {
+      background-color: #5245db;
+    }
+  }
+
+  &--red {
+    background-color: red;
+    color: #fff;
+
+    &:hover {
+      background-color: rgb(211, 0, 0);
+    }
+  }
+
+  &--icon-only {
+    min-width: 36px;
+    max-width: 36px;
+    height: 36px;
+    padding: 5px;
+    font-size: 18px;
+  }
+}

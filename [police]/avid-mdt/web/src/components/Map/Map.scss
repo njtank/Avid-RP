@@ -1,0 +1,317 @@
+//
+// Map
+//
+
+@import '../../styles/variables';
+
+.map {
+  &--size-small &__inner {
+    height: 175px;
+  }
+
+  &__inner {
+    width: 100%;
+    height: 550px;
+    border-radius: calc($default-border-radius / 1.25);
+    background-color: rgb(255, 255, 255, 0.025);
+    overflow: hidden;
+
+    .leaflet-container {
+      width: 100%;
+      height: 100vh;
+    }
+
+    .leaflet-popup {
+      &-content {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &-wrapper {
+          padding: 15px;
+          border-radius: $default-border-radius;
+          background-color: #fff;
+          box-shadow: 0 0 15px rgb(0, 0, 0, 0.25);
+        }
+      }
+
+      &-close-button {
+        display: none;
+      }
+    }
+  }
+
+  &__avatar {
+    margin-bottom: 5px;
+
+    &-img {
+      min-width: 48px;
+      max-width: 48px;
+      height: 48px;
+      border-radius: 999px;
+      object-fit: cover;
+      user-select: none;
+      -webkit-user-select: none;
+      pointer-events: none;
+    }
+  }
+
+  &__title {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000000;
+
+    &--medium {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  &__text {
+    margin: 0 !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+  }
+
+  &__marker {
+    position: relative;
+    z-index: 999;
+
+    &-circle {
+      min-width: 20px;
+      max-width: 20px;
+      height: 20px;
+      border-radius: 999px;
+      background-color: #52acff;
+      box-shadow: 0 0 15px #52acff;
+
+      &--blue {
+        background-color: #52acff;
+        box-shadow: 0 0 15px #52acff;
+      }
+
+      &--red {
+        background-color: #c70039;
+        box-shadow: 0 0 15px #c70039;
+      }
+
+      &--orange {
+        background-color: #ff9b50;
+        box-shadow: 0 0 15px #ff9b50;
+      }
+
+      &--purple {
+        background-color: #6528f7;
+        box-shadow: 0 0 15px #6528f7;
+      }
+
+      &--white {
+        background-color: #fff;
+        box-shadow: 0 0 15px #fff;
+      }
+    }
+
+    &-avatar {
+      position: absolute;
+      top: calc(-48px + 7px);
+      left: -17px;
+      right: 0;
+      width: max-content;
+      margin: 0 auto;
+      border: 3px solid transparent;
+      border-radius: 999px;
+      z-index: -1;
+
+      &--me {
+        border-color: #52acff;
+      }
+
+      &-img {
+        min-width: 48px;
+        max-width: 48px;
+        height: 48px;
+        border-radius: 999px;
+        object-fit: cover;
+        user-select: none;
+        -webkit-user-select: none;
+        pointer-events: none;
+      }
+    }
+
+    &-tooltip {
+      position: absolute;
+      bottom: 25px;
+      left: calc(-90px / 2.5);
+      right: 0;
+      width: 90px;
+      padding: 13px 10px;
+      background-color: #000000;
+      box-shadow: 0 0 15px #000000;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      color: #fff;
+
+      &--blue {
+        background-color: #52acff;
+        box-shadow: 0 0 15px #52acff;
+      }
+
+      &--red {
+        background-color: #c70039;
+        box-shadow: 0 0 15px #c70039;
+      }
+
+      &--orange {
+        background-color: #ff9b50;
+        box-shadow: 0 0 15px #ff9b50;
+      }
+
+      &--purple {
+        background-color: #6528f7;
+        box-shadow: 0 0 15px #6528f7;
+      }
+
+      &--white {
+        background-color: #fff;
+        box-shadow: 0 0 15px #fff;
+        color: #000000;
+      }
+    }
+  }
+
+  &__sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    height: 550px;
+    padding: 30px;
+    border-left: 1px solid rgb(0, 0, 0, 0.1);
+    background-color: rgb(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    z-index: 999;
+
+    &:hover {
+      cursor: default;
+    }
+
+    &::-webkit-scrollbar {
+      width: 9px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #747474;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: #848484;
+      }
+    }
+
+    &-header {
+      margin-bottom: 15px;
+    }
+
+    &-main {
+      & > *:not(:first-child) {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  &__dispatch {
+    &-item {
+      padding: 15px;
+      border: 1px solid rgb(255, 255, 255, 0.1);
+      border-radius: $default-border-radius;
+      background-color: rgb(255, 255, 255, 0.05);
+      display: flex;
+
+      &--theme-red {
+        border-color: #c70039;
+        background-color: rgb(199, 0, 57, 0.1);
+      }
+
+      &--theme-red &-circle {
+        background-color: #c70039;
+        box-shadow: 0 0 15px #c70039;
+      }
+
+      &--theme-orange {
+        border-color: #ff9b50;
+        background-color: rgb(255, 155, 80, 0.1);
+      }
+
+      &--theme-orange &-circle {
+        background-color: #ff9b50;
+        box-shadow: 0 0 15px #ff9b50;
+      }
+
+      &--theme-purple {
+        border-color: #6528f7;
+        background-color: rgb(101, 40, 247, 0.1);
+      }
+
+      &--theme-purple &-circle {
+        background-color: #6528f7;
+        box-shadow: 0 0 15px #6528f7;
+      }
+
+      &--theme-blue {
+        border-color: #52acff;
+        background-color: rgb(82, 172, 255, 0.1);
+      }
+
+      &--theme-blue &-circle {
+        background-color: #52acff;
+        box-shadow: 0 0 15px #52acff;
+      }
+
+      &-title {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #fff;
+      }
+
+      &-text {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #ccc;
+      }
+
+      &-circle {
+        min-width: 8px;
+        max-width: 8px;
+        height: 8px;
+        margin-top: 8px;
+        margin-right: 7px;
+        border-radius: 999px;
+        background-color: #fff;
+        box-shadow: 0 0 15px #fff;
+      }
+    }
+  }
+}

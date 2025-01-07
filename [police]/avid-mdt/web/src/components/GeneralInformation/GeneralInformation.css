@@ -1,0 +1,103 @@
+/**
+ *
+ * Breakpoints
+ *
+ */
+/**
+ *
+ * Color
+ *
+ */
+.general-information__header {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.general-information__main {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1b1c1f;
+  display: flex;
+  flex-direction: column;
+}
+.general-information__item {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgba(171, 200, 255, 0.05);
+  display: flex;
+  align-items: center;
+}
+.general-information__icon {
+  min-width: 48px;
+  max-width: 48px;
+  height: 48px;
+  margin-right: 15px;
+  padding: 5px;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.general-information__icon--purple {
+  background-color: #b2c3ff;
+}
+.general-information__icon--cream {
+  background-color: #ffd7b2;
+}
+.general-information__icon-img {
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+}
+.general-information__title {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #727374;
+  text-transform: uppercase;
+}
+.general-information__text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #969696;
+}
+.general-information__text--medium {
+  font-size: 18px;
+  line-height: 28px;
+}
+.general-information__progress-line {
+  width: var(--value);
+  height: 7px;
+  margin-bottom: 5px;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.general-information__progress-line--purple {
+  background-color: #b2c3ff;
+}
+.general-information__progress-line--cream {
+  background-color: #ffd7b2;
+}
+
+/**
+ *
+ * Theme: Light
+ *
+ */
+.app--theme-light .general-information__main {
+  background-color: #dfdfde;
+  transition: all 250ms;
+}
+.app--theme-light .general-information__item {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: all 250ms;
+}
+.app--theme-light .general-information__text {
+  color: #000;
+  transition: all 250ms;
+}/*# sourceMappingURL=GeneralInformation.css.map */

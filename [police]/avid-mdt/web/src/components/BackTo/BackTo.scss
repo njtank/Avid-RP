@@ -1,0 +1,42 @@
+//
+// Back To
+//
+
+@import '../../styles/_variables.scss';
+
+.back-to {
+  width: max-content;
+  padding: 7px 15px 7px 12px;
+  border-radius: calc($default-border-radius / 1.5);
+  background-color: rgb(255, 255, 255, 0.05);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  transition: all 125ms;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255, 0.075);
+  }
+
+  &:hover &__icon,
+  &:hover &__text {
+    transform: translateX(-3px);
+  }
+
+  &__icon {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #a4a4a4;
+    display: flex;
+    transition: all 200ms;
+  }
+
+  &__text {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #a4a4a4;
+    transition: all 200ms;
+  }
+}

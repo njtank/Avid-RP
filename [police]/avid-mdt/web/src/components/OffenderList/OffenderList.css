@@ -1,0 +1,25 @@
+/**
+ *
+ * Breakpoints
+ *
+ */
+/**
+ *
+ * Color
+ *
+ */
+.offender-list__header {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.offender-list__main {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1b1c1f;
+  display: flex;
+  flex-direction: column;
+}
+.offender-list__content > *:not(:first-child) {
+  margin-top: 12px;
+}/*# sourceMappingURL=OffenderList.css.map */

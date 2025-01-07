@@ -1,0 +1,47 @@
+/**
+ *
+ * Breakpoints
+ *
+ */
+/**
+ *
+ * Color
+ *
+ */
+.cameras-card {
+  border: 1px solid transparent;
+  border-radius: 6.6666666667px;
+  background-color: #232428;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 125ms;
+}
+.cameras-card:hover {
+  cursor: pointer;
+  border-color: rgba(255, 255, 255, 0.05);
+}
+.cameras-card__img {
+  width: 100%;
+  height: 150px;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cameras-card__body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cameras-card__title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #969696;
+}/*# sourceMappingURL=CamerasCard.css.map */

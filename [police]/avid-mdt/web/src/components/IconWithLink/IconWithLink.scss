@@ -1,0 +1,52 @@
+//
+// Icon with Link
+//
+
+@import '../../styles/_variables.scss';
+
+.icon-with-link {
+  position: relative;
+  border: 0;
+  outline: 0;
+  min-width: 32px;
+  max-width: 32px;
+  height: 32px;
+  border-radius: calc($default-border-radius / 1.5);
+  background-color: rgb(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 125ms;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255, 0.075);
+  }
+
+  &__img {
+    min-width: 15px;
+    max-width: 15px;
+    user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+  }
+
+  &__count {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    min-width: 18px;
+    max-width: auto;
+    height: 18px;
+    padding: 3px;
+    border: 2px solid #1b1c1f;
+    border-radius: 999px;
+    background-color: #ff525c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+  }
+}

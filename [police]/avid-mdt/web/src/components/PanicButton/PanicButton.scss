@@ -1,0 +1,121 @@
+//
+// Panic Button
+//
+
+.panic-button {
+  position: relative;
+
+  &.is-active &__menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  &.is-active &__icon-inner {
+    transform: rotateX(180deg);
+  }
+
+  &__header {
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__header:hover &__inner,
+  &__header:hover &__icon {
+    background-color: #ff626a;
+  }
+
+  &__inner {
+    outline: 0;
+    border: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #ff525c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: all 125ms;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #1b1c1f;
+  }
+
+  &__icon {
+    min-width: 45px;
+    max-width: 45px;
+    height: 45px;
+    border-left: 3px solid #1b1c1f;
+    background-color: #ff525c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #1b1c1f;
+    transition: all 125ms;
+
+    &-inner {
+      transition: all 500ms;
+    }
+  }
+
+  &__menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: calc(45px + 8px);
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255, 0.05);
+    border-radius: 8px;
+    background-color: #25262b;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px);
+    transition: all 400ms;
+
+    &-item {
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      transition: all 125ms;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #292a30;
+      }
+    }
+
+    &-icon {
+      margin-right: 10px;
+
+      &-img {
+        min-width: 22px;
+        max-width: 22px;
+        user-select: none;
+        -webkit-user-select: none;
+        pointer-events: none;
+      }
+    }
+
+    &-text {
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 22px;
+      color: #d0d0d0;
+    }
+  }
+}

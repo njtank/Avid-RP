@@ -1,0 +1,25 @@
+//
+// Hot Wanted List
+//
+
+@import '../../styles/_variables.scss';
+
+.hot-wanted-list {
+  &__header {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__main {
+    padding: 20px;
+    border-radius: calc($default-border-radius / 1.5);
+    background-color: #1b1c1f;
+    display: flex;
+    flex-direction: column;
+
+    & > *:not(:first-child) {
+      margin-top: 12px;
+    }
+  }
+}

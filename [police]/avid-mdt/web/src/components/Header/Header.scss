@@ -1,0 +1,74 @@
+//
+// Header
+//
+
+@import '../../styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+.header {
+  width: 100%;
+  height: 125px;
+  padding: 35px;
+  border-bottom: 1px solid #2c2c2c;
+  background-color: #1b1c1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 10px 15px;
+
+  &__left-side {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__right-side {
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    color: $color-dark-gray;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #828282;
+  }
+
+  &__line {
+    width: 1px;
+    height: 25px;
+    margin: 0 25px;
+    background-color: rgb(255, 255, 255, 0.1);
+  }
+
+  &__icon {
+    &-img {
+      min-width: 13px;
+      max-width: 13px;
+      user-select: none;
+      -webkit-user-select: none;
+      pointer-events: none;
+    }
+  }
+
+  /**
+   *
+   * Responsive
+   *
+   */
+  @include mediumSize() {
+    height: auto;
+    min-height: 125px;
+    flex-wrap: wrap;
+
+    &__text--left-side {
+      display: none;
+    }
+  }
+}

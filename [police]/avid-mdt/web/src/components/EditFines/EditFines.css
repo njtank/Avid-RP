@@ -1,0 +1,52 @@
+/**
+ *
+ * Breakpoints
+ *
+ */
+/**
+ *
+ * Color
+ *
+ */
+.edit-fines__header {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.edit-fines__main {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1b1c1f;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.edit-fines__title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #b7b8b9;
+}
+.edit-fines__text {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #626368;
+}
+.edit-fines__close {
+  min-width: 26px;
+  max-width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+  transition: all 125ms;
+}
+.edit-fines__close:hover {
+  cursor: pointer;
+  background-color: rgb(235, 50, 0);
+}/*# sourceMappingURL=EditFines.css.map */

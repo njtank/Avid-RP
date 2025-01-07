@@ -1,0 +1,104 @@
+//
+// Found Evidences
+//
+
+@import '../../styles/_variables.scss';
+
+.found-evidences {
+  &__header {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 10px;
+    border-radius: calc($default-border-radius / 2);
+    background-color: #232428;
+    display: flex;
+    align-items: center;
+    transition: all 125ms;
+
+    &--link:hover {
+      cursor: pointer;
+      background-color: #2a2b30;
+    }
+
+    &:not(:first-child) {
+      margin-top: 12px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+    object-fit: cover;
+
+    &-container {
+      min-width: 48px;
+      max-width: 48px;
+      height: 48px;
+      border-radius: 4px;
+      background-color: #121316;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #7d7e80;
+  }
+
+  &__action {
+    display: flex;
+    align-items: center;
+
+    &-item {
+      min-width: 26px;
+      max-width: 26px;
+      height: 26px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      background-color: rgb(255, 255, 255, 0.15);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      color: #90939a;
+      transition: all 125ms;
+
+      &--edit {
+        font-size: 17px;
+      }
+
+      &:hover {
+        cursor: pointer;
+        border-color: rgb(255, 255, 255, 0.15);
+      }
+
+      &:not(:first-child) {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  &__delete {
+    font-size: 14px;
+    color: #7d7e80;
+    transition: all 125ms;
+
+    &:hover {
+      cursor: pointer;
+      color: rgb(235, 50, 0);
+    }
+  }
+}

@@ -1,0 +1,42 @@
+/**
+ *
+ * Breakpoints
+ *
+ */
+/**
+ *
+ * Color
+ *
+ */
+.back-to {
+  width: -moz-max-content;
+  width: max-content;
+  padding: 7px 15px 7px 12px;
+  border-radius: 6.6666666667px;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  transition: all 125ms;
+}
+.back-to:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.075);
+}
+.back-to:hover .back-to__icon, .back-to:hover .back-to__text {
+  transform: translateX(-3px);
+}
+.back-to__icon {
+  margin-right: 5px;
+  font-size: 20px;
+  color: #a4a4a4;
+  display: flex;
+  transition: all 200ms;
+}
+.back-to__text {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #a4a4a4;
+  transition: all 200ms;
+}/*# sourceMappingURL=BackTo.css.map */

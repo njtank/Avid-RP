@@ -1,0 +1,45 @@
+//
+// Avatar
+//
+
+.avatar {
+  position: relative;
+
+  &__img {
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 999px;
+    background-color: rgb(255, 255, 255, 0.1);
+    object-fit: cover;
+    user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+  }
+
+  &__circle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -7px;
+    min-width: 15px;
+    max-width: 15px;
+    margin: 0 auto;
+    height: 15px;
+    border: 3px solid #232428;
+    border-radius: 999px;
+    background-color: #fff;
+
+    &--blue {
+      background-color: #52acff;
+    }
+
+    &--pink {
+      background-color: #ef7be3;
+    }
+
+    &--yellow {
+      background-color: #fbe947;
+    }
+  }
+}

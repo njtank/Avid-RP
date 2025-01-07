@@ -1,0 +1,33 @@
+//
+// Records List
+//
+
+@import '../../styles/_variables.scss';
+
+.records-list {
+  &__header {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__main {
+    padding: 20px;
+    border-radius: calc($default-border-radius / 1.25);
+    background-color: #1b1c1f;
+    display: flex;
+    flex-direction: column;
+
+    & > *:not(:first-child) {
+      margin-top: 12px;
+    }
+  }
+
+  &__load-more {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

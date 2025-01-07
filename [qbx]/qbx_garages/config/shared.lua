@@ -1571,6 +1571,59 @@ return {
             },
             debug = false
         },
+        ['fdgarage'] = {
+            Zone = {
+                Shape = { --polygon that surrounds the parking area
+                    vec3(385.24, -1093.46, 29.45),
+                    vec3(385.24, -1107.63, 29.45),
+                    vec3(361.85, -1107.62, 29.45),
+                    vec3(362.56, -1092.26, 29.45),
+                },
+                Thickness = 4.0,
+            },
+            label = 'SAFD Garage',
+            type = 'job',
+            job = "firefighter",
+            --useVehicleSpawner = true,
+            --jobGarageIdentifier = 'pd1',
+            vehicleCategories = {'emergency'},
+            platePrefix = 'SAFD', -- Requires useVehicleSpawner = true
+            drawText = 'SAFD Garage',
+            ParkingSpots = {
+                vec4(373.24, -1096.1, 29.52, 270.31),
+                vec4(374.19, -1104.27, 29.52, 270.47),
+            },
+            debug = false
+        },
+        ['firehouse'] = {
+            Zone = {
+                Shape = { --polygon that surrounds the parking area
+                    vec3(377.9, -1112.19, 29.43),
+                    vec3(377.9, -1119.38, 29.41),
+                    vec3(351.39, -1119.4, 29.41),
+                    vec3(351.3, -1113.14, 29.41),
+                },
+                Thickness = 4.0,
+            },
+            label = 'SAFD Parking',
+            type = 'job',
+            job = "firefighter",
+            --useVehicleSpawner = true,
+            --jobGarageIdentifier = 'pd1',
+            vehicleCategories = {'car', 'motorcycle', 'other'},
+            --platePrefix = 'LSPD', -- Requires useVehicleSpawner = true
+            drawText = 'Parking',
+            ParkingSpots = {
+                vec4(353.74, -1115.36, 28.83, 3.2),
+                vec4(357.26, -1116.22, 28.83, 359.19),
+                vec4(360.93, -1115.72, 28.83, 1.13),
+                vec4(364.58, -1115.87, 28.83, 359.71),
+                vec4(368.44, -1115.73, 28.83, 0.67),
+                vec4(371.96, -1115.84, 28.83, 0.45),
+                vec4(375.81, -1116.3, 28.83, 359.87),
+            },
+            debug = false
+        },
         --[[['helipad'] = {
             Zone = {
                 Shape = { --polygon that surrounds the parking area

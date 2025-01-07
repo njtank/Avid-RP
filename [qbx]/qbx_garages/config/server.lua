@@ -36,6 +36,6 @@ return {
     RestoreCommandPermissionLevel = 'group.admin', -- sets the permission level for the above mentioned command
 
     SharedJobGarages = { -- define the job garages which are shared
-        'pdgarage',
+        'pdgarage', 'fdgarage',
     }
 }

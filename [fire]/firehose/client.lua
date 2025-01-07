@@ -1,6 +1,17 @@
 ESX = nil
 QBCore = nil
 
+-- Create a blip for SAFD
+local blip = AddBlipForCoord(371.55, -1099.97, 29.45)
+SetBlipSprite(blip, 137) -- Blip number
+SetBlipDisplay(blip, 4)
+SetBlipScale(blip, 0.7)
+SetBlipColour(blip, 1) -- Blip color
+SetBlipAsShortRange(blip, true)
+BeginTextCommandSetBlipName("STRING")
+AddTextComponentString("SAFD") -- Blip name
+EndTextCommandSetBlipName(blip)
+
 if Config.UseESX then
 	Citizen.CreateThread(function()
 		while not ESX do

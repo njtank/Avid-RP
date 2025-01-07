@@ -3150,4 +3150,111 @@ return {
     }
 },
 
+--- Hunting ---
+['carcass_boar'] = {
+    label = 'Boar Carcass',
+    weight = 20000,
+    stack = false,
+    degrade = 5*60,
+    client = {
+        image = "carcass_boar.png",
+        add = function()
+            exports.avid-hunting:CarryCarcass()
+        end,
+        remove = function()
+            exports.avid-hunting:CarryCarcass()
+        end
+    }
+},
+['carcass_hawk'] = {
+    label = 'Hawk Carcass',
+    weight = 3000,
+    stack = false,
+    degrade = 5*60,
+    client = {
+        image = "carcass_hawk.png",
+        add = function()
+            exports.avid-hunting:CarryCarcass()
+        end,
+        remove = function()
+            exports.avid-hunting:CarryCarcass()
+        end
+    }
+},
+['carcass_cormorant'] = {
+    label = 'Cormorant Carcass',
+    weight = 3000,
+    stack = false,
+    degrade = 5*60,
+    client = {
+        image = "carcass_cormorant.png",
+        add = function()
+            exports.avid-hunting:CarryCarcass()
+        end,
+        remove = function()
+            exports.avid-hunting:CarryCarcass()
+        end
+    }
+},
+['carcass_coyote'] = {
+    label = 'Coyote Carcass',
+    weight = 3000,
+    stack = false,
+    degrade = 5*60,
+    client = {
+        image = "carcass_coyote.png",
+        add = function()
+            exports.avid-hunting:CarryCarcass()
+        end,
+        remove = function()
+            exports.avid-hunting:CarryCarcass()
+        end
+    }
+},
+['carcass_deer'] = {
+    label = 'Deer Carcass',
+    weight = 18000,
+    stack = false,
+    degrade = 5*60,
+    client = {
+        image = "carcass_deer.png",
+        add = function()
+            exports.avid-hunting:CarryCarcass()
+        end,
+        remove = function()
+            exports.avid-hunting:CarryCarcass()
+        end
+    }
+},
+['carcass_mtlion'] = {
+    label = 'Mountain Lion Carcass',
+    weight = 16000,
+    stack = false,
+    degrade = 5*60,
+    client = {
+        image = "carcass_mtlion.png",
+        add = function()
+            exports.avid-hunting:CarryCarcass()
+        end,
+        remove = function()
+            exports.avid-hunting:CarryCarcass()
+        end
+    }
+},
+['carcass_rabbit'] = {
+    label = 'Rabbit Carcass',
+    weight = 3000,
+    stack = false,
+    degrade = 5*60,
+    client = {
+        image = "carcass_rabbit.png",
+        add = function()
+            exports.avid-hunting:CarryCarcass()
+        end,
+        remove = function()
+            exports.avid-hunting:CarryCarcass()
+        end
+    }
+},
+
 }

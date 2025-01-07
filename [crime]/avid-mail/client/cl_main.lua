@@ -27,10 +27,19 @@ Citizen.CreateThread(function()
         end
     end)
 
+    local lastMailTime = 0 -- Variable to store the last smash timestamp
+
     function robmailbox()
 
         local weapon = exports.ox_inventory:getCurrentWeapon()
         local hasWeapon = exports.ox_inventory:GetSlotIdWithItem(Config.Hammer.item)
+        local currentTime = GetGameTimer() -- Get the current game time in milliseconds
+        if currentTime - lastMailTime < 120000 then -- Check if 2 minutes (120,000 ms) have passed
+            exports.qbx_core:Notify("You need to wait before smashing another window.", 'error')
+            return
+        end
+    
+        lastMailTime = currentTime
 
         if not weapon and not hasWeapon or weapon and weapon.label ~= Config.Hammer.label then
             notify('noweapon')

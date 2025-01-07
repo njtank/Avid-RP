@@ -77,6 +77,13 @@ local ITEMS = {
 		{ name = 'WEAPON_PUMPSHOTGUN_MK2',  price = 1000, defaultStock = 200,       job = "police",        category = 'Weapons' },
 		{ name = 'ammo-shotgun', 		 price = 50, defaultStock = 9500,		 job = "police",		category = "Ammunition" },
 		{ name = 'ammo-9',            	 price = 10, defaultStock = 9500,    	 job = "police",      	category = 'Ammunition' },
+	},
+	firefighter = {
+		{ name = 'ifaks',    			 price = 20, defaultStock = 1500,        job = "firefighter",        category = 'Equipment' },
+		{ name = 'bandage',    			 price = 3, defaultStock = 1500,         job = "firefighter",        category = 'Equipment' },
+		{ name = 'megaphone',			 price = 150, defaultStock = 20,		 job = "firefighter",		category = 'Equipment' },
+		{ name = 'watertank',			 price = 0, defaultStock = 5000,		 job = "firefighter",		category = 'Equipment' },
+		{ name = 'WEAPON_FLASHLIGHT',    price = 0, defaultStock = 2000,         job = "firefighter",        category = 'Equipment' },
 	}
 }
 

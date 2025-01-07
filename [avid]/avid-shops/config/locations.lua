@@ -156,4 +156,21 @@ return {
 			disabled = true,
 		},
 	},
+	firefighter = {
+		label = "Engineers Room",
+		model = {
+			`s_m_y_fireman_01`,
+		},
+		coords = {
+			vec4(355.95, -1106.32, 29.45, 297.66), -- Main Floor (Firehouse)
+			vec4(370.09, -1107.59, 35.23, 15.29) -- Second Floor (Firehouse)
+		},
+		shopItems = "firefighter",
+		blip = {
+			sprite = 827,
+			color = 15,
+			scale = 0.5,
+			disabled = true,
+		},
+	},
 }

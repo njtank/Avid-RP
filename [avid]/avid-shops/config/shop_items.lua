@@ -42,6 +42,7 @@ local ITEMS = {
 		{ name = 'watering_can', price = 10, defaultStock = 5000, category = 'Supplies' },
 		{ name = 'cleaningkit', price = 40, defaultStock = 5000, category = 'Supplies' },
 		--{ name = 'pickaxe', price = 50, defaultStock = 5000, category = 'Supplies' },
+		{ name = 'metalsheers', price = 30, defaultStock = 5000, category = 'Tools'},
 	},
 	weapons = {
 		{ name = 'WEAPON_KNIFE',      price = 300,   defaultStock = 2500,        category = 'Point Defense' },

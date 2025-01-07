@@ -17,8 +17,16 @@ local function setLocationsBlip()
     end
 end
 
+function RapidLines()
+    local success = exports.bl_ui:RapidLines(1, 30, 3)
+
+    return success
+end
+
 local function pickProcess()
-    if lib.progressCircle({
+    local success = RapidLines()
+    if not success then return ClearPedTasks(cache.ped) end
+    if lib.progressBar({
         duration = math.random(6000, 8000),
         label = locale('progress.pick_grapes'),
         useWhileDead = false,
@@ -43,11 +51,11 @@ local function pickAnim()
 end
 
 local function toPickGrapes()
-    if not IsPedInAnyVehicle(cache.ped, true) and IsControlJustReleased(0, 38) then
+    --if not IsPedInAnyVehicle(cache.ped, true) and IsControlJustReleased(0, 38) then
         pickAnim()
         pickProcess()
         random = 0
-    end
+    --end
 end
 
 local function wineProcessing()
@@ -138,37 +146,41 @@ local function processingMenu()
     lib.showContext('processingMenu')
 end
 
-lib.zones.box({
-    coords = config.locations.vineyardProcessing.coords,
-    size = vec3(1.6, 1.4, 3.2),
-    rotation = 346.25,
-    debug = config.debugPoly,
-    onExit = function()
-        lib.hideTextUI()
-    end,
-    onEnter = function ()
-        lib.showTextUI(locale('task.vineyard_processing'))
-    end,
-    inside = function()
-        if IsControlJustReleased(0, 38) then
-            processingMenu()
-        end
-    end,
+exports.ox_target:addBoxZone({
+    coords = config.locations.vineyardProcessing.coords, -- Coordinates for the zone
+    size = vec3(1.6, 1.4, 3.2), -- Size of the zone
+    rotation = 346.25, -- Rotation angle
+    debug = config.debugPoly, -- Debug mode toggle
+    options = {
+        {
+            name = 'vineyard_processing',
+            label = 'Vineyard Processing',
+            icon = 'fas fa-cog', -- Optional icon
+            onSelect = function()
+                processingMenu()
+            end
+        }
+    }
 })
 
+
 for _, coords in pairs(config.grapeLocations) do
-    lib.zones.box({
-        coords = coords,
-        size = vec3(1, 1, 1),
-        rotation = 40,
-        debug = config.debugPoly,
-        onExit = function()
-            lib.hideTextUI()
-        end,
-        onEnter = function()
-            lib.showTextUI(locale("task.start_task"))
-        end,
-        inside = toPickGrapes,
+    exports.ox_target:addBoxZone({
+        coords = coords, -- Coordinates for the zone
+        size = vec3(1, 1, 1), -- Size of the zone
+        rotation = 40, -- Rotation angle
+        debug = config.debugPoly, -- Debug mode toggle
+        options = {
+            {
+                name = 'pick_grapes',
+                label = 'Pick grapes',
+                icon = 'fas fa-hand', -- Optional icon
+                item = 'metalsheers', -- Required item to enable interaction
+                onSelect = function()
+                    toPickGrapes()
+                end
+            }
+        }
     })
 end
 

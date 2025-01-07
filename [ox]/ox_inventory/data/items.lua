@@ -3026,4 +3026,128 @@ return {
     }
 },
 
+--- Fishing ---
+['basic_rod'] = {
+    label = 'Fishing rod',
+    stack = false,
+    weight = 250,
+    client = {
+        image = "basic_rod.png",
+    }
+},
+
+['graphite_rod'] = {
+    label = 'Graphite rod',
+    stack = false,
+    weight = 350,
+    client = {
+        image = "graphite_rod.png",
+    }
+},
+
+['titanium_rod'] = {
+    label = 'Titanium rod',
+    stack = false,
+    weight = 450,
+    client = {
+        image = "titanium_rod.png",
+    }
+},
+
+['worms'] = {
+    label = 'Worms',
+    weight = 10,
+    client = {
+        image = "worms.png",
+    }
+},
+
+['artificial_bait'] = {
+    label = 'Artificial bait',
+    weight = 30,
+    client = {
+        image = "artificial_bait.png",
+    }
+},
+
+['anchovy'] = {
+    label = 'Anchovy',
+    weight = 20,
+    client = {
+        image = "anchovy.png",
+    }
+},
+
+['grouper'] = {
+    label = 'Grouper',
+    weight = 3500,
+    client = {
+        image = "grouper.png",
+    }
+},
+
+['haddock'] = {
+    label = 'Haddock',
+    weight = 500,
+    client = {
+        image = "haddock.png",
+    }
+},
+
+['mahi_mahi'] = {
+    label = 'Mahi Mahi',
+    weight = 3500,
+    client = {
+        image = "mahi_mahi.png",
+    }
+},
+
+['piranha'] = {
+    label = 'Piranha',
+    weight = 1500,
+    client = {
+        image = "piranha.png",
+    }
+},
+
+['red_snapper'] = {
+    label = 'Red Snapper',
+    weight = 2500,
+    client = {
+        image = "red_snapper.png",
+    }
+},
+
+['salmon'] = {
+    label = 'Salmon',
+    weight = 1000,
+    client = {
+        image = "salmon.png",
+    }
+},
+
+['shark'] = {
+    label = 'Shark',
+    weight = 7500,
+    client = {
+        image = "shark.png",
+    }
+},
+
+['trout'] = {
+    label = 'Trout',
+    weight = 750,
+    client = {
+        image = "trout.png",
+    }
+},
+
+['tuna'] = {
+    label = 'Tuna',
+    weight = 10000,
+    client = {
+        image = "tuna.png",
+    }
+},
+
 }

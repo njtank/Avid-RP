@@ -7513,5 +7513,29 @@ Zrgpr = {
     category = 'sport',
     hash = `zrgpr`,
 },
+nsandbrush4 = {
+    name = 'Sandstorm Brush Truck',
+    brand = 'Vapid',
+    model = 'nsandbrush4',
+    price = 77694,
+    category = 'emergency',
+    hash = `nsandbrush4`,
+}, 
+majsandstorm = {
+    name = 'Sandstorm Chief Truck',
+    brand = 'Vapid',
+    model = 'majsandstorm',
+    price = 77694,
+    category = 'emergency',
+    hash = `majsandstorm`,
+}, 
+fdtank = {
+    name = 'Fire Tanker',
+    brand = 'MTL',
+    model = 'fdtank',
+    price = 77694,
+    category = 'emergency',
+    hash = `fdtank`,
+},
 
 }

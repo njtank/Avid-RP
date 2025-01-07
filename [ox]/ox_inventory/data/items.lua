@@ -680,16 +680,25 @@ return {
     ['wine'] = {
         label = 'Wine',
         weight = 500,
+        client = {
+            image = "wine.png",
+        }
     },
 
     ['grape'] = {
         label = 'Grape',
         weight = 10,
+        client = {
+            image = "grape.png",
+        }
     },
 
     ['grapejuice'] = {
         label = 'Grape Juice',
         weight = 200,
+        client = {
+            image = "grapejuice.png",
+        }
     },
 
     ['coffee'] = {
@@ -2975,6 +2984,17 @@ return {
     description = "Find precious metals",
     client = {
         image = "metaldetector.png",
+    }
+},
+
+["metalsheers"] = {
+    label = "Metal Sheers",
+    weight = 500, 
+    stack = false,
+    close = true,
+    description = "Great for cutting items",
+    client = {
+        image = "metalsheers.png",
     }
 },
 

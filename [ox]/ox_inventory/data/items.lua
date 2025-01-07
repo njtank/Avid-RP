@@ -235,20 +235,38 @@ return {
         label = 'Dirty Money',
     },
 
-    ['id_card'] = {
-        label = 'Identification Card',
-    },
-
-    ['driver_license'] = {
-        label = 'Drivers License',
+    ["id_card"] = {
+		label = "ID Card",
+		weight = 0,
+		stack = false,
+		close = false,
+		description = "A card containing all your information to identify yourself",
         client = {
-            image = "card_id.png",
+            image = "id_card.png",
         }
-    },
+	},
 
-    ['weaponlicense'] = {
-        label = 'Weapon License',
-    },
+    ["driver_license"] = {
+		label = "Drivers License",
+		weight = 0,
+		stack = false,
+		close = false,
+		description = "Permit to show you can drive a vehicle",
+        client = {
+            image = "driver_license.png",
+        }
+	},
+
+	["weaponlicense"] = {
+		label = "Weapon License",
+		weight = 0,
+		stack = false,
+		close = true,
+		description = "Weapon License",
+        client = {
+            image = "weapon_license.png",
+        }
+	},
 
     ['lawyerpass'] = {
         label = 'Lawyer Pass',
@@ -2995,6 +3013,16 @@ return {
     description = "Great for cutting items",
     client = {
         image = "metalsheers.png",
+    }
+},
+
+['watertank'] = {
+    label = 'Water Tank',
+    weight = 1,
+    stack = true,
+    close = true,
+    client = {
+        image = "watertank.png",
     }
 },
 

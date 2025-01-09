@@ -90,7 +90,14 @@ local ITEMS = {
 		{ name = 'bandage',    			 price = 5, defaultStock = 1500,                 category = 'Supplies' },
 		{ name = 'ammo-musket',			 price = 1, defaultStock = 20000,		 		category = 'Hunting' },
 
-	}
+	},
+	ems = {
+		{ name = 'bandage',    	 		 price = 0, defaultStock = 1500,                category = 'Supplies' },
+		{ name = 'ifaks',    			 price = 20, defaultStock = 1500,               category = 'Supplies' },
+		{ name = 'WEAPON_FLASHLIGHT',	 price = 10, defaultStock = 20000,		 		category = 'Supplies' },
+		{ name = 'firstaid',	 		 price = 0, defaultStock = 20000,		 		category = 'Supplies' },
+		{ name = 'painkillers',	 		 price = 0, defaultStock = 20000,		 		category = 'Supplies' },
+	},
 }
 
 local newFormatItems = {}

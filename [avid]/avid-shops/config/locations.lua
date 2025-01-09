@@ -189,4 +189,20 @@ return {
 			disabled = false,
 		},
 	},
+	ems = {
+		label = "EMS Supplies",
+		model = {
+			`s_m_m_doctor_01`,
+		},
+		coords = {
+			vec4(327.32, -590.07, 43.27, 146.19)
+		},
+		shopItems = "ems",
+		blip = {
+			sprite = 898,
+			color = 20,
+			scale = 0.5,
+			disabled = false,
+		},
+	},
 }

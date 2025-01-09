@@ -43,7 +43,7 @@ ProgressBar = function(data)
     if Config.Setup.progress == 'ox_lib' then
         -- Want to use ox_lib's progress bar instead of circle?
         -- Change "progressCircle" to "progressBar" below & done!
-        if lib.progressCircle({
+        if lib.progressBar({
             label = data.label,
             duration = data.duration,
             position = data.position or 'bottom',

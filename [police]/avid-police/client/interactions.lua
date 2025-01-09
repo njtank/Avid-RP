@@ -323,8 +323,8 @@ RegisterNetEvent('police:client:GetKidnappedDragger', function()
     TriggerEvent('qb-kidnapping:client:SetKidnapping', isEscorting)
 end)
 
-function KeySpam()
-    local isSuccess = exports.bl_ui:KeySpam(1,50)
+function NumberSlide()
+    local isSuccess = exports.bl_ui:NumberSlide(1,70,3)
 return isSuccess
 end
 
@@ -340,7 +340,7 @@ RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
             exports.qbx_core:Notify(locale('info.cuff'), 'success')
         else
             if config.breakCuffs == true then
-                local isSuccess =  KeySpam() --lib.skillCheck(config.breakCuffsDifficulty, config.breakCuffsKeys)
+                local isSuccess =  NumberSlide() --lib.skillCheck(config.breakCuffsDifficulty, config.breakCuffsKeys)
                 if isSuccess then
                     TriggerServerEvent('police:server:SetHandcuffStatus', false)
                     ClearPedTasksImmediately(cache.ped)

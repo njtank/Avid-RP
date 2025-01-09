@@ -56,7 +56,7 @@ lib.callback.register('peak_warehouse:client:startRobbery', function()
     local success = utils.thermiteMinigame()
     if not success then return end
 
-    if lib.progressCircle({
+    if lib.progressBar({
         duration = 5000,
         label = locale('progress.placing_c4'),
         useWhileDead = false,
@@ -98,6 +98,8 @@ lib.callback.register('peak_warehouse:client:createC4', function()
         DeleteEntity(c4Prop)
     end
 
+    Wait(5000)
+
     AddExplosion(coords.x, coords.y - 0.5, coords.z, 5, 1.0, true, false, 1.0)
 
     return true
@@ -136,8 +138,8 @@ lib.callback.register('peak_warehouse:client:hackLaptop', function()
 end)
 
 lib.callback.register('peak_warehouse:client:searchBox', function()
-    if lib.progressCircle({
-        duration = 5000,
+    if lib.progressBar({
+        duration = 10000,
         label = locale('progress.searching_box'),
         position = 'bottom',
         useWhileDead = false,

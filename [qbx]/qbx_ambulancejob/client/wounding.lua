@@ -2,8 +2,8 @@ local config = require 'config.client'
 local painkillerAmount = 0
 
 lib.callback.register('hospital:client:UseIfaks', function()
-    if lib.progressCircle({
-        duration = 3000,
+    if lib.progressBar({
+        duration = 4000,
         position = 'bottom',
         label = locale('progress.ifaks'),
         useWhileDead = false,
@@ -20,8 +20,8 @@ lib.callback.register('hospital:client:UseIfaks', function()
         },
     })
     then
-        TriggerServerEvent('hud:server:RelieveStress', math.random(12, 24))
-        SetEntityHealth(cache.ped, GetEntityHealth(cache.ped) + 10)
+        TriggerServerEvent('hud:server:RelieveStress', math.random(24, 48))
+        SetEntityHealth(cache.ped, GetEntityHealth(cache.ped) + 50)
         OnPainKillers = true
         exports.qbx_medical:DisableDamageEffects()
         if painkillerAmount < 3 then
@@ -38,7 +38,7 @@ lib.callback.register('hospital:client:UseIfaks', function()
 end)
 
 lib.callback.register('hospital:client:UseBandage', function()
-    if lib.progressCircle({
+    if lib.progressBar({
         duration = 4000,
         position = 'bottom',
         label = locale('progress.bandage'),
@@ -71,7 +71,7 @@ lib.callback.register('hospital:client:UseBandage', function()
 end)
 
 lib.callback.register('hospital:client:UsePainkillers', function()
-    if lib.progressCircle({
+    if lib.progressBar({
         duration = 3000,
         position = 'bottom',
         label = locale('progress.painkillers'),

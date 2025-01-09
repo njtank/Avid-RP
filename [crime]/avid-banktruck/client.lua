@@ -291,7 +291,7 @@ RegisterNetEvent('angelicxs-BankTruck:RobberyCheck', function()
         onjob = true
         CooldownRemaining = Config.IndividualCDTimer
         TriggerServerEvent('angelicxs-BankTruck:Server:Guards')
-        exports['ps-dispatch']:BankTruckTip()
+        --exports['ps-dispatch']:BankTruckTip()
         TriggerEvent('angelicxs-BankTruck:Notify', Config.Lang['startHeist'], Config.LangType['info'])
     else
         TriggerEvent('angelicxs-BankTruck:Notify', Config.Lang['noitem'], Config.LangType['error'])

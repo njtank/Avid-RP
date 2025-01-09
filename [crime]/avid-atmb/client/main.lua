@@ -13,15 +13,23 @@ CreateThread(function()
     end
 end)
 
-function MineSweeper()
-    local success = exports.bl_ui:MineSweeper(3, {
-        grid = 4, -- grid 4x4
-        duration = 10000, -- 10sec to fail
-        target = 7, --target you need to remember
-        previewDuration = 2000 --preview duration (time for red mines preview to hide)
+function DigitDazzle()
+    local success = exports.bl_ui:DigitDazzle(3, {
+        length = 4,
+        duration = 25000,
     })
 
     return success
+end
+
+function startFlipGame()
+    local success = exports.skillchecks:startFlipGame(10000, 4, function(success)
+        if success then
+            print("Success")
+        else
+            if not success then return end
+        end
+    end)
 end
 
 function Main:Int(Model)
@@ -68,7 +76,7 @@ RegisterNetEvent('bbv-robatm:rob',function()
             SetEntityDrawOutlineColor(255, 1, 1, 255)
             SetEntityDrawOutlineShader(0)
             TriggerEvent('bbv-atmrob:alarm')
-            local success = MineSweeper()
+            local success = startFlipGame()
             if not success then return end
             QBCore.Functions.Progressbar("rob_atm", "Planting the Explosive", 45000, false, true, {
                 disableMovement = true,

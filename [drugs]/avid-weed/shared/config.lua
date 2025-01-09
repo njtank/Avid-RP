@@ -70,7 +70,7 @@ Config.PlayerPlantLimit = 30 -- Max amount of plants a player can have simultane
 -- │/____\___/|_| |_|\___||___/│
 -- └───────────────────────────┘
 
-Config.OnlyZones = true -- Allow drug growth only in defined zones
+Config.OnlyZones = false -- Allow drug growth only in defined zones
 Config.GlobalGrowTime = 30 -- Time in minutes for a plant to grow
 
 Config.Zones = {

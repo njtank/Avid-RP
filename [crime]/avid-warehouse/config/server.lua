@@ -20,6 +20,8 @@ return {
         { name = 'pistol_barrel', chance = 5, min = 1, max = 1},
         { name = 'pistol_frame', chance = 5, min = 1, max = 1},
         { name = 'pistol_trigger', chance = 5, min = 1, max = 1},
+        { name = 'armor_plate', chance = 5, min = 3, max = 7},
+        { name = 'case_recoil', chance = 10, min = 1, max = 1},
         { name = 'WEAPON_CERAMICPISTOL', chance = 2, min = 1, max = 1},
     },
 

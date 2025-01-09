@@ -449,6 +449,9 @@ return {
     ['firstaid'] = {
         label = 'First Aid',
         weight = 2500,
+        client = {
+            image = 'firstaid.png',
+        }
     },
 
     ['ifaks'] = {

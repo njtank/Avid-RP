@@ -52,7 +52,7 @@ end)
 Config.IndividualCooldown = false           -- If true puts an individual cooldown on starting the heist
 Config.IndividualCDTimer = 3600             -- How many SECONDS until the cooldown is complete
 Config.RequireStartItem = true 			-- If true requires an item to start heist 
-Config.StartItemName = 'lockpick' 		-- If Config.RequireStartItem = true, name of start item
+Config.StartItemName = 'calling_card' 		-- If Config.RequireStartItem = true, name of start item
 Config.Payphonemodels = {
 	-1559354806,
     -1563529038,
@@ -66,10 +66,10 @@ Config.TimeLimit = true                     -- If true, puts a time limit to get
 Config.TimeToFindLimit = 30                 -- If Config.TimeLimit = true, amount of time in minutes to get to truck position before failing
 
 -- Reward Config
-Config.GoldBarChance = 5					-- Chance to receive gold bars instead of marked bills
-Config.GoldBarName = 'goldbar'				-- Name of gold bar item
-Config.GoldBarMin = 1						-- Minimum number of gold bars recevied
-Config.GoldBarMax = 3						-- Maximum number of gold bars received
+Config.GoldBarChance = 20					-- Chance to receive gold bars instead of marked bills
+Config.GoldBarName = 'armor_plate'				-- Name of gold bar item
+Config.GoldBarMin = 8						-- Minimum number of gold bars recevied
+Config.GoldBarMax = 14						-- Maximum number of gold bars received
 Config.MarkedBillName = 'rolled_cash'		-- Name of marked bill item
 Config.MarkedBillMinNumberAmount = 120		-- Minimum number of marked bills received
 Config.MarkedBillMaxNumberAmount = 210		-- Maximum number of marked bills received
@@ -78,8 +78,8 @@ Config.MarkedBillMax = 10000				-- Maximum value of marked bills (qb-core only)
 Config.UseMoneyNotItem = false               -- If true, DOES NOT use money as an item.
 Config.MoneyType = 'cash'                   -- If Config.UseMoneyNotItem = true, what acccount the money goes into.
 
-Config.RareLootChance = 1					-- Chance to receive rare item in addition to normal reward
-Config.RareLootItem = 'gold_monkey_idol'	-- Name of rare loot item
+Config.RareLootChance = 10					-- Chance to receive rare item in addition to normal reward
+Config.RareLootItem = 'skull'	-- Name of rare loot item
 Config.RareLootItemAmount = 1				-- Amount of rare loot item received
 
 -- Starting Ped Config

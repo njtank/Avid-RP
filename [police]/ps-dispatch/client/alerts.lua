@@ -787,7 +787,7 @@ local function SignRobbery()
 end
 exports('SignRobbery', SignRobbery)
 
-local function ATMTampering()
+local function atmtampering()
     local coords = GetEntityCoords(cache.ped)
     local vehicle = GetVehicleData(cache.vehicle)
 
@@ -911,3 +911,28 @@ local function WarehouseRobbery()
     TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
 end
 exports('WarehouseRobbery', WarehouseRobbery)
+
+local function BankTruckTip()
+    local coords = GetEntityCoords(cache.ped)
+    local vehicle = GetVehicleData(cache.vehicle)
+
+    local dispatchData = {
+        message = 'Bank Truck Tip Off', -- add this into your locale
+        codeName = 'BankTruckTip', -- this should be the same as in config.lua
+        code = '11-10',
+        icon = 'fa-car-side',
+        priority = 2,
+        --coords = coords,
+        --street = GetStreetAndZone(coords),
+        --heading = GetPlayerHeading(),
+        --vehicle = vehicle.name,
+        --plate = vehicle.plate,
+        --color = vehicle.color,
+        --class = vehicle.class,
+        --doors = vehicle.doors,
+        jobs = { 'leo' }
+    }
+
+    TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
+end
+exports('BankTruckTip', BankTruckTip)

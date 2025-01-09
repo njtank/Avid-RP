@@ -3408,4 +3408,12 @@ return {
     weight = 95,
     stack = true
 },
+
+['gps_remover'] = {
+    label = 'GPS Remover',
+    weight = 100,
+    stack = true,
+    client = { image = "gps_remover.png", event = "avid:useGPSRemover" },
+},
+
 }

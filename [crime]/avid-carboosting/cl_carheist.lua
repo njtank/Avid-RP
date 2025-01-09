@@ -256,7 +256,7 @@ local function initVehicle(netid)
 end
 
 function NumberSlide()
-    local success = bl_ui:NumberSlide(4, 60, 4)
+    local success = exports.bl_ui:NumberSlide(4, 60, 4)
 return success
 end
 

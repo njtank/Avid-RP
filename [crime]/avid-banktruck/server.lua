@@ -70,6 +70,7 @@ RegisterNetEvent('angelicxs-BankTruck:Server:HeistReward', function()
     local Number = math.random(Config.MarkedBillMinNumberAmount, Config.MarkedBillMaxNumberAmount)
     local info = {worth = math.random(Config.MarkedBillMin, Config.MarkedBillMax)}
     local type = Config.MarkedBillName
+    Player.Functions.AddItem('purple_lootcrate', 1)
     if Config.UseMoneyNotItem then
         type = Config.MoneyType
         Number = math.floor(math.random(Config.MarkedBillMinNumberAmount, Config.MarkedBillMaxNumberAmount)*math.random(Config.MarkedBillMin, Config.MarkedBillMax))

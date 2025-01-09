@@ -16,6 +16,7 @@ Config.Loot = {
         { item = 'rolex', minAmount = 1, maxAmount = 1, chance = 5 },
         { item = 'goldchain', minAmount = 1, maxAmount = 1, chance = 10 },
         { item = 'folded_cash', minAmount = 1, maxAmount = 10, chance = 60 },
+        { item = 'purple_lootcrate', minAmount = 1, maxAmount = 1, chance = 1},
     }
 }
 

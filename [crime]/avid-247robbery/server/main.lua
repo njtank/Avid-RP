@@ -249,7 +249,7 @@ RegisterNetEvent('avid-247robbery:CompleteSafeRobbery', function()
     states[identifier].state = nil
     states[identifier].completed = os.time()
     AddItem(source, data.item, quantity)
-    AddItem(source, 'calling_card', 1)
+    Player.Functions.AddItem('purple_lootcrate', 1)
     StartCooldown()
     if Logs.Events.safe_robbed then
         local log = Strings.Logs.safe_robbed.message

@@ -8,7 +8,7 @@ function TryToGetItem()
     local chance = math.random(1, 100) -- Generate a random integer between 1 and 100
 
     if chance <= 3 then
-        AddItem("purple_lootcrate") -- Add the item if the chance is 3% or less
+        Player.Functions.AddItem('purple_lootcrate', 1) -- Add the item if the chance is 3% or less
     else
         print("Better luck next time!")
     end

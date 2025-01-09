@@ -28,12 +28,6 @@ return {
                     label = 'Interaction',
                     items = {
                         {
-                            id = 'handcuff',
-                            icon = 'user-lock',
-                            label = 'Cuff',
-                            event = 'police:client:CuffPlayer',
-                        },
-                        {
                             id = 'playerInVehicle',
                             icon = 'car-side',
                             label = 'Put In Vehicle',

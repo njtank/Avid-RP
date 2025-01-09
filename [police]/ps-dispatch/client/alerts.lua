@@ -892,7 +892,7 @@ local function WarehouseRobbery()
     local vehicle = GetVehicleData(cache.vehicle)
 
     local dispatchData = {
-        message = 'Stolen Car', -- add this into your locale
+        message = 'Warehouse Robbery', -- add this into your locale
         codeName = 'WarehouseRobbery', -- this should be the same as in config.lua
         code = '11-09',
         icon = 'fa-car-side',

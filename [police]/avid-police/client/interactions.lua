@@ -323,6 +323,11 @@ RegisterNetEvent('police:client:GetKidnappedDragger', function()
     TriggerEvent('qb-kidnapping:client:SetKidnapping', isEscorting)
 end)
 
+function KeySpam()
+    local isSuccess = exports.bl_ui:KeySpam(1,50)
+return isSuccess
+end
+
 RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
     if not QBX.PlayerData.metadata.ishandcuffed then
         TriggerServerEvent('police:server:SetHandcuffStatus', true)
@@ -335,7 +340,7 @@ RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff)
             exports.qbx_core:Notify(locale('info.cuff'), 'success')
         else
             if config.breakCuffs == true then
-                local isSuccess = lib.skillCheck(config.breakCuffsDifficulty, config.breakCuffsKeys)
+                local isSuccess =  KeySpam() --lib.skillCheck(config.breakCuffsDifficulty, config.breakCuffsKeys)
                 if isSuccess then
                     TriggerServerEvent('police:server:SetHandcuffStatus', false)
                     ClearPedTasksImmediately(cache.ped)

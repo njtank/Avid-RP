@@ -52,6 +52,7 @@ AddStateBagChangeHandler('peak_warehouse:pedHandler', nil, function(bagName, _, 
 end)
 
 lib.callback.register('peak_warehouse:client:startRobbery', function()
+    exports['ps-dispatch']:WarehouseRobbery()
 
     local success = utils.thermiteMinigame()
     if not success then return end

@@ -255,6 +255,11 @@ local function initVehicle(netid)
     CreateBlip2(myData.delivery)
 end
 
+function NumberSlide()
+    local success = bl_ui:NumberSlide(4, 60, 4)
+return success
+end
+
 local function enterGarage(coords)
     if garageZone then
         if GetResourceState('ox_target') == 'started' then
@@ -264,8 +269,10 @@ local function enterGarage(coords)
         end
         garageZone = nil
     end
+    local success = NumberSlide()
+    if not success then return end
     lib.progressBar({
-        duration = 2000,
+        duration = 4000,
         label = 'Opening garage door...',})
     SetEntityHeading(cache.ped, coords.w)
     SetEntityCoords(cache.ped, coords.x, coords.y, coords.z-1.0)

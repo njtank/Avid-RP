@@ -28,12 +28,27 @@ end
 
 local function updateTracker(source, vehicle)
     CreateThread(function()
-        while tracker < 60 do
+        local miniGameAttempted = false
 
+        -- Listen for a mini-game trigger using gps_remover
+        RegisterNetEvent('avid:useGPSRemover')
+        AddEventHandler('avid:useGPSRemover', function(playerSource)
+            if playerSource == source and not miniGameAttempted then
+                miniGameAttempted = true
+                local success = StartGPSMiniGame(source) -- Function for the mini-game
+                if success then
+                    TriggerClientEvent('randol_carheist:client:trackerOff', source)
+                    tracker = 0
+                    return -- Exit the thread if mini-game succeeds
+                end
+            end
+        end)
+
+        while tracker < 120 do -- 120 intervals for 10 minutes
             if not DoesEntityExist(vehicle) then
                 if carHeist[source] then carHeist[source] = nil end
                 thief = nil
-                break 
+                break
             end
 
             local coords = GetEntityCoords(vehicle)
@@ -46,6 +61,23 @@ local function updateTracker(source, vehicle)
         TriggerClientEvent('randol_carheist:client:trackerOff', -1)
     end)
 end
+
+-- Example Mini-Game Function (Simplified)
+function StartGPSMiniGame(player)
+    -- Logic for the mini-game, e.g., solving a puzzle or pressing keys
+    -- Return true if successful, false otherwise
+    local success = exports.bl_ui:Untangle(3, {
+        numberOfNodes = 10,
+        duration = 15000,
+    })
+    if success then
+        TriggerClientEvent('randol_carheist:client:notify', player, "GPS tracker removed successfully!")
+    else
+        TriggerClientEvent('randol_carheist:client:notify', player, "Failed to remove GPS tracker.")
+    end
+    return success
+end
+
 
 local function createHeistVehicle(source, model, coords)
     -- Not gonna bother using server setter for a temporary vehicle, cry about it.

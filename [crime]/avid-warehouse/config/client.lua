@@ -28,7 +28,7 @@ return {
     
     guardConfig = {
         spawnGuards = true,
-        accuracy = 100,
+        accuracy = 90,
         armor = 200,
         health = 200,
         sufferHeadshots = false,

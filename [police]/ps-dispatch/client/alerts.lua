@@ -886,3 +886,28 @@ local function CarBoost()
     TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
 end
 exports('CarBoost', CarBoost)
+
+local function WarehouseRobbery()
+    local coords = GetEntityCoords(cache.ped)
+    local vehicle = GetVehicleData(cache.vehicle)
+
+    local dispatchData = {
+        message = 'Stolen Car', -- add this into your locale
+        codeName = 'WarehouseRobbery', -- this should be the same as in config.lua
+        code = '11-09',
+        icon = 'fa-car-side',
+        priority = 2,
+        coords = coords,
+        street = GetStreetAndZone(coords),
+        heading = GetPlayerHeading(),
+        --vehicle = vehicle.name,
+        --plate = vehicle.plate,
+        --color = vehicle.color,
+        --class = vehicle.class,
+        --doors = vehicle.doors,
+        jobs = { 'leo' }
+    }
+
+    TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
+end
+exports('WarehouseRobbery', WarehouseRobbery)

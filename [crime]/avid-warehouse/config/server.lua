@@ -16,6 +16,11 @@ return {
         { name = 'plastic', chance = 50, min = 5, max = 10 },
         { name = 'copper', chance = 100, min = 5, max = 20 },
         { name = 'ammo-9', chance = 30, min = 20, max = 50 },
+        { name = 'pistol_slide', chance = 5, min = 1, max = 1},
+        { name = 'pistol_barrel', chance = 5, min = 1, max = 1},
+        { name = 'pistol_frame', chance = 5, min = 1, max = 1},
+        { name = 'pistol_trigger', chance = 5, min = 1, max = 1},
+        { name = 'WEAPON_CERAMICPISTOL', chance = 2, min = 1, max = 1},
     },
 
     requiredCops = 0,

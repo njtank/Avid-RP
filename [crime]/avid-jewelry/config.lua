@@ -56,15 +56,60 @@ Config.SoundAlarm = {
 
 Config.Rewards = {
     {
-        chance = 100,
+        chance = 70,
         item = 'ruby_necklace',
         amount = { min = 1, max = 2 }
     },
     {
         chance = 5,
-        item = 'emerald_necklace',
+        item = 'diamond_necklace',
         amount = 1
-    }
+    },
+    {
+        chance = 1,
+        item = 'fleeca_bank_coin',
+        amount = 1
+    },
+    {
+        chance = 50,
+        item = 'sapphire_necklace',
+        amount = { min = 1, max = 2 }
+    },
+    {
+        chance = 5,
+        item = 'diamond_ring',
+        amount = { min = 1, max = 2 }
+    },
+    {
+        chance = 50,
+        item = 'rolex',
+        amount = { min = 1, max = 2 }
+    },
+    {
+        chance = 50,
+        item = 'goldchain',
+        amount = { min = 1, max = 2 }
+    },
+    {
+        chance = 50,
+        item = 'gold_ring',
+        amount = { min = 1, max = 2 }
+    },
+    {
+        chance = 50,
+        item = 'goldearring',
+        amount = { min = 1, max = 2 }
+    },
+    {
+        chance = 5,
+        item = 'diamond_earring',
+        amount = { min = 1, max = 2 }
+    },
+    {
+        chance = 50,
+        item = 'silverearring',
+        amount = { min = 1, max = 2 }
+    },
 }
 
 Config.WhitelistWeapons = {

@@ -54,6 +54,17 @@ Config.Shops = {
             ['phone'] = { label = 'Phone', price = 150 },
             ['wine'] = { label = 'Wine', price = 100},
             ['armour'] = { label = 'Bulletproof Vest', price = 225 },
+            ['gold_ring'] = { label = 'Gold Ring', price = 170},
+            ['diamond_ring'] = { label = 'Diamond Ring', price = 450 },
+            ['ruby_necklace'] = { label = 'Ruby Necklace', price = 250},
+            ['diamond_necklace'] = { label = 'Diamond Necklace', price = 490 },
+            ['fleeca_bank_coin'] = { label = 'Gold Coin', price = 1000},
+            ['sapphire_necklace'] = { label = 'Saphire Necklace', price = 180 },
+            ['rolex'] = { label = 'Golden Watch', price = 140},
+            ['goldchain'] = { label = 'Gold Necklace', price = 130 },
+            ['goldearring'] = { label = 'Gold Earring', price = 180 },
+            ['diamond_earring'] = { label = 'Diamond Earring', price = 470},
+            ['silverearring'] = { label = 'Silver Earring', price = 140 },
             -- Add & remove items here as desired
             -- Be sure to follow the same format as above
         },

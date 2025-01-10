@@ -3,11 +3,14 @@ local AlertTriggered = false
 
 lib.locale()
 
-function LightsOut()
-    local success = exports.bl_ui:LightsOut(3, {
-        level = 2,
-        duration = 5000,
+function MineSweeper()
+    local success = exports.bl_ui:MineSweeper(3, {
+        grid = 4, -- grid 4x4
+        duration = 10000, -- 10sec to fail
+        target = 4, --target you need to remember
+        previewDuration = 2000 --preview duration (time for red mines preview to hide)
     })
+    return success
 end
 
 ---Play alarm sound near Jewellery Store
@@ -316,11 +319,13 @@ RegisterNetEvent('avid-jewelry:client:startThermite', function()
         _Dispatch('startThermite')
     end
 
-    local success = LightsOut()
-    if not LightOut() then
+    local success = MineSweeper()
+    if not success then
         _Notification(locale('notification_thermite_fail'), 'error')
         return
     end
+    _Notification(locale('notification_thermite_success', locale('jewellery_store')), 'success')
+        plantTherminte()
 end)
 
 RegisterNetEvent('avid-jewelry:client:playSound', function()

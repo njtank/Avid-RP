@@ -1,7 +1,7 @@
 {
     "jewellery_store": "Jewellery Store",
-    "smash_vitrine": "Smash Vitrine",
-    "smash_progress": "Smashing Vitrine",
+    "smash_vitrine": "Smash case",
+    "smash_progress": "Smashing case",
     "blow_fuse_box": "Blow Fuse Box",
 
     "notification_store_is_hit": "Store robbery is already in progress",

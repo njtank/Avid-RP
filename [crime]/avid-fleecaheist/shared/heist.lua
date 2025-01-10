@@ -20,8 +20,8 @@ BK.banks  = {
     drilltime = 4.5, -- time in minutes
 
     money = {
-        cash = false, -- if true, gives player money / false gives player bag item
-        amt = math.random(350, 650),
+        cash = cash, -- if true, gives player money / false gives player bag item
+        amt = math.random(6500, 8500),
         item1 = 'money',
 
         item2 = 'folded',

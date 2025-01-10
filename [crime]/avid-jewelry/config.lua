@@ -125,7 +125,9 @@ Config.WhitelistWeapons = {
     'weapon_combatpistol',
     'weapon_appistol',
     'weapon_pistol50',
-    'weapon_microsmg'
+    'weapon_microsmg',
+    'weapon_bat',
+    'weapon_crowbar',
 }
 
 Config.Vitrines = {

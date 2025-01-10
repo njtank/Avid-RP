@@ -89,7 +89,6 @@ RegisterNetEvent('angelicxs-BankTruck:Server:HeistReward', function()
         Player = QBCore.Functions.GetPlayer(src)
         if type == Config.MoneyType then
             Player.Functions.AddMoney(Config.MoneyType, Number)
-            Player.Functions.AddItem(purple_lootcrate, 1)
             TriggerEvent('qb-log:server:CreateLog', 'bankrobbery', 'Bank Truck Heist', 'green', Config.MoneyType..' received worth $'..Number..'\n**Person**:\n'..GetPlayerName(src))
         else
             Player.Functions.AddItem(type, Number, false, info)

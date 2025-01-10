@@ -9,6 +9,17 @@ local drillt = {
 }
 local vaultset
 
+function MineSweeper()
+    local success = exports.bl_ui:MineSweeper(12, {
+        grid = 4, -- grid 4x4
+        duration = 10000, -- 10sec to fail
+        target = 4, --target you need to remember
+        previewDuration = 2000 --preview duration (time for red mines preview to hide)
+    })
+
+    return success
+end
+
 local function spawnvaultzone(choice)
     local coords = choice.vaultdoor.loc
     local head = choice.vaultdoor.head
@@ -43,12 +54,13 @@ local function spawnvaultzone(choice)
                         },
                     })
                     then
+                        local success = MineSweeper()
                         TriggerServerEvent('server:vault:drill', choice)
                         UT.mfhnotify(CG.notify.title, CG.notify.title, CG.notify.description)
                         lib.callback('mifh:remove:drill', false, function(source) end)
                         drilled = true
                     end
-                    Citizen.Wait(BK.banks.drilltime * 60000)
+                    Citizen.Wait(BK.banks.drilltime * 100)
                     TriggerServerEvent('server:drill:remove', choice)
                     vaultopen = true
                     TriggerServerEvent('server:vault:open', choice)

@@ -3424,4 +3424,12 @@ return {
     client = { image = "calling_card.png" },
 },
 
+['hacking_laptop'] = {
+    label = 'Black Laptop',
+    description = 'Could be useful with pesky security devices',
+    weight = 100,
+    stack = false,
+    client = { image = "hacking_laptop.png" },
+},
+
 }

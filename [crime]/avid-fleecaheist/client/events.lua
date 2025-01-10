@@ -3,6 +3,7 @@ local resourceName = GetCurrentResourceName()
 FH = {}
 FH.chosenbank = nil
 FH.inprogress = false
+QBCore = exports['qb-core']:GetCoreObject()
 
 local blip
 
@@ -45,7 +46,6 @@ local function heiststartloc()
                 end,
             },
         }
-
     })
 end
 
@@ -61,6 +61,9 @@ local startRobbery = function(bank)
         local bloc = FH.chosenbank.vaultdoor.loc
         blip = AddBlipForCoord(bloc.x, bloc.y, bloc.z)
         UT.mfhroute(blip)
+        QBCore.Functions.TriggerCallback('avid:itemTaken:QBCore', function(cb)
+            hasItem = cb
+        end)
         UT.mfhnotify('fleecastart', 'CNS: Bank system isolated', 'time to heist some money')
         TriggerEvent('mifh:start:mngr', FH.chosenbank)
         TriggerEvent('mifh:start:security', FH.chosenbank)

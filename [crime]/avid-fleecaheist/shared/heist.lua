@@ -14,17 +14,17 @@ BK.banks  = {
 
     key = 'fleeca_bank_card',
 
-    hack = 'lockpick',
+    hack = 'hacking_laptop',
 
     drill = 'thermal_drill',
     drilltime = 4.5, -- time in minutes
 
     money = {
-        cash = cash, -- if true, gives player money / false gives player bag item
-        amt = math.random(6500, 8500),
-        item1 = 'money',
+        cash = false, -- if true, gives player money / false gives player bag item
+        amt = math.random(110, 163),
+        item1 = 'rolled_cash',
 
-        item2 = 'folded',
+        item2 = 'rolled_cash',
     },
 
     alta = {

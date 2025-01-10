@@ -55,12 +55,14 @@ local function spawnvaultzone(choice)
                     })
                     then
                         local success = MineSweeper()
+                        if not success then end
+                        exports['ps-dispatch']:FleecaBankRobbery(camId)
                         TriggerServerEvent('server:vault:drill', choice)
                         UT.mfhnotify(CG.notify.title, CG.notify.title, CG.notify.description)
                         lib.callback('mifh:remove:drill', false, function(source) end)
                         drilled = true
                     end
-                    Citizen.Wait(BK.banks.drilltime * 100)
+                    Citizen.Wait(BK.banks.drilltime * 30000)
                     TriggerServerEvent('server:drill:remove', choice)
                     vaultopen = true
                     TriggerServerEvent('server:vault:open', choice)

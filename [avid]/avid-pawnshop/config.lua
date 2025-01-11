@@ -32,7 +32,7 @@ Config.Interact = 38
 Config.Shops = {
     ['vinewood'] = { -- Unique identifier for this shop
         name = 'Vinewood Pawn & Jewelry', -- Shop name
-        slots = 25, -- How many slots are available
+        slots = 100, -- How many slots are available
         weight = 100000, -- How much weight is available
         coords = vec4(-265.81, 236.67, 90.57, 79.89), -- Where this shop exists
         radius = 1.0, -- How large of a circle zone radius (for targeting only)
@@ -65,6 +65,29 @@ Config.Shops = {
             ['goldearring'] = { label = 'Gold Earring', price = 180 },
             ['diamond_earring'] = { label = 'Diamond Earring', price = 470},
             ['silverearring'] = { label = 'Silver Earring', price = 140 },
+            ['romantic_book'] = { label = 'Romantic Book', price = 20},
+            ['notepad'] = { label = 'Notepad', price = 10 },
+            ['pencil'] = { label = 'Pencil', price = 8},
+            ['bong'] = { label = 'Bong', price = 50 },
+            ['pogo'] = { label = 'Art Piece', price = 180 },
+            ['gold_bracelet'] = { label = 'Gold Braclet', price = 190},
+            ['television'] = { label = 'Flat Screen TV', price = 350 },
+            ['shoebox'] = { label = 'Shoe Box', price = 110},
+            ['dj_deck'] = { label = 'DJ Deck', price = 120 },
+            ['console'] = { label = 'Console', price = 80 },
+            ['boombox'] = { label = 'Boombox', price = 30},
+            ['coffemachine'] = { label = 'Coffee Machine', price = 75 },
+            ['tapeplayer'] = { label = 'Tape Player', price = 30},
+            ['hairdryer'] = { label = 'Hair Dryer', price = 20 },
+            ['j_phone'] = { label = 'Phone', price = 45 },
+            ['sculpture'] = { label = 'Sculpture', price = 230},
+            ['toiletry'] = { label = 'Toiletry', price = 15 },
+            ['paintinge'] = { label = 'Art Piece', price = math.random(900,1100) },
+            ['paintingi'] = { label = 'Art Piece', price = math.random(900,1100) },
+            ['paintingh'] = { label = 'Art Piece', price = math.random(900,1100) },
+            ['paintingj'] = { label = 'Art Piece', price = math.random(900,1100) },
+            ['paintingf'] = { label = 'Art Piece', price = math.random(900,1100) },
+            ['paintingg'] = { label = 'Art Piece', price = math.random(900,1100) },
             -- Add & remove items here as desired
             -- Be sure to follow the same format as above
         },
@@ -72,7 +95,7 @@ Config.Shops = {
         -- This option will fill the shop with "display" items, and only
         -- Display items that are possible to sell here. If false, it will be
         -- An empty inventory, and the "slots" amount above will not be overridden
-        placeholders = false,
+        placeholders = true,
         blip = {
             enabled = true, -- Enable or disable the blip for this shop
             sprite = 605, -- Sprite ID (https://docs.fivem.net/docs/game-references/blips/)

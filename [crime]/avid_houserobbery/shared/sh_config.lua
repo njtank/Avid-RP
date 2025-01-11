@@ -596,7 +596,7 @@ Config.Tier = {
                     { Item = "romantic_book", Chance = 60.9, MinCount = 1, MaxCount = 2 },
                     { Item = "notepad", Chance = 75.5, MinCount = 1, MaxCount = 2 },
                     { Item = "pencil", Chance = 90.5, MinCount = 1, MaxCount = 2 },
-                    { Item = "money", Chance = 50.5, MinCount = 1000, MaxCount = 5000 },
+                    { Item = "folded_cash", Chance = 50.5, MinCount = 60, MaxCount = 90 },
                     { Item = "bong", Chance = 80.5, MinCount = 1, MaxCount = 2 },
                     { Item = "crisps", Chance = 85.5, MinCount = 1, MaxCount = 5 },
                     { Item = "HackDevice", Chance = 30.5, MinCount = 1, MaxCount = 1 },
@@ -608,18 +608,17 @@ Config.Tier = {
         },
         Safes = {
             ["safe"] = { model = `prop_ld_int_safe_01`, Label = "Safe", NeedItem = true, Item = "lockpick", Coords = vec4(259.54, -1003.65, -99.01, 120.98), 
-            ChanceToFindNothing = 30,
+            ChanceToFindNothing = 0,
                 Items = {
-                    { Item = "gold_watch", Chance = 70.5, MinCount = 1, MaxCount = 1 },
+                    { Item = "rolex", Chance = 70.5, MinCount = 1, MaxCount = 1 },
                     { Item = "gold_bracelet", Chance = 90.5, MinCount = 1, MaxCount = 5 },
-                    { Item = "earings", Chance = 90.5, MinCount = 2, MaxCount = 6 },
-                    { Item = "weapon_fnx45", Chance = 40.5, MinCount = 1, MaxCount = 1 },
-                    { Item = "money", Chance = 40.5, MinCount = 1000, MaxCount = 15000 },
+                    { Item = "silverearring", Chance = 90.5, MinCount = 2, MaxCount = 6 },
+                    { Item = "folded_cash", Chance = 40.5, MinCount = 60, MaxCount = 91 },
                 },
             }
         },
         Ped = {
-            chance = 70, model = `s_m_y_dealer_01`, coords = vec4(262.6, -1004.04, -99.26, 86.94), weapon = { enabled = true, chance = 50, weapon = `WEAPON_COMBATPISTOL`, DisableWeaponDrop = true }
+            chance = 70, model = `s_m_y_dealer_01`, coords = vec4(262.6, -1004.04, -99.26, 86.94), weapon = { enabled = true, chance = 20, weapon = `WEAPON_SNSPISTOL`, DisableWeaponDrop = false }
         },
         StaticProps = { --Props that are already in interior
             TV = { model = `prop_tv_03`, Label = "TV", Item = "television", propPlacement = { pos = vec3(0.1, 0.42, 0.26), rot = vec3(-172.0, 182.0, -38.0), bone = 60309 }, CarryAnim = { dict = "anim@heists@box_carry@", anim = "idle" }, NeedTrunk = true, Robbed = false },
@@ -686,14 +685,12 @@ Config.Tier = {
             ["safe"] = { model = `prop_ld_int_safe_01`, Label = "Safe", NeedItem = true, Item = "lockpick", Coords = vec4(352.34, -994.44, -100.2, 273.98),
                 ChanceToFindNothing = 30,
                 Items = {
-                    { Item = "gold_watch", Chance = 30.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "rolex", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                     { Item = "gold_bracelet", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "earings", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "necklace", Chance = 30.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "silverearring", Chance = 30.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "ruby_necklace", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                     { Item = "pogo", Chance = 30.9, MinCount = 1, MaxCount = 1 },
-                    { Item = "weapon_heavypistol", Chance = 20.9, MinCount = 1, MaxCount = 1 },
-                    { Item = "at_suppressor_light", Chance = 10.9, MinCount = 1, MaxCount = 1 },
-                    { Item = "money", Chance = 40.5, MinCount = 1000, MaxCount = 15000 },
+                    { Item = "folded_cash", Chance = 50.5, MinCount = 72, MaxCount = 103 },
                 },
             },
         },
@@ -702,8 +699,8 @@ Config.Tier = {
         },
         StaticProps = { --Props that are already in interior
             TV = { model = `prop_tv_flat_01`, Label = "TV", Item = "television", propPlacement = { pos = vec3( 0.18, 0.16, 0.25), rot = vec3(-44.0, 112.0, 10.0), bone = 60309 }, CarryAnim = { dict = "anim@heists@box_carry@", anim = "idle" }, Spawned = false, NeedTrunk = true },
-            Coffe = { model = `prop_coffee_mac_02`, Label = "Coffe", Item = "coffemachine", propPlacement = { pos = vec3(0.18, 0.08, 0.25), rot = vec3(-16.0, 44.0, 106.0), bone = 60309 }, CarryAnim = { dict = "anim@heists@box_carry@", anim = "idle" }, Spawned = false, NeedTrunk = true },
-            Tape = { model = `prop_tapeplayer_01`, Label = "Tape layer", Item = "tapeplayer", propPlacement = { pos = vec3(0.18, 0.08, 0.25), rot = vec3(-32.0, 100.0, 10.0), bone = 60309 }, CarryAnim = { dict = "anim@heists@box_carry@", anim = "idle" }, Spawned = false, NeedTrunk = true },
+            Coffe = { model = `prop_coffee_mac_02`, Label = "Coffee Machine", Item = "coffemachine", propPlacement = { pos = vec3(0.18, 0.08, 0.25), rot = vec3(-16.0, 44.0, 106.0), bone = 60309 }, CarryAnim = { dict = "anim@heists@box_carry@", anim = "idle" }, Spawned = false, NeedTrunk = true },
+            Tape = { model = `prop_tapeplayer_01`, Label = "Tape Player", Item = "tapeplayer", propPlacement = { pos = vec3(0.18, 0.08, 0.25), rot = vec3(-32.0, 100.0, 10.0), bone = 60309 }, CarryAnim = { dict = "anim@heists@box_carry@", anim = "idle" }, Spawned = false, NeedTrunk = true },
             Hair = { model = `v__club_vuhairdryer`, Label = "Hairdryer", Item = "hairdryer", propPlacement = { pos = vec3(0.1, 0.42, 0.26), rot = vec3(-172.0, 182.0, -38.0), bone = 60309 }, CarryAnim = { dict = "anim@heists@box_carry@", anim = "idle" }, Spawned = false, NeedTrunk = false },
             Phone = { model = `v_res_j_phone`, Label = "Phone", Item = "j_phone", propPlacement = { pos = vec3(0.1, 0.42, 0.26), rot = vec3(-172.0, 182.0, -38.0), bone = 60309 }, CarryAnim = { dict = "anim@heists@box_carry@", anim = "idle" }, Spawned = false, NeedTrunk = false },
             SCULPT = { model = `v_res_sculpt_decd`, Label = "Sculpture", Item = "sculpture", propPlacement = { pos = vec3(0.1, -0.16, 0.29), rot = vec3(-50.0, 106.0, -24.0), bone = 60309 }, CarryAnim = { dict = "anim@heists@box_carry@", anim = "idle" }, Spawned = false, NeedTrunk = true },
@@ -732,20 +729,17 @@ Config.Tier = {
                 Items = {
                     { Item = "bong", Chance = 20.5, MinCount = 1, MaxCount = 2 },
                     { Item = "weapon_knuckle", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "weapon_bat", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "earings", Chance = 30.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "silverearring", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                     { Item = "twerks_candy", Chance = 80.9, MinCount = 3, MaxCount = 6 },
-                    { Item = "sprunklight", Chance = 80.9, MinCount = 2, MaxCount = 5 },
                 }
             },
             ["Kitchen #1"] = { 
                 ChanceToFindNothing = 25,
                 coords = vector3(-783.327454, 325.411712, 187.313248),        
                 Items = {
-                    { Item = "weapon_bottle", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                     { Item = "WEAPON_MACHETE", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "earings", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "watch", Chance = 30.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "gold_ring", Chance = 30.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "rolex", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                 },
             },
             ["Kitchen #2"] = {
@@ -772,7 +766,7 @@ Config.Tier = {
                 Items = {
                     { Item = "weapon_knuckle", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                     { Item = "gold_bracelet", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "gold_watch", Chance = 30.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "rolex", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                     { Item = "gold_bracelet", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                 },
             },
@@ -782,7 +776,7 @@ Config.Tier = {
                 Items = {
                     { Item = "bong", Chance = 20.5, MinCount = 1, MaxCount = 2 },
                     { Item = "romantic_book", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "watches", Chance = 30.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "rolex", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                 },
             },
             ["Locker #2"] = {
@@ -790,7 +784,6 @@ Config.Tier = {
                 coords = vector3(-796.366760, 328.144348, 190.716004),        
                 Items = {
                     { Item = "weapon_knuckle", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "weapon_m9", Chance = 15.9, MinCount = 1, MaxCount = 2 },
                     { Item = "weapon_bat", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                 },
             },
@@ -812,15 +805,12 @@ Config.Tier = {
             ["safe"] = { model = `prop_ld_int_safe_01`, Label = "Safe", NeedItem = true, Item = "lockpick", Coords = vec4(-797.56, 339.19, 190.02, 0.27),
                 ChanceToFindNothing = 10,
                 Items = {
-                    { Item = "gold_watch", Chance = 30.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "rolex", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                     { Item = "gold_bracelet", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "earings", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "necklace", Chance = 30.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "diamond_earring", Chance = 30.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "diamond_necklace", Chance = 30.9, MinCount = 1, MaxCount = 2 },
                     { Item = "pogo", Chance = 30.9, MinCount = 1, MaxCount = 1 },
-                    { Item = "at_clip_extended_mg", Chance = 30.9, MinCount = 1, MaxCount = 3 },
-                    { Item = "at_clip_extended_rifle", Chance = 30.9, MinCount = 1, MaxCount = 3 },
-                    { Item = "weapon_de", Chance = 5.9, MinCount = 1, MaxCount = 1 },
-                    { Item = "money", Chance = 40.5, MinCount = 1000, MaxCount = 15000 },
+                    { Item = "folded_cash", Chance = 50.5, MinCount = 120, MaxCount = 190 },
                 },
             }
         },

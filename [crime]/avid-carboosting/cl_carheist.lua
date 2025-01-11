@@ -29,7 +29,7 @@ end
 
 local function spawnPed()
     if DoesEntityExist(START_PED) then return end
-    
+
     lib.requestModel(Config.PedModel)
     START_PED = CreatePed(0, Config.PedModel, Config.PedCoords, false, false)
     SetEntityAsMissionEntity(START_PED)
@@ -44,7 +44,7 @@ local function spawnPed()
         {
             icon = 'fa-solid fa-square-check',
             label = 'Start Job',
-            item = 'heist_papers',
+            items = { 'racing_gps' }, -- Added racing_gps as a required item
             action = function()
                 local data = lib.callback.await('randol_carheist:attemptjob', false)
                 if type(data) == 'table' then
@@ -56,7 +56,7 @@ local function spawnPed()
         {
             icon = 'fa-solid fa-square-check',
             label = 'Return Papers',
-            item = 'heist_papers',
+            items = { 'heist_papers' }, -- Only heist_papers required for this action
             action = function()
                 lib.callback.await('randol_carheist:server:returnPapers', false)
             end,
@@ -256,7 +256,7 @@ local function initVehicle(netid)
 end
 
 function NumberSlide()
-    local success = exports.bl_ui:NumberSlide(1, 60, 3)
+    local success = exports.bl_ui:NumberSlide(4, 60, 3)
 return success
 end
 
@@ -269,13 +269,36 @@ local function enterGarage(coords)
         end
         garageZone = nil
     end
-    local success = NumberSlide()
-    if not success then return end
+
+    -- Loop to reattempt NumberSlide() until success
+    while true do
+        local success = NumberSlide()
+        if success then
+            break -- Exit the loop when successful
+        end
+
+        -- Optionally, give the player the ability to cancel
+        local retry = lib.alertDialog({
+            header = "Number Slide Failed",
+            content = "Would you like to try again?",
+            centered = true,
+            buttons = {
+                {label = "Retry", value = true},
+                {label = "Cancel", value = false}
+            }
+        })
+        
+        if not retry then
+            return -- Exit the function if the player cancels
+        end
+    end
+
     lib.progressBar({
         duration = 4000,
-        label = 'Opening garage door...',})
+        label = 'Opening garage door...',
+    })
     SetEntityHeading(cache.ped, coords.w)
-    SetEntityCoords(cache.ped, coords.x, coords.y, coords.z-1.0)
+    SetEntityCoords(cache.ped, coords.x, coords.y, coords.z - 1.0)
     Wait(100)
     local offset = GetOffsetFromEntityInWorldCoords(cache.ped, 0.0, -1.1, -0.95)
     SetEntityCoords(cache.ped, offset)
@@ -295,6 +318,7 @@ local function enterGarage(coords)
     Wait(1000)
     DoScreenFadeIn(1000)
 end
+
 
 function stealPoint()
     local vehicle = myData.model

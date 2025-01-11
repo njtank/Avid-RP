@@ -18,18 +18,18 @@ Config = {
             [3] = {
                 item = 'weapon_switchblade',
                 image = 'img/weapon_switchblade.png',
-                weight = 5
+                weight = 30
             },        
             [4] = {
-                item = 'racing_gps',
+                item = 'racing_gps', -- Needed for C
                 image = 'img/racing_gps.png',
-                weight = 30
+                weight = 5
             },
             [5] = {
-                item = 'calling_card',
-                image = 'img/calling_card.png',
+                item = 'securitycard_lf', -- Needed for Art Heist
+                image = 'img/securitycard_lf.png',
                 weight = 5
-            }, 
+            },
         },
         ['red_lootcrate'] = { -- Criminal Loot Crate Rare
             [1] = {

@@ -44,6 +44,21 @@ local function AreAnswersCorrect(submittedAnswers)
     return true
 end
 
+function NumberSlide()
+    local success = exports.bl_ui:NumberSlide(4, 60, 3)
+return success
+end
+
+function MineSweeper()
+    local success = exports.bl_ui:MineSweeper(3, {
+        grid = 4, -- grid 4x4
+        duration = 10000, -- 10sec to fail
+        target = 7, --target you need to remember
+        previewDuration = 2000 --preview duration (time for red mines preview to hide)
+    })
+return success
+end
+
 -- Function to start the initial robbery process
 local function InitiateRegisterRobbery()
     local canStart = lib.callback.await('avid-247robbery:StartRobbery', false)
@@ -52,7 +67,7 @@ local function InitiateRegisterRobbery()
     lib.requestAnimDict(dict)
     while not HasAnimDictLoaded(dict) do Wait(0) end
     TaskPlayAnim(cache.ped, dict, anim, 8.0, 8.0, -1, 51, 1.0, false, false, false)
-    local skillcheck = Minigame(Config.Registers.minigame)
+    local skillcheck = NumberSlide() --Minigame(Config.Registers.minigame)
     ClearPedTasks(cache.ped)
     if not skillcheck then
         TriggerServerEvent('avid-247robbery:DoesLockpickBreak')
@@ -137,8 +152,8 @@ local function InitiateComputerHack()
             ShowNotification(Strings.Notify.failedHack, 'error')
         end
     else
-        local skillcheck = Minigame(Config.Computers.minigame)
-        if not skillcheck then
+        local success = MineSweeper()
+        if not success then
             ClearPedTasks(cache.ped)
             activeComputer = true
             failedHack = failedHack + 1

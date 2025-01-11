@@ -566,8 +566,8 @@ Config.StartMission = {
         to = 7
     },
     Ped = {
-        model = `a_m_m_hasjew_01`, 
-        coords = vector4(245.62, 370.71, 104.74, 154.71), 
+        model = `S_M_Y_Construct_02`, 
+        coords = vec4(-933.92, 405.43, 79.14, 201.97), 
         scenario = "WORLD_HUMAN_SMOKING" 
     },
     Vehicle = {    

@@ -1168,6 +1168,20 @@ return {
         image = "rolled_cash.png",
     }
 },
+['blank_bill'] = {
+    label = 'Blank Bill',
+    weight = 0,
+    client = {
+        image = "blank_bill.png",
+    }
+},
+['stamped_roll'] = {
+    label = 'Stamped Roll',
+    weight = 0,
+    client = {
+        image = "stamped_roll.png",
+    }
+},
 ['wallet'] = {
     label = 'Wallet',
     weight = 0,

@@ -24,7 +24,7 @@ Config = {
 		JobLocationRequired = true, -- Are the mecahanics locked to specific locations?
 		LocationBlips = true, 		-- Enable to grab the blip locations from locations.lua
 		CosmeticsJob = false, 		-- Do vehicle cosmetics require a mechanic job role?
-		JobRoles = { "mechanic", }, -- These are the job roles who can use items if RequiresJob is enabled.
+		JobRoles = { "mechanic","atomic" }, -- These are the job roles who can use items if RequiresJob is enabled.
 									-- Add your extra job roles here or just leave as "mechanic"
 									-- Example-- --JobRoles = { "mechanic", "tuner" }
 	},

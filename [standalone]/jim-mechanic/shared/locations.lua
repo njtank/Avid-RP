@@ -1,7 +1,7 @@
 Config.Locations = Config.Locations or {}
 
 Config.Locations[#Config.Locations+1] = { --[[ GABZ ALTA STREET BENNYS ]]--
-	Enabled = true,
+	Enabled = false,
 	job = "mechanic",
 	zones = {
 		vec2(-263.99075317382, -1349.6701660156),
@@ -39,7 +39,7 @@ Config.Locations[#Config.Locations+1] = { --[[ GABZ ALTA STREET BENNYS ]]--
 	garage = {
 		spawn = vec4(-182.74, -1317.61, 30.63, 357.23),
 		out = vec4(-190.62, -1311.57, 31.3, 0.0),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+		list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
 		prop = true
 	},
 	payments = {
@@ -66,48 +66,48 @@ Config.Locations[#Config.Locations+1] = { --[[ GABZ ALTA STREET BENNYS ]]--
 	}
 }
 
-Config.Locations[#Config.Locations+1] = { --[[ LS CUSTOMS IN CITY ]]--
+Config.Locations[#Config.Locations+1] = { --[[ Atomic Auto ]]--
 	Enabled = true,
-	job = "mechanic",
+	job = "atomic",
 	zones = {
-		vec2(-356.63, -137.9),
-		vec2(-347.32, -111.48),
-		vec2(-309.05, -128.79),
-		vec2(-324.44, -148.96)
+		vec2(481.1, -1861.26),
+		vec2(449.11, -1880.99),
+		vec2(475.35, -1934.44),
+		vec2(507.39, -1916.22)
 	},
 	autoClock = { enter = true, exit = true, },
 	stash = {
-		{ coords = vec4(-346.14, -130.52, 39.01, 340.0), w = 4.0, d = 1.0, },
+		{ coords = vec4(469.82, -1897.04, 26.11, 113.72), w = 4.0, d = 1.0, },
 	},
 	store = {
-		{ coords = vec4(-347.9, -133.19, 39.01, 340.0), w = 1.2, d = 0.25, },
+		{ coords = vec4(468.47, -1895.14, 26.44, 107.24), w = 1.2, d = 0.25, },
 	},
 	crafting = {
-		{ coords = vec4(-340.44, -141.9, 39.01, 255.0), w = 3.2, d = 1.0, },
+		{ coords = vec4(466.29, -1891.74, 26.11, 102.61), w = 3.2, d = 1.0, },
 	},
 	clockin = {
-		{ coords = vec4(-344.85, -140.35, 39.05, 157.0), prop = true },
+		{ coords = vec4(478.58, -1876.18, 26.11, 29.76), prop = false },
 	},
 	manualRepair = {
-		{ coords = vec4(-322.28, -140.38, 39.01, 68.35), prop = true, },
+		{ coords = vec4(461.07, -1885.21, 26.24, 122.87), prop = true, },
 	},
-	garage = {
-		spawn = vec4(-361.48, -123.14, 38.03, 158.96),
-		out = vec4(-356.2, -126.55, 39.43, 253.49),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
-		prop = true
-	},
+	--garage = {
+	--	spawn = vec4(485.44, -1899.3, 25.37, 295.96),
+	--	out = vec4(478.65, -1901.8, 25.42, 206.53),
+	--	list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
+	--	prop = true
+	--},
 	payments = {
-		img = "https://static.wikia.nocookie.net/gtawiki/images/f/f2/GTAV-LSCustoms-Logo.png",
-		{ coords = vec4(-343.75, -140.86, 39.02, 180.0), prop = true, },
+		img = "https://i.ibb.co/f1P6yRv/Atomic-GTAO-Cartel-Antiguo.webp",
+		{ coords = vec4(478.58, -1876.18, 26.11, 29.76), prop = false, },
 	},
 	Restrictions = {
 		Vehicle = { "Compacts", "Sedans", "SUVs", "Coupes", "Muscle", "Sports Classics", "Sports", "Super", "Motorcycles", "Off-road", "Industrial", "Utility", "Vans", "Cycles", "Service", "Emergency", "Commercial", },
 		Allow = { "tools", "cosmetics", "repairs", "nos", "perform" },
 	},
 	blip = {
-		coords = vec3(-336.84, -136.39, 39.01),
-		label = "Los Santos Customs",
+		coords = vec3(470.45, -1886.13, 26.11),
+		label = "Atomic Auto",
 		color = 81,
 		sprite = 446,
 		disp = 6,
@@ -122,7 +122,7 @@ Config.Locations[#Config.Locations+1] = { --[[ LS CUSTOMS IN CITY ]]--
 }
 
 Config.Locations[#Config.Locations+1] = { --[[ HAYES AUTOS ]]--
-	Enabled = true,
+	Enabled = false,
 	job = "mechanic",
 	zones = {
 		vec2(490.57400512695, -1302.0946044922),
@@ -154,7 +154,7 @@ Config.Locations[#Config.Locations+1] = { --[[ HAYES AUTOS ]]--
 	garage = {
 		spawn = vec4(487.67, -1308.78, 28.6, 233.44),
 		out = vec4(483.06, -1311.35, 29.21, 298.78),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+		list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
 		prop = true
 	},
 	payments = {
@@ -213,7 +213,7 @@ Config.Locations[#Config.Locations+1] = { -- [[LS CUSTOMS ROUTE 68]] --
 	garage = {
 		spawn = vec4(1165.92, 2642.87, 37.23, 358.2),
 		out = vec4(1170.25, 2645.6, 37.81, 88.15),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+		list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
 		prop = true,
 	},
 	payments = {
@@ -271,7 +271,7 @@ Config.Locations[#Config.Locations+1] = { --[[ BEEKERS GARAGE PALETO ]]--
 	garage = {
 		spawn = vec4(109.92, 6608.11, 31.18, 313.99),
 		out = vec4(107.43, 6614.64, 32.0, 226.54),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+		list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
 		prop = true,
 	},
 	payments = {
@@ -299,7 +299,7 @@ Config.Locations[#Config.Locations+1] = { --[[ BEEKERS GARAGE PALETO ]]--
 }
 
 Config.Locations[#Config.Locations+1] = { --[[ GABZ LS TUNER SHOP ]]--
-	Enabled = true,
+	Enabled = false,
 	job = "mechanic",
 	zones = {
 		vec2(154.69816589355, -3007.0153808594),
@@ -336,7 +336,7 @@ Config.Locations[#Config.Locations+1] = { --[[ GABZ LS TUNER SHOP ]]--
 	garage = {
 		spawn = vec4(163.22, -3009.31, 5.27, 89.72),
 		out = vec4(157.37, -3016.57, 7.04, 179.58),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+		list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
 		prop = true,
 	},
 	payments = {
@@ -364,7 +364,7 @@ Config.Locations[#Config.Locations+1] = { --[[ GABZ LS TUNER SHOP ]]--
 }
 
 Config.Locations[#Config.Locations+1] = { --[[ AIRPORT LS CUSTOMS ]]--
-	Enabled = true,
+	Enabled = false,
 	job = "mechanic",
 	zones = {
 		vec2(-1118.5782470703, -2017.4730224609),
@@ -394,7 +394,7 @@ Config.Locations[#Config.Locations+1] = { --[[ AIRPORT LS CUSTOMS ]]--
 	garage = {
 		spawn = vec4(-1154.63, -1986.95, 12.5, 315.29),
 		out = vec4(-1147.87, -1989.09, 13.16, 45.01),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+		list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
 		prop = true,
 	},
 	payments = {
@@ -425,7 +425,7 @@ Config.Locations[#Config.Locations+1] = { --[[ AIRPORT LS CUSTOMS ]]--
 }
 
 Config.Locations[#Config.Locations+1] = { --[[ POPULAR STREET LS CUSTOMS ]]--
-	Enabled = true,
+	Enabled = false,
 	job = "mechanic",
 	zones = {
 		vec2(712.07940673828, -1092.9447021484),
@@ -457,7 +457,7 @@ Config.Locations[#Config.Locations+1] = { --[[ POPULAR STREET LS CUSTOMS ]]--
 	garage = {
 		spawn = vec4(716.22, -1069.58, 21.6, 1.08),
 		out = vec4(719.63, -1068.84, 22.24, 89.2),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+		list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
 		prop = true
 	},
 	payments = {
@@ -485,7 +485,7 @@ Config.Locations[#Config.Locations+1] = { --[[ POPULAR STREET LS CUSTOMS ]]--
 }
 
 Config.Locations[#Config.Locations+1] = { --[[ OTTOS AUTOS ]]--
-	Enabled = true,
+	Enabled = false,
 	job = "mechanic",
 	zones = {
 		vec2(824.64721679688, -802.48284912109),
@@ -517,7 +517,7 @@ Config.Locations[#Config.Locations+1] = { --[[ OTTOS AUTOS ]]--
 	garage = {
 		spawn = vec4(826.59, -793.63, 26.21, 84.34),
 		out = vec4(824.3, -801.2, 26.37, 0.65),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+		list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
 		prop = true
 	},
 	payments = {
@@ -545,7 +545,7 @@ Config.Locations[#Config.Locations+1] = { --[[ OTTOS AUTOS ]]--
 }
 
 Config.Locations[#Config.Locations+1] = { --[[ HAYES AUTOS ]]--
-	Enabled = true,
+	Enabled = false,
 	job = "mechanic",
 	zones = {
 		vec2(-1439.9047851563, -443.4548034668),
@@ -575,7 +575,7 @@ Config.Locations[#Config.Locations+1] = { --[[ HAYES AUTOS ]]--
 	garage = {
 		spawn = vec4(-1379.84, -451.82, 34.44, 124.0),
 		out = vec4(-1401.57, -451.19, 34.48, 212.71),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" }
+		list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" }
 	},
 	payments = {
 		img = "https://static.wikia.nocookie.net/gtawiki/images/0/0c/HayesAutoBodyShop-GTAV-Logo.png",
@@ -629,7 +629,7 @@ Config.Locations[#Config.Locations+1] = { --[[ BENNYS NEXT TO PDM ]]--
 	garage = { -- requires jim-jobgarge
 		spawn = vec4(-49.14, -1031.25, 27.76, 339.67),
 		out = vec4(-42.38, -1035.11, 28.52, 68.01),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+		list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
 		prop = true, -- spawn a prop (if there isn't alreaady one available in the current MLO at the location)
 	},
 	payments = { -- requires jim-payments
@@ -656,7 +656,7 @@ Config.Locations[#Config.Locations+1] = { --[[ BENNYS NEXT TO PDM ]]--
 }
 
 Config.Locations[#Config.Locations+1] = { --[[ LA MESA IMPORT SHOP ]]--
-	Enabled = true,
+	Enabled = false,
 	job = "mechanic",
 	zones = {
 		vec2(912.01, -987.16),
@@ -714,7 +714,7 @@ Config.Locations[#Config.Locations+1] = { --[[ LA MESA IMPORT SHOP ]]--
 	garage = {
 		spawn = vec4(937.02, -990.27, 38.34, 93.92),
 		out = vec4(936.81, -987.17, 38.34, 184.37),
-		list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+		list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
 		prop = true
 	},
 	payments = {
@@ -784,7 +784,7 @@ Config.Locations[#Config.Locations+1] = { --[[ REDLINE ]]--
     -- garage = {
     --     spawn = vec4(826.59, -793.63, 26.21, 84.34),
     --     out = vec4(824.3, -801.2, 26.37, 0.65),
-    --     list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+    --     list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
     --     prop = true
     -- },
     payments = {
@@ -848,7 +848,7 @@ Config.Locations[#Config.Locations+1] = { --[[ RISING SUN ]]--
     -- garage = {
     --     spawn = vec4(-361.48, -123.14, 38.03, 158.96),
     --     out = vec4(-356.2, -126.55, 39.43, 253.49),
-    --     list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+    --     list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
     --     prop = true
     -- },
     payments = {
@@ -908,7 +908,7 @@ Config.Locations[#Config.Locations+1] = { --[[ FLYWHEELS ]]--
     -- garage = {
     --     spawn = vec4(826.59, -793.63, 26.21, 84.34),
     --     out = vec4(824.3, -801.2, 26.37, 0.65),
-    --     list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+    --     list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
     --     prop = true
     -- },
     payments = {
@@ -1001,7 +1001,7 @@ Config.Locations[#Config.Locations+1] = { --[[ RFC LS CUSTOMS ]]--
 	-- garage = { -- requires jim-jobgarge
     --     spawn = vec4(-49.14, -1031.25, 27.76, 339.67),
     --     out = vec4(-42.38, -1035.11, 28.52, 68.01),
-    --     list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" },
+    --     list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
     --     prop = true, -- spawn a prop (if there isn't alreaady one available in the current MLO at the location)
     -- },
     payments = {
@@ -1020,6 +1020,67 @@ Config.Locations[#Config.Locations+1] = { --[[ RFC LS CUSTOMS ]]--
     blip = {
         coords = vec3(-360.24, -124.11, 38.09),
         label = "Bennys Workshop",
+        color = 1,
+        sprite = 446,
+        disp = 6,
+        scale = 0.7,
+        cat = nil,
+		previewImg = "https://i.imgur.com/J37ogNz.png",
+    },
+    discord = {
+        link = "",
+        color = 16711680,
+    }
+}
+
+Config.Locations[#Config.Locations+1] = { --[[ Mosley ]]--
+    Enabled = true,
+    job = "mosely",
+    zones = {
+        vec2(-26.67, -1629.5),
+		vec2(-75.48, -1693.53),
+		vec2(-58.62, -1707.57),
+		vec2(26.38, -1671.05)
+    },
+    autoClock = { enter = true, exit = true, },
+    stash = {
+        { coords = vec4(-9.46, -1658.0, 29.48, 330.77), w = 0.6, d = 3.6, },
+    },
+    store = {
+		{ coords = vec4(-9.46, -1658.0, 29.48, 330.77), w = 1.0, d = 1.4, },
+	},
+    crafting = {
+        { coords = vec4(-6.46, -1660.57, 29.48, 326.34), w = 1.4, d = 2.2, },
+    },
+    clockin     = {
+        { coords = vec4(-14.82, -1662.59, 29.48, 53.55), prop = false, },
+    },
+    carLift = {
+        -- { coords = vec4(-334.65, -136.87, 39.00, 340), useMLOLift = false }, -- Bay 4 [GTA Prop]
+    },
+    manualRepair = {
+        { coords = vec4(-37.95, -1676.98, 29.49, 139.98), prop = true, },
+    },
+	-- garage = { -- requires jim-jobgarge
+    --     spawn = vec4(-49.14, -1031.25, 27.76, 339.67),
+    --     out = vec4(-42.38, -1035.11, 28.52, 68.01),
+    --     list = { "flatbed", "panto", "slamtruck", "cheburek", "utillitruck3" },
+    --     prop = true, -- spawn a prop (if there isn't alreaady one available in the current MLO at the location)
+    -- },
+    payments = {
+        img = "<center><p><img src=https://i.imgur.com/74UVnCb.jpeg width=150px></p>",
+        { coords = vec4(-37.71, -1671.4, 29.48, 136.87), prop = false },
+    },
+    Restrictions = { -- Remove what you DON'T what the location to be able to edit
+        Vehicle = { "Compacts", "Sedans", "SUVs", "Coupes", "Muscle", "Sports Classics", "Sports", "Super", "Motorcycles", "Off-road", "Industrial", "Utility", "Vans", "Cycles", "Service", "Emergency", "Commercial", },
+        Allow = { "tools", "cosmetics", "repairs", "nos", "perform" },
+    },
+    nosrefill = {
+        --{ coords = vec4(-334.52, -114.66, 39.00, 161.14) }
+    },
+    blip = {
+        coords = vec3(-26.06, -1660.28, 29.48),
+        label = "Mosley Auto",
         color = 1,
         sprite = 446,
         disp = 6,

@@ -41,7 +41,8 @@ RegisterNetEvent('avid-weed:server:initiatedrug', function(cad)
 				if stealChance < Config.SellSettings['stealChance'] then
 					ShowNotification(src, _U('NOTIFICATION__STOLEN__DRUG'), 'error')
 				else
-					it.addMoney(src, "cash", price, "Money from Drug Selling")
+					Player.Functions.AddItem("folded_cash", price)
+					--it.addMoney(src, "cash", price, "Money from Drug Selling")
 					ShowNotification(src, _U('NOTIFICATION__SOLD__DRUG'):format(price), 'success')
 				end
 				local coords = GetEntityCoords(GetPlayerPed(src))

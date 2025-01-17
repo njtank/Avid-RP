@@ -1,6 +1,6 @@
 Config = {}
 
-Config.ItemName = "trap_phone"  -- Make sure this matches the item you put in your qb-core/shared/items.lua
+Config.ItemName = "black_phone"  -- Make sure this matches the item you put in your qb-core/shared/items.lua
 Config.SpawnDistance = 15.0
 Config.PedStopDistance = 1.5
 Config.AnimationTime = 8000     -- in MS

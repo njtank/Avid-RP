@@ -571,12 +571,12 @@ Config.SellZones = {
         },
         thickness = 27,
         drugs = {
-            { item = 'whitewidow_joint', price = math.random(20, 30)},
-            { item = 'pineappleexpress_joint', price = math.random(20, 30)},
-            { item = 'sourdiesel_joint', price = math.random(20, 30)},
-            { item = 'bluedream_joint', price = math.random(20, 30)},
-            { item = 'lemonhaze_joint', price = math.random(10, 40)},
-            { item = 'meth', price = math.random(60, 110)},
+            { item = 'whitewidow_joint', price = math.random(4, 8)},
+            { item = 'pineappleexpress_joint', price = math.random(4, 8)},
+            { item = 'sourdiesel_joint', price = math.random(6, 9)},
+            { item = 'bluedream_joint', price = math.random(4, 9)},
+            { item = 'lemonhaze_joint', price = math.random(3, 10)},
+            { item = 'meth', price = math.random(10, 18)},
         }
     },
     ['vinewood'] = {
@@ -595,12 +595,12 @@ Config.SellZones = {
         },
         thickness = 59.0,
         drugs = {
-            { item = 'whitewidow_joint', price = math.random(20, 30)},
-            { item = 'pineappleexpress_joint', price = math.random(20, 30)},
-            { item = 'sourdiesel_joint', price = math.random(20, 30)},
-            { item = 'bluedream_joint', price = math.random(20, 30)},
-            { item = 'lemonhaze_joint', price = math.random(10, 40)},
-            { item = 'meth', price = math.random(60, 110)},
+            { item = 'whitewidow_joint', price = math.random(4, 8)},
+            { item = 'pineappleexpress_joint', price = math.random(4, 8)},
+            { item = 'sourdiesel_joint', price = math.random(6, 9)},
+            { item = 'bluedream_joint', price = math.random(4, 9)},
+            { item = 'lemonhaze_joint', price = math.random(3, 10)},
+            { item = 'meth', price = math.random(10, 18)},
         }
     },
     ['beach'] = {
@@ -617,12 +617,12 @@ Config.SellZones = {
         },
         thickness = 4.0,
         drugs = {
-            { item = 'whitewidow_joint', price = math.random(20, 30)},
-            { item = 'pineappleexpress_joint', price = math.random(20, 30)},
-            { item = 'sourdiesel_joint', price = math.random(20, 30)},
-            { item = 'bluedream_joint', price = math.random(20, 30)},
-            { item = 'lemonhaze_joint', price = math.random(10, 40)},
-            { item = 'meth', price = math.random(60, 110)},
+            { item = 'whitewidow_joint', price = math.random(4, 8)},
+            { item = 'pineappleexpress_joint', price = math.random(4, 8)},
+            { item = 'sourdiesel_joint', price = math.random(6, 9)},
+            { item = 'bluedream_joint', price = math.random(4, 9)},
+            { item = 'lemonhaze_joint', price = math.random(3, 10)},
+            { item = 'meth', price = math.random(10, 18)},
         }
     },
 }

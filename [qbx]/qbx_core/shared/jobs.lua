@@ -411,4 +411,68 @@ return {
             },
         },
     },
+    ['atomic'] = {
+        label = 'Atomic Auto',
+        type = 'mechanic',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Mechanic',
+                payment = 50
+            },
+            [1] = {
+                name = 'Sr. Mechanic',
+                payment = 75
+            },
+            [2] = {
+                name = 'Supervisor',
+                payment = 100
+            },
+            [3] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 125
+            },
+            [4] = {
+                name = 'Owner',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
+    ['mosley'] = {
+        label = 'Mosley Auto',
+        type = 'mechanic',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Mechanic',
+                payment = 50
+            },
+            [1] = {
+                name = 'Sr. Mechanic',
+                payment = 75
+            },
+            [2] = {
+                name = 'Supervisor',
+                payment = 100
+            },
+            [3] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 125
+            },
+            [4] = {
+                name = 'Owner',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
 }

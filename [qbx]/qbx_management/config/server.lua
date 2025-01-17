@@ -31,5 +31,17 @@ return {
             rotation = 39.68,
             type = 'job',
         },
+        mosley = {
+            coords = vec3(-15.53, -1659.19, 33.04),
+            size = vec3(1.5, 1.5, 1.5),
+            rotation = 39.68,
+            type = 'job',
+        },
+        atomic = {
+            coords = vec3(463.42, -1883.55, 26.11),
+            size = vec3(1.5, 1.5, 1.5),
+            rotation = 39.68,
+            type = 'job',
+        },
     },
 }

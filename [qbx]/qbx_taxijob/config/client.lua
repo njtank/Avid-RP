@@ -1,12 +1,12 @@
 return {
-    useTarget = false,
+    useTarget = true,
     debugPoly = false,
     useBlips = true,
     allowedVehicles = {
         { model = 'taxi', label = locale('info.taxi_label_1') }
     },
     meter = {
-        defaultPrice = 125.0, -- price per mile
+        defaultPrice = 15.0, -- price per mile
         startingPrice = 0     -- static starting price
     },
     locations = {

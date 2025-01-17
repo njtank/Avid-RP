@@ -1,7 +1,7 @@
 Config = {}
 
 Config.TaxiModel = 'taxi'
-Config.FareRate = 0.6 -- 1.0 is equal with the distance
+Config.FareRate = 0.008 -- 1.0 is equal with the distance
 Config.MaxRidesHistory = 10
 Config.PauseOnReset = true
 

@@ -3446,4 +3446,91 @@ return {
     client = { image = "hacking_laptop.png" },
 },
 
+--- avid_itjob ---
+['keyboard'] = {
+    label = 'Computer Keyboard',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "keyboard.png" },
+},
+['mouse'] = {
+    label = 'Computer mouse',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "mouse.png" },
+},
+['compcase'] = {
+    label = 'Computer Case',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "compcase.png" },
+},
+['powersupply'] = {
+    label = 'Computer PSU',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "powersupply.png" },
+},
+['cables'] = {
+    label = 'Computer Cables',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "cables.png" },
+},
+['it_toolkit'] = {
+    label = 'IT Toolkit',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "it_toolkit.png" },
+},
+['cpu'] = {
+    label = 'CPU',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "cpu.png" },
+},
+['cpucooler'] = {
+    label = 'CPU Cooler',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "cpucooler.png" },
+},
+['motherboard'] = {
+    label = 'Computer Motherboard',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "motherboard.png" },
+},
+['memory'] = {
+    label = 'Computer Memory',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "memory.png" },
+},
+['graphiccard'] = {
+    label = 'Computer Graphic Card',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "graphiccard.png" },
+},
+['ssd'] = {
+    label = 'Solid State Drive',
+    description = '',
+    weight = 100,
+    stack = false,
+    client = { image = "ssd.png" },
+},
+
+
 }

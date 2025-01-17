@@ -3531,6 +3531,13 @@ return {
     stack = false,
     client = { image = "ssd.png" },
 },
+['black_phone'] = {
+    label = 'Black Phone',
+    description = 'Use if you need "clients" ?',
+    weight = 100,
+    stack = false,
+    client = { image = "black_phone.png" },
+},
 
 
 }

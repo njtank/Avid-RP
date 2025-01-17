@@ -2,8 +2,8 @@ return {
     units = 'mph' ,             -- (mph, kmh)
     breaktire = true,           -- Enable/Disable breaking off vehicle wheel on impact
     threshold = {
-        health = 50.0,          -- Health difference needed to break off wheel (LastHealth - CurrentHealth)
-        speed  = 50.0,          -- Speed difference needed to break off wheel (LastSpeed - CurrentSpeed)
+        health = 30.0,          -- Health difference needed to break off wheel (LastHealth - CurrentHealth)
+        speed  = 70.0,          -- Speed difference needed to break off wheel (LastSpeed - CurrentSpeed)
         heavy  = 90.0,          -- Speed difference needed to disable vehicle instantly (LastSpeed - CurrentSpeed)
     },
     globalmultiplier = 20.0,    -- Base damage multiplier for all vehicles (lower value = less damage)
@@ -33,29 +33,29 @@ return {
                 1.0,	        -- 22: Open Wheel
     },
     regulated = {               -- Prevent controls for vehicle class while flipped/airborne
-        [0] =   true,           -- 0: Compacts
-                true,           -- 1: Sedans
-                true,           -- 2: SUVs
-                true,           -- 3: Coupes
-                true,           -- 4: Muscle
-                true,           -- 5: Sports Classics
-                true,           -- 6: Sports
-                true,           -- 7: Super
+        [0] =   false,           -- 0: Compacts
+                false,           -- 1: Sedans
+                false,           -- 2: SUVs
+                false,           -- 3: Coupes
+                false,           -- 4: Muscle
+                false,           -- 5: Sports Classics
+                false,           -- 6: Sports
+                false,           -- 7: Super
                 false,          -- 8: Motorcycles
-                true,           -- 9: Off-road
-                true,           -- 10: Industrial
-                true,           -- 11: Utility
-                true,           -- 12: Vans
+                false,           -- 9: Off-road
+                false,           -- 10: Industrial
+                false,           -- 11: Utility
+                false,           -- 12: Vans
                 false,          -- 13: Bicycles
                 false,          -- 14: Boats
                 false,          -- 15: Helicopters
                 false,          -- 16: Planes
-                true,           -- 17: Service
-                true,           -- 18: Emergency
+                false,           -- 17: Service
+                false,           -- 18: Emergency
                 false,          -- 19: Military
-                true,           -- 20: Commercial
+                false,           -- 20: Commercial
                 false,          -- 21: Trains
-                true,           -- 22: Open Wheel
+                false,           -- 22: Open Wheel
     },
     backengine = {
         [`ninef`] = true,

@@ -104,10 +104,10 @@ local function nearZone(point)
             if IsControlJustPressed(0, 38) and not droppingOff then
                 droppingOff = true
                 lib.hideTextUI()
-                if lib.progressCircle({
-                    duration = 5000,
+                if lib.progressBar({
+                    duration = 7500,
                     position = 'bottom',
-                    label = "Dropping cargo..",
+                    label = "Delivering cargo..",
                     useWhileDead = true,
                     canCancel = false,
                     disable = { move = true, car = true, mouse = false, combat = true, },

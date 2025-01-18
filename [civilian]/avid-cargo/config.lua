@@ -5,12 +5,12 @@ return {
         script = 'cdn-fuel',
     },
     Ped = 'mp_m_weapexp_01',
-    PedCoords = vec4(-413.96, 6171.53, 30.48, 320.39),
-    VehicleSpawn = vec4(-411.37, 6175.33, 31.48, 228.09),
+    PedCoords = vec4(849.76, -1995.65, 28.98, 357.21),
+    VehicleSpawn = vec4(846.77, -1988.8, 29.39, 357.22),
     DeliveryInfo = { 
         title = 'Cargo Delivery', 
-        msg = 'Deliver the cargo to the set location.', 
-        sec = 3, 
+        msg = 'Deliver the cargo to the location.', 
+        sec = 7, 
         audioName = 'Boss_Message_Orange', audioRef = 'GTAO_Boss_Goons_FM_Soundset'
     },
     ReturnInfo = { 

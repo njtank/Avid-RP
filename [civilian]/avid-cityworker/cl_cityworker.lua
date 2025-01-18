@@ -169,7 +169,27 @@ local function repairSpot()
         exports['qb-target']:RemoveZone(currZone)
     end
     currZone = nil
-    local success = Untangle()
+    while true do
+        local success = Untangle()
+        if success then
+            break -- Exit the loop when successful
+        end
+
+        -- Optionally, give the player the ability to cancel
+        local retry = lib.alertDialog({
+            header = "You failed!",
+            content = "Would you like to try again?",
+            centered = true,
+            buttons = {
+                {label = "Retry", value = true},
+                {label = "Cancel", value = false}
+            }
+        })
+        
+        if not retry then
+            return -- Exit the function if the player cancels
+        end
+    end
     TaskStartScenarioInPlace(cache.ped, 'WORLD_HUMAN_WELDING', 0, true)
     if lib.progressBar({
         duration = 20000,

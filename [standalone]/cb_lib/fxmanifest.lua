@@ -8,7 +8,7 @@ lua54 'yes'
 use_experimental_fxv2_oal 'yes'
 
 client_scripts { 
-   '@ox_core/imports/client.lua', --Remove the two -- if you're using ox_core in your server
+   --'@ox_core/imports/client.lua', --Remove the two -- if you're using ox_core in your server
 
   'client/groups/**', 
   "client/inventory/carryItems.lua", 

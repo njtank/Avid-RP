@@ -60,22 +60,18 @@ if Config.PlayerOwnedGasStationsEnabled then -- This is so Player Owned Gas Stat
             FreezeEntityPosition(ped, true)
             SetEntityInvincible(ped, true)
             SetBlockingOfNonTemporaryEvents(ped, true)
-            exports['qb-target']:AddTargetEntity(ped, {
-                options = {
-                    {
-                        type = "client",
-                        label = Lang:t("station_talk_to_ped"),
-                        icon = "fas fa-building",
-                        action = function()
-                            TriggerEvent('cdn-fuel:stations:openmenu', CurrentLocation)
-                        end,
-                    },
-                },
-                distance = 2.0
+            exports['ox_target']:addEntity(ped, {
+                {
+                    name = 'station_talk_to_ped',
+                    event = 'cdn-fuel:stations:openmenu',
+                    icon = 'fas fa-building',
+                    label = Lang:t("station_talk_to_ped"),
+                    distance = 2.0
+                }
             })
         end
         PedsSpawned = true
-    end
+    end    
 
     local function GenerateRandomTruckModel()
         local possibleTrucks = Config.PossibleDeliveryTrucks

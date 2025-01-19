@@ -38,9 +38,11 @@ return {
             trucker = 'Trucker',
             taxi = 'Taxi',
             tow = 'Tow Truck',
-            reporter = 'News Reporter',
+            electircal = 'Electrical Worker',
             garbage = 'Garbage Collector',
-            bus = 'Bus Driver',
+            newspaper = 'Newspaper Delivery',
+            it = 'IT Job',
+            cargo = 'Cargo Delivery'
         },
-    },
+    }  
 }

@@ -255,3 +255,11 @@ AddEventHandler('onResourceStop', function(resource)
     deleteBlips()
     deletePeds()
 end)
+
+RegisterNetEvent('qbx_cityhall:client:setGPS', function(location)
+    if location then
+        SetNewWaypoint(location.x, location.y)
+        -- Optionally notify the player about the GPS update
+        exports['qbx_core']:Notify(locale('success.gps_set'), 'success')
+    end
+end)

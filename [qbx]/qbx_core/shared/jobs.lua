@@ -12,6 +12,50 @@ return {
             },
         },
     },
+    ['electrical'] = {
+        label = 'Electrical',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Electrician',
+                payment = 0
+            },
+        },
+    },
+    ['newspaper'] = {
+        label = 'Newspaper',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Newpaper Delivery',
+                payment = 0
+            },
+        },
+    },
+    ['it'] = {
+        label = 'IT',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'IT Technician',
+                payment = 0
+            },
+        },
+    },
+    ['cargo'] = {
+        label = 'Cargo',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Cargo Delivery',
+                payment = 0
+            },
+        },
+    },
     ['police'] = {
         label = 'LSPD',
         type = 'leo',

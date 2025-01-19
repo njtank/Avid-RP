@@ -87,8 +87,8 @@ return {
 		},
 		shopItems = "bar",
 		blip = {
-			sprite = 827,
-			color = 15,
+			sprite = 52,
+			color = 47,
 			scale = 0.5,
 		}
 	},

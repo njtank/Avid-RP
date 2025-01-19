@@ -46,7 +46,7 @@ CreateThread(function()
                 name = "takeout_flatbed",
                 event = "an-tow:takeoutcar",
                 icon = "fas fa-circle",
-                label = Lang:t('info.take_out_flatbed'),
+                label = 'Take out tow truck',
                 canInteract = function()
                     return not towout
                 end,
@@ -56,7 +56,7 @@ CreateThread(function()
                 name = "park_flatbed",
                 event = "an-tow:parkcar",
                 icon = "fas fa-circle",
-                label = Lang:t('info.store_the_flatbed'),
+                label = 'Return tow truck',
                 canInteract = function()
                     return towout
                 end,
@@ -66,11 +66,11 @@ CreateThread(function()
                 name = "collect_payslip",
                 event = "an-tow:pay",
                 icon = "fa fa-money-bill",
-                label = Lang:t('info.collect_payslip'),
+                label = 'Collect pay check',
                 groups = "tow"
             }
         },
-        debug = true -- Set to true for visualizing the zone during development
+        debug = false -- Set to true for visualizing the zone during development
     })
 end)
 

@@ -234,7 +234,7 @@ end
 local function MenuGarage()
     local towMenu = {
         {
-            title = Lang:t('info.available_trucks'),
+            title = 'Available Trucks',
             description = nil,
             disabled = true
         }
@@ -252,14 +252,14 @@ local function MenuGarage()
     end
 
     table.insert(towMenu, {
-        title = Lang:t('info.close_menu'),
+        title = 'Close menu',
         description = "",
         event = "ox:menu:close"
     })
 
     lib.registerContext({
         id = 'tow_garage_menu',
-        title = Lang:t('info.garage_menu_title'),
+        title = 'Tow Menu',
         options = towMenu
     })
 
@@ -283,15 +283,16 @@ RegisterNetEvent('an-tow:client:SpawnVehicle', function()
         exports[Config.fuel]:SetFuel(veh, 100.0)
         SetEntityAsMissionEntity(veh, true, true)
         CloseMenuFull()
-        handleVehicleKeys(veh)
-        --TriggerEvent("vehiclekeys:client:SetOwner", QBCore.Functions.GetPlate(veh))
+        
+        -- Assign vehicle keys
+        TriggerEvent('vehiclekeys:client:SetOwner', QBCore.Functions.GetPlate(veh))
+        
         SetVehicleEngineOn(veh, true, true)
         for i = 1, 9, 1 do
             SetVehicleExtra(veh, i, 0)
         end
         globalplate = QBCore.Functions.GetPlate(veh)
     end, coords, true)
-    
 end)
 
 CreateThread(function()

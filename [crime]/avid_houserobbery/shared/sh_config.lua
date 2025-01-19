@@ -533,7 +533,7 @@ Config.TimeChange = true -- for realistic interior night time, can cause error w
 Config.TimeSync = "none" -- Time Sync | types: cd_easytime, none, realtime
 Config.PoliceJobs = { 'police', 'sheriff' } -- jobs for police counting
 --PLAYER CONTROL
-Config.Logs = { enabled = true, type = "https://discord.com/api/webhooks/1281704284022509589/77z3_XjvnB4-7_3Ej9vD36JHT8UbilOBaYOznLA0qsleopBWeeqbj6Hk1Yd7pLP80LmW" } --Change webhook in  use webhook or ox_lib (datadog) Can be changed in server > sv_utils.lua
+Config.Logs = { enabled = true, type = "https://discord.com/api/webhooks/1330678736437379132/hZToSPHYIIhF_ZOHQ1hj_6bQUB2t1_oyXl73Jd1qmu5ZlD1XLwn_Rqr0uSjvvJQRWMqX" } --Change webhook in  use webhook or ox_lib (datadog) Can be changed in server > sv_utils.lua
 Config.DropPlayer = false -- Drop (Kick) Player if tries to cheat!
 Config.AnticheatBan = false -- Change in server/sv_Utils.lua!!! WIll not work by default you need to add your custom trigger to ban player!
 
@@ -546,7 +546,7 @@ Config.Lockpick = { item = "lockpick", remove = true } -- item for lockpicking h
 
 Config.NeedBag = {
     enabled = false, -- if needed to enter the house 
-    var = 44, --ID of the bag
+    var = 51, --ID of the bag
     color = 0 -- Color ID of the bag
 }
 
@@ -567,7 +567,7 @@ Config.StartMission = {
     },
     Ped = {
         model = `S_M_Y_Construct_02`, 
-        coords = vec4(-933.92, 405.43, 79.14, 201.97), 
+        coords = vec4(-935.3, 405.15, 78.14, 202.89), 
         scenario = "WORLD_HUMAN_SMOKING" 
     },
     Vehicle = {    
@@ -590,7 +590,7 @@ Config.Tier = {
                 coords = vector4(266.03, -1007.61, -101.0, 40.0),        
             },
             ["Saffron"] = {
-                ChanceToFindNothing = 30,
+                ChanceToFindNothing = 5,
                 coords = vector3(265.937714, -999.368348, -99.008666),        
                 Items = {
                     { Item = "romantic_book", Chance = 60.9, MinCount = 1, MaxCount = 2 },
@@ -646,7 +646,7 @@ Config.Tier = {
                 coords = vector4(346.61, -1013.14, -99.2, 357.81),        
             },
             ["Bag of Cocaine"] = {
-                ChanceToFindNothing = 30,
+                ChanceToFindNothing = 5,
                 coords = vector3(349.19, -994.83, -99.2),        
                 Items = {
                     { Item = "notepad", Chance = 80.9, MinCount = 1, MaxCount = 2 },
@@ -656,11 +656,11 @@ Config.Tier = {
                     { Item = "necklace", Chance = 50.9, MinCount = 1, MaxCount = 2 },
                     { Item = "bong", Chance = 80.9, MinCount = 1, MaxCount = 2 },
                     { Item = "twerks_candy", Chance = 80.9, MinCount = 3, MaxCount = 6 },
-                    { Item = "sprunklight", Chance = 80.9, MinCount = 2, MaxCount = 5 },
+                    { Item = "pogo", Chance = 10, MinCount = 1, MaxCount = 1 },
                 },
             },
             ["Book"] = {
-                ChanceToFindNothing = 40,
+                ChanceToFindNothing = 5,
                 coords = vector3(345.3, -995.76, -99.2),        
                 Items = {
                     { Item = "book", Chance = 30.9, MinCount = 1, MaxCount = 2 },
@@ -668,7 +668,7 @@ Config.Tier = {
                 }
             },
             ["Bathroom"] = {
-                ChanceToFindNothing = 30,
+                ChanceToFindNothing = 5,
                 coords = vector3(347.23, -994.09, -99.2),        
                 Items = {
                     { Item = "toothpaste", Chance = 60.9, MinCount = 1, MaxCount = 2 },
@@ -724,7 +724,7 @@ Config.Tier = {
                 coords = vector4(-787.48413085938, 315.70617675782, 187.9133758545, 270.08288574218),        
             },
             ["Saffron"] = {
-                ChanceToFindNothing = 25,
+                ChanceToFindNothing = 5,
                 coords = vector3(-788.957886, 320.741302, 187.313248),        
                 Items = {
                     { Item = "bong", Chance = 20.5, MinCount = 1, MaxCount = 2 },
@@ -734,7 +734,7 @@ Config.Tier = {
                 }
             },
             ["Kitchen #1"] = { 
-                ChanceToFindNothing = 25,
+                ChanceToFindNothing = 5,
                 coords = vector3(-783.327454, 325.411712, 187.313248),        
                 Items = {
                     { Item = "WEAPON_MACHETE", Chance = 30.9, MinCount = 1, MaxCount = 2 },
@@ -743,7 +743,7 @@ Config.Tier = {
                 },
             },
             ["Kitchen #2"] = {
-                ChanceToFindNothing = 25,
+                ChanceToFindNothing = 5,
                 coords = vector3(-782.004090, 330.077392, 187.313248),        
                 Items = {
                     { Item = "weapon_knife", Chance = 30.9, MinCount = 1, MaxCount = 2 },
@@ -751,17 +751,17 @@ Config.Tier = {
                 }
             },
             ["Heist storage"] = {
-                ChanceToFindNothing = 25,
+                ChanceToFindNothing = 5,
                 coords = vector3(-794.997680, 326.787872, 187.313340),        
                 Items = {
-                    { Item = "weapon_ak74", Chance = 10.9, MinCount = 1, MaxCount = 1 },
-                    { Item = "weapon_m45a1", Chance = 15.9, MinCount = 1, MaxCount = 1},
-                    { Item = "at_suppressor_light", Chance = 30.9, MinCount = 1, MaxCount = 2 },
-                    { Item = "at_clip_extended_pistol", Chance = 15.9, MinCount = 1, MaxCount = 2 },
+                    { Item = "WEAPON_HEAVYPISTOL", Chance = 10.9, MinCount = 1, MaxCount = 1 },
+                    { Item = "WEAPON_DBSHOTGUN", Chance = 15.9, MinCount = 1, MaxCount = 1},
+                    { Item = "ammo-shotgun", Chance = 33.9, MinCount = 20, MaxCount = 41 },
+                    { Item = "ammo-45", Chance = 30.9, MinCount = 29, MaxCount = 58 },
                 }
             },
             ["Stair saffron"] = {
-                ChanceToFindNothing = 25,
+                ChanceToFindNothing = 5,
                 coords = vector3(-793.373352, 341.711944, 187.113678),        
                 Items = {
                     { Item = "weapon_knuckle", Chance = 30.9, MinCount = 1, MaxCount = 2 },
@@ -771,7 +771,7 @@ Config.Tier = {
                 },
             },
             ["Bedroom saffron"] = {
-                ChanceToFindNothing = 25,
+                ChanceToFindNothing = 5,
                 coords = vector3(-800.065612, 338.434052, 190.716018),        
                 Items = {
                     { Item = "bong", Chance = 20.5, MinCount = 1, MaxCount = 2 },
@@ -780,7 +780,7 @@ Config.Tier = {
                 },
             },
             ["Locker #2"] = {
-                ChanceToFindNothing = 20,
+                ChanceToFindNothing = 5,
                 coords = vector3(-796.366760, 328.144348, 190.716004),        
                 Items = {
                     { Item = "weapon_knuckle", Chance = 30.9, MinCount = 1, MaxCount = 2 },
@@ -788,7 +788,7 @@ Config.Tier = {
                 },
             },
             ["Bathroom"] = {
-                ChanceToFindNothing = 25,
+                ChanceToFindNothing = 5,
                 coords = vector3(-806.068360, 332.405182, 190.716004),        
                 Items = {
                     { Item = "toothpaste", Chance = 30.9, MinCount = 1, MaxCount = 2 },

@@ -1,8 +1,8 @@
 return {
     QueueTimer = 3, -- every 10 minutes, it will generate a route for all the players in queue who have less than 5 routes stored.
     Payment = {
-        min = 45,
-        max = 50,
+        min = 65,
+        max = 84,
     },
     Deliveries = {
         vec3(1004.78, -1381.54, 31.37),

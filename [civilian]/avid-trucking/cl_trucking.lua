@@ -107,7 +107,7 @@ local function nearZone(point)
                 droppingOff = true
                 FreezeEntityPosition(cache.vehicle, true)
                 lib.hideTextUI()
-                if lib.progressCircle({
+                if lib.progressBar({
                     duration = 5000,
                     position = 'bottom',
                     label = 'Dropping trailer..',

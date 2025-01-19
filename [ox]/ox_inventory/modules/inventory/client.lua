@@ -5,18 +5,36 @@ local Inventory = {}
 Inventory.Dumpsters = {218085040, 666561306, -58485588, -206690185, 1511880420, 682791951}
 
 function Inventory.OpenDumpster(entity)
-	local netId = NetworkGetEntityIsNetworked(entity) and NetworkGetNetworkIdFromEntity(entity)
+    local netId = NetworkGetEntityIsNetworked(entity) and NetworkGetNetworkIdFromEntity(entity)
 
-	if not netId then
-		local coords = GetEntityCoords(entity)
-		entity = GetClosestObjectOfType(coords.x, coords.y, coords.z, 0.1, GetEntityModel(entity), true, true, true)
-		netId = entity ~= 0 and NetworkGetNetworkIdFromEntity(entity)
-	end
+    if not netId then
+        local coords = GetEntityCoords(entity)
+        entity = GetClosestObjectOfType(coords.x, coords.y, coords.z, 0.1, GetEntityModel(entity), true, true, true)
+        netId = entity ~= 0 and NetworkGetNetworkIdFromEntity(entity)
+    end
 
-	if netId then
-		lib.progressBar( {duration = 3000, label = 'Searching dumpster...'})
-		client.openInventory('dumpster', 'dumpster'..netId)
-	end
+    if netId then
+        -- Load the animation dictionary
+        local animDict = "anim@amb@nightclub@mini@drinking@drinking_shots@ped_a@normal"
+        local animName = "pickup"
+        
+        RequestAnimDict(animDict)
+        while not HasAnimDictLoaded(animDict) do
+            Wait(10)
+        end
+
+        -- Play the animation
+        TaskPlayAnim(PlayerPedId(), animDict, animName, 8.0, -8.0, 3000, 0, 0, false, false, false)
+
+        -- Progress bar
+        lib.progressBar({duration = 3000, label = 'Searching dumpster...'})
+
+        -- Clear animation after progress bar completes
+        ClearPedTasks(PlayerPedId())
+
+        -- Open inventory
+        client.openInventory('dumpster', 'dumpster' .. netId)
+    end
 end
 
 local Utils = require 'modules.utils.client'

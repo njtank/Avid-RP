@@ -99,14 +99,14 @@ Config.Gangs = {
         CarDelivery = vector3(-627.72, 290.9, 80.76),
         LockedOrders = {}
     },
-    ["ballas"] = { -- if you set as a string, e.g. ["ballas"], ["vagos"] etc. then this ped will only be available to that job/gang and only they can use its mission.
-        Ped = nil,
-        PedCoords = vector4(112.32, -1961.98, 19.95, 17.81),
-        PedModel = 'ig_ballasog',
-        Animation = {"anim@heists@humane_labs@finale@strip_club", "ped_b_celebrate_loop"},
-        CarDelivery = vector3(103.13, -1957.23, 19.75),
-        LockedOrders = {}
-    },
+    --["ballas"] = { -- if you set as a string, e.g. ["ballas"], ["vagos"] etc. then this ped will only be available to that job/gang and only they can use its mission.
+    --    Ped = nil,
+    --    PedCoords = vector4(112.32, -1961.98, 19.95, 17.81),
+    --    PedModel = 'ig_ballasog',
+    --    Animation = {"anim@heists@humane_labs@finale@strip_club", "ped_b_celebrate_loop"},
+    --    CarDelivery = vector3(103.13, -1957.23, 19.75),
+    --    LockedOrders = {}
+    --},
     -- ["vagos"] = {
     --     Ped = nil,
     --     PedCoords = vec(-129.74, 1002.18, 234.73),

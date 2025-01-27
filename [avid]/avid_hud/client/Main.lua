@@ -119,3 +119,27 @@ function toggleEngine()
         SetVehicleEngineOn(vehicle, (not GetIsVehicleEngineRunning(vehicle)), false, true)
     end
 end
+
+RegisterNUICallback('uiLoaded', function(data, cb)
+   TriggerEvent('hud:client:uiLoaded')
+   cb('ok')
+end)
+
+local function toggleHud(state)
+   interface.toggle(state)
+   DisplayRadar(state)
+   debug("(toggleHud) Toggled HUD to state: ", state)
+end
+RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
+  debug("QBCore:Client:OnPlayerLoaded event triggered")
+   toggleHud(true)
+end)
+RegisterNetEvent('QBCore:Client:OnPlayerUnload', function()
+  debug("QBCore:Client:OnPlayerUnload event triggered")
+   toggleHud(false)
+end)
+
+RegisterNetEvent('hud:client:uiLoaded', function()
+   interface.toggle(false)
+   debug("(hud:client:uiLoaded) NUI frame is ready, HUD hidden initially.")
+end)

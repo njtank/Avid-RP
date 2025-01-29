@@ -721,6 +721,11 @@ return {
 			weight = 600,
 			throwable = true,
 		},
+		
+		['WEAPON_FIREHOSE'] = {
+			label = 'Fire Hose',
+			weight = 0
+		},
 	},
 
 	Components = {

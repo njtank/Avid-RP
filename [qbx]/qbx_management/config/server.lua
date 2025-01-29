@@ -43,5 +43,11 @@ return {
             rotation = 39.68,
             type = 'job',
         },
+        firefighter = {
+            coords = vec3(357.45, -1096.76, 29.45),
+            size = vec3(1.5, 1.5, 1.5),
+            rotation = 39.68,
+            type = 'job',
+        }
     },
 }

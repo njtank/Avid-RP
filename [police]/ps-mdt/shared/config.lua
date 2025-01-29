@@ -78,7 +78,8 @@ Config.PoliceJobs = {
 
 Config.AmbulanceJobs = {
     ['ambulance'] = true,
-    ['doctor'] = true
+    ['doctor'] = true,
+    ['firefighter'] = true
 }
 
 Config.DojJobs = {
@@ -128,6 +129,9 @@ Config.LogPerms = {
     ['lssd'] = {
 		[4] = true,
 	},
+    ['firefighter'] = {
+        [4] = true
+    },
 }
 
 Config.RemoveIncidentPerms = {
@@ -155,6 +159,9 @@ Config.RemoveIncidentPerms = {
     ['lssd'] = {
 		[4] = true,
 	},
+    ['firefighter'] = {
+        [4] = true
+    },
 }
 
 Config.RemoveReportPerms = {
@@ -182,6 +189,9 @@ Config.RemoveReportPerms = {
     ['lssd'] = {
 		[4] = true,
 	},
+    ['firefighter'] = {
+        [4] = true
+    },
 }
 
 Config.RemoveWeaponsPerms = {
@@ -209,6 +219,9 @@ Config.RemoveWeaponsPerms = {
     ['lssd'] = {
 		[4] = true,
 	},
+    ['firefighter'] = {
+        [4] = true
+    },
 }
 
 Config.PenalCodeTitles = {

@@ -1237,7 +1237,7 @@ return {
         close = true,
         description = "For all the thirsty out there",
         client = {
-            image = "bottle.png",
+            image = "bottle_water.png",
         }
     },
 

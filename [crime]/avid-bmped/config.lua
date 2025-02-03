@@ -56,7 +56,7 @@ Config.Shop = {
     },
     [2] = {
         item = "blueprint_smallexplosive",
-        label = locale('menu.blueprint_smallexplosive'),
+        label = 'Small Explosive',
         price = 60,
         type = "crypto",
         icon = "fa-solid fa-laptop-code",

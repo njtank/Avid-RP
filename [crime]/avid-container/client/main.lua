@@ -4,6 +4,47 @@ local spawnedObjects = {}
 local containerShell = nil
 local lastRobberyTime = -Config.cooldownTime 
 local entryPoint = nil  
+local isRobberyActive = false
+local peds = {}
+
+-- Function to spawn aggressive peds
+local function spawnAggressivePeds()
+    local vehicleModels = {'baller', 'cognoscenti'} -- Example 4-door vehicles
+    local pedModels = {'s_m_y_blackops_01', 's_m_y_swat_01'} -- Example aggressive ped models
+
+    for i = 1, 2 do
+        local vehicle = GetHashKey(vehicleModels[i])
+        RequestModel(vehicle)
+        while not HasModelLoaded(vehicle) do Wait(10) end
+
+        local vehicleCoords = GetEntityCoords(PlayerPedId()) + vector3(math.random(-20, 20), math.random(-20, 20), 0)
+        local vehicleEntity = CreateVehicle(vehicle, vehicleCoords, 0.0, true, false)
+
+        for j = 1, 3 do
+            local ped = GetHashKey(pedModels[math.random(#pedModels)])
+            RequestModel(ped)
+            while not HasModelLoaded(ped) do Wait(10) end
+
+            local pedEntity = CreatePed(4, ped, vehicleCoords, 0.0, true, false)
+            SetPedAsEnemy(pedEntity, true)
+            SetPedCombatAttributes(pedEntity, 46, true) -- Make them aggressive
+            TaskCombatPed(pedEntity, PlayerPedId(), 0, 16)
+            table.insert(peds, pedEntity)
+        end
+    end
+end
+
+-- Function to start the robbery
+local function startRobbery(locationIndex)
+    if isRobberyActive then return end
+    isRobberyActive = true
+
+    -- Spawn aggressive peds
+    spawnAggressivePeds()
+
+    -- Proceed with the robbery
+    proceedWithRobbery(locationIndex)
+end
 
 RegisterNetEvent('container-robbery:enter')
 AddEventHandler('container-robbery:enter', function(data)
@@ -49,7 +90,7 @@ AddEventHandler('container-robbery:enter', function(data)
             skillCheckEnter_ps(function(result)
                 success = result
                 if success then
-                    proceedWithRobbery(locationIndex)
+                    startRobbery(locationIndex)
                 else
                     if Config.Notify == 'qb' then
                         QBCore.Functions.Notify('Failed skill check to enter!', 'error')
@@ -65,7 +106,7 @@ AddEventHandler('container-robbery:enter', function(data)
         end
 
         if Config.SkillCheckSystem == 'ox' and success then
-            proceedWithRobbery(locationIndex)
+            startRobbery(locationIndex)
         end
     else
         if Config.Notify == 'qb' then
@@ -249,6 +290,13 @@ function LeaveContainer(entryPoint)
     end
     spawnedObjects = {}
 
+    -- Clean up peds
+    for _, ped in ipairs(peds) do
+        DeleteEntity(ped)
+    end
+    peds = {}
+    isRobberyActive = false
+
     -- Failsafe:
     while GetGameTimer() < exitTime do
         Citizen.Wait(1000) 
@@ -382,59 +430,11 @@ function skillCheckSearch_ps(callback)
     end, Config.PsSkill) 
 end
 
-function giveRandomItem(lootTable)
-    local totalWeight = 0
-
-    for _, item in ipairs(lootTable) do
-        totalWeight = totalWeight + item.chance
-    end
-
-    if totalWeight > 0 then
-        local randomNumber = math.random(1, totalWeight)
-        local accumulatedWeight = 0
-
-        for _, item in ipairs(lootTable) do
-            accumulatedWeight = accumulatedWeight + item.chance
-
-            if randomNumber <= accumulatedWeight then
-                if item.item ~= "nothing" then
-                    local amount = math.random(item.amount.min, item.amount.max)
-                    TriggerServerEvent('container-robbery:giveItem', item.item, amount)
-                else
-                    if Config.Notify == 'qb' then
-                        QBCore.Functions.Notify('Nothing found!', 'error')
-                    elseif Config.Notify == 'ox' then
-                        lib.notify({
-                            title = 'Container Robbery',
-                            description = 'Nothing found!',
-                            type = 'error'
-                        })
-                    end
-                end
-                return
-            end
-        end
-    else
-        if Config.Notify == 'qb' then
-            QBCore.Functions.Notify('Nothing found!', 'error')
-        elseif Config.Notify == 'ox' then
-            lib.notify({
-                title = 'Container Robbery',
-                description = 'Nothing found!',
-                type = 'error'
-            })
-        end
-    end
-end
-
 for index, location in ipairs(Config.robberyStartLocations) do
---[[    exports['ox_target']:addSphereZone("containerRobbery" .. index, location.entry, 1.0, 1.0, {
-        name = "containerRobbery" .. index,
-        heading = 0,
-        debugPoly = false,
-        minZ = location.entry.z - 1.0,
-        maxZ = location.entry.z + 1.0
-    }, {
+    exports['ox_target']:addBoxZone({
+        coords = location.entry,
+        rotation = 0,
+        drawSprite = true,
         options = {
             {
                 icon = 'fa-solid fa-box',
@@ -443,23 +443,6 @@ for index, location in ipairs(Config.robberyStartLocations) do
                     TriggerEvent('container-robbery:enter', { parameters = { locationIndex = index } })
                 end
             }
-        },
-        distance = 2.0
-    })
-end ]]
-
-exports['ox_target']:addBoxZone({
-    coords = vector3(-153.31, -2419.78, 6.93),
-    rotation = 0,
-    drawSprite = true,
-    options = {
-        {
-            icon = 'fa-solid fa-box',
-                label = "Enter Container",
-                action = function()
-                    TriggerEvent('container-robbery:enter', { parameters = { locationIndex = index } })
-                end
         }
-    }
-})
+    })
 end

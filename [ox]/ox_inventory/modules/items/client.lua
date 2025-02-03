@@ -134,7 +134,7 @@ Item('armor_plate', function(data, slot)
                 end
 
                 -- Add armor while ensuring it doesn't exceed max armor
-                local newArmor = math.min(currentArmor + 10, maxArmor)
+                local newArmor = math.min(currentArmor + 20, maxArmor)
                 
                 -- Apply the max armor and new armor value
                 SetPlayerMaxArmour(PlayerData.id, maxArmor)

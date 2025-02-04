@@ -142,3 +142,41 @@ CreateThread(function()
         })
     end
 end)
+
+
+-- crypto_check.lua
+
+-- Example: In-memory storage for player crypto balances (replace with your database logic)
+local playerCryptoBalances = {}
+
+-- Function to get a player's crypto balance
+local function getPlayerCryptoBalance(playerId)
+    return playerCryptoBalances[playerId] or 0  -- Default to 0 if no balance is found
+end
+
+-- Function to set a player's crypto balance (for testing purposes)
+local function setPlayerCryptoBalance(playerId, amount)
+    playerCryptoBalances[playerId] = amount
+end
+
+-- Command to check crypto balance
+RegisterCommand("checkcrypto", function(source, args, rawCommand)
+    local playerId = source  -- Get the player's server ID
+    local balance = getPlayerCryptoBalance(playerId)
+
+    -- Send the balance to the player using the custom Notify function
+    Notify(playerId, 'Your current balance is:', balance)
+end, false)
+
+-- Example: Set a player's crypto balance for testing
+RegisterCommand("setcrypto", function(source, args, rawCommand)
+    local playerId = source
+    local amount = tonumber(args[1])
+
+    if amount then
+        setPlayerCryptoBalance(playerId, amount)
+        Notify(playerId, 'Your balance has been updated to:', amount)
+    else
+        Notify(playerId, 'Error', 'Usage: /setcrypto <amount>', 'error')  -- Assuming your Notify function supports error types
+    end
+end, false)

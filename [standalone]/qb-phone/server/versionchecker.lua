@@ -1,2 +1,0 @@
-if not lib.versionCheck('Renewed-Scripts/qb-phone') then print('Please update to latest qb-phone') end
-if not lib.checkDependency('ox_lib', '3.6.0') then print('Please update to ox_lib version 3.6.0') end

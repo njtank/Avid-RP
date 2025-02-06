@@ -187,7 +187,7 @@ return {
         }
     },
 
-    ['lightarmour'] = {
+    ['light_armour'] = {
         label = 'Standard Armor Vest',
         weight = 3000,
         stack = false,
@@ -198,7 +198,7 @@ return {
         }
     },
 
-    ['heavyarmour'] = {
+    ['heavy_armour'] = {
         label = 'Heavy Armor Vest',
         weight = 3000,
         stack = false,

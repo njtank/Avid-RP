@@ -167,21 +167,41 @@ end)
 
 lib.callback.register('randol_carheist:server:returnPapers', function(source)
     local src = source
-    local Player = GetPlayer(src)
-    local item, metadata = GetItemData(Player, 'heist_papers')
+    local Player = GetPlayer(src) -- Assuming this returns the player's identifier or similar
+    local inventory = exports.ox_inventory:GetInventory(src) -- Get the player's inventory
 
-    if not item or not next(metadata) then return false end
+    -- Retrieve the 'heist_papers' item and its metadata
+    local item = exports.ox_inventory:Search(src, 'count', 'heist_papers')
 
-    if GetPlyIdentifier(Player) ~= metadata.cid then
-        DoNotification(src, 'These papers do not have your name on them.', 'error')
+    if not item or item == 0 then
+        DoNotification(src, 'You do not have the required heist papers.', 'error')
         return false
     end
 
-    RemoveHeistPapers(Player, item.name, item.slot)
-    AddRewardMoney(Player, metadata.amount)
+    -- Assuming metadata is stored in the item's metadata field
+    local metadata = exports.ox_inventory:GetItem(src, 'heist_papers')
 
+    --if not metadata or GetPlyIdentifier(Player) ~= metadata.cid then
+    --    DoNotification(src, 'These papers do not have your name on them.', 'error')
+    --    return false
+    --end
 
+    -- Remove the 'heist_papers' item
+    exports.ox_inventory:RemoveItem(src, 'heist_papers', 1)
+
+    -- Add the reward money (assuming this is handled separately)
+    AddRewardMoney(Player, math.random(120,212))
+
+    -- Add random amount of "rolled_cash" between 13 and 26
+    local rolledCashAmount = math.random(13, 26)
+    exports.ox_inventory:AddItem(src, 'rolled_cash', rolledCashAmount)
+
+    -- Add one "purple_lootcrate"
+    exports.ox_inventory:AddItem(src, 'purple_lootcrate', 1)
+
+    -- Notify the player
     DoNotification(src, ('You received $%s for delivering the vehicle.'):format(metadata.amount), 'success')
+    DoNotification(src, ('You also received %s rolled cash and a purple lootcrate.'):format(rolledCashAmount), 'success')
 end)
 
 AddEventHandler('onResourceStart', function(resource)

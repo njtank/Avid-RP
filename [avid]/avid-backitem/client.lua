@@ -233,7 +233,7 @@ CreateThread(function()
 
     Wait(3000)
 
-    local PlayerData = QBCore.Functions.GetPlayerData()
+    local PlayerData = exports.qbx_core:GetPlayerData()
 
     for k, v in pairs(PlayerData.items) do
         local hash = joaat(v.name)

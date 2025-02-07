@@ -7,7 +7,15 @@ QBCore.Functions.CreateCallback('bbv-atmaddmoney', function(source, cb, args)
     if not Player then return end
     if picked > 3 then return end -- anti exploit
     picked = picked + 1
-    Player.Functions.AddMoney('cash', Config.Settings.Reward) 
+
+    -- Generate a random amount between 47 and 58
+    local randomAmount = math.random(47, 58)
+
+    -- Add the item "folded_cash" with the random amount
+    Player.Functions.AddItem('folded_cash', randomAmount)
+
+    -- Optionally, you can notify the player that they received the item
+    TriggerClientEvent('QBCore:Notify', src, 'You received ' .. randomAmount .. ' folded cash.', 'success')
 end)
 
 QBCore.Functions.CreateCallback('bbv-atm:cooldown', function(source, cb, args)

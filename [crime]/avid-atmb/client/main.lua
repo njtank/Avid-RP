@@ -13,10 +13,10 @@ CreateThread(function()
     end
 end)
 
-function DigitDazzle()
-    local success = exports.bl_ui:DigitDazzle(3, {
-        length = 4,
-        duration = 25000,
+function LightsOut()
+    local success = exports.bl_ui:LightsOut(3, {
+        level = 4,
+        duration = 8500,
     })
 
     return success
@@ -76,8 +76,28 @@ RegisterNetEvent('bbv-robatm:rob',function()
             SetEntityDrawOutlineColor(255, 1, 1, 255)
             SetEntityDrawOutlineShader(0)
             TriggerEvent('bbv-atmrob:alarm')
-            local success = startFlipGame()
-            if not success then return end
+            while true do
+                local success = LightsOut()
+                if success then
+                    break -- Exit the loop when successful
+                end
+        
+                -- Optionally, give the player the ability to cancel
+                local retry = lib.alertDialog({
+                    header = "You failed!",
+                    content = "Would you like to try again?",
+                    centered = true,
+                    buttons = {
+                        {label = "Retry", value = true},
+                        {label = "Cancel", value = false}
+                    }
+                })
+                
+                if not retry then
+                    return -- Exit the function if the player cancels
+                end
+            end
+            --if not success then return end
             QBCore.Functions.Progressbar("rob_atm", "Planting the Explosive", 45000, false, true, {
                 disableMovement = true,
                 disableCarMovement = true,

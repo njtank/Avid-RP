@@ -202,6 +202,22 @@ return {
 			sprite = 898,
 			color = 20,
 			scale = 0.5,
+			disabled = true,
+		},
+	},
+	electronics = {
+		label = "Electronics",
+		model = {
+			`cs_tom`,
+		},
+		coords = {
+			vec4(-528.89, -582.69, 34.68, 176.6)
+		},
+		shopItems = "electronics",
+		blip = {
+			sprite = 52,
+			color = 30,
+			scale = 0.5,
 			disabled = false,
 		},
 	},

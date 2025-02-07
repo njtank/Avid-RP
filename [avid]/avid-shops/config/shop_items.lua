@@ -98,6 +98,21 @@ local ITEMS = {
 		{ name = 'firstaid',	 		 price = 0, defaultStock = 20000,		 		category = 'Supplies' },
 		{ name = 'painkillers',	 		 price = 0, defaultStock = 20000,		 		category = 'Supplies' },
 	},
+	electronics = {
+		{ name = 'keyboard',    	     price = 40, defaultStock = 1500,                category = 'Computer' },
+		{ name = 'mouse',    			 price = 30, defaultStock = 1500,               category = 'Computer' },
+		{ name = 'compcase',	 		 price = 60, defaultStock = 20000,		 		category = 'Computer' },
+		{ name = 'powersupply',	 		 price = 70, defaultStock = 20000,		 		category = 'Computer' },
+		{ name = 'cables',	 		 	 price = 20, defaultStock = 20000,		 		category = 'Computer' },
+		{ name = 'it_toolkit',    	     price = 100, defaultStock = 1500,                category = 'Computer' },
+		{ name = 'cpu',    			 	 price = 200, defaultStock = 1500,               category = 'Computer' },
+		{ name = 'cpucooler',	 		 price = 70, defaultStock = 20000,		 		category = 'Computer' },
+		{ name = 'motherboard',	 		 price = 210, defaultStock = 20000,		 		category = 'Computer' },
+		{ name = 'memory',	 		 	 price = 140, defaultStock = 20000,		 		category = 'Computer' },
+		{ name = 'graphiccard',	 		 price = 400, defaultStock = 20000,		 		category = 'Computer' },
+		{ name = 'ssd',	 		 	 	 price = 130, defaultStock = 20000,		 		category = 'Computer' },
+		{ name = 'phone',				 price = 40, defaultStock = 2000, 				category = 'Communications'},
+	},
 }
 
 local newFormatItems = {}

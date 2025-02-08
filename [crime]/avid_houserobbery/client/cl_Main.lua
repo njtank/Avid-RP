@@ -115,7 +115,7 @@ AddEventHandler("drc_houserobbery:powder", function()
             particles5 = StartParticleFxLoopedAtCoord("ent_dst_dust", coords.x, coords.y
             , coords.z, rotation.x + 0.0, rotation.y, rotation.z + 90.0, 2.0, false, false, false, false)
         end)
-        ProgressBar(2500, locale('powdering'))
+        ProgressBar(6500, locale('powdering'))
         DetachEntity(prop, false, false)
         DeleteEntity(prop)
         ClearPedTasks(cache.ped)
@@ -327,7 +327,7 @@ function searchPlace(currentPlace)
             TaskTurnPedToFaceCoord(cache.ped,
                 Config.HousesToRob[currentHouse].Residence.InsidePositions[currentPlace].coords, 1000)
             TaskStartScenarioInPlace(cache.ped, "PROP_HUMAN_BUM_BIN", 0, true)
-            ProgressBar(4000, locale('searching'))
+            ProgressBar(7500, locale('searching'))
             ClearPedTasks(cache.ped)
             table.insert(housesData[currentHouse].robbed, currentPlace)
             TriggerServerEvent("drc_houserobbery:robbedHousePlace", currentHouse, currentPlace)
@@ -606,7 +606,7 @@ function createZones(house)
                                                 while (not HasAnimDictLoaded(dict)) do Wait(0) end
                                                 TaskPlayAnim(cache.ped, dict, clip, 3.0, 1.0, -1, 49, 0, false, false,
                                                     false)
-                                                ProgressBar(1500, locale('taking', v.Label))
+                                                ProgressBar(3500, locale('taking', v.Label))
                                                 if DoesEntityExist(object) then
                                                     TriggerServerEvent("drc_houserobbery:robbedpropcreated", v.model,
                                                         house, k, ObjToNet(object), false)
@@ -622,7 +622,7 @@ function createZones(house)
                                                 end
                                             else
                                                 TaskStartScenarioInPlace(cache.ped, "PROP_HUMAN_BUM_BIN", 0, true)
-                                                ProgressBar(4500, locale('taking', v.Label))
+                                                ProgressBar(5500, locale('taking', v.Label))
                                             end
                                             ClearPedTasks(cache.ped)
                                             objects = GetGamePool("CObject")
@@ -1013,13 +1013,13 @@ function createZones(house)
                                                     while (not HasAnimDictLoaded(dict)) do Wait(0) end
                                                     TaskPlayAnim(cache.ped, dict, clip, 3.0, 1.0, -1, 49, 0, false, false,
                                                         false)
-                                                    ProgressBar(1500, locale('taking', v.Label))
+                                                    ProgressBar(3500, locale('taking', v.Label))
                                                     TriggerServerEvent("drc_houserobbery:robbedpropstatic", v.model,
                                                         house, k, nil, false)
                                                     ClearPedTasks(cache.ped)
                                                 else
                                                     TaskStartScenarioInPlace(cache.ped, "PROP_HUMAN_BUM_BIN", 0, true)
-                                                    ProgressBar(4000, locale('taking', v.Label))
+                                                    ProgressBar(5500, locale('taking', v.Label))
                                                     ClearPedTasks(cache.ped)
                                                 end
                                                 objects = GetGamePool("CObject")
@@ -1290,7 +1290,7 @@ function createZones(house)
                                                         while (not HasAnimDictLoaded(dict)) do Wait(0) end
                                                         TaskPlayAnim(cache.ped, dict, clip, 3.0, 1.0, -1, 49, 0, false,
                                                             false, false)
-                                                        ProgressBar(1500, locale('taking', v.Label))
+                                                        ProgressBar(3500, locale('taking', v.Label))
                                                         if DoesEntityExist(object) and NetworkGetEntityIsNetworked(object) then
                                                             TriggerServerEvent("drc_houserobbery:robbedpropcreated",
                                                                 v.model, house, k, ObjToNet(object), false)
@@ -1668,7 +1668,7 @@ function createZones(house)
                                                             while (not HasAnimDictLoaded(dict)) do Wait(0) end
                                                             TaskPlayAnim(cache.ped, dict, clip, 3.0, 1.0, -1, 49, 0,
                                                                 false, false, false)
-                                                            ProgressBar(1500, locale('taking', v.Label))
+                                                            ProgressBar(3500, locale('taking', v.Label))
                                                             TriggerServerEvent("drc_houserobbery:robbedpropstatic",
                                                                 v.model, house, k, nil, false)
                                                         else
